@@ -171,6 +171,7 @@ function sendUserFeedback(firstName, lastName, email, feedback, base64File, file
     .then(response => {
         if (response.ok) {
             console.log("Feedback recorded successfully.");
+            alert("Your feedback has been submitted successfully. Thank you");
         } else {
             console.error("Failed to record feedback.");
         }
@@ -437,6 +438,7 @@ function animateMessage(element) {
 
 document.addEventListener('DOMContentLoaded', function () {
     var microphoneButton = document.querySelector('.fa-microphone');
+    var userInputField = document.getElementById('user-input');
 
     microphoneButton.addEventListener('click', function () {
         // Check if SpeechRecognition API is supported by the browser
@@ -448,9 +450,8 @@ document.addEventListener('DOMContentLoaded', function () {
             recognition.onresult = function(event) {
                 var transcript = event.results[0][0].transcript;
 
-                // Fill the user input field with the transcript
-                var userInputField = document.getElementById('user-input');
-                userInputField.value = transcript;
+                // Update the user input field with the transcript
+                userInputField.value += transcript;
             };
 
             recognition.onerror = function(event) {
@@ -465,4 +466,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    userInputField.addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+            sendMessage();
+        }
+    });
 });
