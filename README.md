@@ -38,7 +38,7 @@ TechChat is a web-based chatbot application aimed at assisting prospective stude
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/techchat.git
+    git clone https://github.com/pfrimpong11/tech_chat.git
     cd techchat
     ```
 
@@ -83,5 +83,5 @@ We welcome contributions to enhance TechChat. Please follow these steps:
 
 ## Contact
 
-For any inquiries or support, please contact [your-email@example.com].
+For any inquiries or support, please contact frimpongprince2000@gmail.com.
 
