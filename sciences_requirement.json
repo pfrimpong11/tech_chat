@@ -1,0 +1,583 @@
+{
+    "intents": [
+        {
+            "tag": "biochemistry_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Biochemistry?",
+                "Can you provide the admission criteria for BSc. Biochemistry?",
+                "Requirements for BSc. Biochemistry programme?",
+                "What are the prerequisites for BSc. Biochemistry?",
+                "BSc. Biochemistry admission requirements?",
+                "Information on eligibility for BSc. Biochemistry?",
+                "What are the entry requirements for BSc. Biochemistry?",
+                "Criteria for admission into BSc. Biochemistry?",
+                "Biochemistry programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Biochemistry <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in any THREE (3) subjects including: Biology, Chemistry and either Physics or Mathematics. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry, and either Physics  or Mathematics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul><br><li><b><u>HND AND OTHER DIPLOMA </u></b></li><ul><li>Good class in a science related Programme from a recognized polytechnic. Applicants with Second Class (Upper Division) and (Lower Division) may be admitted to Third and SECOND YEAR of the Programme respectively. </li><li>An applicant must pass an entrance examination. </li><li>An applicant must also satisfy the university's general admission requirement for degree Programmes. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Biochemistry Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Biochemistry",
+                "BSc Biochemistry cutoff points",
+                "minimum score for BSc Biochemistry",
+                "required score for BSc Biochemistry",
+                "aggregate for BSc Biochemistry",
+                "what is the cutoff for BSc Biochemistry",
+                "cutoff marks for BSc Biochemistry",
+                "BSc Biochemistry required marks",
+                "what aggregate do I need for BSc Biochemistry",
+                "score needed for BSc Biochemistry",
+                "cutoff points for biochemistry",
+                "aggregate requirements for biochemistry",
+                "what were the cut-off aggregates for biochemistry",
+                "what are the cut-off aggregates biochemistry"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Biochemistry are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "food_science_and_technology_requirement",
+            "patterns": [
+                "What are the requirements for Food Science and Technology?",
+                "Can you provide the admission criteria for Food Science and Technology?",
+                "Requirements for Food Science and Technology programme?",
+                "What are the prerequisites for Food Science and Technology?",
+                "Food Science and Technology admission requirements?",
+                "Information on eligibility for Food Science and Technology?",
+                "What are the entry requirements for Food Science and Technology?",
+                "Criteria for admission into Food Science and Technology?",
+                "Food Science and Technology programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for Food Science and Technology <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in any THREE (3) subjects including: Biology, Chemistry and either Physics or Mathematics. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry, and either Physics  or Mathematics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul><br><li><b><u>HND AND OTHER DIPLOMA </u></b></li><ul><li>An applicant from a recognized Polytechnic with Second Class (Upper Division) and (Lower Division) in the following Programmes: Food Manufacturing, Food Science, Food Technology, or Chemical Engineering, or related field. Applicants with Second Class Division or better may be admitted to Second of the Programme after a successful entrance examination. </li><li>An applicant must also satisfy the university's general admission requirement for degree Programmes. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Food Science and Technology Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Food Science and Technology",
+                "BSc Food Science and Technology cutoff points",
+                "minimum score for BSc Food Science and Technology",
+                "required score for BSc Food Science and Technology",
+                "aggregate for BSc Food Science and Technology",
+                "what is the cutoff for BSc Food Science and Technology",
+                "cutoff marks for BSc Food Science and Technology",
+                "BSc Food Science and Technology required marks",
+                "what aggregate do I need for BSc Food Science and Technology",
+                "score needed for BSc Food Science and Technology",
+                "cutoff points for food science and technology",
+                "aggregate requirements for food science and technology",
+                "what were the cut-off aggregates for food science and technology",
+                "what are the cut-off aggregates food science and technology"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Food Science and Technology are typically around aggregate 13. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "dietetics_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Dietetics?",
+                "Can you provide the admission criteria for BSc. Dietetics?",
+                "Requirements for BSc. Dietetics programme?",
+                "What are the prerequisites for BSc. Dietetics?",
+                "BSc. Dietetics admission requirements?",
+                "Information on eligibility for BSc. Dietetics?",
+                "What are the entry requirements for BSc. Dietetics?",
+                "Criteria for admission into BSc. Dietetics?",
+                "BSc. Dietetics programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Dietetics <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects: </b></p><ul><li>Credit passes in Biology, Chemistry and either Physics or Mathematics OR  </li><li>Credit passes in Food & Nutrition, Management in Living, and Chemistry or Biology. </li></ul><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry, and either Physics  or Mathematics or Agricultural Science. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul><br><li><b><u>HND AND OTHER DIPLOMA </u></b></li><p>Applicants with a Higher National Diploma (HND) in Nutrition/Dietetics, Diploma in Nutrition, Dietetics or General Nursing are eligible to apply. HND Applicants with second class division or better will be considered for admission into the third year. Diploma Applicants will be considered for admission to the second year and will be required to make up for any deficiencies in Chemistry and Biology. All Applicants will be required to pass a selection interview.  </p><br><li><b><u>INTERNATIONAL APPLICANTS </u></b></li><p>Applicants with an International General Certificate of Secondary Education (IGCSE) and Interantioanl Baccalaureate (IB) or their equivalent with credit in English and Mathematics and any THREE of the following: Chemistry, Physics, Biology or Agricultural Science will be eligible for admission.  </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "human_nutrition_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Human Nutrition?",
+                "Can you provide the admission criteria for BSc. Human Nutrition?",
+                "Requirements for BSc. Human Nutrition programme?",
+                "What are the prerequisites for BSc. Human Nutrition?",
+                "BSc. Human Nutrition admission requirements?",
+                "Information on eligibility for BSc. Human Nutrition?",
+                "What are the entry requirements for BSc. Human Nutrition?",
+                "Criteria for admission into BSc. Human Nutrition?",
+                "BSc. Human Nutrition programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Human Nutrition <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects: </b></p><ul><li>Credit passes in Biology, Chemistry and either Physics or Mathematics OR  </li><li>Credit passes in Food & Nutrition, Management in Living, and Chemistry or Biology. </li></ul><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry, and either Physics  or Mathematics or Agricultural Science. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul><br><li><b><u>HND AND OTHER DIPLOMA </u></b></li><p>Applicants with a Higher National Diploma (HND) in Nutrition/Dietetics, Diploma in Nutrition, Dietetics or General Nursing are eligible to apply. HND Applicants with second class division or better will be considered for admission into the third year. Diploma Applicants will be considered for admission to the second year and will be required to make up for any deficiencies in Chemistry and Biology. All Applicants will be required to pass a selection interview.  </p><br><li><b><u>INTERNATIONAL APPLICANTS </u></b></li><p>Applicants with an International General Certificate of Secondary Education (IGCSE) and Interantioanl Baccalaureate (IB) or their equivalent with credit in English and Mathematics and any THREE of the following: Chemistry, Physics, Biology or Agricultural Science will be eligible for admission.  </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "biological_sciences_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Biological Sciences?",
+                "Can you provide the admission criteria for BSc. Biological Sciences?",
+                "Requirements for BSc. Biological Sciences programme?",
+                "What are the prerequisites for BSc. Biological Sciences?",
+                "BSc. Biological Sciences admission requirements?",
+                "Information on eligibility for BSc. Biological Sciences?",
+                "What are the entry requirements for BSc. Biological Sciences?",
+                "Criteria for admission into BSc. Biological Sciences?",
+                "BSc. Biological Sciences programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Biological Sciences <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and either Physics or Mathematics. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry, and either Physics or Mathematics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><p>Applicants should be at least 25 years at the time of the application.  </p><p>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </p><p>Short-listed applicants may take an Entrance Examination and pass an interview. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Biological Science Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Biological Science",
+                "BSc Biological Science cutoff points",
+                "minimum score for BSc Biological Science",
+                "required score for BSc Biological Science",
+                "aggregate for BSc Biological Science",
+                "what is the cutoff for BSc Biological Science",
+                "cutoff marks for BSc Biological Science",
+                "BSc Biological Science required marks",
+                "what aggregate do I need for BSc Biological Science",
+                "score needed for BSc Biological Science",
+                "cutoff points for biological science",
+                "aggregate requirements for biological science",
+                "what were the cut-off aggregates for biological science",
+                "what are the cut-off aggregates biological science"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Biological Science are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "environmental_sciences_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Environmental Sciences?",
+                "Can you provide the admission criteria for BSc. Environmental Sciences?",
+                "Requirements for BSc. Environmental Sciences programme?",
+                "What are the prerequisites for BSc. Environmental Sciences?",
+                "BSc. Environmental Sciences admission requirements?",
+                "Information on eligibility for BSc. Environmental Sciences?",
+                "What are the entry requirements for BSc. Environmental Sciences?",
+                "Criteria for admission into BSc. Environmental Sciences?",
+                "BSc. Environmental Sciences programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Environmental Sciences <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and either Physics or Mathematics. <i>Agricultural Science is acceptable in place of Biology. </i></p><br><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry, and either Physics or Mathematics. <i>Agricultural Science is acceptable in place of Biology. </i></p><br><br><li><b><u>MATURE APPLICANTS </u></b></li><p>Applicants should be at least 25 years at the time of the application.  </p><p>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </p><p>Short-listed applicants may take an Entrance Examination and pass an interview. <i>Agricultural Science is acceptable in place of Biology. </i></p><br><br><li><b><u>HND AND OTHER DIPLOMA</u></b></li><ul><li>Applicants with a Higher National Diploma (HND) in a science related programme for a recognised institution may be admitted to the third year of the BSc. Environmental Science Programme. Applicants with a Diploma Environmental Sanitation and related disciplines may be admitted into the second year of the BSC. Environmental Science Programme. </li><li>Applicants with Second Class Division or better will be considered for admission into the SECOND YEAR of the Programme and will be required to make up their deficiencies in Biology and Chemistry.  </li><li>Applicants with another Diploma will be admitted into the first year of the programme.  </li><li>Such applicants must also satisfy the university's general admission requirement for degree Programmes. </li><li>Agricultural Science is acceptable in replace Biology. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Environmental Sciences Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Environmental Sciences",
+                "BSc Environmental Sciences cutoff points",
+                "minimum score for BSc Environmental Sciences",
+                "required score for BSc Environmental Sciences",
+                "aggregate for BSc Environmental Sciences",
+                "what is the cutoff for BSc Environmental Sciences",
+                "cutoff marks for BSc Environmental Sciences",
+                "BSc Environmental Sciences required marks",
+                "what aggregate do I need for BSc Environmental Sciences",
+                "score needed for BSc Environmental Sciences",
+                "cutoff points for environmental sciences",
+                "aggregate requirements for environmental sciences",
+                "what were the cut-off aggregates for environmental sciences",
+                "what are the cut-off aggregates environmental sciences"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Environmental Sciences are typically around aggregate 15. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "optometry_requirement",
+            "patterns": [
+                "What are the requirements for Doctor of Optometry (OD)?",
+                "Can you provide the admission criteria for Doctor of Optometry?",
+                "Requirements for Doctor of Optometry programme?",
+                "What are the prerequisites for Doctor of Optometry?",
+                "Doctor of Optometry admission requirements?",
+                "Information on eligibility for Doctor of Optometry?",
+                "What are the entry requirements for Doctor of Optometry?",
+                "Criteria for admission into Doctor of Optometry?",
+                "Doctor of Optometry programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for Doctor of Optometry (OD) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Physics, and either Chemistry or Mathematics. Shortlisted applicants are expected to pass an interview. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects: Biology, Chemistry, Physics or Additional Mathematics, English Language, and Mathematics. </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects including Biology, Physics, and Chemistry or Mathematics.  </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li><li>Foreign students who have credit from Optometric courses will be required to present an official English translation and pass an interview, if shortlisted. Foreign students with BSc. in Natural Sciences such as Biology, Biochemistry, and Physics will be admitted after passing an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Doctor of Optometry Cutoff Points",
+            "patterns": [
+                "cutoff points for Doctor of Optometry",
+                "Doctor of Optometry cutoff points",
+                "minimum score for Doctor of Optometry",
+                "required score for Doctor of Optometry",
+                "aggregate for Doctor of Optometry",
+                "what is the cutoff for Doctor of Optometry",
+                "cutoff marks for Doctor of Optometry",
+                "Doctor of Optometry required marks",
+                "what aggregate do I need for Doctor of Optometry",
+                "score needed for Doctor of Optometry",
+                "cutoff points for optometry",
+                "aggregate requirements for optometry",
+                "what were the cut-off aggregates for optometry",
+                "what are the cut-off aggregates optometry"
+            ],
+            "responses": [
+                "The cutoff points for Doctor of Optometry are typically around aggregate 09. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "chemistry_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Chemistry?",
+                "Can you provide the admission criteria for BSc. Chemistry?",
+                "Requirements for BSc. Chemistry programme?",
+                "What are the prerequisites for BSc. Chemistry?",
+                "BSc. Chemistry admission requirements?",
+                "Information on eligibility for BSc. Chemistry?",
+                "What are the entry requirements for BSc. Chemistry?",
+                "Criteria for admission into BSc. Chemistry?",
+                "BSc. Chemistry programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Chemistry <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Chemistry, Physics, Mathematics or Biology. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Mathematics, Chemistry, and Physics.</p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Chemistry Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Chemistry",
+                "BSc Chemistry cutoff points",
+                "minimum score for BSc Chemistry",
+                "required score for BSc Chemistry",
+                "aggregate for BSc Chemistry",
+                "what is the cutoff for BSc Chemistry",
+                "cutoff marks for BSc Chemistry",
+                "BSc Chemistry required marks",
+                "what aggregate do I need for BSc Chemistry",
+                "score needed for BSc Chemistry",
+                "cutoff points for chemistry",
+                "aggregate requirements for chemistry",
+                "what were the cut-off aggregates for chemistry",
+                "what are the cut-off aggregates chemistry"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Chemistry are typically around aggregate 16. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "physics_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Physics?",
+                "Can you provide the admission criteria for BSc. Physics?",
+                "Requirements for BSc. Physics programme?",
+                "What are the prerequisites for BSc. Physics?",
+                "BSc. Physics admission requirements?",
+                "Information on eligibility for BSc. Physics?",
+                "What are the entry requirements for BSc. Physics?",
+                "Criteria for admission into BSc. Physics?",
+                "BSc. Physics programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Physics <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Mathematics, Physics and Chemistry or Electronics. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Mathematics, Chemistry, and Physics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e., WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Physics Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Physics",
+                "BSc Physics cutoff points",
+                "minimum score for BSc Physics",
+                "required score for BSc Physics",
+                "aggregate for BSc Physics",
+                "what is the cutoff for BSc Physics",
+                "cutoff marks for BSc Physics",
+                "BSc Physics required marks",
+                "what aggregate do I need for BSc Physics",
+                "score needed for BSc Physics",
+                "cutoff points for physics",
+                "aggregate requirements for physics",
+                "what were the cut-off aggregates for physics",
+                "what are the cut-off aggregates physics"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Physics are typically around aggregate 18. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "meteorology_and_climate_science_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Meteorology and Climate Science?",
+                "Can you provide the admission criteria for BSc. Meteorology and Climate Science?",
+                "Requirements for BSc. Meteorology and Climate Science programme?",
+                "What are the prerequisites for BSc. Meteorology and Climate Science?",
+                "BSc. Meteorology and Climate Science admission requirements?",
+                "Information on eligibility for BSc. Meteorology and Climate Science?",
+                "What are the entry requirements for BSc. Meteorology and Climate Science?",
+                "Criteria for admission into BSc. Meteorology and Climate Science?",
+                "BSc. Meteorology and Climate Science programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Meteorology and Climate Science <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Mathematics, Physics and Chemistry or Electronics. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Mathematics, Chemistry, and Physics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e., WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Meteorology and Climate Science Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Meteorology and Climate Science",
+                "BSc Meteorology and Climate Science cutoff points",
+                "minimum score for BSc Meteorology and Climate Science",
+                "required score for BSc Meteorology and Climate Science",
+                "aggregate for BSc Meteorology and Climate Science",
+                "what is the cutoff for BSc Meteorology and Climate Science",
+                "cutoff marks for BSc Meteorology and Climate Science",
+                "BSc Meteorology and Climate Science required marks",
+                "what aggregate do I need for BSc Meteorology and Climate Science",
+                "score needed for BSc Meteorology and Climate Science",
+                "cutoff points for meteorology and climate science",
+                "aggregate requirements for meteorology and climate science",
+                "what were the cut-off aggregates for meteorology and climate science",
+                "what are the cut-off aggregates meteorology and climate science"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Meteorology and Climate Science are typically around aggregate 19. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "mathematics_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Mathematics?",
+                "Can you provide the admission criteria for BSc. Mathematics?",
+                "Requirements for BSc. Mathematics programme?",
+                "What are the prerequisites for BSc. Mathematics?",
+                "BSc. Mathematics admission requirements?",
+                "Information on eligibility for BSc. Mathematics?",
+                "What are the entry requirements for BSc. Mathematics?",
+                "Criteria for admission into BSc. Mathematics?",
+                "BSc. Mathematics programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Mathematics <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Mathematics, Physics and Chemistry or Biology. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Mathematics, Physics, and Chemistry or Biology. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Mathematics Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Mathematics",
+                "BSc Mathematics cutoff points",
+                "minimum score for BSc Mathematics",
+                "required score for BSc Mathematics",
+                "aggregate for BSc Mathematics",
+                "what is the cutoff for BSc Mathematics",
+                "cutoff marks for BSc Mathematics",
+                "BSc Mathematics required marks",
+                "what aggregate do I need for BSc Mathematics",
+                "score needed for BSc Mathematics",
+                "cutoff points for mathematics",
+                "aggregate requirements for mathematics",
+                "what were the cut-off aggregates for mathematics",
+                "what are the cut-off aggregates mathematics"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Mathematics are typically around aggregate 17. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "actuarial_science_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Actuarial Science?",
+                "Can you provide the admission criteria for BSc. Actuarial Science?",
+                "Requirements for BSc. Actuarial Science programme?",
+                "What are the prerequisites for BSc. Actuarial Science?",
+                "BSc. Actuarial Science admission requirements?",
+                "Information on eligibility for BSc. Actuarial Science?",
+                "What are the entry requirements for BSc. Actuarial Science?",
+                "Criteria for admission into BSc. Actuarial Science?",
+                "BSc. Actuarial Science programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirement for BSc. Actuarial Science <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Mathematics and any TWO (2) Elective Subjects. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects including  Mathematics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul><br><li><b><u>HND AND OTHER DIPLOMA </u></b></li><p>Applicants must have a minimum of 2nd Class Lower Division in the following programmes:  Statistics, Mathematics, Engineering, Economics, or any programme with the Mathematical Sciences with evidence of Mathematical or qualitative ability. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Actuarial Science Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Actuarial Science",
+                "BSc Actuarial Science cutoff points",
+                "minimum score for BSc Actuarial Science",
+                "required score for BSc Actuarial Science",
+                "aggregate for BSc Actuarial Science",
+                "what is the cutoff for BSc Actuarial Science",
+                "cutoff marks for BSc Actuarial Science",
+                "BSc Actuarial Science required marks",
+                "what aggregate do I need for BSc Actuarial Science",
+                "score needed for BSc Actuarial Science",
+                "cutoff points for actuarial science",
+                "aggregate requirements for actuarial science",
+                "what were the cut-off aggregates for actuarial science",
+                "what are the cut-off aggregates actuarial science"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Actuarial Science are typically around aggregate 11. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "statistics_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Statistics?",
+                "Can you provide the admission criteria for BSc. Statistics?",
+                "Requirements for BSc. Statistics programme?",
+                "What are the prerequisites for BSc. Statistics?",
+                "BSc. Statistics admission requirements?",
+                "Information on eligibility for BSc. Statistics?",
+                "What are the entry requirements for BSc. Statistics?",
+                "Criteria for admission into BSc. Statistics?",
+                "BSc. Statistics programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Statistics <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Mathematics and any TWO (2) Elective Subjects. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects including Mathematics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul><br><li><b><u>HND AND OTHER DIPLOMA </u></b></li><p>Applicants must have a minimum of 2nd Class Lower Division in the following programmes:  Statistics, Mathematics, Engineering, Economics, or any programme with the Mathematical Sciences with evidence of Mathematical or qualitative ability. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Statistics Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Statistics",
+                "BSc Statistics cutoff points",
+                "minimum score for BSc Statistics",
+                "required score for BSc Statistics",
+                "aggregate for BSc Statistics",
+                "what is the cutoff for BSc Statistics",
+                "cutoff marks for BSc Statistics",
+                "BSc Statistics required marks",
+                "what aggregate do I need for BSc Statistics",
+                "score needed for BSc Statistics",
+                "cutoff points for statistics",
+                "aggregate requirements for statistics",
+                "what were the cut-off aggregates for statistics",
+                "what are the cut-off aggregates statistics"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Statistics are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "computer_science_requirement",
+            "patterns": [
+                "What are the requirements for BSc. Computer Science?",
+                "Can you provide the admission criteria for BSc. Computer Science?",
+                "Requirements for BSc. Computer Science programme?",
+                "What are the prerequisites for BSc. Computer Science?",
+                "BSc. Computer Science admission requirements?",
+                "Information on eligibility for BSc. Computer Science?",
+                "What are the entry requirements for BSc. Computer Science?",
+                "Criteria for admission into BSc. Computer Science?",
+                "BSc. Computer Science programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Computer Science <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Mathematics, Physics and either Chemistry or Applied Electricity or Electronics. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects including  Mathematics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Computer Science Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Computer Science",
+                "BSc Computer Science cutoff points",
+                "minimum score for BSc Computer Science",
+                "required score for BSc Computer Science",
+                "aggregate for BSc Computer Science",
+                "what is the cutoff for BSc Computer Science",
+                "cutoff marks for BSc Computer Science",
+                "BSc Computer Science required marks",
+                "what aggregate do I need for BSc Computer Science",
+                "score needed for BSc Computer Science",
+                "cutoff points for computer science",
+                "aggregate requirements for computer science",
+                "what were the cut-off aggregates for computer science",
+                "what are the cut-off aggregates computer science"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Computer Science are typically around aggregate 11. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        }        
+    ]
+}

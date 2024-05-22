@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechChat - Your Admission Enquiry Assistant for KNUST.">
+    <meta name="keywords" content="KNUST, admission, enquiry, chatbot">
+    <meta name="author" content="Frimpong & Akinie">
+    <title>Tech Chat</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c1f0d67e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo_box">
+                <a target="_blank" href="https://www.knust.edu.gh/"><img src="/static/knust_logo.png" alt="KNUST Logo" class="logo"></a>
+                <a target="_blank" href="https://www.knust.edu.gh/"><p class="school_name">KNUST</p></a>
+            </div>
+            <div class="header-content">
+                <h4 id="welcome-message">WELCOME TO TECHCHAT: YOUR ADMISSION ENQUIRY ASSISTANT</h4>
+            </div>
+            <nav>
+                <a href="pages/feedback.html" id="comment-icon"><i class="fa-solid fa-comments"></i> Feedback</a>
+                <i class="fas fa-bars menu-icon" id="menu-icon"></i>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            <div class="chatbot-container">
+                <div class="chatbot-header">
+                    <div class="chatbot-title">
+                        <div>
+                            <img src="/static/techchat_logo_light.png" alt="chatbot logo" class="chatbot_logo">
+                        </div>
+                        <div class="chatbot_title_text">
+                            <h2>TechChat</h2>
+                            <p>Talk to TechChat about anything admission.</p>
+                        </div>
+                    </div>
+                    <div class="header-icons">
+                        <i class="fas fa-trash-alt"></i>
+                        <i class="fas fa-share-alt"></i>
+                        <i class="fa-solid fa-circle-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="chat-window">
+                    <div class="chat-container" id="chat-container"></div>
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="user-input" placeholder="Message TechChat">
+                    <button><i class="fa-solid fa-microphone"></i></button>
+                    <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+            <aside id="sidebar">
+                <div class="sidebar">
+                    <div class="prospective-students-section">
+                        <button class="prospective-students-button"><a href="#">Connect with other prospective students</a></button>
+                    </div>
+                    <div class="faq-section">
+                        <h3>Frequently Asked Questions</h3>
+                        <div class="faq-text">
+                            <hr>
+                            <p class="faq-item">What are the steps for applying to KNUST?</p>
+                            <hr>
+                            <p class="faq-item">What is the general admission requirement?</p>
+                            <hr>
+                            <p class="faq-item">What is the cost of application forms for Foreign students?</p>
+                            <hr>
+                            <p class="faq-item">What are the accepted examination results?</p>
+                            <hr>
+                            <p class="faq-item">What is the address for the KNUST admission portal?</p>
+                            <hr>
+                            <p class="faq-item">Programmes available at College of Science</p>
+                            <hr>
+                            <p class="faq-item">where can I purchase application form in Ghana?</p>
+                            <hr>
+                            <p class="faq-item">Programmes offered by College of Humanities and Social Sciences</p>
+                            <hr>
+                            <p class="faq-item">When do we come to school?</p>
+                            <hr>
+                            <p class="faq-item">What are the requirements for Computer Engineering?</p>
+                            <hr>
+                            <p class="faq-item">Where can I check my admission status as an undergraduate student?</p>
+                            <hr>
+                            <p class="faq-item">Do you have scholarship opportunities for students?</p>
+                            <hr>
+                            <p class="faq-item">What are the programmes available at College of Engineering</p>
+                            <hr>
+                            <p class="faq-item">Obuasi campus cut off points</p>
+                            <hr>
+                            <p class="faq-item">Where are foreign students accommodated on campus?</p>
+                            <hr>
+                            <p class="faq-item">When can I check my admission status as an undergraduate student?</p>
+                            <hr>
+                            <p class="faq-item">College of Health Sciences programmes available</p>
+                            <hr>
+                            <p class="faq-item">When do we start the sale of undergraduate application Forms for each successive academic year?</p>
+                            <hr>
+                            <p class="faq-item">What do I do when I get to know I have been admitted (undergraduate)?</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

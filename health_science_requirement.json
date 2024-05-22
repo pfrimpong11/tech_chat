@@ -1,0 +1,510 @@
+{
+    "intents": [
+        {
+            "tag": "bsc_human_biology_medicine_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Human Biology Medicine?",
+                "Can you provide the admission criteria for BSc. Human Biology?",
+                "Requirements for BSc. Human Biology Medicine programme?",
+                "What are the prerequisites for BSc. Human Biology (Medicine) (MBChB)?",
+                "BSc. Human Biology Medicine MBChB admission requirements?",
+                "Information on eligibility for BSc. Human Biology?",
+                "What are the entry requirements for BSc. Human Biology programme?",
+                "Criteria for admission into BSc. Human Biology Medicine?",
+                "BSc. Human Biology Medicine programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Human Biology (Medicine) (MBChB) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><ul><li>Programmes may be followed with a 3-year clinical programme for the MB. ChB degree </li><li>Short-listed Applicants must pass an interview.    </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Human Biology (Medicine) Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Human Biology Medicine",
+                "cutoff points for BSc Human Biology",
+                "cutoff points for Medicine",
+                "BSc Human Biology Medicine cutoff points",
+                "minimum score for BSc Human Biology Medicine",
+                "required score for BSc Human Biology Medicine",
+                "aggregate for BSc Human Biology Medicine",
+                "aggregate for BSc Human Biology",
+                "aggregate for Medicine",
+                "what is the cutoff for BSc Human Biology Medicine",
+                "cutoff marks for BSc Human Biology Medicine",
+                "BSc Human Biology Medicine required marks",
+                "what aggregate do I need for BSc Human Biology Medicine",
+                "score needed for BSc Human Biology Medicine",
+                "cutoff points for Human Biology Medicine",
+                "aggregate requirements for Human Biology Medicine",
+                "what were the cut-off aggregates for Human Biology Medicine",
+                "what are the cut-off aggregates Human Biology Medicine"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Human Biology (Medicine) are typically around aggregate 06. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bachelor_dental_surgery_requirements",
+            "patterns": [
+                "What are the requirements for Bachelor of Dental Surgery?",
+                "Can you provide the admission criteria for Bachelor of Dental Surgery?",
+                "Requirements for Bachelor of Dental Surgery programme?",
+                "What are the prerequisites for Bachelor of Dental Surgery?",
+                "Bachelor of Dental Surgery admission requirements?",
+                "Information on eligibility for Bachelor of Dental Surgery?",
+                "What are the entry requirements for Bachelor of Dental Surgery programme?",
+                "Criteria for admission into Bachelor of Dental Surgery?",
+                "Bachelor of Dental Surgery programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for Bachelor of Dental Surgery (BDS) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><ul><li>Programmes may be followed with a 3-year clinical programme for the BDS degree  </li><li>Short-listed Applicants must pass an interview.    </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "dental surgery Cutoff Points",
+            "patterns": [
+                "cutoff points for dental surgery",
+                "dental surgery cutoff points",
+                "minimum score for dental surgery",
+                "required score for dental surgery",
+                "aggregate for dental surgery",
+                "what is the cutoff for dental surgery",
+                "cutoff marks for dental surgery",
+                "BDS Only required marks",
+                "what aggregate do I need for dental surgery",
+                "score needed for dental surgery",
+                "cutoff points for Bachelor of Dental Surgery",
+                "aggregate requirements for Bachelor of Dental Surgery",
+                "what were the cut-off aggregates for Bachelor of Dental Surgery",
+                "what are the cut-off aggregates Bachelor of Dental Surgery"
+            ],
+            "responses": [
+                "The cutoff points for Bachelor of Dental Surgery (BDS) (Fee-Paying Only) are typically around aggregate 06. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "doctor_veterinary_medicine_requirements",
+            "patterns": [
+                "What are the requirements for Doctor of Veterinary Medicine?",
+                "Can you provide the admission criteria for Doctor of Veterinary Medicine?",
+                "Requirements for Doctor of Veterinary Medicine (DVM) programme?",
+                "What are the prerequisites for Doctor of Veterinary Medicine (DVM)?",
+                "Doctor of Veterinary Medicine admission requirements?",
+                "Information on eligibility for Doctor of Veterinary Medicine?",
+                "What are the entry requirements for Doctor of Veterinary Medicine programme?",
+                "Criteria for admission into Doctor of Veterinary Medicine?",
+                "Doctor of Veterinary Medicine programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for Doctor of Veterinary Medicine (DVM.) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><ul><li>Animal Husbandry is acceptable in place of Biology. </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i><br><br><li><b><u>OTHER APPLICANTS (DIPLOMA HOLDERS) </u></b></li><ul><li>A Diploma from Pong-Tamale Veterinary School or any other recognized Veterinary Training Institutions</li><li>Three (3) years relevant Post qualification working experience.  </li><li>All diploma holding applicants must also satisfy the minimum University entry requirement for Admission. </li><li>Applicants with BSc. Agriculture (Animal Science Option) or BSc. Biological Sciences not below 2nd Class lower division are eligible to apply for Admission. Such applicants will be admitted directly into 2nd year of the Programme.   </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "doctor veterinary medicine Cutoff Points",
+            "patterns": [
+                "cutoff points for veterinary medicine",
+                "doctor veterinary medicine cutoff points",
+                "minimum score for veterinary medicine",
+                "required score for doctor veterinary medicine",
+                "aggregate for veterinary medicine",
+                "what is the cutoff for veterinary medicine",
+                "cutoff marks for doctor veterinary medicine",
+                "doctor veterinary medicine required marks",
+                "what aggregate do I need for doctor veterinary medicine",
+                "score needed for veterinary medicine",
+                "cutoff points for Doctor of Veterinary Medicine",
+                "aggregate requirements for Doctor of Veterinary Medicine",
+                "what were the cut-off aggregates for Doctor of Veterinary Medicine",
+                "what are the cut-off aggregates Doctor of Veterinary Medicine"
+            ],
+            "responses": [
+                "The cutoff points for Doctor of Veterinary Medicine (DVM) are typically around aggregate 13. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_medical_lab_sciences_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Medical Laboratory Sciences?",
+                "Can you provide the admission criteria for BSc. Medical Laboratory Sciences?",
+                "Requirements for BSc. Medical Laboratory Sciences programme?",
+                "What are the prerequisites for BSc. Medical Laboratory Sciences?",
+                "BSc. Medical Laboratory Sciences admission requirements?",
+                "Information on eligibility for BSc. Medical Laboratory Sciences?",
+                "What are the entry requirements for BSc. Medical Laboratory Sciences programme?",
+                "Criteria for admission into BSc. Medical Laboratory Sciences?",
+                "BSc. Medical Laboratory Sciences programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Medical Laboratory Sciences <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i><br><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, OR 'A' Level). </li><li>Applicants with Diploma/Certificate in Medical Laboratory Technology with at least One (1) year post qualification experience shall be interviewed and successful Applicants placed in the SECOND YEAR. Mature Candidates with University Diploma in Medical Laboratory Technology (Top-Up) would be placed in the THIRD YEAR, whilst Candidates with Ministry of Health Diploma in Medical Laboratory Technology or HND in Science Laboratory Technology will be placed in SECOND YEAR. All Candidates must have TWO (2) YEARS post-qualification experience and must have passed an interview.  </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Medical Laboratory Sciences Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Medical Laboratory Sciences",
+                "BSc Medical Laboratory Sciences cutoff points",
+                "minimum score for BSc Medical Laboratory Sciences",
+                "required score for BSc Medical Laboratory Sciences",
+                "aggregate for BSc Medical Laboratory Sciences",
+                "what is the cutoff for BSc Medical Laboratory Sciences",
+                "cutoff marks for BSc Medical Laboratory Sciences",
+                "BSc Medical Laboratory Sciences required marks",
+                "what aggregate do I need for BSc Medical Laboratory Sciences",
+                "score needed for BSc Medical Laboratory Sciences",
+                "cutoff points for Medical Laboratory Sciences",
+                "aggregate requirements for Medical Laboratory Sciences",
+                "what were the cut-off aggregates for Medical Laboratory Sciences",
+                "what are the cut-off aggregates Medical Laboratory Sciences"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Medical Laboratory Sciences are typically around aggregate 07. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_general_nursing_requirements",
+            "patterns": [
+                "What are the requirements for BSc. General Nursing?",
+                "Can you provide the admission criteria for BSc. General Nursing?",
+                "Requirements for BSc. General Nursing programme?",
+                "What are the prerequisites for BSc. General Nursing?",
+                "BSc. General Nursing admission requirements?",
+                "Information on eligibility for BSc. General Nursing?",
+                "What are the entry requirements for BSc. General Nursing programme?",
+                "Criteria for admission into BSc. General Nursing?",
+                "BSc. General Nursing programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. General Nursing <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i><br><br><li><b><u>MATURE APPLICANTS FOR TOP-UP</u></b></li><ul><li>Applicants must be at least 25 years of age at the time of the application. </li><li>Applicants must satisfy the University's General Requirements for Admission into Degree Programmes.  </li><li>Applicants must be Registered General Nurses with a Diploma in Nursing </li><li>Applicants must have a minimum of Two years working experience in a clinical area. </li><li>Applicants in this category must pass an Interview.    </li></ul><br><li><b><u>OTHER APPLICANTS (Emergency Option)</u></b></li><ul><li>Applicants must satisfy the University's General Requirements for the Admission to Degree Programmes. </li><li>Must be registered general Nurses with a Diploma in Nursing </li><li>Must be at least 25 years of age at the time of the application.  </li><li>Must have a minimum of TWO (2) years working Experience in a clinical area. </li><li>Applicants in this category must pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Nursing Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Nursing",
+                "BSc Nursing cutoff points",
+                "minimum score for BSc Nursing",
+                "required score for BSc Nursing",
+                "aggregate for BSc Nursing",
+                "what is the cutoff for BSc Nursing",
+                "cutoff marks for BSc Nursing",
+                "BSc Nursing required marks",
+                "what aggregate do I need for BSc Nursing",
+                "score needed for BSc Nursing",
+                "cutoff points for Nursing",
+                "aggregate requirements for Nursing",
+                "what were the cut-off aggregates for Nursing",
+                "what are the cut-off aggregates Nursing"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Nursing are typically around aggregate 08. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_midwifery_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Midwifery?",
+                "Can you provide the admission criteria for BSc. Midwifery?",
+                "Requirements for BSc. Midwifery programme?",
+                "What are the prerequisites for BSc. Midwifery?",
+                "BSc. Midwifery admission requirements?",
+                "Information on eligibility for BSc. Midwifery?",
+                "What are the entry requirements for BSc. Midwifery programme?",
+                "Criteria for admission into BSc. Midwifery?",
+                "BSc. Midwifery programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Midwifery <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i><br><br><li><b><u>MATURE APPLICANTS FOR TOP-UP</u></b></li><ul><li>Applicants must be at least 25 years of age at the time of the application. </li><li>Applicants must satisfy the University's General Requirements for Admission into degree programmes. </li><li>Applicants must be a registered Midwives with a Diploma in Midwifery </li><li>Applicants must have a minimum of TWO (2) years' working experience in a clinical area.   </li><li>Applicants in this category must pass an Interview.    </li></ul><br><li><b><u>OTHER APPLICANTS (Sandwich)</u></b></li><ul><li>Applicants must satisfy the University's General Requirements for Admission into Degree Programmes. </li><li>Must be registered Midwives with a Diploma in Midwifery </li><li>Be at least 25 years of age at the time of submitting the application </li><li>Must have a minimum of TWO (2) years working experience in a clinical area</li><li>Applicants in this category must pass an Interview. </li><br><i><b>Note:</b> This Programme is taken during the Holidays. </i></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Midwifery Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Midwifery",
+                "BSc Midwifery cutoff points",
+                "minimum score for BSc Midwifery",
+                "required score for BSc Midwifery",
+                "aggregate for BSc Midwifery",
+                "what is the cutoff for BSc Midwifery",
+                "cutoff marks for BSc Midwifery",
+                "BSc Midwifery required marks",
+                "what aggregate do I need for BSc Midwifery",
+                "score needed for BSc Midwifery",
+                "cutoff points for Midwifery",
+                "aggregate requirements for Midwifery",
+                "what were the cut-off aggregates for Midwifery",
+                "what are the cut-off aggregates Midwifery"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Midwifery are typically around aggregate 9. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_physiotherapy_sports_science_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Physiotherapy and Sports Science?",
+                "Can you provide the admission criteria for BSc. Physiotherapy and Sports Science?",
+                "Requirements for BSc. Physiotherapy and Sports Science programme?",
+                "What are the prerequisites for BSc. Physiotherapy and Sports Science?",
+                "BSc. Physiotherapy and Sports Science admission requirements?",
+                "Information on eligibility for BSc. Physiotherapy and Sports Science?",
+                "What are the entry requirements for BSc. Physiotherapy and Sports Science programme?",
+                "Criteria for admission into BSc. Physiotherapy and Sports Science?",
+                "BSc. Physiotherapy and Sports Science programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Physiotherapy and Sports Science <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i><br><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be a least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, OR 'A' Level). OR </li><li>Candidates who have relevant Diploma certificates in Sports and Exercise Science, Fitness Assessment, Physiotherapy and Orthotic Assistant, coaching etc. and who must have worked for at least three (3) years will be considered for admission into year two. </li><li>Applicants must be declared medically fit by the University Hospital and must undergo a physical fitness assessment and must pass a written and/or oral interview conducted at the Department. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Physiotherapy and Sports Science Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Physiotherapy and Sports Science",
+                "BSc Physiotherapy and Sports Science cutoff points",
+                "minimum score for BSc Physiotherapy and Sports Science",
+                "required score for BSc Physiotherapy and Sports Science",
+                "aggregate for BSc Physiotherapy and Sports Science",
+                "what is the cutoff for BSc Physiotherapy and Sports Science",
+                "cutoff marks for BSc Physiotherapy and Sports Science",
+                "BSc Physiotherapy and Sports Science required marks",
+                "what aggregate do I need for BSc Physiotherapy and Sports Science",
+                "score needed for BSc Physiotherapy and Sports Science",
+                "cutoff points for Physiotherapy and Sports Science",
+                "aggregate requirements for Physiotherapy and Sports Science",
+                "what were the cut-off aggregates for Physiotherapy and Sports Science",
+                "what are the cut-off aggregates Physiotherapy and Sports Science"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Physiotherapy and Sports Science are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "pharm_d_requirements",
+            "patterns": [
+                "What are the requirements for Doctor of Pharmacy (Pharm D)?",
+                "What are the requirements for Pharmacy Pharm D?",
+                "Can you provide the admission criteria for Pharm D programme?",
+                "Can you provide the admission criteria for Pharmacy?",
+                "Requirements for Pharm D programme?",
+                "Requirements for Pharmacy programme?",
+                "What are the prerequisites for Pharm D?",
+                "Pharm D admission requirements?",
+                "Pharmacy admission requirements?",
+                "Information on eligibility for Pharm D programme?",
+                "What are the entry requirements for Pharm D programme?",
+                "What are the entry requirements for Pharmacy programme?",
+                "Criteria for admission into Pharm D?",
+                "Pharm D programme prerequisites?",
+                "Pharmacy programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for Doctor of Pharmacy (Pharm D) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i><br><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, OR 'A' Level). </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul><br><li><b><u>OTHER APPLICANTS (TOP-UP)</u></b></li><i><b>Fee-Paying Only</b></i><br><br><ul><li>Applicants must satisfy the University's General Requirements for Admission into Degree Programmes. </li><li>Must have a Degree in Pharmacy with at least THREE (3) years post-registration experience.  </li><li>Must pass an interview.  </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Pharmacy (Pharm D) Cutoff Points",
+            "patterns": [
+                "cutoff points for Pharm D",
+                "cutoff points for Pharmacy",
+                "Pharm D cutoff points",
+                "Pharmacy cutoff points",
+                "Doctor of Pharmacy cutoff points",
+                "minimum score for Pharm D",
+                "required score for Pharm D",
+                "aggregate for Pharm D",
+                "aggregate for Pharmacy",
+                "what is the cutoff for Pharm D",
+                "what is the cutoff for Pharmacy",
+                "cutoff marks for Pharm D",
+                "Pharm D required marks",
+                "what aggregate do I need for Pharm D",
+                "what aggregate do I need for Pharmacy",
+                "score needed for Pharm D",
+                "cutoff points for Doctor of Pharmacy",
+                "aggregate requirements for Doctor of Pharmacy",
+                "what were the cut-off aggregates for Doctor of Pharmacy",
+                "what are the cut-off aggregates Doctor of Pharmacy"
+            ],
+            "responses": [
+                "The cutoff points for Pharm D (Doctor of Pharmacy) are typically around aggregate 07. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "herbal_medicine_requirements",
+            "patterns": [
+                "What are the requirements for Bachelor of Herbal Medicine (BHM)?",
+                "Can you provide the admission criteria for BHM programme?",
+                "Requirements for BHM programme?",
+                "What are the prerequisites for BHM?",
+                "BHM admission requirements?",
+                "Information on eligibility for BHM programme?",
+                "What are the entry requirements for BHM programme?",
+                "Criteria for admission into BHM?",
+                "BHM programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for Bachelor of Herbal Medicine (BHM) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i><br><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, OR 'A' Level). </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul><br><li><b><u>OTHER APPLICANTS (TOP-UP)</u></b></li><ul><li>Applicants who are Registered Diagnostic Medical Sonographers (RDMS) certified or equivalent from a recognized institution.  </li><li>Must have a minimum of THREE (3) years working experience may apply.  </li><li>Must pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Bachelor of Herbal Medicine Cutoff Points",
+            "patterns": [
+                "cutoff points for Bachelor of Herbal Medicine",
+                "cutoff points for Herbal Medicine",
+                "Bachelor of Herbal Medicine cutoff points",
+                "minimum score for Bachelor of Herbal Medicine",
+                "required score for Bachelor of Herbal Medicine",
+                "aggregate for Bachelor of Herbal Medicine",
+                "aggregate for Herbal Medicine",
+                "what is the cutoff for Bachelor of Herbal Medicine",
+                "cutoff marks for Bachelor of Herbal Medicine",
+                "Bachelor of Herbal Medicine required marks",
+                "what aggregate do I need for Bachelor of Herbal Medicine",
+                "score needed for Bachelor of Herbal Medicine"
+            ],
+            "responses": [
+                "The cutoff points for Bachelor of Herbal Medicine are typically around aggregate 15. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_medical_imaging_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Medical Imaging?",
+                "Can you provide the admission criteria for BSc. Medical Imaging programme?",
+                "Requirements for BSc. Medical Imaging programme?",
+                "What are the prerequisites for BSc. Medical Imaging?",
+                "BSc. Medical Imaging admission requirements?",
+                "Information on eligibility for BSc. Medical Imaging programme?",
+                "What are the entry requirements for BSc. Medical Imaging programme?",
+                "Criteria for admission into BSc. Medical Imaging?",
+                "BSc. Medical Imaging programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Medical Imaging <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i><br><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i.e WASSCE/SSSCE, OR 'A' Level). </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Medical Imaging Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Medical Imaging",
+                "BSc Medical Imaging cutoff points",
+                "minimum score for BSc Medical Imaging",
+                "required score for BSc Medical Imaging",
+                "aggregate for BSc Medical Imaging",
+                "what is the cutoff for BSc Medical Imaging",
+                "cutoff marks for BSc Medical Imaging",
+                "BSc Medical Imaging required marks",
+                "what aggregate do I need for BSc Medical Imaging",
+                "score needed for BSc Medical Imaging",
+                "cutoff points for Medical Imaging",
+                "aggregate requirements for Medical Imaging",
+                "what were the cut-off aggregates for Medical Imaging",
+                "what are the cut-off aggregates Medical Imaging"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Medical Imaging are typically around aggregate 09. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_disability_rehabilitation_studies_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Disability and Rehabilitation Studies?",
+                "Can you provide the admission criteria for BSc. Disability and Rehabilitation Studies programme?",
+                "Requirements for BSc. Disability and Rehabilitation Studies programme?",
+                "What are the prerequisites for BSc. Disability and Rehabilitation Studies?",
+                "BSc. Disability and Rehabilitation Studies admission requirements?",
+                "Information on eligibility for BSc. Disability and Rehabilitation Studies programme?",
+                "What are the entry requirements for BSc. Disability and Rehabilitation Studies programme?",
+                "Criteria for admission into BSc. Disability and Rehabilitation Studies?",
+                "BSc. Disability and Rehabilitation Studies programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Disability and Rehabilitation Studies <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes from the following groups: General Science, General Art, Business, Visual Art or Vocational. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Disability and Rehabilitation Studies Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Disability and Rehabilitation Studies",
+                "BSc Disability and Rehabilitation Studies cutoff points",
+                "minimum score for BSc Disability and Rehabilitation Studies",
+                "required score for BSc Disability and Rehabilitation Studies",
+                "aggregate for BSc Disability and Rehabilitation Studies",
+                "what is the cutoff for BSc Disability and Rehabilitation Studies",
+                "cutoff marks for BSc Disability and Rehabilitation Studies",
+                "BSc Disability and Rehabilitation Studies required marks",
+                "what aggregate do I need for BSc Disability and Rehabilitation Studies",
+                "score needed for BSc Disability and Rehabilitation Studies",
+                "cutoff points for Disability and Rehabilitation Studies",
+                "aggregate requirements for Disability and Rehabilitation Studies",
+                "what were the cut-off aggregates for Disability and Rehabilitation Studies",
+                "what are the cut-off aggregates Disability and Rehabilitation Studies"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Disability and Rehabilitation Studies are typically around aggregate 14. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        }        
+    ]
+}

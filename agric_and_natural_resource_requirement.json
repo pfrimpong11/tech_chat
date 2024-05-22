@@ -1,0 +1,361 @@
+{
+    "intents": [
+        {
+            "tag": "bsc_agriculture_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Agriculture?",
+                "Can you provide the admission criteria for BSc. Agriculture?",
+                "Requirements for BSc. Agriculture programme?",
+                "What are the prerequisites for BSc. Agriculture?",
+                "BSc. Agriculture admission requirements?",
+                "Information on eligibility for BSc. Agriculture programme?",
+                "What are the entry requirements for BSc. Agriculture programme?",
+                "Criteria for admission into BSc. Agriculture?",
+                "BSc. Agriculture programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Agriculture <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in Chemistry and any TWO (2) from Physics or Mathematics, Biology or General Agriculture or Animal Husbandry or Crop Husbandry or Horticulture. </p><br><li><b><u>GCE APPLICANTS </u></b></li><p><b>'O' Level:</b>  Credit passes in FIVE (5) subjects or equivalent qualification including English Language, Mathematics, AND, </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects or equivalent from  Chemistry, Physics or Mathematics, and Biology or Agricultural Science. </p><br><li><b><u>MATURE APPLICANTS</u></b></li><p>Applicants must have attained the age of 25 years at the time of submitting the Application Forms and must have a minimum of TWO (2) years post qualification experience. In addition, applicant must satisfy any of the following qualifications: </p><ul><li><b>Diploma or Higher National Diploma Applicants:</b> Diploma or Higher National Diploma in Agriculture or Agriculture-related programme from a recognized institution. OR </li><li><b>GCE Applicants:</b> Five (5) credits at 'O' Level including English Language and Mathematics, Biology, Chemistry and Physics, or Additional Mathematics, and Additional General Science. </li><li><b>WASSCE/SSSCE Applicants:</b> Credits passes in THREE (3) Elective subjects in Biology, Chemistry, and Physics or Mathematics or General Agriculture or Crop Husbandry or and Horticulture. </li></ul><br><i>Short-listed applicants may take an Entrance Examination and pass an interview. </i></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Agriculture Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Agriculture",
+                "BSc Agriculture cutoff points",
+                "minimum score for BSc Agriculture",
+                "required score for BSc Agriculture",
+                "aggregate for BSc Agriculture",
+                "what is the cutoff for BSc Agriculture",
+                "cutoff marks for BSc Agriculture",
+                "BSc Agriculture required marks",
+                "what aggregate do I need for BSc Agriculture",
+                "score needed for BSc Agriculture",
+                "cutoff points for Agriculture",
+                "aggregate requirements for Agriculture",
+                "what were the cut-off aggregates for Agriculture",
+                "what are the cut-off aggregates Agriculture"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Agriculture are typically around aggregate 22. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_agricultural_biotechnology_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Agricultural Biotechnology?",
+                "Can you provide the admission criteria for BSc. Agricultural Biotechnology?",
+                "Requirements for BSc. Agricultural Biotechnology programme?",
+                "What are the prerequisites for BSc. Agricultural Biotechnology?",
+                "BSc. Agricultural Biotechnology admission requirements?",
+                "Information on eligibility for BSc. Agricultural Biotechnology programme?",
+                "What are the entry requirements for BSc. Agricultural Biotechnology programme?",
+                "Criteria for admission into BSc. Agricultural Biotechnology?",
+                "BSc. Agricultural Biotechnology programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Agricultural Biotechnology <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in Chemistry and any TWO (2) from Physics or Mathematics, Biology or General Agriculture or Animal Husbandry or Crop Husbandry or Horticulture. </p><br><li><b><u>GCE APPLICANTS </u></b></li><p><b>'O' Level:</b>  Credit passes in FIVE (5) subjects or equivalent qualification including English Language, Mathematics, AND, </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects or equivalent from  Chemistry, Physics or Mathematics, and Biology or Agricultural Science. </p><br><li><b><u>MATURE APPLICANTS</u></b></li><p>Applicants must have attained the age of 25 years at the time of submitting the Application Forms and must have a minimum of TWO (2) years post qualification experience. In addition, applicant must satisfy any of the following qualifications: </p><ul><li><b>Diploma or Higher National Diploma Applicants:</b> Diploma or Higher National Diploma in Agriculture or Agriculture-related programme from a recognized institution. OR </li><li><b>GCE Applicants:</b> Five (5) credits at 'O' Level including English Language and Mathematics, Biology, Chemistry and Physics, or Additional Mathematics, and Additional General Science. </li><li><b>WASSCE/SSSCE Applicants:</b> Credits passes in THREE (3) Elective subjects in Biology, Chemistry, and Physics or Mathematics or General Agriculture or Crop Husbandry or and Horticulture. </li></ul><br><i>Short-listed applicants may take an Entrance Examination and pass an interview. </i></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Agricultural Biotechnology Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Agricultural Biotechnology",
+                "BSc Agricultural Biotechnology cutoff points",
+                "minimum score for BSc Agricultural Biotechnology",
+                "required score for BSc Agricultural Biotechnology",
+                "aggregate for BSc Agricultural Biotechnology",
+                "what is the cutoff for BSc Agricultural Biotechnology",
+                "cutoff marks for BSc Agricultural Biotechnology",
+                "BSc Agricultural Biotechnology required marks",
+                "what aggregate do I need for BSc Agricultural Biotechnology",
+                "score needed for BSc Agricultural Biotechnology",
+                "cutoff points for Agricultural Biotechnology",
+                "aggregate requirements for Agricultural Biotechnology",
+                "what were the cut-off aggregates for Agricultural Biotechnology",
+                "what are the cut-off aggregates Agricultural Biotechnology"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Agricultural Biotechnology are typically around aggregate 18. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_agribusiness_management_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Agribusiness Management?",
+                "Can you provide the admission criteria for BSc. Agribusiness Management?",
+                "Requirements for BSc. Agribusiness Management programme?",
+                "What are the prerequisites for BSc. Agribusiness Management?",
+                "BSc. Agribusiness Management admission requirements?",
+                "Information on eligibility for BSc. Agribusiness Management programme?",
+                "What are the entry requirements for BSc. Agribusiness Management programme?",
+                "Criteria for admission into BSc. Agribusiness Management?",
+                "BSc. Agribusiness Management programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Agribusiness Management <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science</p><p><b>Elective Subjects:</b> Credit passes in THREE subjects from the following options: </p><ul><li><b>Science:</b> Chemistry, Physics or Mathematics, and Biology or General Agriculture. </li><li><b>Business:</b> Economics, Accounting, Business Management, Business Mathematics, Costing and Elective Mathematics. Applicants with this combination must have a minimum of C (for SSSCE applicants) and B3 (for WASSCE Applicants) in Integrated Science. </li><li><b>General Arts:</b>  Economics, Geography, and Elective Mathematics. Applicants with this combination must have a minimum of C (for SSSCE applicants) and B3 (for WASSCE Applicants) in Integrated Science. </li><li><b>General Agriculture:</b>  Chemistry, Physics or Mathematics, and Biology or General Agriculture or Crop Husbandry or Horticulture. </li></ul><br><li><b><u>GCE APPLICANTS </u></b></li><p><b>'O' Level:</b>  Credit passes in FIVE (5) subjects or equivalent qualification including English Language, Mathematics, AND, </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects or equivalent from  Chemistry, Physics or Mathematics, and Biology or Agricultural Science. </p><br><li><b><u>MATURE APPLICANTS</u></b></li><p>Applicants must have attained the age of 25 years at the time of submitting the Application Forms and must have a minimum of TWO (2) years post qualification experience. In addition, applicant must satisfy any of the following qualifications: </p><ul><li><b>Diploma or Higher National Diploma Applicants:</b> Diploma or Higher National Diploma in Agriculture or Agriculture-related programme from a recognized institution. OR </li><li><b>GCE Applicants:</b> Five (5) credits at 'O' Level including English Language and Mathematics, Biology, Chemistry and Physics, or Additional Mathematics, and Additional General Science. </li><li><b>WASSCE/SSSCE Applicants:</b> Credits passes in THREE (3) Elective subjects in Biology, Chemistry, and Physics or Mathematics or General Agriculture or Crop Husbandry or and Horticulture. </li></ul><br><i>Short-listed applicants may take an Entrance Examination and pass an interview. </i></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Agribusiness Management Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Agribusiness Management",
+                "BSc Agribusiness Management cutoff points",
+                "minimum score for BSc Agribusiness Management",
+                "required score for BSc Agribusiness Management",
+                "aggregate for BSc Agribusiness Management",
+                "what is the cutoff for BSc Agribusiness Management",
+                "cutoff marks for BSc Agribusiness Management",
+                "BSc Agribusiness Management required marks",
+                "what aggregate do I need for BSc Agribusiness Management",
+                "score needed for BSc Agribusiness Management",
+                "cutoff points for Agribusiness Management",
+                "aggregate requirements for Agribusiness Management",
+                "what were the cut-off aggregates for Agribusiness Management",
+                "what are the cut-off aggregates Agribusiness Management"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Agribusiness Management are typically around aggregate 17. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_landscape_design_management_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Landscape Design and Management?",
+                "Can you provide the admission criteria for BSc. Landscape Design and Management?",
+                "Requirements for BSc. Landscape Design and Management programme?",
+                "What are the prerequisites for BSc. Landscape Design and Management?",
+                "BSc. Landscape Design and Management admission requirements?",
+                "Information on eligibility for BSc. Landscape Design and Management programme?",
+                "What are the entry requirements for BSc. Landscape Design and Management programme?",
+                "Criteria for admission into BSc. Landscape Design and Management?",
+                "BSc. Landscape Design and Management programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Landscape Design and Management <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in THREE Subject from the following options: </p><ul><li><b>Science:</b> Chemistry, Physics or Mathematics or Crop Husbandry, Biology or General Agriculture.  </li><li><b>General Arts:</b> Mathematics, Geography, Economics, Technical Drawing and General Knowledge in Art.  </li><li><b>Visual Art:</b> General Knowledge in Art, Graphic Design, Chemistry, Picture Making, Painting and Sculpture.  </li></ul><br><li><b><u>GCE APPLICANTS </u></b></li><p><b>'O' Level:</b>  Credit passes in FIVE (5) subjects or equivalent qualification including English Language, Mathematics, and any three from: </p><ul><li>Physics, Chemistry, and Biology or Agricultural Science, or </li><li>General Science, Additional General Science, and Additional Mathematics, and any other relevant subject.</li></ul><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects or equivalent from  Chemistry, Physics or Mathematics, and Biology or Agricultural Science  </p><br><li><b><u>MATURE APPLICANTS</u></b></li><p>Applicants must have attained the age of 25 years at the time of submitting the Application Forms and must have a minimum of TWO (2) years post qualification experience. In addition, applicant must satisfy any of the following qualifications: </p><ul><li><b>Diploma or Higher National Diploma Applicants:</b> Diploma or Higher National Diploma in Agriculture or Agriculture-related programme from a recognized institution. OR </li><li><b>GCE Applicants:</b> Five (5) credits at 'O' Level including English Language and Mathematics, Biology, Chemistry and Physics, or Additional Mathematics, and Additional General Science. </li><li><b>WASSCE/SSSCE Applicants:</b> Credits passes in THREE (3) Elective subjects in Biology, Chemistry, and Physics or Mathematics or General Agriculture or Crop Husbandry or and Horticulture. </li></ul><br><i>Short-listed applicants may take an Entrance Examination and pass an interview. </i></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Landscape Design and Management Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Landscape Design and Management",
+                "BSc Landscape Design and Management cutoff points",
+                "minimum score for BSc Landscape Design and Management",
+                "required score for BSc Landscape Design and Management",
+                "aggregate for BSc Landscape Design and Management",
+                "what is the cutoff for BSc Landscape Design and Management",
+                "cutoff marks for BSc Landscape Design and Management",
+                "BSc Landscape Design and Management required marks",
+                "what aggregate do I need for BSc Landscape Design and Management",
+                "score needed for BSc Landscape Design and Management",
+                "cutoff points for Landscape Design and Management",
+                "aggregate requirements for Landscape Design and Management",
+                "what were the cut-off aggregates for Landscape Design and Management",
+                "what are the cut-off aggregates Landscape Design and Management"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Landscape Design and Management are typically around aggregate 19. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_natural_resource_management_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Natural Resource Management?",
+                "Can you provide the admission criteria for BSc. Natural Resource Management?",
+                "Requirements for BSc. Natural Resource Management programme?",
+                "What are the prerequisites for BSc. Natural Resource Management?",
+                "BSc. Natural Resource Management admission requirements?",
+                "Information on eligibility for BSc. Natural Resource Management programme?",
+                "What are the entry requirements for BSc. Natural Resource Management programme?",
+                "Criteria for admission into BSc. Natural Resource Management?",
+                "BSc. Natural Resource Management programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Natural Resource Management <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Chemistry, Physics or Mathematics, and Biology or General Agriculture.</p><br><li><b><u>'A' LEVEL APPLICANT </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects or equivalent qualification including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in Chemistry, Physics and any one from Biology, Agricultural Science, and Mathematics. Applicants with Agricultural Science or Mathematics. Applicant must have a credit in 'O' Level Biology.     </p><br><li><b><u>DIPLOMA HOLDERS  </u></b></li><ul><li>Two (2) Years Post Diploma field experience.  </li><li>An applicant must satisfy the requirements for WASSCE OR 'A' Level.  </li><li>Shortlisted applicants must pass an interview.</li></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicant must have attained the age of 25 years at the time of the application.</li><li>Must have a minimum of Two (2) Years post qualification experience in a related field of Natural Resources Management.  </li><li>Must satisfy the requirements for WASSCE OR 'A' Level. </li><li>Short-listed applicants must pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Natural Resources Management Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Natural Resources Management",
+                "BSc Natural Resources Management cutoff points",
+                "minimum score for BSc Natural Resources Management",
+                "required score for BSc Natural Resources Management",
+                "aggregate for BSc Natural Resources Management",
+                "what is the cutoff for BSc Natural Resources Management",
+                "cutoff marks for BSc Natural Resources Management",
+                "BSc Natural Resources Management required marks",
+                "what aggregate do I need for BSc Natural Resources Management",
+                "score needed for BSc Natural Resources Management",
+                "cutoff points for Natural Resources Management",
+                "aggregate requirements for Natural Resources Management",
+                "what were the cut-off aggregates for Natural Resources Management",
+                "what are the cut-off aggregates Natural Resources Management"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Natural Resources Management are typically around aggregate 18. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_forest_resource_technology_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Forest Resource Technology?",
+                "Can you provide the admission criteria for BSc. Forest Resource Technology?",
+                "Requirements for BSc. Forest Resource Technology programme?",
+                "What are the prerequisites for BSc. Forest Resource Technology?",
+                "BSc. Forest Resource Technology admission requirements?",
+                "Information on eligibility for BSc. Forest Resource Technology programme?",
+                "What are the entry requirements for BSc. Forest Resource Technology programme?",
+                "Criteria for admission into BSc. Forest Resource Technology?",
+                "BSc. Forest Resource Technology programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Forest Resource Technology <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Chemistry, Physics or Mathematics, and Biology or General Agriculture.</p><br><li><b><u>'A' LEVEL APPLICANT </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects or equivalent qualification including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in Chemistry, Physics and any one from Biology, Agricultural Science, and Mathematics. Applicants with Agricultural Science or Mathematics. Applicant must have a credit in 'O' Level Biology.     </p><br><li><b><u>DIPLOMA HOLDERS  </u></b></li><ul><li>Two (2) Years Post Diploma field experience.  </li><li>An applicant must satisfy the requirements for WASSCE OR 'A' Level.  </li><li>Shortlisted applicants must pass an interview.</li></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicant must have attained the age of 25 years at the time of the application.</li><li>Must have a minimum of Two (2) Years post qualification experience in a related field of Natural Resources Management.  </li><li>Must satisfy the requirements for WASSCE OR 'A' Level. </li><li>Short-listed applicants must pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Forest Resources Technology Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Forest Resources Technology",
+                "BSc Forest Resources Technology cutoff points",
+                "minimum score for BSc Forest Resources Technology",
+                "required score for BSc Forest Resources Technology",
+                "aggregate for BSc Forest Resources Technology",
+                "what is the cutoff for BSc Forest Resources Technology",
+                "cutoff marks for BSc Forest Resources Technology",
+                "BSc Forest Resources Technology required marks",
+                "what aggregate do I need for BSc Forest Resources Technology",
+                "score needed for BSc Forest Resources Technology",
+                "cutoff points for Forest Resources Technology",
+                "aggregate requirements for Forest Resources Technology",
+                "what were the cut-off aggregates for Forest Resources Technology",
+                "what are the cut-off aggregates Forest Resources Technology"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Forest Resources Technology are typically around aggregate 23. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_aquaculture_water_resource_management_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Aquaculture and Water Resource Management?",
+                "Can you provide the admission criteria for BSc. Aquaculture and Water Resource Management?",
+                "Requirements for BSc. Aquaculture and Water Resource Management programme?",
+                "What are the prerequisites for BSc. Aquaculture and Water Resource Management?",
+                "BSc. Aquaculture and Water Resource Management admission requirements?",
+                "Information on eligibility for BSc. Aquaculture and Water Resource Management programme?",
+                "What are the entry requirements for BSc. Aquaculture and Water Resource Management programme?",
+                "Criteria for admission into BSc. Aquaculture and Water Resource Management?",
+                "BSc. Aquaculture and Water Resource Management programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Aquaculture and Water Resource Management <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Chemistry, Physics or Mathematics, and Biology or General Agriculture.</p><br><li><b><u>'A' LEVEL APPLICANT </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects or equivalent qualification including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in Chemistry, Physics and any one from Biology, Agricultural Science, and Mathematics. Applicants with Agricultural Science or Mathematics. Applicant must have a credit in 'O' Level Biology.     </p><br><li><b><u>DIPLOMA HOLDERS  </u></b></li><ul><li>Two (2) Years Post Diploma field experience.  </li><li>An applicant must satisfy the requirements for WASSCE OR 'A' Level.  </li><li>Shortlisted applicants must pass an interview.</li></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicant must have attained the age of 25 years at the time of the application.</li><li>Must have a minimum of Two (2) Years post qualification experience in a related field of Natural Resources Management.  </li><li>Must satisfy the requirements for WASSCE OR 'A' Level. </li><li>Short-listed applicants must pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Aquaculture and Water Resources Management Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Aquaculture and Water Resources Management",
+                "BSc Aquaculture and Water Resources Management cutoff points",
+                "minimum score for BSc Aquaculture and Water Resources Management",
+                "required score for BSc Aquaculture and Water Resources Management",
+                "aggregate for BSc Aquaculture and Water Resources Management",
+                "what is the cutoff for BSc Aquaculture and Water Resources Management",
+                "cutoff marks for BSc Aquaculture and Water Resources Management",
+                "BSc Aquaculture and Water Resources Management required marks",
+                "what aggregate do I need for BSc Aquaculture and Water Resources Management",
+                "score needed for BSc Aquaculture and Water Resources Management",
+                "cutoff points for Aquaculture and Water Resources Management",
+                "aggregate requirements for Aquaculture and Water Resources Management",
+                "what were the cut-off aggregates for Aquaculture and Water Resources Management",
+                "what are the cut-off aggregates Aquaculture and Water Resources Management"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Aquaculture and Water Resources Management are typically around aggregate 22. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_packaging_technology_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Packaging Technology?",
+                "Can you provide the admission criteria for BSc. Packaging Technology?",
+                "Requirements for BSc. Packaging Technology programme?",
+                "What are the prerequisites for BSc. Packaging Technology?",
+                "BSc. Packaging Technology admission requirements?",
+                "Information on eligibility for BSc. Packaging Technology programme?",
+                "What are the entry requirements for BSc. Packaging Technology programme?",
+                "Criteria for admission into BSc. Packaging Technology?",
+                "BSc. Packaging Technology programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Packaging Technology <ul><li><b><u>WASSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit Passes in THREE (3) from any of the following options: Science, General Arts, Visual Art, Technical and Home Economics. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b>  Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in THREE (3) subjects or equivalent passes from any of the following options: Science, and General Arts. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be a least 25 years at the time of the application. </li><li>EITHER possess FIVE (5) credits at 'O' Level, including Mathematics and English Language, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE core Subjects plus credits in THREE (3) Elective Subjects in Science, General Arts, Visual Art, Technical, and Home Economics. Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Packaging Technology Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Packaging Technology",
+                "BSc Packaging Technology cutoff points",
+                "minimum score for BSc Packaging Technology",
+                "required score for BSc Packaging Technology",
+                "aggregate for BSc Packaging Technology",
+                "what is the cutoff for BSc Packaging Technology",
+                "cutoff marks for BSc Packaging Technology",
+                "BSc Packaging Technology required marks",
+                "what aggregate do I need for BSc Packaging Technology",
+                "score needed for BSc Packaging Technology",
+                "cutoff points for Packaging Technology",
+                "aggregate requirements for Packaging Technology",
+                "what were the cut-off aggregates for Packaging Technology",
+                "what are the cut-off aggregates Packaging Technology"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Packaging Technology are typically around aggregate 16. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        }        
+    ]
+}

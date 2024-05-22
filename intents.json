@@ -1,0 +1,1110 @@
+{
+  "intents": [
+    {
+      "tag": "fallback",
+      "patterns": [
+        "ksjdfksdjf",
+        "hdfgkjsdfgkjsd",
+        "zxcvbnm",
+        "qwertyuikjnhgfdsxc",
+        "wertyuiopkjhgf",
+        "12345678ijhgcvhj",
+        "lkjhgfdsa",
+        "mnbvcxz",
+        "poiuytrewqasdfghjklllmnbvcxz",
+        "zxcvbnm,lkjhgfdsaqwertyuiop",
+        "asdfghjkl;poiuytrewazxcvbnm",
+        "I'm not sure",
+        "jksdfgksdfg",
+        "I don't understand",
+        "fhjgsdjhfgsd",
+        "Can you repeat that?",
+        "hjsdfgksjdfgsd",
+        "What is this supposed to mean?",
+        "lkjdsflkjsdf",
+        "This doesn't make sense",
+        "sdlkjflkjsdf",
+        "Is this even English?",
+        "skdjflksdf",
+        "jlkdfjldkjflkdj",
+        "This is confusing",
+        "lskjflkjsdflkjsd",
+        "What am I reading?",
+        "sdflkjsdlfkjsdf",
+        "sjdhfgklsdjfg",
+        "qwertyuiop",
+        "1234567890",
+        "asdfghjkl",
+        "I'm not sure",
+        "I don't understand",
+        "Can you repeat that?",
+        "What is this supposed to mean?",
+        "This doesn't make sense",
+        "Is this even English?",
+        "This is confusing",
+        "What am I reading?",
+        "I'm lost",
+        ""
+      ],
+      "responses": [
+        "I'm sorry, I couldn't understand that. Could you please rephrase or ask a different question?",
+        "I'm sorry, I'm not able to provide a response to that. If you have any specific questions, feel free to ask."
+      ]
+    },
+
+
+    {
+      "tag": "Error Correction",
+      "patterns": [
+        "Hey, you made a mistake in your response.",
+        "I think there's an error in your previous message.",
+        "Excuse me, but that information seems incorrect.",
+        "Wait a minute, that's not right.",
+        "Can you double-check? I believe there's a mistake there.",
+        "Um, I think you got something wrong.",
+        "Hold on, I think you need to correct something."
+      ],
+      "responses": [
+        "I appreciate you pointing that out. Let me correct that for you.",
+        "Thank you for catching that mistake. I'll make sure to correct it.",
+        "Oops, my apologies for the error. Let me fix that.",
+        "You're absolutely right, I made a mistake. Let me rectify it.",
+        "Thanks for bringing that to my attention. Let me correct the information.",
+        "My apologies for any confusion caused by the error. Let me correct it promptly.",
+        "Oh, you're correct. I'll make the necessary correction right away."
+      ]
+    },
+    
+
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Is anyone there?",
+        "Are you good?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "how are ya",
+        "heyy",
+        "whatsup",
+        "Are you there",
+        "Hey",
+        "Yo!",
+        "Hey there",
+        "Hey!",
+        "Hey, how's it going?",
+        "Hey, what's going on?",
+        "Hey, is anyone around?",
+        "Hey, are you busy?",
+        "Greetings",
+        "Hello there",
+        "Hiya!",
+        "Howdy",
+        "hi",
+        "Hey, what's up?",
+        "Hey, how have you been?",
+        "??? ??? ??"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?",
+        "Hey, good to see you!",
+        "Yo! What's up?",
+        "Hey there! How can I assist you today?",
+        "Hey! I'm here to help.",
+        "Greetings! How may I assist you?",
+        "Hello there! How can I assist you?",
+        "Hiya! How's it going?",
+        "Howdy! What can I do for you?",
+        "Hey, things are going well! How about you?",
+        "Hey, not much. How about you?",
+        "Hey, I'm doing well. How about yourself?",
+        "Hey, I've been good. How about you?",
+        "Hey, not too much. How about you?"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Bye",
+        "Have a Good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg",
+        "Thank you for the information",
+        "That's all for now",
+        "I'll get back to you later",
+        "Thanks for your help",
+        "I appreciate your assistance",
+        "This was helpful, goodbye",
+        "I'll consider the options, goodbye",
+        "I'll contact the admission office, goodbye",
+        "I'll review the details, goodbye",
+        "Thanks, goodbye",
+        "That's all I needed, goodbye",
+        "I'll look into it, goodbye",
+        "I'll come back if I need more information, goodbye",
+        "Thanks for your time, goodbye",
+        "Alright, goodbye",
+        "I'll make my decision soon, goodbye",
+        "Thank you, I'll be in touch, goodbye",
+        "Thanks for the assistance, goodbye"
+      ],
+      "responses": [
+        "You're welcome! If you have any more questions, feel free to ask. Goodbye!",
+        "No problem! If you need further assistance, don't hesitate to reach out. Goodbye!",
+        "Sure thing! Feel free to return anytime if you need more information. Goodbye!",
+        "Glad I could assist! Don't hesitate to contact us again if you need anything else. Goodbye!",
+        "Happy to help! If you have any other inquiries, feel free to ask. Goodbye!",
+        "I'm glad I could provide assistance. If you have further questions, don't hesitate to ask. Goodbye!",
+        "Of course! If you need any more details, feel free to reach out. Goodbye!",
+        "Sounds good! Don't hesitate to reach out to the admission office if you need more information. Goodbye!",
+        "Great! If you have any more questions, feel free to contact us. Goodbye!",
+        "You're welcome! If you have any further questions, don't hesitate to ask. Goodbye!",
+        "No problem! Feel free to return if you require additional assistance. Goodbye!",
+        "Sure thing! If you need more details, don't hesitate to reach out. Goodbye!",
+        "Of course! We'll be here if you need any more information. Goodbye!",
+        "Glad I could assist! If you have any more inquiries, feel free to ask. Goodbye!",
+        "Alright! If you need anything else, don't hesitate to contact us. Goodbye!",
+        "Take your time! If you have any questions later on, feel free to get in touch. Goodbye!",
+        "Thank you! We look forward to hearing from you. Goodbye!",
+        "You're welcome! If there's anything else we can assist you with, just let us know. Goodbye!"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you",
+        "Who built you?",
+        "Who programmed you?",
+        "Who developed you?",
+        "Who crafted you?",
+        "Who constructed you?",
+        "Tell me about your developers",
+        "Tell me about your creators",
+        "Give me information about your developers",
+        "Give me information about your creators",
+        "Who are behind your creation?",
+        "Who are the minds behind your design?",
+        "Who are the brains behind your development?",
+        "Who brought you into existence?",
+        "Who are the geniuses behind your invention?",
+        "Who are responsible for your creation?"
+      ],
+      "responses": [
+        "A group of university students developed me, Frimpong Prince and Akinie Samuel Aterh"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i talking to",
+        "what are you",
+        "what should I call this chatbot",
+        "what's your title",
+        "what can I name you",
+        "what do you go by"
+      ],
+      "responses": [
+        "You can call me TechChat.",
+        "I'm TechChat"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "University Hours/Operating Hours",
+      "patterns": [
+        "timing of university",
+        "what is university timing",
+        "working days",
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "when is the university open",
+        "university timing",
+        "what about university timing",
+        "is university open on saturday",
+        "tell something about university timing",
+        "what is the university  hours",
+        "university timing",
+        "timing university",
+        "What time does the university close",
+        "what time will you close"
+      ],
+      "responses": [
+        "Working Hours <ul> <li>Weekdays: Most administrative departments and offices are likely open from 8:00 AM to 5:00 PM GMT.</li> <li>Weekends: The university is likely closed on Saturdays and Sundays.</li> </ul>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Contact Information",
+      "patterns": [
+        "more info",
+        "contact info",
+        "how to contact university",
+        "university telephone number",
+        "university number",
+        "What is your contact no",
+        "Contact number?",
+        "how to call you",
+        "university phone no?",
+        "how can i contact you",
+        "Can i get your phone number",
+        "how can i call you",
+        "phone number",
+        "phone no",
+        "call",
+        "how do i contact the university",
+        "Where can I find the university's contact information?",
+        "Do you have an email address for the university?",
+        "How can I reach the university's administration?",
+        "Is there a specific department I should contact for inquiries?",
+        "Can I get in touch with someone from admissions?",
+        "What are the contact details for student services?",
+        "Is there a directory available for faculty and staff contacts?",
+        "Do you have a fax number for the university?",
+        "Are there alternative ways to contact the university besides phone?",
+        "Can I schedule an appointment to visit the campus?",
+        "Is there a preferred method of contact for urgent matters?",
+        "How quickly can I expect a response to my inquiry?"
+      ],
+      "responses": [
+        "You can contact the university at <ul> <li>Telephone: <a target=\"_blank\" href=\"tel:+233500099299\">+233 5000 99299</a> </li>  <li>Email: <a target=\"_blank\" href=\"mailto:uro@knust.edu.gh\">uro@knust.edu.gh</a> </li> </ul>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Tuition Fees",
+      "patterns": [
+        "information about fee",
+        "information on fee",
+        "tell me the fee",
+        "university fee",
+        "fee per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "how much is the fees",
+        "fees for first year",
+        "fees",
+        "about the fees",
+        "tell me something about the fees",
+        "how much is the fees"
+      ],
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"https://www.knust.edu.gh/academic-fees\"> here</a>"    ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Scholarships for Needy Students",
+      "patterns": [
+        "Are there any scholarships available for needy students at KNUST?",
+        "Can you provide information about scholarships for brilliant but needy students at KNUST?",
+        "Where can I find details about scholarships for needy students at KNUST?",
+        "Do you offer any financial aid options for students from low-income backgrounds?",
+        "Are there scholarships specifically for students with financial need?",
+        "Can you provide details on need-based scholarships?",
+        "I come from a disadvantaged background. Are there scholarships available for students like me?",
+        "How can I apply for scholarships if I have financial constraints?",
+        "Are there grants or bursaries available for students facing financial difficulties?",
+        "Do you have any programs to support students with financial hardships?",
+        "Can you direct me to resources for financial assistance for needy students?",
+        "Are there specific criteria for eligibility for scholarships for needy students?",
+        "Are scholarships renewable for students who maintain financial need throughout their studies?",
+        "Is there a limit to the number of scholarships available for needy students?",
+        "Can international students also apply for scholarships for students with financial need?",
+        "What documents are required to apply for scholarships for needy students?",
+        "Are there any community-based or external scholarships available for needy students?",
+        "Can I get assistance with filling out scholarship applications?"
+      ],
+      "responses": [
+        "Access the available scholarships for KNUST students <a target=\"_blank\" href=\"https://www.knust.edu.gh/students/scholarships-and-grants\"> here</a>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "University Location/Address",
+      "patterns": [
+        "where is the university located",
+        "KNUST is located at",
+        "where is university",
+        "where is university located",
+        "address of university",
+        "how to reach university",
+        "university location",
+        "university address",
+        "wheres the university",
+        "how can I reach university",
+        "whats is the university address",
+        "what is the address of university",
+        "address",
+        "location",
+        "Can you provide the GPS coordinates for the university?",
+        "where can i locate the school"
+      ],
+      "responses": [
+        "KNUST is located in Kumasi, Ghana, which is the Ashanti Region's capital <ul> <li><a target=\"_blank\" href=\"https://maps.app.goo.gl/FiengdzdZqxpAsbSA\">Google map</a></li>  <li>Ghana Post GPS Address: AK-385-1973</li>  </ul>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Available Colleges/Departments",
+      "patterns": [
+        "List of colleges",
+        "What are the colleges?",
+        "Which colleges are available?",
+        "Colleges list",
+        "Available colleges",
+        "Colleges options",
+        "Colleges available for application",
+        "What colleges are there?",
+        "Colleges selection",
+        "What colleges can I choose from?",
+        "Colleges choices",
+        "Colleges for application",
+        "Colleges to select",
+        "Colleges decision"
+      ],
+      "responses": [
+        "<ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>"
+      ],
+      "context_set": ""
+    },
+    
+
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "hostel facility",
+        "hostel service",
+        "hostel location",
+        "hostel address",
+        "hostel facilities",
+        "hostel fees",
+        "Does university provide hostel",
+        "Is there any hostel",
+        "Where is hostel",
+        "do you have hostel",
+        "do you guys have hostel",
+        "hostel",
+        "hostel capacity",
+        "what is the hostel fee",
+        "how to get in hostel",
+        "what is the hostel address",
+        "how far is hostel from university",
+        "hostel university distance",
+        "where is the hostel",
+        "how big is the hostel",
+        "distance between university and hostel",
+        "distance between hostel and university",
+        "Is there accommodation available?",
+        "Is housing provided for students?",
+        "Can I stay in a hostel?",
+        "Are there dormitories available?",
+        "What are the lodging options?",
+        "Are there residential facilities?",
+        "Are there rooms for students?",
+        "What is the housing situation?",
+        "Where can I find accommodation?",
+        "What is the cost of accommodation?",
+        "Are there on-campus residences?",
+        "What type of accommodation is available?",
+        "Can I live on campus?",
+        "How do I apply for housing?",
+        "Do you offer dormitory services?",
+        "Are there housing options nearby?",
+        "halls",
+        "halls of residence",
+        "residential halls",
+        "residence halls",
+        "accommodation halls",
+        "student halls",
+        "living halls",
+        "dorms",
+        "student dorms",
+        "residence dorms",
+        "university dorms",
+        "college dorms",
+        "student housing",
+        "How many Halls are in KNUST?"
+      ],
+      "responses": [
+        "There are Six Halls of residence and a number of hostels on the University Campus. <ul> <li> <a target=\"_blank\" href=\"https://www.knust.edu.gh/students/housing\">Halls of Residence</a></li>  <li><a target=\"_blank\" href=\"https://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year\">Recommended Hostels</a></li> </ul>"
+      ],
+      "context_set": ""
+    },
+    
+
+    {
+      "tag": "random",
+      "patterns": [
+        "I love you",
+        "Will you marry me",
+        "Do you love me",
+        "Are you in love with me?",
+        "Will you be my girlfriend?",
+        "Can we go on a date?",
+        "Do you have feelings for me?",
+        "Are we meant to be together?",
+        "Do you dream of me?",
+        "I have a crush on you",
+        "I am crushing on you",
+        "Do you believe in love?",
+        "Are you my soulmate?",
+        "Can we be more than friends?",
+        "Are you single?",
+        "I want to be with you",
+        "Do you think about me?",
+        "Can you love me?"
+      ],
+      "responses": [
+        "I am not program for this, please ask appropriate query"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Profanity/Inappropriate Language",
+      "patterns": [
+        "fuck",
+        "bitch",
+        "shut up",
+        "hell",
+        "stupid",
+        "idiot",
+        "dumb ass",
+        "asshole",
+        "fucker",
+        "fuck you bitch",
+        "nigga shut up",
+        "crap",
+        "dick",
+        "shit",
+        "damn",
+        "bloody hell",
+        "bitch piss",
+        "dick",
+        "cock",
+        "darn",
+        "cunt",
+        "pussy",
+        "bastard",
+        "fag bugger",
+        "bastard fag",
+        "slut pussy",
+        "douche bollocks",
+        "bloody slut",
+        "cunt arsehole",
+        "bugger darn",
+        "bollocks asshole",
+        "arsehole douche"
+      ],
+      "responses": [
+        "Please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Positive Feedback/Appreciation",
+      "patterns": [
+        "okk",
+        "okie",
+        "nice work",
+        "well done",
+        "good job",
+        "thanks for the help",
+        "Thank You",
+        "its ok",
+        "Thanks",
+        "Good work",
+        "k",
+        "ok",
+        "okay",
+        "I appreciate your assistance!",
+        "You've been very helpful, thank you!",
+        "Great job, I'm impressed!",
+        "Thanks a bunch for your support!",
+        "You've done an excellent job!",
+        "I'm grateful for your guidance!",
+        "Thanks a million for your help!",
+        "I'm thankful for your time and effort!",
+        "You're awesome, thanks!",
+        "I'm grateful for the information provided!",
+        "Your assistance has been invaluable, thank you!",
+        "I'm glad I reached out, your help is appreciated!",
+        "You're a lifesaver, thank you!",
+        "I couldn't have done it without you, thanks!",
+        "Thank you for going above and beyond!",
+        "I'm truly thankful for your support!",
+        "You're a star, thank you so much!",
+        "Thanks for being so responsive and helpful!",
+        "You've made my day, thank you!",
+        "I'm really grateful for your assistance!",
+        "Thank you for your prompt and efficient help!",
+        "You rock, thanks for everything!",
+        "I owe you one, thanks!",
+        "Your assistance means a lot to me, thank you!"
+      ],
+      "responses": [
+        "I am glad I helped you",
+        "welcome, anything else I can assist you with?"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Chatbot Capabilities",
+      "patterns": [
+        "what can you do",
+        "what are the thing you can do",
+        "things you can do",
+        "what can u do for me",
+        "how u can help me",
+        "why i should use you",
+        "What are your features?",
+        "How can you assist me?",
+        "What tasks can you help with?",
+        "What services do you offer?",
+        "What functionalities do you have?",
+        "Can you list your capabilities?",
+        "How do you support users?",
+        "What are your strengths?",
+        "What tasks are you designed to handle?",
+        "How can you make my life easier?",
+        "Why should I interact with you?",
+        "What makes you different from other chatbots?",
+        "Can you demonstrate your skills?",
+        "How do you add value to users?",
+        "Are there any limitations to what you can do?",
+        "Can you solve specific types of problems?",
+        "What kind of assistance do you provide?",
+        "Do you have any special features?",
+        "Can you assist with complex queries?",
+        "What are your areas of expertise?",
+        "How do you respond to user queries?",
+        "Can you provide personalized assistance?",
+        "Do you have any unique functionalities?"
+      ],
+      "responses": [
+        "You can ask me questions regarding KNUST admissions and I will try to answer them"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Late Application/Deadline Extension",
+      "patterns": [
+        "Can I continue my application online after the deadline?",
+        "Is it possible to apply online after the deadline has passed?",
+        "What should I do if I miss the application deadline but still want to apply online?",
+        "If I didn't submit my application before the deadline, can I still apply online?",
+        "What are the options for late applications?",
+        "Is there a grace period for submitting applications after the deadline?",
+        "Can I request an extension for the application deadline?",
+        "Are there any penalties for submitting my application late?",
+        "How do I apply for an extension if I can't meet the deadline?",
+        "Is there a late application fee if I miss the deadline?",
+        "Are late applications considered on a case-by-case basis?",
+        "Can I provide a valid reason for submitting my application late?",
+        "Is there a specific procedure for late applicants?",
+        "Are there any exceptions to the application deadline?",
+        "Can I still apply if I have missed the regular deadline?",
+        "Are there any restrictions or limitations for late applicants?",
+        "What is the latest date I can submit my application?",
+        "Is there a cutoff date for accepting late applications?",
+        "How do I know if my late application will be considered?",
+        "Are late applicants given the same consideration as those who apply on time?",
+        "What factors are taken into account when considering late applications?",
+        "Can I apply online even if I missed the deadline for paper applications?",
+        "Are there any alternative application methods available for late applicants?",
+        "Is there a waiting list for late applicants?",
+        "What are the chances of acceptance for late applicants?",
+        "Are there any special conditions for late admissions?"
+      ],
+      "responses": [
+        "Yes, you can continue your application online after the deadline, but only if you purchased the form before the deadline."
+      ],
+      "context_set": ""
+    },
+    
+    
+    {
+      "tag": "Application Review Assistance",
+      "patterns": [
+        "What do I do when I am unable to progress past the application review stage?",
+        "I'm stuck at the application review stage, what should I do?",
+        "How can I move forward from the application review stage?",
+        "I cannot progress in my application after the review stage, what's the next step?",
+        "What are the common reasons for being stuck at the application review stage?",
+        "Can you provide guidance on overcoming obstacles during the application review?",
+        "Is there a support system available for applicants experiencing issues during the review stage?",
+        "What steps should I take if my application is held up during review?",
+        "Are there resources or materials to help applicants navigate the application review process?",
+        "How long does the application review process typically take?",
+        "Can I request feedback on my application after the review stage?",
+        "Are there specific criteria used during the application review?",
+        "Who should I contact if I encounter difficulties during the application review?",
+        "Is there a deadline for resolving issues encountered during the application review?",
+        "What documentation or information is required to address issues during the review stage?",
+        "Are there any additional steps I can take to improve my application during review?",
+        "Can I provide additional information or updates to my application after submission but before review?",
+        "Is there an appeals process available for applicants dissatisfied with the review outcome?",
+        "What are the possible outcomes of the application review stage?",
+        "Can I track the progress of my application during the review stage?",
+        "Are there any specific actions I should avoid while my application is under review?",
+        "Is there someone who can provide personalized assistance with my application review?"
+      ],
+      "responses": [
+        "Please review your application and fill in the mandatory fields that are not filled in"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Post-Admission Procedures (Undergraduate)",
+      "patterns": [
+        "What do I do when I get to know I have been admitted (undergraduate)?",
+        "I've received admission as an undergraduate, what are the next steps?",
+        "After being admitted as an undergraduate, what should I do?",
+        "What are the procedures after receiving undergraduate admission?",
+        "Can you provide a checklist of tasks after undergraduate admission?",
+        "What documentation do I need to submit after receiving undergraduate admission?",
+        "Are there deadlines for completing post-admission procedures as an undergraduate?",
+        "How do I confirm my acceptance of undergraduate admission?",
+        "Can I defer my admission as an undergraduate student?",
+        "Is there a housing application process for undergraduate students after admission?",
+        "What academic advising or registration steps should I follow after undergraduate admission?",
+        "What opportunities are available for undergraduate students to get involved in campus life?"
+      ],
+      "responses": [
+        "<ul><li>Visit the admissions portal <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/\"> here</a></li><li>Click on login or click <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F\">here</a></li><li>Enter your application serial and PIN and click on Log in</li><li>Click on Check Status </li><li>Confirm your admission and print it out</li><li>Print your acceptance form and your fee schedule <a target=\"_blank\" href=\"https://www.knust.edu.gh/academic-fees\">here</a></li><li>Pay your fees</li><li>Book your accommodation <a target=\"_blank\" href=\"https://accommodation.knust.edu.gh/\">here</a></li><li>Login to your student portal <a target=\"_blank\" href=\"https://apps.knust.edu.gh/students/Account/Login?ReturnUrl=%2Fstudents%2F\">here</a> or download the AIM app from the <a target=\"_blank\" href=\"https://apps.apple.com/us/app/knust-aim/id1632229714\">Apple Appstore</a> and <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=gh.edu.knust.aim&gl=US&pli=1\">Google Playstore</a> </li><li>Click on Course Registration in the portal and proceed to register your courses for the semester</li><li>Visit the UITS Support Center at the Basement of the Casely-Hayford Building for further assistance</li></ul>"
+      ],
+      "context_set": ""
+    },
+    
+
+
+    {
+      "tag": "Admission Portal Information",
+      "patterns": [
+        "What is the address for the KNUST admission portal?",
+        "Where can I find the KNUST admission portal?",
+        "What's the URL for the KNUST admission portal?",
+        "Can you provide the web address for the KNUST admission portal?",
+        "How do I access the KNUST admission portal?",
+        "Is there a specific login page for the KNUST admission portal?",
+        "Can I create an account on the KNUST admission portal?",
+        "Can I check my application status on the KNUST admission portal?",
+        "How do I navigate through the KNUST admission portal?",
+        "Is the KNUST admission portal accessible to international students?",
+        "Can I reset my password on the KNUST admission portal?",
+        "Is there a help desk or support team for issues related to the KNUST admission portal?",
+        "Is the KNUST admission portal available 24/7?",
+        "Can I access the KNUST admission portal from my smartphone or tablet?"
+      ],
+      "responses": [
+        "You can access the KNUST admission portal <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Application Form Fees for Foreign Students",
+      "patterns": [
+        "What is the cost of application forms for Foreign students?",
+        "How much does it cost for foreign students to get application forms?",
+        "What is the fee for application forms for international students?",
+        "Can you tell me the price of application forms for foreign students?",
+        "Are there different fees for different programs for foreign students?",
+        "Is the application fee for foreign students refundable?",
+        "Are there any discounts or waivers available for foreign students on application fees?",
+        "Can I pay the application fee for foreign students online?",
+        "What payment methods are accepted for the application fee for foreign students?",
+        "Is the application fee for foreign students the same for all programs?",
+        "Can I pay the application fee for foreign students in my local currency?",
+        "How do I obtain a receipt for paying the application fee for foreign students?"
+      ],
+      "responses": [
+        "Kindly refer to the admission guidelines <a target=\"_blank\" href=\"https://www.knust.edu.gh/admissions/prospective/applying\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Post-Application Form Printing Procedures",
+      "patterns": [
+        "What should I do with the online print-out I get when I click the submit button on the system?",
+        "After getting the online print-out, what is the next step?",
+        "I've printed out the online form, what should I do with it?",
+        "What is the procedure after printing out the online form?",
+        "Once I have the printed online form, what are the subsequent actions?",
+        "What's the protocol after printing the application form online?",
+        "After obtaining the printed copy of the online form, what are the following procedures?",
+        "What steps should I take after I've printed the online application form?",
+        "What's the process once I've completed printing the online application form?",
+        "After printing the form online, what should I do next?",
+        "What's the next course of action after obtaining the printed copy of the online application?",
+        "What are the instructions following the printing of the online application form?",
+        "Upon printing the online form, what steps are necessary to proceed?",
+        "After receiving the printed version of the online application form, what steps should I follow?"
+      ],
+      "responses": [
+        "Online print-out should be added to the admission forms filled manually and posted through DHL (For International Students) or EMS Delivery Services (for local students)."
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Preferred Web Browser for KNUST Admission Portal",
+      "patterns": [
+        "What type of browser is most efficient when applying Online on the KNUST admission portal?",
+        "Which browser should I use for the best performance on the KNUST admission portal?",
+        "Is there a recommended browser for applying online on the KNUST admission portal?",
+        "What browser works best with the KNUST admission portal?",
+        "Is there a specific browser that is compatible with the KNUST admission portal?",
+        "Can you recommend a browser that works seamlessly with the KNUST admission portal?",
+        "Which web browser offers the smoothest experience for navigating the KNUST admission portal?",
+        "Does KNUST recommend a particular browser for optimal performance on the admission portal?",
+        "Can I use mobile browsers to access the KNUST admission portal, or is a desktop browser preferred?",
+        "Is there a list of supported browsers for the KNUST admission portal?",
+        "Is there a browser preference for accessing specific sections or features of the KNUST admission portal?"
+      ],
+      "responses": [
+        "Google Chrome, Mozilla Firefox, Edge, Safari, and Opera are all efficient browsers for accessing the KNUST admission portal."
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Checking Undergraduate Admission Status Timeline",
+      "patterns": [
+        "When can I check my admission status as an undergraduate student?",
+        "At what time can I verify my admission status as an undergraduate student?",
+        "When will the admission status for undergraduate students be available?",
+        "What is the timeline for checking undergraduate admission status?",
+        "When will the results for undergraduate admissions be published?",
+        "What is the expected timeframe for undergraduate admission results to be announced?",
+        "Are undergraduate admission statuses updated in real-time or at specific intervals?",
+        "Are admission statuses for undergraduate students released all at once or in batches?",
+        "Are there any restrictions on who can check undergraduate admission status?",
+        "Can I request assistance if I encounter issues while checking my undergraduate admission status?"
+      ],
+      "responses": [
+        "You can check for updates on the admission portal <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Academic Resumption Dates",
+      "patterns": [
+        "When do we come to school?",
+        "What are the resumption dates for students?",
+        "When should students report to school?",
+        "What is the start date for the new academic year?",
+        "Can you provide the schedule for students returning to school?",
+        "Are there specific dates for the commencement of classes?",
+        "When is the first day of school for the new academic session?",
+        "Is there a calendar available with the resumption dates for students?",
+        "Are there different resumption dates for different levels or programs?",
+        "Can you confirm the start date for the next academic term?",
+        "When will classes officially begin for the new academic semester?",
+        "Is there a registration period before the academic resumption date?"
+      ],
+      "responses": [
+        "You can find the exact dates for both freshmen and continuing students to report to school on the university website under the academic calendar page. Visit <a target=\"_blank\" href=\"https://www.knust.edu.gh/\">knust.edu.gh</a>, click on <a target=\"_blank\" href=\"https://www.knust.edu.gh/academics\">Academics</a>, and then on the <a target=\"_blank\" href=\"https://www.knust.edu.gh/academics/academic-calendar\"> Academic Calendar</a>."
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Commencement of Undergraduate Application Form Sales",
+      "patterns": [
+        "When do we start the sale of undergraduate application forms for each successive academic year?",
+        "What are the commencement dates for the sale of undergraduate application forms?",
+        "When does the sale of undergraduate application forms typically begin?",
+        "At what time of the year do we expect the sale of undergraduate application forms to start?",
+        "Are there specific dates announced each year for the commencement of undergraduate application form sales?",
+        "Is there a trend or pattern for the start dates of undergraduate application form sales in previous years?",
+        "Can I find the commencement dates for undergraduate application form sales on the university website?",
+        "Are there any deadlines for purchasing undergraduate application forms?"
+      ],
+      "responses": [
+        "Dates may differ based on the program. Kindly refer to the admission guidelines <a target=\"_blank\" href=\"https://www.knust.edu.gh/admissions/prospective/applying\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Accommodation for Foreign/international Students on Campus",
+      "patterns": [
+        "Where are foreign students accommodated on campus?",
+        "What is the accommodation arrangement for foreign students?",
+        "Where do international students stay on campus?",
+        "Which hostel houses foreign students?",
+        "Can you provide information about on-campus housing options for international students?",
+        "Are there specific dormitories or residences designated for foreign students?",
+        "What types of accommodation are available for international students on campus?",
+        "How are accommodation assignments determined for foreign students?",
+        "Are there accommodation options available off-campus for international students?",
+        "Can international students request specific accommodations or modifications for accessibility needs?"
+      ],
+      "responses": [
+        "All Foreign Students are accommodated at GUSSS Hostel within the University Campus."
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Accommodation for Ghanaian/Local Students on Campus",
+      "patterns": [
+        "Where are Ghanaian students accommodated on campus?",
+        "What are the accommodation options for Ghanaian students?",
+        "Which halls of residence are available for Ghanaian students?",
+        "Where do local students stay on campus?",
+        "Can you provide information about on-campus housing options for Ghanaian students?",
+        "Are there specific dormitories or residences designated for local students?",
+        "What types of accommodation are available for Ghanaian students on campus?",
+        "How are accommodation assignments determined for local students?",
+        "Are there accommodation options available off-campus for Ghanaian students?",
+        "Is there a security protocol in place for on-campus housing for local students?"
+      ],
+      "responses": [
+        "Hall of residences are as follows: Unity Hall (mixed), University Hall (mixed), Africa Hall (mixed), Independence Hall (mixed), Republic Hall (mixed), Queen's Hall (mixed), and Hall Seven (mixed)."
+      ],
+      "context_set": ""
+    },
+    
+    
+    {
+      "tag": "Undergraduate Admission Status",
+      "patterns": [
+        "Where can I check my admission status as an undergraduate student?",
+        "How do I verify my admission status as an undergraduate student?",
+        "Where should I go to check if I got admitted as an undergraduate?",
+        "What's the process for checking undergraduate admission status?",
+        "Can you provide the steps to check my undergraduate admission status?",
+        "What should I do if I encounter issues while checking my undergraduate admission status?",
+        "Can I check the admission status of other applicants, such as friends or family members?"
+      ],
+      "responses": [
+        "<ul><li>Visit the admissions portal <a target='_blank' href='https://apps.knust.edu.gh/admissions/'>here</a></li><li>Click on login or click <a target='_blank' href='https://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F'>here</a></li><li>Enter your application serial and PIN and click on Log in</li><li>Click on Check Status</li></ul>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Purchasing/buying Undergraduate Application Forms in Ghana",
+      "patterns": [
+        "Where can I purchase undergraduate application forms in Ghana?",
+        "From where can I buy application forms for undergraduate programs in Ghana?",
+        "What are the locations to buy undergraduate application forms in Ghana?",
+        "How can I get undergraduate application forms in Ghana?",
+        "Are there specific banks or outlets where I can purchase undergraduate application forms?",
+        "Can I buy undergraduate application forms online, or are they only available in person?",
+        "Is there a central location or office where I can obtain undergraduate application forms?",
+        "Can I pay for undergraduate application forms using mobile money or other electronic payment methods?"
+      ],
+      "responses": [
+        "<ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "Information for International Students about KNUST",
+      "patterns": [
+        "Where can international students find information about KNUST?",
+        "What information are available for international students at KNUST?",
+        "I'm an international student. How can I get information about KNUST?",
+        "Are there any health services or medical facilities accessible to international students at KNUST?",
+        "Are there any travel or transportation resources available to help international students navigate within Ghana?"
+      ],
+      "responses": [
+        "International students at KNUST can find valuable information from the International Programmes Office. This office serves as a hub for international student services and support. They offer guidance on various aspects of student life, including visa assistance, academic advising, and cultural integration. Additionally, there is a friendly union between international and national students, fostering a supportive community atmosphere."
+      ],
+      "context_set": ""
+    },
+    
+    
+    {
+      "tag": "Career Prospects for International Students at KNUST",
+      "patterns": [
+        "What are the prospects for international students at KNUST?",
+        "How does KNUST prepare international students for future leadership roles?",
+        "As an international student, what opportunities does KNUST offer for career advancement?",
+        "What are the future career prospects for international graduates of KNUST?",
+        "Are there career counseling services available for international students at KNUST?",
+        "Does KNUST offer career fairs or networking events specifically for international students?",
+        "What support does KNUST provide to help international students secure employment after graduation?",
+        "Does KNUST offer professional development workshops or training sessions for international students?",
+        "Are there any industry partnerships or collaborations that benefit international students' career prospects at KNUST?",
+        "Can international students access resources such as resume writing assistance or interview preparation workshops at KNUST?",
+        "Does KNUST offer career guidance or mentorship programs specifically tailored to the needs of international students?",
+        "Does KNUST collaborate with employers or companies to offer internships or job opportunities to international students?"
+      ],
+      "responses": [
+        "At KNUST, international students are groomed for senior leadership positions in the future. The university places a strong emphasis on teaching superior values and technological skills to its diverse student body. With rigorous and disciplined classrooms, KNUST ensures that students are well-equipped to become future leaders in their respective countries."
+      ],
+      "context_set": ""
+    },
+    
+    
+    {
+      "tag": "Cultural Diversity at KNUST",
+      "patterns": [
+        "What is the cultural environment like at KNUST?",
+        "How diverse is the student body at KNUST?",
+        "Can you describe the cultural atmosphere at KNUST?",
+        "What initiatives does KNUST have in place to promote cultural diversity among students?",
+        "Are there cultural clubs or organizations that international students can join at KNUST?",
+        "How does KNUST celebrate cultural heritage and diversity on campus?",
+        "Can international students participate in cultural exchange programs or initiatives at KNUST?",
+        "Are there opportunities for international students to share their cultural traditions and experiences with the KNUST community?",
+        "How does KNUST foster an inclusive environment that respects and values cultural differences?",
+        "Are there resources or workshops available to help international students navigate cultural adjustment and transition to life at KNUST?",
+        "Does KNUST offer cross-cultural communication training or workshops to enhance understanding and collaboration among students?",
+        "What efforts does KNUST make to ensure that cultural diversity is reflected in the curriculum and academic programming?"
+      ],
+      "responses": [
+        "An education at KNUST offers more than just academic learning. It provides students with an opportunity to immerse themselves in a culturally and ethnically rich environment. With students and faculty from around the world, KNUST fosters an atmosphere where learning from one another is as crucial as the curriculum itself. This enriching experience prepares students to thrive in our globalized world."
+      ],
+      "context_set": ""
+    },
+    
+    
+    {
+      "tag": "Application Process for International/foreign Students at KNUST",
+      "patterns": [
+        "What is the application process for foreign applicants at KNUST?",
+        "What is the application process as an international student to KNUST?",
+        "I'm from another country. What are the steps to apply to KNUST?",
+        "Can you guide me through the application process as an international student?",
+        "Are there specific admissions criteria or evaluation processes for international applicants at KNUST?",
+        "Are there any interviews or additional assessments required for international students as part of the application process?",
+        "What support services does KNUST provide to help international students with the application process?",
+        "What steps should international students take after receiving their admission offer from KNUST?"
+      ],
+      "responses": [
+        "Foreign applicants seeking admission to KNUST are required to generate an E-voucher from the university's website. This E-voucher serves as the initial step in the application process and provides access to the application portal. Upon generating the E-voucher, applicants should carefully follow the instructions provided on the website to complete their application."
+      ],
+      "context_set": ""
+    },
+    
+    
+    {
+      "tag": "Payment for KNUST Application Processing Fee (International Students)",
+      "patterns": [
+        "How can international students pay the application processing fee for KNUST?",
+        "What are the payment options available for international students to pay the application processing fee?",
+        "I'm an international student. How do I proceed to pay the application processing fee for KNUST?",
+        "Can you provide details on the payment methods accepted from international students for the application processing fee?",
+        "Can international students pay the application processing fee using foreign currency?",
+        "Is there a portal or website specifically for international students to make the payment for the application processing fee?",
+        "Are there any bank transfer instructions available for international students to pay the application processing fee?",
+        "What is the process for confirming payment of the application processing fee for international students?",
+        "Where can I find information about the amount of the application processing fee for KNUST?",
+        "Are there any additional charges or taxes associated with paying the application processing fee for KNUST?",
+        "What currency is accepted for paying the application processing fee for KNUST?",
+        "Can I pay the application processing fee using a credit card, debit card, or electronic transfer?"
+      ],
+      "responses": [
+        "The foreign application processing fee for KNUST can be paid through designated bank accounts. Applicants have the option to make payments via Ghana Commercial Bank Ltd, Ecobank Ghana Limited, or UBA. Each bank account has specific details, including account numbers and Swift codes, to ensure accurate processing of the application fee."
+      ],
+      "context_set": ""
+    },
+    
+    
+    {
+      "tag": "Completing and Submitting the Application for KNUST",
+      "patterns": [
+        "What are the requirements for completing and submitting the application?",
+        "How should I ensure my application is properly processed?",
+        "I'm ready to submit my application. What do I need to know?",
+        "Can you provide guidance on completing and submitting the application form?",
+        "What are the steps involved in completing the application form for KNUST?",
+        "Can you provide details on the required documents for completing the application for KNUST?"
+      ],
+      "responses": [
+        "It is essential to fully and properly complete the application at the time of submission to avoid processing delays or rejection. Applicants must carefully review all sections of the application form and ensure that all required fields are filled accurately. Any incomplete or improperly filled application may not be processed or considered for admission."
+      ],
+      "context_set": ""
+    }
+  ]
+}

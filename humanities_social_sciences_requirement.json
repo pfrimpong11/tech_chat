@@ -1,0 +1,841 @@
+{
+    "intents": [
+        {
+            "tag": "history_requirement",
+            "patterns": [
+                "What are the requirements for BA. History?",
+                "Can you provide the admission criteria for BA. History?",
+                "Requirements for BA. History programme?",
+                "What are the prerequisites for BA. History?",
+                "BA. History admission requirements?",
+                "Information on eligibility for BA. History?",
+                "What are the entry requirements for BA. History?",
+                "Criteria for admission into BA. History?",
+                "BA. History programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. History <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> History or Government and any one from Economics, Geography, French, Ghanaian Language, Literature in English, Religious Studies and any other General Arts Elective and a Pass in Social Studies.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics </p><p><b>'A' Level or equivalent:</b> Credit passes including History and/or Government and any One (1) or Two (2) from Economics, Geography, French, Religious Studies and Ghanaian Language.  Applicants must also have a pass in General Paper. </p><br><li><b><u>Mature applicants </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA History Cutoff Points",
+            "patterns": [
+                "cutoff points for BA History",
+                "BA History cutoff points",
+                "minimum score for BA History",
+                "required score for BA History",
+                "aggregate for BA History",
+                "what is the cutoff for BA History",
+                "cutoff marks for BA History",
+                "BA History required marks",
+                "what aggregate do I need for BA History",
+                "score needed for BA History",
+                "cutoff points for history",
+                "aggregate requirements for history",
+                "what were the cut-off aggregates for history",
+                "what are the cut-off aggregates history"
+            ],
+            "responses": [
+                "The cutoff points for BA. History are typically around aggregate 16. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "political_studies_requirement",
+            "patterns": [
+                "What are the requirements for BA. Political Studies?",
+                "Can you provide the admission criteria for BA. Political Studies?",
+                "Requirements for BA. Political Studies programme?",
+                "What are the prerequisites for BA. Political Studies?",
+                "BA. Political Studies admission requirements?",
+                "Information on eligibility for BA. Political Studies?",
+                "What are the entry requirements for BA. Political Studies?",
+                "Criteria for admission into BA. Political Studies?",
+                "BA. Political Studies programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Political Studies <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> History or Government and any one from Economics, Geography, French, Ghanaian Language, Literature in English, Religious Studies and any other General Arts Elective and a Pass in Social Studies.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics </p><p><b>'A' Level or equivalent:</b> Credit passes including History and/or Government and any One (1) or Two (2) from Economics, Geography, French, Religious Studies and Ghanaian Language.  Applicants must also have a pass in General Paper. </p><br><li><b><u>Mature applicants </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Political Studies Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Political Studies",
+                "BA Political Studies cutoff points",
+                "minimum score for BA Political Studies",
+                "required score for BA Political Studies",
+                "aggregate for BA Political Studies",
+                "what is the cutoff for BA Political Studies",
+                "cutoff marks for BA Political Studies",
+                "BA Political Studies required marks",
+                "what aggregate do I need for BA Political Studies",
+                "score needed for BA Political Studies",
+                "cutoff points for political studies",
+                "aggregate requirements for political studies",
+                "what were the cut-off aggregates for political studies",
+                "what are the cut-off aggregates political studies"
+            ],
+            "responses": [
+                "The cutoff points for BA. Political Studies are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "geography_rural_development_requirement",
+            "patterns": [
+                "What are the requirements for BA. Geography and Rural Development?",
+                "Can you provide the admission criteria for BA. Geography and Rural Development?",
+                "Requirements for BA. Geography and Rural Development programme?",
+                "What are the prerequisites for BA. Geography and Rural Development?",
+                "BA. Geography and Rural Development admission requirements?",
+                "Information on eligibility for BA. Geography and Rural Development?",
+                "What are the entry requirements for BA. Geography and Rural Development?",
+                "Criteria for admission into BA. Geography and Rural Development?",
+                "BA. Geography and Rural Development programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Geography and Rural Development <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p>Core Subjects: Credit passes in English Language, Mathematics, and Integrated Science </p><p>Elective Subjects: Credit passes in Geography and any other TWO (2) from the following: Economics, Government, French, Literature in English, Religious Studies, History, Elective Mathematics, Akan, and any other General Arts Elective. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes including Geography and TWO (2) other Subjects from History, French, English, Akan, Religious Studies, Elective Mathematics and Economics. They must also obtain a pass in General Paper. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Geography and Rural Development Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Geography and Rural Development",
+                "BA Geography and Rural Development cutoff points",
+                "minimum score for BA Geography and Rural Development",
+                "required score for BA Geography and Rural Development",
+                "aggregate for BA Geography and Rural Development",
+                "what is the cutoff for BA Geography and Rural Development",
+                "cutoff marks for BA Geography and Rural Development",
+                "BA Geography and Rural Development required marks",
+                "what aggregate do I need for BA Geography and Rural Development",
+                "score needed for BA Geography and Rural Development",
+                "cutoff points for geography and rural development",
+                "aggregate requirements for geography and rural development",
+                "what were the cut-off aggregates for geography and rural development",
+                "what are the cut-off aggregates geography and rural development"
+            ],
+            "responses": [
+                "The cutoff points for BA. Geography and Rural Development are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "english_requirement",
+            "patterns": [
+                "What are the requirements for BA. English?",
+                "Can you provide the admission criteria for BA. English?",
+                "Requirements for BA. English programme?",
+                "What are the prerequisites for BA. English?",
+                "BA. English admission requirements?",
+                "Information on eligibility for BA. English?",
+                "What are the entry requirements for BA. English?",
+                "Criteria for admission into BA. English?",
+                "BA. English programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. English <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) including Literature in English, and any TWO (2) from French, History, Government, Economics, Geography, Akan, Religious Studies, and any other subject in General Arts. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p>'A' Level: Credit passes in three subjects including Literature in English and TWO (2) other subjects from History, French, English, Akan, Religious Studies, and Economics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA English Cutoff Points",
+            "patterns": [
+                "cutoff points for BA English",
+                "BA English cutoff points",
+                "minimum score for BA English",
+                "required score for BA English",
+                "aggregate for BA English",
+                "what is the cutoff for BA English",
+                "cutoff marks for BA English",
+                "BA English required marks",
+                "what aggregate do I need for BA English",
+                "score needed for BA English",
+                "cutoff points for English",
+                "aggregate requirements for English",
+                "what were the cut-off aggregates for English",
+                "what are the cut-off aggregates English"
+            ],
+            "responses": [
+                "The cutoff points for BA. English are typically around aggregate 16. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "french_requirements",
+            "patterns": [
+                "What are the requirements for BA. French and Francophone Studies?",
+                "Can you provide the admission criteria for BA. French?",
+                "Requirements for BA. French and Francophone Studies programme?",
+                "What are the prerequisites for BA. French and Francophone Studies?",
+                "BA. French admission requirements?",
+                "Information on eligibility for BA. French and Francophone Studies?",
+                "What are the entry requirements for BA. French?",
+                "Criteria for admission into BA. French and Francophone Studies?",
+                "BA. French programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. French and Francophone Studies <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Good pass in French (at Grade A1-B3) and any TWO from History, Religious Studies, Economics, Geography, Government, Literature in English, Business Management, Ghanaian Language, and any other General Arts Elective. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in THREE (3) subjects including French and/or Akan or any other Ghanaian Language, and any TWO (2) of the following: Literature in English, Economics, Geography, Government, History, Business Management, and Religious Studies. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA French and Francophone Studies Cutoff Points",
+            "patterns": [
+                "cutoff points for BA French",
+                "BA French and Francophone Studies cutoff points",
+                "minimum score for BA French and Francophone Studies",
+                "required score for BA French",
+                "aggregate for BA French and Francophone Studies",
+                "what is the cutoff for BA French and Francophone Studies",
+                "cutoff marks for BA French",
+                "BA French and Francophone Studies required marks",
+                "what aggregate do I need for BA French and Francophone Studies",
+                "score needed for French",
+                "cutoff points for French",
+                "aggregate requirements for French and Francophone Studies",
+                "what were the cut-off aggregates for French and Francophone Studies",
+                "what are the cut-off aggregates French"
+            ],
+            "responses": [
+                "The cutoff points for BA. French and Francophone Studies are typically around aggregate 14. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "akan_language_requirements",
+            "patterns": [
+                "What are the requirements for BA. Akan Language and Culture?",
+                "Can you provide the admission criteria for BA. Akan Language and Culture?",
+                "Requirements for BA. Akan Language and Culture programme?",
+                "What are the prerequisites for BA. Akan Language and Culture?",
+                "BA. Akan Language and Culture admission requirements?",
+                "Information on eligibility for BA. Akan Language and Culture?",
+                "What are the entry requirements for BA. Akan Language and Culture?",
+                "Criteria for admission into BA. Akan Language and Culture?",
+                "BA. Akan Language and Culture programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Akan Language and Culture <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) including Akan (Asante Twi, Fante, and Akuapem Twi) and any TWO from History, Geography, Literature in English, French, Economics, Religious Studies, Government and Business Management. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in THREE (3) subjects including French and/or Akan or any other Ghanaian Language, and any TWO (2) of the following: Literature in English, Economics, Geography, Government, History, Business Management, and Religious Studies. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Akan Language and Culture Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Akan Language and Culture",
+                "BA Akan Language and Culture cutoff points",
+                "minimum score for BA Akan Language and Culture",
+                "required score for BA Akan Language and Culture",
+                "aggregate for BA Akan Language and Culture",
+                "what is the cutoff for BA Akan Language and Culture",
+                "cutoff marks for BA Akan Language and Culture",
+                "BA Akan Language and Culture required marks",
+                "what aggregate do I need for BA Akan Language and Culture",
+                "score needed for BA Akan Language and Culture",
+                "cutoff points for Akan Language and Culture",
+                "aggregate requirements for Akan Language and Culture",
+                "what were the cut-off aggregates for Akan Language and Culture",
+                "what are the cut-off aggregates Akan Language and Culture"
+            ],
+            "responses": [
+                "The cutoff points for BA. Akan Language and Culture are typically around aggregate 20. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "linguistics_requirements",
+            "patterns": [
+                "What are the requirements for BA. Linguistics?",
+                "Can you provide the admission criteria for BA. Linguistics?",
+                "Requirements for BA. Linguistics programme?",
+                "What are the prerequisites for BA. Linguistics?",
+                "BA. Linguistics admission requirements?",
+                "Information on eligibility for BA. Linguistics?",
+                "What are the entry requirements for BA. Linguistics?",
+                "Criteria for admission into BA. Linguistics?",
+                "BA. Linguistics programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Linguistics <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) from any ONE (1) of the following options.  </p><ul><li>Three (3) Electives from Group A OR  </li><li>Two (2) from Group A and One (1) from Group B OR  </li><li>One (1) from Group A and Two (2) from Group B</li><br><p><b>Group A:</b> English Literature, Ghanaian Language (e.g., Asante Twi, Akuapem Twi, and Fante, Ewe, Ga, etc.,), Foreign Language (e. g. French, Igbo, Wolof, Yoruba, etc.).</p><p><b>Group B:</b> History, Geography, Economics, Religious Studies, Government, Business Management. </p></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in THREE (3) subjects in the TWO (2) Subject Groups below:  </p><ul><li>Either all Subjects from Group A or  </li><li>Two (2) subjects from Group A, and one (1) subject from Group B  </li><li>One (1) subject from Group A, and Two (2) subjects from Group B</li><br><p><b>GROUP A:</b> English Literature, Ghanaian Language (e.g., Asante Twi, Akuapem Twi, Fante, Ewe, Ga, etc.), Foreign Language (e. g. French, Igbo, Wolof, Yoruba, etc.). </p><p><b>GROUP B:</b> History, Geography, Economics, Religious Studies, Government, Business Management. They must also have a pass in General Paper. </p></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul><br><li><b><u>DIPLOMA APPLICANTS </u></b></li><p>Diploma (Second Class Lower or better) in Communication Studies or a related programme; e.g. Archival Studies, Journalism and International Relations. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Linguistics Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Linguistics",
+                "BA Linguistics cutoff points",
+                "minimum score for BA Linguistics",
+                "required score for BA Linguistics",
+                "aggregate for BA Linguistics",
+                "what is the cutoff for BA Linguistics",
+                "cutoff marks for BA Linguistics",
+                "BA Linguistics required marks",
+                "what aggregate do I need for BA Linguistics",
+                "score needed for BA Linguistics",
+                "cutoff points for Linguistics",
+                "aggregate requirements for Linguistics",
+                "what were the cut-off aggregates for Linguistics",
+                "what are the cut-off aggregates Linguistics"
+            ],
+            "responses": [
+                "The cutoff points for BA. Linguistics are typically around aggregate 15. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "media_communication_studies_requirements",
+            "patterns": [
+                "What are the requirements for BA. Media and Communication Studies?",
+                "Can you provide the admission criteria for BA. Media and Communication Studies?",
+                "Requirements for BA. Media and Communication Studies programme?",
+                "What are the prerequisites for BA. Media and Communication Studies?",
+                "BA. Media and Communication Studies admission requirements?",
+                "Information on eligibility for BA. Media and Communication Studies?",
+                "What are the entry requirements for BA. Media and Communication Studies?",
+                "Criteria for admission into BA. Media and Communication Studies?",
+                "BA. Media and Communication Studies programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Media and Communication Studies <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in any THREE (3) Elective subjects   </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in THREE (3) subjects in the TWO (2) Subject Groups below:  </p><ul><li>Either all Subjects from Group A or  </li><li>Two (2) subjects from Group A, and one (1) subject from Group B  </li><li>One (1) subject from Group A, and Two (2) subjects from Group B</li><br><p><b>GROUP A:</b> English Literature, Ghanaian Language (e.g., Asante Twi, Akuapem Twi, Fante, Ewe, Ga, etc.), Foreign Language (e. g. French, Igbo, Wolof, Yoruba, etc.). </p><p><b>GROUP B:</b> History, Geography, Economics, Religious Studies, Government, Business Management. They must also have a pass in General Paper. </p></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul><br><li><b><u>DIPLOMA APPLICANTS </u></b></li><p>Diploma (Second Class Lower or better) in Communication Studies or a related programme; e.g. Archival Studies, Journalism and International Relations. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Media and Communication Studies Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Media and Communication Studies",
+                "BA Media and Communication Studies cutoff points",
+                "minimum score for BA Media and Communication Studies",
+                "required score for BA Media and Communication Studies",
+                "aggregate for BA Media and Communication Studies",
+                "what is the cutoff for BA Media and Communication Studies",
+                "cutoff marks for BA Media and Communication Studies",
+                "BA Media and Communication Studies required marks",
+                "what aggregate do I need for BA Media and Communication Studies",
+                "score needed for BA Media and Communication Studies",
+                "cutoff points for Media and Communication Studies",
+                "aggregate requirements for Media and Communication Studies",
+                "what were the cut-off aggregates for Media and Communication Studies",
+                "what are the cut-off aggregates Media and Communication Studies"
+            ],
+            "responses": [
+                "The cutoff points for BA. Media and Communication Studies are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "sociology_requirements",
+            "patterns": [
+                "What are the requirements for BA. Sociology?",
+                "Can you provide the admission criteria for BA. Sociology?",
+                "Requirements for BA. Sociology programme?",
+                "What are the prerequisites for BA. Sociology?",
+                "BA. Sociology admission requirements?",
+                "Information on eligibility for BA. Sociology?",
+                "What are the entry requirements for BA. Sociology?",
+                "Criteria for admission into BA. Sociology?",
+                "BA. Sociology programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Sociology <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) from History, Geography, Literature in English, French, Ghanaian Language, Government, Business Management, Elective Mathematics, Economics and other General Arts Elective and Science Electives.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in THREE (3) subjects from Government, Religious Studies, History, Economics, and Literature in English, French, Ghanaian Language and Elective Mathematics. They must also have a pass in General Paper. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul><br><li><b><u>DIPLOMA APPLICANTS </u></b></li><ul><li>Diploma in Social Work/Social Administration and any other relevant Diploma from an accredited university or Institution. </li><li>An applicant must pass a written examination and interview. Such candidates would be admitted into the second year of the Programme. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Sociology Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Sociology",
+                "BA Sociology cutoff points",
+                "minimum score for BA Sociology",
+                "required score for BA Sociology",
+                "aggregate for BA Sociology",
+                "what is the cutoff for BA Sociology",
+                "cutoff marks for BA Sociology",
+                "BA Sociology required marks",
+                "what aggregate do I need for BA Sociology",
+                "score needed for BA Sociology",
+                "cutoff points for Sociology",
+                "aggregate requirements for Sociology",
+                "what were the cut-off aggregates for Sociology",
+                "what are the cut-off aggregates Sociology"
+            ],
+            "responses": [
+                "The cutoff points for BA. Sociology are typically around aggregate 11. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "social_work_requirements",
+            "patterns": [
+                "What are the requirements for BA. Social Work?",
+                "Can you provide the admission criteria for BA. Social Work?",
+                "Requirements for BA. Social Work programme?",
+                "What are the prerequisites for BA. Social Work?",
+                "BA. Social Work admission requirements?",
+                "Information on eligibility for BA. Social Work?",
+                "What are the entry requirements for BA. Social Work?",
+                "Criteria for admission into BA. Social Work?",
+                "BA. Social Work programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Social Work <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) from History, Geography, Literature in English, French, Ghanaian Language, Government, Business Management, Elective Mathematics, Economics and other General Arts Elective and Science Electives.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in THREE (3) subjects from Government, Religious Studies, History, Economics, and Literature in English, French, Ghanaian Language and Elective Mathematics. They must also have a pass in General Paper. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul><br><li><b><u>DIPLOMA APPLICANTS </u></b></li><ul><li>Diploma in Social Work/Social Administration and any other relevant Diploma from an accredited university or Institution. </li><li>An applicant must pass a written examination and interview. Such candidates would be admitted into the second year of the Programme. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Social Work Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Social Work",
+                "BA Social Work cutoff points",
+                "minimum score for BA Social Work",
+                "required score for BA Social Work",
+                "aggregate for BA Social Work",
+                "what is the cutoff for BA Social Work",
+                "cutoff marks for BA Social Work",
+                "BA Social Work required marks",
+                "what aggregate do I need for BA Social Work",
+                "score needed for BA Social Work",
+                "cutoff points for Social Work",
+                "aggregate requirements for Social Work",
+                "what were the cut-off aggregates for Social Work",
+                "what are the cut-off aggregates Social Work"
+            ],
+            "responses": [
+                "The cutoff points for BA. Social Work are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "religious_studies_requirements",
+            "patterns": [
+                "What are the requirements for BA. Religious Studies?",
+                "Can you provide the admission criteria for BA. Religious Studies?",
+                "Requirements for BA. Religious Studies programme?",
+                "What are the prerequisites for BA. Religious Studies?",
+                "BA. Religious Studies admission requirements?",
+                "Information on eligibility for BA. Religious Studies?",
+                "What are the entry requirements for BA. Religious Studies?",
+                "Criteria for admission into BA. Religious Studies?",
+                "BA. Religious Studies programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Religious Studies <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) General Arts subjects, including Christian Religious Studies (CRS) or Islamic Religious Studies (IRS). </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in THREE (3) subjects from Christian Religious Studies, History, Literature in English, French, Economics, Government, and Geography. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul><br><li><b><u>DIPLOMA APPLICANTS </u></b></li><p>Diploma or Higher National Diploma in Religious Studies or Theology with a Minimum Grade “B+” from an Accredited University or Theological Seminary will be admitted into the SECOND YEAR of the programme, subject to passing an entrance examination and interview.  </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Religious Studies Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Religious Studies",
+                "BA Religious Studies cutoff points",
+                "minimum score for BA Religious Studies",
+                "required score for BA Religious Studies",
+                "aggregate for BA Religious Studies",
+                "what is the cutoff for BA Religious Studies",
+                "cutoff marks for BA Religious Studies",
+                "BA Religious Studies required marks",
+                "what aggregate do I need for BA Religious Studies",
+                "score needed for BA Religious Studies",
+                "cutoff points for Religious Studies",
+                "aggregate requirements for Religious Studies",
+                "what were the cut-off aggregates for Religious Studies",
+                "what are the cut-off aggregates Religious Studies"
+            ],
+            "responses": [
+                "The cutoff points for BA. Religious Studies are typically around aggregate 18. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "economics_requirements",
+            "patterns": [
+                "What are the requirements for BA. Economics?",
+                "Can you provide the admission criteria for BA. Economics?",
+                "Requirements for BA. Economics programme?",
+                "What are the prerequisites for BA. Economics?",
+                "BA. Economics admission requirements?",
+                "Information on eligibility for BA. Economics?",
+                "What are the entry requirements for BA. Economics?",
+                "Criteria for admission into BA. Economics?",
+                "BA. Economics programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Economics <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:</b> Credit passes in Mathematics, and any TWO (2) of the following:  </p><ul><li><b>General Arts:</b> Economics, Geography, Government, History, Literature in English, French, Christian Religious Studies, Ghanaian Language, Information and Communication Technology (ICT) </li><li><b>Business:</b> Economics, Principles of Cost Accounting, Business Management, Costing, and ICT </li><li><b>General Science:</b> Biology, Chemistry, Physics, Geography, and ICT </li><li><b>Technical:</b> Technical Drawing, Engineering Science, Applied Electricity, Auto mechanics, Woodwork, Metalwork, and ICT </li><li><b>Home Economics:</b> Management in Living, Clothing and Textiles, Food and Nutrition, Textiles, General Knowledge in Arts, French, Biology, Chemistry</li><li><b>Visual Arts:</b> General Knowledge in Art, Literature in English, Graphic Design, Picture Making, Sculpture, Ceramics, Batik, Tie and Dye </li></ul><br><li><b><u>A LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b> Credit passes in THREE (3) subjects including Economics, Mathematics and any ONE from Geography, French, Literature in English, Business Management, History, Government etc. Applicants must also have a pass in General Paper. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Economics Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Economics",
+                "BA Economics cutoff points",
+                "minimum score for BA Economics",
+                "required score for BA Economics",
+                "aggregate for BA Economics",
+                "what is the cutoff for BA Economics",
+                "cutoff marks for BA Economics",
+                "BA Economics required marks",
+                "what aggregate do I need for BA Economics",
+                "score needed for BA Economics",
+                "cutoff points for Economics",
+                "aggregate requirements for Economics",
+                "what were the cut-off aggregates for Economics",
+                "what are the cut-off aggregates Economics"
+            ],
+            "responses": [
+                "The cutoff points for BA. Economics are typically around aggregate 13. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "law_requirements",
+            "patterns": [
+                "What are the requirements for Bachelor of Law (LLB)?",
+                "What are the requirements for Law?",
+                "Can you provide the admission criteria for LLB programme?",
+                "Requirements for LLB programme?",
+                "What are the prerequisites for LLB?",
+                "What are the prerequisites for law?",
+                "law admission requirements?",
+                "LLB admission requirements?",
+                "Information on eligibility for LLB?",
+                "Information on eligibility for Law?",
+                "What are the entry requirements for LLB programme?",
+                "What are the entry requirements for Law programme?",
+                "Criteria for admission into LLB?",
+                "LLB programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for Bachelor of Law (LLB) <ul><li><b><u>WASSCE/SSSCE APPLICANTS (Category I) </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) from the following programmes: General Arts; Business; Visual Art or General Science. </p><br><li><b><u>'A' LEVEL APPLICANTS (Category I) </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b>  Credit passes in relevant subjects in General Science, Business, Visual Art or General Arts. </p><br><li><b><u>MATURE APPLICANTS (Category I) </u></b></li><ul><li>An applicant should be at least 25 years at the time of the application. </li><li>An applicant must satisfy the requirements for either WASSCE/SSSCE or 'A' Level </li><li>Short-listed Applicants shall take an entrance examination and pass an interview.  Applicants in this category will be required to pursue the Programme for Four (4) Years. </li><br><i>Mature applicants must be non-degree holders. </i></ul><br><li><b><u>OTHER APPLICANTS (Category II) </u></b></li><br><i><b>Degree and/or Higher Degree Holders in Any Discipline </b></i><p>Applicants must satisfy the University's General Requirements for Admission into Degree Programmes. </p><p>Applicants with the above qualification in any discipline may apply. Short-listed applicants shall take an entrance examination and pass an interview. </p><p><b>Applicants in category II</b></p><ul><li>Will be required to pursue the Programme, in Parallel mode, for Three (3) years</li><li>Mature applicants with a Diploma with more than Ten (10) years working experience may apply under this category. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "LLB Cutoff Points",
+            "patterns": [
+                "cutoff points for LLB",
+                "cutoff points for Law",
+                "LLB cutoff points",
+                "minimum score for LLB",
+                "required score for LLB",
+                "aggregate for LLB",
+                "aggregate for Law",
+                "what is the cutoff for LLB",
+                "cutoff marks for LLB",
+                "cutoff marks for Law",
+                "LLB required marks",
+                "what aggregate do I need for LLB",
+                "score needed for LLB",
+                "cutoff points for Bachelor of Laws",
+                "aggregate requirements for Bachelor of Laws",
+                "what were the cut-off aggregates for Bachelor of Laws",
+                "what are the cut-off aggregates Bachelor of Laws"
+            ],
+            "responses": [
+                "The cutoff points for LLB (Bachelor of Laws) are typically around aggregate 07. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_business_admin_human_resource_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Human Resource Management?",
+                "What are the requirements for BSc. Management?",
+                "Can you provide the admission criteria for BSc. Business Administration Human Resource?",
+                "Requirements for BSc. Business Administration programme?",
+                "What are the prerequisites for BSc. Business Administration (HRM/Management)?",
+                "BSc. Business Administration (Management) admission requirements?",
+                "Information on eligibility for BSc. Business Administration?",
+                "What are the entry requirements for BSc. Business Administration programme?",
+                "Criteria for admission into BSc. Business Administration?",
+                "BSc. Human Resource Management programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Business Administration (Human Resource Management/Management) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science.  </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from any of the following groups: Business, General Arts, General Science, and Vocational/Home Economics. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects in General Arts, Business, and General Science. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant should be at least 25 years at the time of submitting the application. </li><li>An applicant must satisfy the requirement for either 'A' Level or WASSCE/SSSCE with credit passes in THREE (3) Elective Subjects in Business, General Arts, General Science, and Vocational/Home Economics.  </li><li>Short-listed Applicants shall take an entrance examination and pass an interview.  </li></ul><br><li><b><u>OTHER APPLICANTS  </u></b></li><ul><li>General Business Certificate (GBCE) and/or Advanced Business Certificate (ABCE):  </li><ul><li>Credit passes in at least SIX (6) subjects including English Language and Business Mathematics at the GBCE, or  </li><li>Credit passes in the THREE (3) relevant Compulsory Subjects and THREE (3) Optional Subjects at the ABCE.  </li><li>Applicants need both GBCE and ABCE to qualify. </li></ul><br><li>ACCA, ICA, ACIB or CIM: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core Subjects and THREE Electives OR, </li><li>FIVE (5) credit passes at the 'O' Level including English Language and Mathematics. Applicants in this category are admitted into year one. </li></ul><br><li>HND with Second Class (Lower Division) and above: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core subjects and THREE (3) Electives OR, </li><li>FIVE (5) credit passes at 'O' level including English language and mathematics. These applicants would be placed in either Year Two (2) or Year Three (3) after passing an entrance examination/interview. </li></ul></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Business Administration (HRM) Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Business Administration HRM",
+                "cutoff points for BSc Business Administration Human Resource management",
+                "BSc Business Administration HRM cutoff points",
+                "BSc Human Resource Management cutoff points",
+                "minimum score for BSc Business Administration HRM",
+                "required score for BSc Business Administration HRM",
+                "aggregate for BSc Business Administration HRM",
+                "aggregate for Human Resource Management",
+                "what is the cutoff for BSc Business Administration HRM",
+                "cutoff marks for BSc Business Administration Human Resource Management",
+                "BSc Business Administration HRM required marks",
+                "what aggregate do I need for BSc Business Administration HRM",
+                "score needed for BSc Business Administration HRM",
+                "cutoff points for Business Administration HRM",
+                "cutoff points for Human Resource Management",
+                "cutoff points for Business Administration Human Resource Management",
+                "aggregate requirements for Business Administration HRM",
+                "what were the cut-off aggregates for Business Administration HRM",
+                "what are the cut-off aggregates Business Administration Human Resource Management"
+            ],
+            "responses": [
+                "The cutoff points for BSc Business Administration (Human Resource Management) are typically around aggregate 09. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_business_admin_marketing_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Business Administration (Marketing/International Business)?",
+                "Can you provide the admission criteria for BSc. Business Administration (Marketing/International Business)?",
+                "Requirements for BSc. Business Administration (Marketing/International Business) programme?",
+                "What are the prerequisites for BSc. Business Administration (Marketing/International Business)?",
+                "BSc. Business Administration (Marketing/International Business) admission requirements?",
+                "Information on eligibility for BSc. Business Administration (Marketing/International Business)?",
+                "What are the entry requirements for BSc. Business Administration (Marketing/International Business) programme?",
+                "Criteria for admission into BSc. Business Administration (Marketing/International Business)?",
+                "BSc. Business Administration (Marketing/International Business) programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Business Administration (Marketing/International Business) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science.  </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from any of the following groups: Business, General Arts, General Science, and Vocational/Home Economics. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects in General Arts, Business, and General Science. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant should be at least 25 years at the time of submitting the application. </li><li>An applicant must satisfy the requirement for either 'A' Level or WASSCE/SSSCE with credit passes in THREE (3) Elective Subjects in Business, General Arts, General Science, and Vocational/Home Economics.  </li><li>Short-listed Applicants shall take an entrance examination and pass an interview.  </li></ul><br><li><b><u>OTHER APPLICANTS  </u></b></li><ul><li>General Business Certificate (GBCE) and/or Advanced Business Certificate (ABCE):  </li><ul><li>Credit passes in at least SIX (6) subjects including English Language and Business Mathematics at the GBCE, or  </li><li>Credit passes in the THREE (3) relevant Compulsory Subjects and THREE (3) Optional Subjects at the ABCE.  </li><li>Applicants need both GBCE and ABCE to qualify. </li></ul><br><li>ACCA, ICA, ACIB or CIM: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core Subjects and THREE Electives OR, </li><li>FIVE (5) credit passes at the 'O' Level including English Language and Mathematics. Applicants in this category are admitted into year one. </li></ul><br><li>HND with Second Class (Lower Division) and above: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core subjects and THREE (3) Electives OR, </li><li>FIVE (5) credit passes at 'O' level including English language and mathematics. These applicants would be placed in either Year Two (2) or Year Three (3) after passing an entrance examination/interview. </li></ul></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Business Administration (Marketing/International Business) Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Business Administration Marketing International Business",
+                "cutoff points for Marketing International Business",
+                "cutoff points for Marketing",
+                "BSc Business Administration Marketing International Business cutoff points",
+                "minimum score for BSc Business Administration Marketing International Business",
+                "required score for BSc Business Administration Marketing International Business",
+                "aggregate for BSc Business Administration Marketing International Business",
+                "what is the cutoff for BSc Business Administration Marketing International Business",
+                "cutoff marks for BSc Business Administration Marketing International Business",
+                "BSc Business Administration Marketing International Business required marks",
+                "what aggregate do I need for BSc Business Administration Marketing International Business",
+                "score needed for BSc Business Administration Marketing International Business",
+                "cutoff points for Business Administration Marketing International Business",
+                "aggregate requirements for Business Administration Marketing International Business",
+                "what were the cut-off aggregates for Business Administration Marketing International Business",
+                "what are the cut-off aggregates Business Administration Marketing International Business"
+            ],
+            "responses": [
+                "The cutoff points for BSc Business Administration (Marketing/International Business) are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_hospitality_tourism_management_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Hospitality and Tourism Management?",
+                "Can you provide the admission criteria for BSc. Hospitality and Tourism Management?",
+                "Requirements for BSc. Hospitality and Tourism Management programme?",
+                "What are the prerequisites for BSc. Hospitality and Tourism Management?",
+                "BSc. Hospitality and Tourism Management admission requirements?",
+                "Information on eligibility for BSc. Hospitality and Tourism Management?",
+                "What are the entry requirements for BSc. Hospitality and Tourism Management programme?",
+                "Criteria for admission into BSc. Hospitality and Tourism Management?",
+                "BSc. Hospitality and Tourism Management programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Hospitality and Tourism Management <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science.  </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from any of the following groups: Business, General Arts, General Science, and Vocational/Home Economics. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects in General Arts, Business, and General Science. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant should be at least 25 years at the time of submitting the application. </li><li>An applicant must satisfy the requirement for either 'A' Level or WASSCE/SSSCE with credit passes in THREE (3) Elective Subjects in Business, General Arts, General Science, and Vocational/Home Economics.  </li><li>Short-listed Applicants shall take an entrance examination and pass an interview.  </li></ul><br><li><b><u>OTHER APPLICANTS  </u></b></li><ul><li>General Business Certificate (GBCE) and/or Advanced Business Certificate (ABCE):  </li><ul><li>Credit passes in at least SIX (6) subjects including English Language and Business Mathematics at the GBCE, or  </li><li>Credit passes in the THREE (3) relevant Compulsory Subjects and THREE (3) Optional Subjects at the ABCE.  </li><li>Applicants need both GBCE and ABCE to qualify. </li></ul><br><li>ACCA, ICA, ACIB or CIM: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core Subjects and THREE Electives OR, </li><li>FIVE (5) credit passes at the 'O' Level including English Language and Mathematics. Applicants in this category are admitted into year one. </li></ul><br><li>HND with Second Class (Lower Division) and above: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core subjects and THREE (3) Electives OR, </li><li>FIVE (5) credit passes at 'O' level including English language and mathematics. These applicants would be placed in either Year Two (2) or Year Three (3) after passing an entrance examination/interview. </li></ul></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Hospitality and Tourism Management Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Hospitality and Tourism Management",
+                "BSc Hospitality and Tourism Management cutoff points",
+                "minimum score for BSc Hospitality and Tourism Management",
+                "required score for BSc Hospitality and Tourism Management",
+                "aggregate for BSc Hospitality and Tourism Management",
+                "what is the cutoff for BSc Hospitality and Tourism Management",
+                "cutoff marks for BSc Hospitality and Tourism Management",
+                "BSc Hospitality and Tourism Management required marks",
+                "what aggregate do I need for BSc Hospitality and Tourism Management",
+                "score needed for BSc Hospitality and Tourism Management",
+                "cutoff points for Hospitality and Tourism Management",
+                "aggregate requirements for Hospitality and Tourism Management",
+                "what were the cut-off aggregates for Hospitality and Tourism Management",
+                "what are the cut-off aggregates Hospitality and Tourism Management"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Hospitality and Tourism Management are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_business_admin_requirements_accounting_banking_finance",
+            "patterns": [
+                "What are the requirements for BSc. Business Administration (Accounting/Banking and Finance)?",
+                "What are the requirements for Accounting Banking and Finance?",
+                "What are the requirements for Accounting?",
+                "Can you provide the admission criteria for BSc. Business Administration (Accounting/Banking and Finance)?",
+                "Requirements for BSc. Business Administration (Accounting/Banking and Finance) programme?",
+                "What are the prerequisites for BSc. Business Administration (Accounting/Banking and Finance)?",
+                "What are the prerequisites for Accounting Banking and Finance?",
+                "What are the prerequisites for Accounting?",
+                "BSc. Business Administration (Accounting/Banking and Finance) admission requirements?",
+                "Information on eligibility for BSc. Business Administration (Accounting/Banking and Finance)?",
+                "What are the entry requirements for BSc. Business Administration (Accounting/Banking and Finance) programme?",
+                "What are the entry requirements for Accounting Banking and Finance programme?",
+                "What are the entry requirements for Accounting programme?",
+                "Criteria for admission into BSc. Business Administration (Accounting/Banking and Finance)?",
+                "BSc. Business Administration (Accounting/Banking and Finance) programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Business Administration (Accounting/Banking and Finance) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from any of the following groups; Business, General Arts, and General Science. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects in General Arts, Business, and General Science. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant should be at least 25 years at the time of submitting the application. </li><li>An applicant must satisfy the requirement for either 'A' Level or WASSCE/SSSCE with credit passes in THREE (3) Elective Subjects in Business, General Arts, and General Science.  </li><li>Short-listed Applicants shall take an entrance examination and pass an interview.   </li></ul><br><li><b><u>OTHER APPLICANTS  </u></b></li><ul><li>General Business Certificate (GBCE) and/or Advanced Business Certificate (ABCE): </li><ul><li>Credit passes in at least SIX (6) subjects including English Language and Business Mathematics at the GBCE, OR </li><li>THREE (3) credit passes in the relevant Compulsory Subjects Plus THREE (3) Optional Subjects at the ABCE.  </li></ul><br><li>ACCA, ICA, ACIB or CIM: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core Subjects and THREE Electives OR </li><li>FIVE (5) credits at the 'O' Level including English Language and Mathematics. </li><li>Applicants in this category are admitted into year one. </li></ul><br><li>HND with Second Class (Lower Division) and above: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core subjects and THREE (3) Electives OR </li><li>FIVE (5) credit passes at 'O' level including English language and mathematics. These applicants would be placed in either Year Two (2) or Year Three (3) after passing an entrance examination/interview. </li></ul></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Business Administration (Accounting/Banking and Finance) Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Business Administration Accounting Banking and Finance",
+                "cutoff points for Accounting Banking and Finance",
+                "BSc Business Administration Accounting Banking and Finance cutoff points",
+                "minimum score for BSc Business Administration Accounting Banking and Finance",
+                "required score for BSc Business Administration Accounting Banking and Finance",
+                "aggregate for BSc Business Administration Accounting Banking and Finance",
+                "what is the cutoff for BSc Business Administration Accounting Banking and Finance",
+                "cutoff marks for BSc Business Administration Accounting Banking and Finance",
+                "BSc Business Administration Accounting Banking and Finance required marks",
+                "what aggregate do I need for BSc Business Administration Accounting Banking and Finance",
+                "score needed for BSc Business Administration Accounting Banking and Finance",
+                "cutoff points for Business Administration Accounting Banking and Finance",
+                "cutoff points for Banking and Finance",
+                "cutoff points for Accounting",
+                "aggregate requirements for Business Administration Accounting Banking and Finance",
+                "what were the cut-off aggregates for Business Administration Accounting Banking and Finance",
+                "what are the cut-off aggregates Business Administration Accounting Banking and Finance"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Business Administration (Accounting/Banking and Finance) are typically around aggregate 07. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_business_admin_requirements_logistics_supply_chain_mgmt_business_info_tech",
+            "patterns": [
+                "What are the requirements for BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology)?",
+                "Can you provide the admission criteria for BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology)?",
+                "Requirements for BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology) programme?",
+                "What are the prerequisites for BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology)?",
+                "BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology) admission requirements?",
+                "Information on eligibility for BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology)?",
+                "What are the entry requirements for BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology) programme?",
+                "Criteria for admission into BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology)?",
+                "BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology) programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from any of the following groups; Business, General Arts, and General Science. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects in General Arts, Business, and General Science. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant should be at least 25 years at the time of submitting the application. </li><li>An applicant must satisfy the requirement for either 'A' Level or WASSCE/SSSCE with credit passes in THREE (3) Elective Subjects in Business, General Arts, and General Science.  </li><li>Short-listed Applicants shall take an entrance examination and pass an interview.   </li></ul><br><li><b><u>OTHER APPLICANTS  </u></b></li><ul><li>General Business Certificate (GBCE) and/or Advanced Business Certificate (ABCE): </li><ul><li>Credit passes in at least SIX (6) subjects including English Language and Business Mathematics at the GBCE, OR </li><li>THREE (3) credit passes in the relevant Compulsory Subjects Plus THREE (3) Optional Subjects at the ABCE.  </li></ul><br><li>ACCA, ICA, ACIB or CIM: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core Subjects and THREE Electives OR </li><li>FIVE (5) credits at the 'O' Level including English Language and Mathematics. </li><li>Applicants in this category are admitted into year one. </li></ul><br><li>HND with Second Class (Lower Division) and above: </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core subjects and THREE (3) Electives OR </li><li>FIVE (5) credit passes at 'O' level including English language and mathematics. These applicants would be placed in either Year Two (2) or Year Three (3) after passing an entrance examination/interview. </li></ul></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Business Administration (Logistics and Supply Chain Management/Business Information Technology) Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "cutoff points for BSc Business Administration Logistics and Supply Chain Management",
+                "cutoff points for BSc Business Administration Logistics and Supply Chain",
+                "cutoff points for Administration Logistics",
+                "cutoff points for Logistics and Supply Chain Management",
+                "cutoff points for Business Information Technology",
+                "BSc Business Administration Logistics and Supply Chain Management Business Information Technology cutoff points",
+                "minimum score for BSc Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "required score for BSc Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "aggregate for BSc Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "what is the cutoff for BSc Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "cutoff marks for BSc Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "BSc Business Administration Logistics and Supply Chain Management Business Information Technology required marks",
+                "what aggregate do I need for BSc Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "score needed for BSc Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "cutoff points for Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "aggregate requirements for Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "what were the cut-off aggregates for Business Administration Logistics and Supply Chain Management Business Information Technology",
+                "what are the cut-off aggregates Business Administration Logistics and Supply Chain Management Business Information Technology"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology) are typically around aggregate 09. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        }        
+    ]
+}

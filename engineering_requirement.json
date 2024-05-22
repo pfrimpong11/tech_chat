@@ -1,0 +1,811 @@
+{
+    "intents": [
+        {
+            "tag": "bsc_agricultural_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Agricultural Engineering?",
+                "Can you provide the admission criteria for BSc. Agricultural Engineering programme?",
+                "Requirements for BSc. Agricultural Engineering programme?",
+                "What are the prerequisites for BSc. Agricultural Engineering?",
+                "BSc. Agricultural Engineering admission requirements?",
+                "Information on eligibility for BSc. Agricultural Engineering programme?",
+                "What are the entry requirements for BSc. Agricultural Engineering programme?",
+                "Criteria for admission into BSc. Agricultural Engineering?",
+                "BSc. Agricultural Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Agricultural Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Any of the following are acceptable in place of Chemistry; Technical Drawing or Engineering Science and General Agriculture, Biology, Metalwork, Auto Mechanics, Applied Electricity, and Building Construction.  </li><i>Applicants in this category who do not have Chemistry must obtain Grade B3 in Integrated Science. </i></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Agricultural Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Agricultural Engineering",
+                "BSc Agricultural Engineering cutoff points",
+                "minimum score for BSc Agricultural Engineering",
+                "required score for BSc Agricultural Engineering",
+                "aggregate for BSc Agricultural Engineering",
+                "what is the cutoff for BSc Agricultural Engineering",
+                "cutoff marks for BSc Agricultural Engineering",
+                "BSc Agricultural Engineering required marks",
+                "what aggregate do I need for BSc Agricultural Engineering",
+                "score needed for BSc Agricultural Engineering",
+                "cutoff points for Agricultural Engineering",
+                "aggregate requirements for Agricultural Engineering",
+                "what were the cut-off aggregates for Agricultural Engineering",
+                "what are the cut-off aggregates Agricultural Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Agricultural Engineering are typically around aggregate 16. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_chemical_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Chemical Engineering?",
+                "Can you provide the admission criteria for BSc. Chemical Engineering programme?",
+                "Requirements for BSc. Chemical Engineering programme?",
+                "What are the prerequisites for BSc. Chemical Engineering?",
+                "BSc. Chemical Engineering admission requirements?",
+                "Information on eligibility for BSc. Chemical Engineering programme?",
+                "What are the entry requirements for BSc. Chemical Engineering programme?",
+                "Criteria for admission into BSc. Chemical Engineering?",
+                "BSc. Chemical Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Chemical Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Chemical Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Chemical Engineering",
+                "BSc Chemical Engineering cutoff points",
+                "minimum score for BSc Chemical Engineering",
+                "required score for BSc Chemical Engineering",
+                "aggregate for BSc Chemical Engineering",
+                "what is the cutoff for BSc Chemical Engineering",
+                "cutoff marks for BSc Chemical Engineering",
+                "BSc Chemical Engineering required marks",
+                "what aggregate do I need for BSc Chemical Engineering",
+                "score needed for BSc Chemical Engineering",
+                "cutoff points for Chemical Engineering",
+                "aggregate requirements for Chemical Engineering",
+                "what were the cut-off aggregates for Chemical Engineering",
+                "what are the cut-off aggregates Chemical Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Chemical Engineering are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_civil_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Civil Engineering?",
+                "Can you provide the admission criteria for BSc. Civil Engineering programme?",
+                "Requirements for BSc. Civil Engineering programme?",
+                "What are the prerequisites for BSc. Civil Engineering?",
+                "BSc. Civil Engineering admission requirements?",
+                "Information on eligibility for BSc. Civil Engineering programme?",
+                "What are the entry requirements for BSc. Civil Engineering programme?",
+                "Criteria for admission into BSc. Civil Engineering?",
+                "BSc. Civil Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Civil Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><ul><li>Credit passes in Mathematics, Applied Mathematics, and Physics with credit in Chemistry at 'O' Level.  </li></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Civil Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Civil Engineering",
+                "BSc Civil Engineering cutoff points",
+                "minimum score for BSc Civil Engineering",
+                "required score for BSc Civil Engineering",
+                "aggregate for BSc Civil Engineering",
+                "what is the cutoff for BSc Civil Engineering",
+                "cutoff marks for BSc Civil Engineering",
+                "BSc Civil Engineering required marks",
+                "what aggregate do I need for BSc Civil Engineering",
+                "score needed for BSc Civil Engineering",
+                "cutoff points for Civil Engineering",
+                "aggregate requirements for Civil Engineering",
+                "what were the cut-off aggregates for Civil Engineering",
+                "what are the cut-off aggregates Civil Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Civil Engineering are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_materials_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Materials Engineering?",
+                "Can you provide the admission criteria for BSc. Materials Engineering programme?",
+                "Requirements for BSc. Materials Engineering programme?",
+                "What are the prerequisites for BSc. Materials Engineering?",
+                "BSc. Materials Engineering admission requirements?",
+                "Information on eligibility for BSc. Materials Engineering programme?",
+                "What are the entry requirements for BSc. Materials Engineering programme?",
+                "Criteria for admission into BSc. Materials Engineering?",
+                "BSc. Materials Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Materials Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Materials Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Materials Engineering",
+                "BSc Materials Engineering cutoff points",
+                "minimum score for BSc Materials Engineering",
+                "required score for BSc Materials Engineering",
+                "aggregate for BSc Materials Engineering",
+                "what is the cutoff for BSc Materials Engineering",
+                "cutoff marks for BSc Materials Engineering",
+                "BSc Materials Engineering required marks",
+                "what aggregate do I need for BSc Materials Engineering",
+                "score needed for BSc Materials Engineering",
+                "cutoff points for Materials Engineering",
+                "aggregate requirements for Materials Engineering",
+                "what were the cut-off aggregates for Materials Engineering",
+                "what are the cut-off aggregates Materials Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Materials Engineering are typically around aggregate 13. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_mechanical_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Mechanical Engineering?",
+                "Can you provide the admission criteria for BSc. Mechanical Engineering programme?",
+                "Requirements for BSc. Mechanical Engineering programme?",
+                "What are the prerequisites for BSc. Mechanical Engineering?",
+                "BSc. Mechanical Engineering admission requirements?",
+                "Information on eligibility for BSc. Mechanical Engineering programme?",
+                "What are the entry requirements for BSc. Mechanical Engineering programme?",
+                "Criteria for admission into BSc. Mechanical Engineering?",
+                "BSc. Mechanical Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Mechanical Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Any of the following is acceptable in place of Chemistry: Metal Work, Auto Mechanics, Applied Electricity, Technical Drawing, Building Construction, and Woodwork.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li><li>Applicants must have at least THREE (3) years working experience.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Mechanical Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Mechanical Engineering",
+                "BSc Mechanical Engineering cutoff points",
+                "minimum score for BSc Mechanical Engineering",
+                "required score for BSc Mechanical Engineering",
+                "aggregate for BSc Mechanical Engineering",
+                "what is the cutoff for BSc Mechanical Engineering",
+                "cutoff marks for BSc Mechanical Engineering",
+                "BSc Mechanical Engineering required marks",
+                "what aggregate do I need for BSc Mechanical Engineering",
+                "score needed for BSc Mechanical Engineering",
+                "cutoff points for Mechanical Engineering",
+                "aggregate requirements for Mechanical Engineering",
+                "what were the cut-off aggregates for Mechanical Engineering",
+                "what are the cut-off aggregates Mechanical Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Mechanical Engineering are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_aerospace_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Aerospace Engineering?",
+                "Can you provide the admission criteria for BSc. Aerospace Engineering programme?",
+                "Requirements for BSc. Aerospace Engineering programme?",
+                "What are the prerequisites for BSc. Aerospace Engineering?",
+                "BSc. Aerospace Engineering admission requirements?",
+                "Information on eligibility for BSc. Aerospace Engineering programme?",
+                "What are the entry requirements for BSc. Aerospace Engineering programme?",
+                "Criteria for admission into BSc. Aerospace Engineering?",
+                "BSc. Aerospace Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Aerospace Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Any of the following is acceptable in place of Chemistry: Metal Work, Auto Mechanics, Applied Electricity, Technical Drawing, Building Construction, and Woodwork.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Aerospace Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Aerospace Engineering",
+                "BSc Aerospace Engineering cutoff points",
+                "minimum score for BSc Aerospace Engineering",
+                "required score for BSc Aerospace Engineering",
+                "aggregate for BSc Aerospace Engineering",
+                "what is the cutoff for BSc Aerospace Engineering",
+                "cutoff marks for BSc Aerospace Engineering",
+                "BSc Aerospace Engineering required marks",
+                "what aggregate do I need for BSc Aerospace Engineering",
+                "score needed for BSc Aerospace Engineering",
+                "cutoff points for Aerospace Engineering",
+                "aggregate requirements for Aerospace Engineering",
+                "what were the cut-off aggregates for Aerospace Engineering",
+                "what are the cut-off aggregates Aerospace Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Aerospace Engineering are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_petroleum_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Petroleum Engineering?",
+                "Can you provide the admission criteria for BSc. Petroleum Engineering programme?",
+                "Requirements for BSc. Petroleum Engineering programme?",
+                "What are the prerequisites for BSc. Petroleum Engineering?",
+                "BSc. Petroleum Engineering admission requirements?",
+                "Information on eligibility for BSc. Petroleum Engineering programme?",
+                "What are the entry requirements for BSc. Petroleum Engineering programme?",
+                "Criteria for admission into BSc. Petroleum Engineering?",
+                "BSc. Petroleum Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Petroleum Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Petroleum Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Petroleum Engineering",
+                "BSc Petroleum Engineering cutoff points",
+                "minimum score for BSc Petroleum Engineering",
+                "required score for BSc Petroleum Engineering",
+                "aggregate for BSc Petroleum Engineering",
+                "what is the cutoff for BSc Petroleum Engineering",
+                "cutoff marks for BSc Petroleum Engineering",
+                "BSc Petroleum Engineering required marks",
+                "what aggregate do I need for BSc Petroleum Engineering",
+                "score needed for BSc Petroleum Engineering",
+                "cutoff points for Petroleum Engineering",
+                "aggregate requirements for Petroleum Engineering",
+                "what were the cut-off aggregates for Petroleum Engineering",
+                "what are the cut-off aggregates Petroleum Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Petroleum Engineering are typically around aggregate 08. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_geological_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Geological Engineering?",
+                "Can you provide the admission criteria for BSc. Geological Engineering programme?",
+                "Requirements for BSc. Geological Engineering programme?",
+                "What are the prerequisites for BSc. Geological Engineering?",
+                "BSc. Geological Engineering admission requirements?",
+                "Information on eligibility for BSc. Geological Engineering programme?",
+                "What are the entry requirements for BSc. Geological Engineering programme?",
+                "Criteria for admission into BSc. Geological Engineering?",
+                "BSc. Geological Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Geological Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Geological Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Geological Engineering",
+                "BSc Geological Engineering cutoff points",
+                "minimum score for BSc Geological Engineering",
+                "required score for BSc Geological Engineering",
+                "aggregate for BSc Geological Engineering",
+                "what is the cutoff for BSc Geological Engineering",
+                "cutoff marks for BSc Geological Engineering",
+                "BSc Geological Engineering required marks",
+                "what aggregate do I need for BSc Geological Engineering",
+                "score needed for BSc Geological Engineering",
+                "cutoff points for Geological Engineering",
+                "aggregate requirements for Geological Engineering",
+                "what were the cut-off aggregates for Geological Engineering",
+                "what are the cut-off aggregates Geological Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Geological Engineering are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_geomatic_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Geomatic (Geodetic) Engineering?",
+                "Can you provide the admission criteria for BSc. Geomatic (Geodetic) Engineering programme?",
+                "Requirements for BSc. Geomatic (Geodetic) Engineering programme?",
+                "What are the prerequisites for BSc. Geomatic (Geodetic) Engineering?",
+                "BSc. Geomatic (Geodetic) Engineering admission requirements?",
+                "Information on eligibility for BSc. Geomatic (Geodetic) Engineering programme?",
+                "What are the entry requirements for BSc. Geomatic (Geodetic) Engineering programme?",
+                "Criteria for admission into BSc. Geomatic (Geodetic) Engineering?",
+                "BSc. Geomatic (Geodetic) Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Geomatic (Geodetic) Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Geography is acceptable in place of Chemistry. </li><li>Any of the following are acceptable in place of Chemistry, Applied Electricity or Electronics. </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><ul><li>EITHER passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit pass in Chemistry OR Geography OR Mathematics, Physics and Chemistry or Geography. </li></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li><li>Geography is acceptable in place of Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Geomatic (Geodetic) Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Geomatic (Geodetic) Engineering",
+                "BSc Geomatic (Geodetic) Engineering cutoff points",
+                "minimum score for BSc Geomatic (Geodetic) Engineering",
+                "required score for BSc Geomatic (Geodetic) Engineering",
+                "aggregate for BSc Geomatic (Geodetic) Engineering",
+                "what is the cutoff for BSc Geomatic (Geodetic) Engineering",
+                "cutoff marks for BSc Geomatic (Geodetic) Engineering",
+                "BSc Geomatic (Geodetic) Engineering required marks",
+                "what aggregate do I need for BSc Geomatic (Geodetic) Engineering",
+                "score needed for BSc Geomatic (Geodetic) Engineering",
+                "cutoff points for Geomatic (Geodetic) Engineering",
+                "aggregate requirements for Geomatic (Geodetic) Engineering",
+                "what were the cut-off aggregates for Geomatic (Geodetic) Engineering",
+                "what are the cut-off aggregates Geomatic (Geodetic) Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Geomatic (Geodetic) Engineering are typically around aggregate 13. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_electrical_electronic_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Electrical and Electronic Engineering?",
+                "Can you provide the admission criteria for BSc. Electrical and Electronic Engineering programme?",
+                "Requirements for BSc. Electrical and Electronic Engineering programme?",
+                "What are the prerequisites for BSc. Electrical and Electronic Engineering?",
+                "BSc. Electrical and Electronic Engineering admission requirements?",
+                "Information on eligibility for BSc. Electrical and Electronic Engineering programme?",
+                "What are the entry requirements for BSc. Electrical and Electronic Engineering programme?",
+                "Criteria for admission into BSc. Electrical and Electronic Engineering?",
+                "BSc. Electrical and Electronic Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Electrical and Electronic Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Basic/Applied Electricity or Basic Electronics, or Information Communication Technology is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Electrical/Electronic Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Electrical/Electronic Engineering",
+                "BSc Electrical/Electronic Engineering cutoff points",
+                "minimum score for BSc Electrical/Electronic Engineering",
+                "required score for BSc Electrical/Electronic Engineering",
+                "aggregate for BSc Electrical/Electronic Engineering",
+                "what is the cutoff for BSc Electrical/Electronic Engineering",
+                "cutoff marks for BSc Electrical/Electronic Engineering",
+                "BSc Electrical/Electronic Engineering required marks",
+                "what aggregate do I need for BSc Electrical/Electronic Engineering",
+                "score needed for BSc Electrical/Electronic Engineering",
+                "cutoff points for Electrical/Electronic Engineering",
+                "aggregate requirements for Electrical/Electronic Engineering",
+                "what were the cut-off aggregates for Electrical/Electronic Engineering",
+                "what are the cut-off aggregates Electrical/Electronic Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Electrical/Electronic Engineering are typically around aggregate 08. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_computer_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Computer Engineering?",
+                "Can you provide the admission criteria for BSc. Computer Engineering programme?",
+                "Requirements for BSc. Computer Engineering programme?",
+                "What are the prerequisites for BSc. Computer Engineering?",
+                "BSc. Computer Engineering admission requirements?",
+                "Information on eligibility for BSc. Computer Engineering programme?",
+                "What are the entry requirements for BSc. Computer Engineering programme?",
+                "Criteria for admission into BSc. Computer Engineering?",
+                "BSc. Computer Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Computer Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Applicants shall have at least Second Class Honours from any accredited Computer Engineering oriented programme such as Electrical and Electronic Engineering.  </li><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Computer Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Computer Engineering",
+                "BSc Computer Engineering cutoff points",
+                "minimum score for BSc Computer Engineering",
+                "required score for BSc Computer Engineering",
+                "aggregate for BSc Computer Engineering",
+                "what is the cutoff for BSc Computer Engineering",
+                "cutoff marks for BSc Computer Engineering",
+                "BSc Computer Engineering required marks",
+                "what aggregate do I need for BSc Computer Engineering",
+                "score needed for BSc Computer Engineering",
+                "cutoff points for Computer Engineering",
+                "aggregate requirements for Computer Engineering",
+                "what were the cut-off aggregates for Computer Engineering",
+                "what are the cut-off aggregates Computer Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Computer Engineering are typically around aggregate 09. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_telecommunication_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Telecommunication Engineering?",
+                "Can you provide the admission criteria for BSc. Telecommunication Engineering programme?",
+                "Requirements for BSc. Telecommunication Engineering programme?",
+                "What are the prerequisites for BSc. Telecommunication Engineering?",
+                "BSc. Telecommunication Engineering admission requirements?",
+                "Information on eligibility for BSc. Telecommunication Engineering programme?",
+                "What are the entry requirements for BSc. Telecommunication Engineering programme?",
+                "Criteria for admission into BSc. Telecommunication Engineering?",
+                "BSc. Telecommunication Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Telecommunication Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Telecommunication Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Telecommunication Engineering",
+                "BSc Telecommunication Engineering cutoff points",
+                "minimum score for BSc Telecommunication Engineering",
+                "required score for BSc Telecommunication Engineering",
+                "aggregate for BSc Telecommunication Engineering",
+                "what is the cutoff for BSc Telecommunication Engineering",
+                "cutoff marks for BSc Telecommunication Engineering",
+                "BSc Telecommunication Engineering required marks",
+                "what aggregate do I need for BSc Telecommunication Engineering",
+                "score needed for BSc Telecommunication Engineering",
+                "cutoff points for Telecommunication Engineering",
+                "aggregate requirements for Telecommunication Engineering",
+                "what were the cut-off aggregates for Telecommunication Engineering",
+                "what are the cut-off aggregates Telecommunication Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Telecommunication Engineering are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_biomedical_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Biomedical Engineering?",
+                "Can you provide the admission criteria for BSc. Biomedical Engineering programme?",
+                "Requirements for BSc. Biomedical Engineering programme?",
+                "What are the prerequisites for BSc. Biomedical Engineering?",
+                "BSc. Biomedical Engineering admission requirements?",
+                "Information on eligibility for BSc. Biomedical Engineering programme?",
+                "What are the entry requirements for BSc. Biomedical Engineering programme?",
+                "Criteria for admission into BSc. Biomedical Engineering?",
+                "BSc. Biomedical Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Biomedical Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li><li>Biology is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Applicants shall have at least Second Class Honours from any accredited Biomedical Engineering oriented programme such as Biomedical Engineering, Electrical and Electronic Engineering, and Medical Technology. </li><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Biomedical Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Biomedical Engineering",
+                "BSc Biomedical Engineering cutoff points",
+                "minimum score for BSc Biomedical Engineering",
+                "required score for BSc Biomedical Engineering",
+                "aggregate for BSc Biomedical Engineering",
+                "what is the cutoff for BSc Biomedical Engineering",
+                "cutoff marks for BSc Biomedical Engineering",
+                "BSc Biomedical Engineering required marks",
+                "what aggregate do I need for BSc Biomedical Engineering",
+                "score needed for BSc Biomedical Engineering",
+                "cutoff points for Biomedical Engineering",
+                "aggregate requirements for Biomedical Engineering",
+                "what were the cut-off aggregates for Biomedical Engineering",
+                "what are the cut-off aggregates Biomedical Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Biomedical Engineering are typically around aggregate 07. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_petrochemical_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Petrochemical Engineering?",
+                "Can you provide the admission criteria for BSc. Petrochemical Engineering programme?",
+                "Requirements for BSc. Petrochemical Engineering programme?",
+                "What are the prerequisites for BSc. Petrochemical Engineering?",
+                "BSc. Petrochemical Engineering admission requirements?",
+                "Information on eligibility for BSc. Petrochemical Engineering programme?",
+                "What are the entry requirements for BSc. Petrochemical Engineering programme?",
+                "Criteria for admission into BSc. Petrochemical Engineering?",
+                "BSc. Petrochemical Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Petrochemical Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Petrochemical Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Petrochemical Engineering",
+                "BSc Petrochemical Engineering cutoff points",
+                "minimum score for BSc Petrochemical Engineering",
+                "required score for BSc Petrochemical Engineering",
+                "aggregate for BSc Petrochemical Engineering",
+                "what is the cutoff for BSc Petrochemical Engineering",
+                "cutoff marks for BSc Petrochemical Engineering",
+                "BSc Petrochemical Engineering required marks",
+                "what aggregate do I need for BSc Petrochemical Engineering",
+                "score needed for BSc Petrochemical Engineering",
+                "cutoff points for Petrochemical Engineering",
+                "aggregate requirements for Petrochemical Engineering",
+                "what were the cut-off aggregates for Petrochemical Engineering",
+                "what are the cut-off aggregates Petrochemical Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Petrochemical Engineering are typically around aggregate 09. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_metallurgical_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Metallurgical Engineering?",
+                "Can you provide the admission criteria for BSc. Metallurgical Engineering programme?",
+                "Requirements for BSc. Metallurgical Engineering programme?",
+                "What are the prerequisites for BSc. Metallurgical Engineering?",
+                "BSc. Metallurgical Engineering admission requirements?",
+                "Information on eligibility for BSc. Metallurgical Engineering programme?",
+                "What are the entry requirements for BSc. Metallurgical Engineering programme?",
+                "Criteria for admission into BSc. Metallurgical Engineering?",
+                "BSc. Metallurgical Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Metallurgical Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Metallurgical Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Metallurgical Engineering",
+                "BSc Metallurgical Engineering cutoff points",
+                "minimum score for BSc Metallurgical Engineering",
+                "required score for BSc Metallurgical Engineering",
+                "aggregate for BSc Metallurgical Engineering",
+                "what is the cutoff for BSc Metallurgical Engineering",
+                "cutoff marks for BSc Metallurgical Engineering",
+                "BSc Metallurgical Engineering required marks",
+                "what aggregate do I need for BSc Metallurgical Engineering",
+                "score needed for BSc Metallurgical Engineering",
+                "cutoff points for Metallurgical Engineering",
+                "aggregate requirements for Metallurgical Engineering",
+                "what were the cut-off aggregates for Metallurgical Engineering",
+                "what are the cut-off aggregates Metallurgical Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Metallurgical Engineering are typically around aggregate 14. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_automobile_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Automobile Engineering?",
+                "Can you provide the admission criteria for BSc. Automobile Engineering programme?",
+                "Requirements for BSc. Automobile Engineering programme?",
+                "What are the prerequisites for BSc. Automobile Engineering?",
+                "BSc. Automobile Engineering admission requirements?",
+                "Information on eligibility for BSc. Automobile Engineering programme?",
+                "What are the entry requirements for BSc. Automobile Engineering programme?",
+                "Criteria for admission into BSc. Automobile Engineering?",
+                "BSc. Automobile Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Automobile Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics, and any one of the following: </p><ul><li>Chemistry</li><li>Metalwork</li><li>Auto Mechanics</li><li>Applied Electricity</li><li>Technical Drawing</li><li>Building Construction</li><li>Woodwork</li></ul><br><i>Any of the following is acceptable in place of Chemistry; Metalwork, Auto Mechanics, Applied Electricity, Technical Drawing, Building Construction and Woodwork. </i><br><br><i>Applicants without Chemistry shall obtain at least B3 in Integrated Science. </i><br><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  At least credit passes in Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b><ul><li>Applicants must be 25 years at the time of the application. </li><li>A minimum of three (3) years of relevant working experience at the time of the application</li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level or HND. </li></ul> <br><li><b><u>HND APPLICANTS </u></b></li><ul><li>An applicants shall have at least Second Class Honour in any Mechanical Engineering orientated programme, such as: </li><ul><li>Mechanical Engineering with any option </li><li>Agricultural Mechanization </li><li>Automobile Engineering </li></ul><li>An Applicant must satisfy the requirements for WASSCE/SSSCE or 'O' Level. </li><li>Assessment shall be based on the applicants' transcripts.</li></ul><br><li><b><u>INTERNATIONAL AND OTHER APPLICANTS </u></b></li><ul><li>International Baccalaureate applicants may apply with contents of programmes equivalent to the Ghanaian WASSCE/SSSCE or the Ghanaian 'A' Level programmes. </li><li>Credit passes of International Baccalaureate applicants shall meet requirements 1.0 and 2.0 with equivalent certificates. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Automobile Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Automobile Engineering",
+                "BSc Automobile Engineering cutoff points",
+                "minimum score for BSc Automobile Engineering",
+                "required score for BSc Automobile Engineering",
+                "aggregate for BSc Automobile Engineering",
+                "what is the cutoff for BSc Automobile Engineering",
+                "cutoff marks for BSc Automobile Engineering",
+                "BSc Automobile Engineering required marks",
+                "what aggregate do I need for BSc Automobile Engineering",
+                "score needed for BSc Automobile Engineering",
+                "cutoff points for Automobile Engineering",
+                "aggregate requirements for Automobile Engineering",
+                "what were the cut-off aggregates for Automobile Engineering",
+                "what are the cut-off aggregates Automobile Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Automobile Engineering are typically around aggregate 13. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_industrial_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Industrial Engineering?",
+                "Can you provide the admission criteria for BSc. Industrial Engineering programme?",
+                "Requirements for BSc. Industrial Engineering programme?",
+                "What are the prerequisites for BSc. Industrial Engineering?",
+                "BSc. Industrial Engineering admission requirements?",
+                "Information on eligibility for BSc. Industrial Engineering programme?",
+                "What are the entry requirements for BSc. Industrial Engineering programme?",
+                "Criteria for admission into BSc. Industrial Engineering?",
+                "BSc. Industrial Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Industrial Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics, and any one of the following: </p><ul><li>Chemistry</li><li>Metalwork</li><li>Auto Mechanics</li><li>Applied Electricity</li><li>Technical Drawing</li><li>Building Construction</li><li>Woodwork</li></ul><br><i>Any of the following is acceptable in place of Chemistry; Metalwork, Auto Mechanics, Applied Electricity, Technical Drawing, Building Construction and Woodwork. </i><br><br><i>Applicants without Chemistry shall obtain at least B3 in Integrated Science. </i><br><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  At least credit passes in Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of the application. </li><li>A minimum of three (3) years of relevant working experience at the time of the application</li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level or HND. </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>An applicants shall have at least Second Class Honour in any Mechanical Engineering orientated programme, such as: </li><ul><li>Mechanical Engineering with any option </li><li>Agricultural Mechanization </li><li>Automobile Engineering </li></ul><li>An Applicant must satisfy the requirements for WASSCE/SSSCE or 'O' Level. </li><li>Assessment shall be based on the applicants' transcripts.</li></ul><br><li><b><u>INTERNATIONAL AND OTHER APPLICANTS </u></b></li><ul><li>International Baccalaureate applicants may apply with contents of programmes equivalent to the Ghanaian WASSCE/SSSCE or the Ghanaian 'A' Level programmes. </li><li>Credit passes of International Baccalaureate applicants shall meet requirements 1.0 and 2.0 with equivalent certificates. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Industrial Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Industrial Engineering",
+                "BSc Industrial Engineering cutoff points",
+                "minimum score for BSc Industrial Engineering",
+                "required score for BSc Industrial Engineering",
+                "aggregate for BSc Industrial Engineering",
+                "what is the cutoff for BSc Industrial Engineering",
+                "cutoff marks for BSc Industrial Engineering",
+                "BSc Industrial Engineering required marks",
+                "what aggregate do I need for BSc Industrial Engineering",
+                "score needed for BSc Industrial Engineering",
+                "cutoff points for Industrial Engineering",
+                "aggregate requirements for Industrial Engineering",
+                "what were the cut-off aggregates for Industrial Engineering",
+                "what are the cut-off aggregates Industrial Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Industrial Engineering are typically around aggregate 13. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_marine_engineering_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Marine Engineering?",
+                "Can you provide the admission criteria for BSc. Marine Engineering programme?",
+                "Requirements for BSc. Marine Engineering programme?",
+                "What are the prerequisites for BSc. Marine Engineering?",
+                "BSc. Marine Engineering admission requirements?",
+                "Information on eligibility for BSc. Marine Engineering programme?",
+                "What are the entry requirements for BSc. Marine Engineering programme?",
+                "Criteria for admission into BSc. Marine Engineering?",
+                "BSc. Marine Engineering programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Marine Engineering <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics, and any one of the following: </p><ul><li>Chemistry</li><li>Metalwork</li><li>Auto Mechanics</li><li>Applied Electricity</li><li>Technical Drawing</li><li>Building Construction</li><li>Woodwork</li></ul><br><i>Any of the following is acceptable in place of Chemistry; Metalwork, Auto Mechanics, Applied Electricity, Technical Drawing, Building Construction and Woodwork. </i><br><br><i>Applicants without Chemistry shall obtain at least B3 in Integrated Science. </i><br><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  At least credit passes in Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of the application. </li><li>A minimum of three (3) years of relevant working experience at the time of the application</li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level or HND. </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>An applicants shall have at least Second Class Honour in any Mechanical Engineering orientated programme, such as: </li><ul><li>Mechanical Engineering with any option </li><li>Agricultural Mechanization </li><li>Automobile Engineering </li></ul><li>An Applicant must satisfy the requirements for WASSCE/SSSCE or 'O' Level. </li><li>Assessment shall be based on the applicants' transcripts.</li></ul><br><li><b><u>INTERNATIONAL AND OTHER APPLICANTS </u></b></li><ul><li>International Baccalaureate applicants may apply with contents of programmes equivalent to the Ghanaian WASSCE/SSSCE or the Ghanaian 'A' Level programmes. </li><li>Credit passes of International Baccalaureate applicants shall meet requirements 1.0 and 2.0 with equivalent certificates. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Marine Engineering Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Marine Engineering",
+                "BSc Marine Engineering cutoff points",
+                "minimum score for BSc Marine Engineering",
+                "required score for BSc Marine Engineering",
+                "aggregate for BSc Marine Engineering",
+                "what is the cutoff for BSc Marine Engineering",
+                "cutoff marks for BSc Marine Engineering",
+                "BSc Marine Engineering required marks",
+                "what aggregate do I need for BSc Marine Engineering",
+                "score needed for BSc Marine Engineering",
+                "cutoff points for Marine Engineering",
+                "aggregate requirements for Marine Engineering",
+                "what were the cut-off aggregates for Marine Engineering",
+                "what are the cut-off aggregates Marine Engineering"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Marine Engineering are typically around aggregate 11. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        }        
+    ]
+}

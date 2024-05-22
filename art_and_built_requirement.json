@@ -1,0 +1,742 @@
+{
+    "intents": [
+        {
+            "tag": "bsc_architecture_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Architecture?",
+                "Can you provide the admission criteria for BSc. Architecture programme?",
+                "Requirements for BSc. Architecture programme?",
+                "What are the prerequisites for BSc. Architecture?",
+                "BSc. Architecture admission requirements?",
+                "Information on eligibility for BSc. Architecture programme?",
+                "What are the entry requirements for BSc. Architecture programme?",
+                "Criteria for admission into BSc. Architecture?",
+                "BSc. Architecture programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Architecture <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Mathematics and any TWO from the following options: </p><ul><li><b>Technical:</b> Technical Drawing or Engineering Science, Woodwork or Metalwork, Building Construction </li><li><b>General Science:</b> Biology, Chemistry, Physics </li><li><b>Visual Art:</b> General Knowledge in Art, Graphic Design, Picture Making </li><li><b>General Arts </b> Economics, Geography </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects from the following Groups: </p><ul><li>Either Three (3) Subjects from Group A (Technical /Science) </li><li>Three (3) Subjects from Group B (Visual Art/General Art) or </li><li>Three (3) Subject Combinations from Groups A and B A pass in General Paper is mandatory.</li></ul><br><li><b><u>MATURE APPLICANTS </u></b></li>Applicants must be 25 years at the time of s the application.<ul><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level or HND </li><li>An applicant must have demonstrated interest in the area of Architectural Design.   </li><li>It must be noted, however, that experience at an Architect's Office or familiarity with computer drafting techniques alone is not a special advantage. The Department shall not regard these as substitutes for the minimum entry requirements to pursue a degree Programme. Applicants may be required to pass a written and an oral examination after pre-qualification exercise. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Architecture Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Architecture",
+                "BSc Architecture cutoff points",
+                "minimum score for BSc Architecture",
+                "required score for BSc Architecture",
+                "aggregate for BSc Architecture",
+                "what is the cutoff for BSc Architecture",
+                "cutoff marks for BSc Architecture",
+                "BSc Architecture required marks",
+                "what aggregate do I need for BSc Architecture",
+                "score needed for BSc Architecture",
+                "cutoff points for Architecture",
+                "aggregate requirements for Architecture",
+                "what were the cut-off aggregates for Architecture",
+                "what are the cut-off aggregates Architecture"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Architecture are typically around aggregate 9. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_construction_technology_management_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Construction Technology and Management (Building Technology)?",
+                "Can you provide the admission criteria for BSc. Construction Technology and Management programme?",
+                "Requirements for BSc. Construction Technology and Management programme?",
+                "What are the prerequisites for BSc. Construction Technology and Management?",
+                "BSc. Construction Technology and Management admission requirements?",
+                "Information on eligibility for BSc. Construction Technology and Management programme?",
+                "What are the entry requirements for BSc. Construction Technology and Management programme?",
+                "Criteria for admission into BSc. Construction Technology and Management?",
+                "BSc. Construction Technology and Management programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for Construction Technology and Management (Building Technology) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Mathematics and any Two (2) from the following options: </p><ul><li><b>Technical:</b> Technical Drawing or Engineering Science, Woodwork, Building Construction, and Metalwork. </li><li><b>Science:</b> Chemistry, and Physics </li><li><b>General Art:</b> Economics, and Geography </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p>'O' Level or equivalent: Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p>'A' Level or equivalent:  Credit passes in Mathematics and any TWO (2) from the following options:  </p><ul><li><b>Group A:</b> Physics, and Chemistry </li><li><b>Group B:</b> Geography, Economics, Technical Drawing, and Building Construction. </li></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1) and (2.0) or HND.   </li><li>An applicant may be required to pass a qualifying examination which shall form the basis for short-listing of candidates for an interview. Candidates must also pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Construction Technology and Management Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Construction Technology and Management",
+                "BSc Construction Technology and Management cutoff points",
+                "minimum score for BSc Construction Technology and Management",
+                "required score for BSc Construction Technology and Management",
+                "aggregate for BSc Construction Technology and Management",
+                "what is the cutoff for BSc Construction Technology and Management",
+                "cutoff marks for BSc Construction Technology and Management",
+                "BSc Construction Technology and Management required marks",
+                "what aggregate do I need for BSc Construction Technology and Management",
+                "score needed for BSc Construction Technology and Management",
+                "cutoff points for Construction Technology and Management",
+                "aggregate requirements for Construction Technology and Management",
+                "what were the cut-off aggregates for Construction Technology and Management",
+                "what are the cut-off aggregates Construction Technology and Management"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Construction Technology and Management are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_quantity_surveying_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Quantity Surveying and Construction Economics (Building Technology)?",
+                "Can you provide the admission criteria for BSc. Quantity Surveying and Construction Economics programme?",
+                "Requirements for BSc. Quantity Surveying and Construction Economics programme?",
+                "What are the prerequisites for BSc. Quantity Surveying and Construction Economics?",
+                "BSc. Quantity Surveying and Construction Economics admission requirements?",
+                "Information on eligibility for BSc. Quantity Surveying and Construction Economics programme?",
+                "What are the entry requirements for BSc. Quantity Surveying and Construction Economics programme?",
+                "Criteria for admission into BSc. Quantity Surveying and Construction Economics?",
+                "BSc. Quantity Surveying and Construction Economics programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Quantity Surveying and Construction Economics (Building TEchnology) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Mathematics and any Two (2) from the following: Chemistry, Economics, Geography, Technical Drawing, Building Construction and Physics. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Mathematics and any TWO (2) from the following: Physics, Chemistry, Geography, Economics, Building Construction and Technical Drawing </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0) or HND. </li></ul><br><i>An applicants may be required to pass a qualifying examination which shall form the basis for short-listing of candidates for an interview. Candidates must also pass an interview. </i></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Quantity Surveying and Construction Economics Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Quantity Surveying and Construction Economics",
+                "BSc Quantity Surveying and Construction Economics cutoff points",
+                "minimum score for BSc Quantity Surveying and Construction Economics",
+                "required score for BSc Quantity Surveying and Construction Economics",
+                "aggregate for BSc Quantity Surveying and Construction Economics",
+                "what is the cutoff for BSc Quantity Surveying and Construction Economics",
+                "cutoff marks for BSc Quantity Surveying and Construction Economics",
+                "BSc Quantity Surveying and Construction Economics required marks",
+                "what aggregate do I need for BSc Quantity Surveying and Construction Economics",
+                "score needed for BSc Quantity Surveying and Construction Economics",
+                "cutoff points for Quantity Surveying and Construction Economics",
+                "aggregate requirements for Quantity Surveying and Construction Economics",
+                "what were the cut-off aggregates for Quantity Surveying and Construction Economics",
+                "what are the cut-off aggregates Quantity Surveying and Construction Economics"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Quantity Surveying and Construction Economics are typically around aggregate 11. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_development_planning_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Development Planning?",
+                "Can you provide the admission criteria for BSc. Development Planning programme?",
+                "Requirements for BSc. Development Planning programme?",
+                "What are the prerequisites for BSc. Development Planning?",
+                "BSc. Development Planning admission requirements?",
+                "Information on eligibility for BSc. Development Planning programme?",
+                "What are the entry requirements for BSc. Development Planning programme?",
+                "Criteria for admission into BSc. Development Planning?",
+                "BSc. Development Planning programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Development Planning <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p>Elective Subjects: Credit passes in THREE (3) Elective Subjects as follows: THREE (3) Electives from Group A, including Geography or Two (2) from Group A, including Geography and One (1) from Group B: </p><ul><li><b>Group A:</b> Economics, Introduction to Business Management, Geography, Government, Elective Mathematics, General Knowledge in Art. </li><li><b>Group B:</b> Accounting, Technical Drawing, Graphic Design, Picture Making, Sculpture, and Painting. </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in the THREE (3) subjects from the groups below: Either all Subjects from Group A, including Geography OR Two (2) subjects from Group A, including Geography, and one (1) subject from Group B </p><ul><li><b>GROUP A:</b> Economics, Geography and Government </li><li><b>GROUP B:</b> Mathematics, Statistics, General Knowledge in Art, Accounting and Business  Management. </li></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as follows. </li><li>An applicant may be required to pass a qualifying examination which shall form the basis for short-listing of candidates for an interview. Candidates must also pass an interview. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Development Planning Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Development Planning",
+                "BSc Development Planning cutoff points",
+                "minimum score for BSc Development Planning",
+                "required score for BSc Development Planning",
+                "aggregate for BSc Development Planning",
+                "what is the cutoff for BSc Development Planning",
+                "cutoff marks for BSc Development Planning",
+                "BSc Development Planning required marks",
+                "what aggregate do I need for BSc Development Planning",
+                "score needed for BSc Development Planning",
+                "cutoff points for Development Planning",
+                "aggregate requirements for Development Planning",
+                "what were the cut-off aggregates for Development Planning",
+                "what are the cut-off aggregates Development Planning"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Development Planning are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_human_settlement_planning_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Human Settlement Planning?",
+                "Can you provide the admission criteria for BSc. Human Settlement Planning programme?",
+                "Requirements for BSc. Human Settlement Planning programme?",
+                "What are the prerequisites for BSc. Human Settlement Planning?",
+                "BSc. Human Settlement Planning admission requirements?",
+                "Information on eligibility for BSc. Human Settlement Planning programme?",
+                "What are the entry requirements for BSc. Human Settlement Planning programme?",
+                "Criteria for admission into BSc. Human Settlement Planning?",
+                "BSc. Human Settlement Planning programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Human Settlement Planning <ul><li><b><u>WASSCE/ SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) Subjects in Group A including Geography, OR Credit passes in TWO (2) Subjects in Group A, including Geography, and a credit pass in ONE (1) from in Group B, as follows: </p><ul><li><b>GROUP A:</b> Economics, Introduction to Business Management, Geography, Government, Mathematics, General Knowledge in Art </li><li><b>GROUP B:</b> Accounting, Technical Drawing, Graphic Design, Picture Making, Sculpture Painting </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b> Credit passes or equivalent in TWO (2) from Group A and ONE (1) from Group B, plus a pass in General Paper. </p><ul><li><b>GROUP A:</b> Economics, Geography, and Government </li><li><b>GROUP B:</b> Mathematics, Statistics, Art, Accounting, and Business Management </li></ul><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0). </li><li>Higher National Diploma (HND), Construction Technician Course (Part III) or Professional Draughtmanship Certificates with a minimum of 5 years' experience in draughtsmanship. </li><li>An applicant may be required to pass a qualifying examination which shall form the basis for short-listing of candidates for an interview.  </li><li>An applicant may be required to pass a qualifying examination which shall form the basis for short-listing of candidates for an interview.  </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Human Settlement Planning Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Human Settlement Planning",
+                "BSc Human Settlement Planning cutoff points",
+                "minimum score for BSc Human Settlement Planning",
+                "required score for BSc Human Settlement Planning",
+                "aggregate for BSc Human Settlement Planning",
+                "what is the cutoff for BSc Human Settlement Planning",
+                "cutoff marks for BSc Human Settlement Planning",
+                "BSc Human Settlement Planning required marks",
+                "what aggregate do I need for BSc Human Settlement Planning",
+                "score needed for BSc Human Settlement Planning",
+                "cutoff points for Human Settlement Planning",
+                "aggregate requirements for Human Settlement Planning",
+                "what were the cut-off aggregates for Human Settlement Planning",
+                "what are the cut-off aggregates Human Settlement Planning"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Human Settlement Planning are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_land_economy_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Land Economy?",
+                "Can you provide the admission criteria for BSc. Land Economy programme?",
+                "Requirements for BSc. Land Economy programme?",
+                "What are the prerequisites for BSc. Land Economy?",
+                "BSc. Land Economy admission requirements?",
+                "Information on eligibility for BSc. Land Economy programme?",
+                "What are the entry requirements for BSc. Land Economy programme?",
+                "Criteria for admission into BSc. Land Economy?",
+                "BSc. Land Economy programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Land Economy <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE subjects from the following: </p><ul><li>Economics, Geography and a third subject relevant to the Land Economy Programme, preferably Accounting, Business Management, Government, Business Mathematics, French, Literature in English, History, Building Construction, Technical Drawing and Mathematics. </li><li>Economics, and TWO (2) other subjects from the following: Elective Mathematics, Geography, Accounting, Business Management, Business Mathematics, Government, French, Building Construction, Technical Drawing, and General Knowledge in Art. </li></ul><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects, two of which shall be Economics and Geography, at a grade not below C.  Preference will be given to a third subject in Mathematics, Government or History. Candidates must also pass the General Paper.  </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0), OR should hold a Diploma/HND in Estate Management.  </li><li>An applicant may be required to pass a qualifying examination which shall form the basis for short-listing of candidates for an interview. Candidates must also pass an interview. </li></ul><br><li><b><u>DIPLOMA HOLDERS  </u></b></li><p>Candidates with the Ordinary National Diploma (OND) or Higher National Diploma (HND) in Estate Management or other relevant Diploma qualification from a recognized University or Polytechnic with Cumulative Weighted Average (CWA) of 70% and above after a successful interview would be admitted into the second year of the Programme. Other Diploma holders with less than 70% as their CWA would be required to have three years’ work experience in the real estate industry and in addition pass an interview to be admitted into first year of the Programme. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Land Economy Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Land Economy",
+                "BSc Land Economy cutoff points",
+                "minimum score for BSc Land Economy",
+                "required score for BSc Land Economy",
+                "aggregate for BSc Land Economy",
+                "what is the cutoff for BSc Land Economy",
+                "cutoff marks for BSc Land Economy",
+                "BSc Land Economy required marks",
+                "what aggregate do I need for BSc Land Economy",
+                "score needed for BSc Land Economy",
+                "cutoff points for Land Economy",
+                "aggregate requirements for Land Economy",
+                "what were the cut-off aggregates for Land Economy",
+                "what are the cut-off aggregates Land Economy"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Land Economy are typically around aggregate 09. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bsc_real_estate_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Real Estate?",
+                "Can you provide the admission criteria for BSc. Real Estate programme?",
+                "Requirements for BSc. Real Estate programme?",
+                "What are the prerequisites for BSc. Real Estate?",
+                "BSc. Real Estate admission requirements?",
+                "Information on eligibility for BSc. Real Estate programme?",
+                "What are the entry requirements for BSc. Real Estate programme?",
+                "Criteria for admission into BSc. Real Estate?",
+                "BSc. Real Estate programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Real Estate <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE subjects from the following: </p><ul><li>Economics, Geography and a third subject relevant to the Land Economy Programme, preferably Accounting, Business Management, Government, Business Mathematics, French, Literature in English, History, Building Construction, Technical Drawing and Mathematics. </li><li>Economics, and TWO (2) other subjects from the following: Elective Mathematics, Geography, Accounting, Business Management, Business Mathematics, Government, French, Building Construction, Technical Drawing, and General Knowledge in Art. </li></ul><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects, two of which shall be Economics and Geography, at a grade not below C.  Preference will be given to a third subject in Mathematics, Government or History. Candidates must also pass the General Paper.  </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0), OR should hold a Diploma/HND in Estate Management.  </li><li>An applicant may be required to pass a qualifying examination which shall form the basis for short-listing of candidates for an interview. Candidates must also pass an interview. </li></ul><br><li><b><u>DIPLOMA HOLDERS  </u></b></li><p>Candidates with the Ordinary National Diploma (OND) or Higher National Diploma (HND) in Estate Management or other relevant Diploma qualification from a recognized University or Polytechnic with Cumulative Weighted Average (CWA) of 70% and above after a successful interview would be admitted into the second year of the Programme. Other Diploma holders with less than 70% as their CWA would be required to have three years’ work experience in the real estate industry and in addition pass an interview to be admitted into first year of the Programme. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Real Estate Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Real Estate",
+                "BSc Real Estate cutoff points",
+                "minimum score for BSc Real Estate",
+                "required score for BSc Real Estate",
+                "aggregate for BSc Real Estate",
+                "what is the cutoff for BSc Real Estate",
+                "cutoff marks for BSc Real Estate",
+                "BSc Real Estate required marks",
+                "what aggregate do I need for BSc Real Estate",
+                "score needed for BSc Real Estate",
+                "cutoff points for Real Estate",
+                "aggregate requirements for Real Estate",
+                "what were the cut-off aggregates for Real Estate",
+                "what are the cut-off aggregates Real Estate"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Real Estate are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bfa_fine_art_cultural_practice_requirements",
+            "patterns": [
+                "What are the requirements for BFA Fine Art and Cultural Practice?",
+                "Can you provide the admission criteria for BFA Fine Art and Cultural Practice programme?",
+                "Requirements for BFA Fine Art and Cultural Practice programme?",
+                "What are the prerequisites for BFA Fine Art and Cultural Practice?",
+                "BFA Fine Art and Cultural Practice admission requirements?",
+                "Information on eligibility for BFA Fine Art and Cultural Practice programme?",
+                "What are the entry requirements for BFA Fine Art and Cultural Practice programme?",
+                "Criteria for admission into BFA Fine Art and Cultural Practice?",
+                "BFA Fine Art and Cultural Practice programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BFA. Fine Art and Cultural Practice <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science.  </p><p><b>Elective Subjects:</b> Credit passes in THREE subjects from the following groups: </p><ul><li><b>VISUAL ART:</b> General Knowledge in Art, and any TWO (2) Visual Arts Elective Subject. </li><li><b>HOME ECONOMICS:</b> General Knowledge in Art, and any TWO (2) Home Economics Elective Subjects. </li><li><b>TECHNICAL:</b> General Knowledge in Art, plus any TWO (2) Technical Elective Subjects. </li><li><b>SCIENCE:</b> General Knowledge in Art, plus any TWO (2) Science Elective Subjects. </li><li><b>GENERAL ARTS:</b>  General Knowledge in Art, plus any TWO (2) General Arts Elective Subjects. </li><li><b>BUSINESS:</b>  General Knowledge in Art, plus any TWO (2) Business Elective Subjects. </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in General Knowledge in Art and any TWO subjects.   </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application with at least THREE (3) years working experience. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0), OR should hold a Diploma. </li><li>An applicant may be required to pass a qualifying examination which shall form the basis for short-listing of candidates for an interview. Candidates must also pass an interview. </li></ul><br><li><b><u>HND APPLICANTS/DIPLOMA CERTIFICATE IN EDUCATION IN ART AND RELATED FIELDS </u></b></li><p>An applicant who possesses an HND in Creative Art or Equivalent Diploma will be admitted into the Second (2nd) Year of the Programme. Applicants must also pass an interview. Applicants may be admitted into the SECOND or THIRD YEAR based on performance at the interview.   </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BFA Painting and Sculpture Cutoff Points",
+            "patterns": [
+                "cutoff points for BFA Painting and Sculpture",
+                "BFA Painting and Sculpture cutoff points",
+                "minimum score for BFA Painting and Sculpture",
+                "required score for BFA Painting and Sculpture",
+                "aggregate for BFA Painting and Sculpture",
+                "what is the cutoff for BFA Painting and Sculpture",
+                "cutoff marks for BFA Painting and Sculpture",
+                "BFA Painting and Sculpture required marks",
+                "what aggregate do I need for BFA Painting and Sculpture",
+                "score needed for BFA Painting and Sculpture",
+                "cutoff points for Painting and Sculpture",
+                "aggregate requirements for Painting and Sculpture",
+                "what were the cut-off aggregates for Painting and Sculpture",
+                "what are the cut-off aggregates Painting and Sculpture"
+            ],
+            "responses": [
+                "The cutoff points for BFA. Painting and Sculpture are typically around aggregate 15. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "ba_communication_design_requirements",
+            "patterns": [
+                "What are the requirements for BA Communication Design (Graphic Design)?",
+                "Can you provide the admission criteria for BA Communication Design (Graphic Design) programme?",
+                "Requirements for BA Communication Design (Graphic Design) programme?",
+                "What are the prerequisites for BA Communication Design (Graphic Design)?",
+                "BA Communication Design (Graphic Design) admission requirements?",
+                "Information on eligibility for BA Communication Design (Graphic Design) programme?",
+                "What are the entry requirements for BA Communication Design (Graphic Design) programme?",
+                "Criteria for admission into BA Communication Design (Graphic Design)?",
+                "BA Communication Design (Graphic Design) programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Communication Design (Graphic Design) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science.</p><p><b>Elective Subjects:</b> Credit passes in Graphic Design, General Knowledge in Art, ICT, and any other Visual Arts Elective Subject excluding Leatherwork, Basketry and Bead making. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in TWO (2) subjects including Art, preference would be given to applicants with THREE (3) passes at the 'A' Level with grade A or B in Art. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of the application with at least THREE (3) years working experience. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0).</li><li>An applicant may be required to pass a qualifying examination which shall form the basis for short-listing of candidates for an interview. Candidates must also pass an interview and a practical examination. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Communication Design (Graphic Design) Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Communication Design (Graphic Design)",
+                "BA Communication Design cutoff points",
+                "minimum score for BA Communication Design (Graphic Design)",
+                "required score for BA Communication Design (Graphic Design)",
+                "aggregate for BA Communication Design",
+                "what is the cutoff for BA Communication Design (Graphic Design)",
+                "cutoff marks for BA Communication Design (Graphic Design)",
+                "BA Communication Design (Graphic Design) required marks",
+                "what aggregate do I need for BA Communication Design (Graphic Design)",
+                "score needed for BA Communication Design (Graphic Design)",
+                "cutoff points for Communication Design (Graphic Design)",
+                "aggregate requirements for Communication Design (Graphic Design)",
+                "what were the cut-off aggregates for Communication Design",
+                "what are the cut-off aggregates Communication Design (Graphic Design)"
+            ],
+            "responses": [
+                "The cutoff points for BA. Communication Design (Graphic Design) are typically around aggregate 13. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "ba_integrated_rural_art_industry_requirements",
+            "patterns": [
+                "What are the requirements for BA Integrated Rural Art and Industry?",
+                "Can you provide the admission criteria for BA Integrated Rural Art and Industry programme?",
+                "Requirements for BA Integrated Rural Art and Industry programme?",
+                "What are the prerequisites for BA Integrated Rural Art and Industry?",
+                "BA Integrated Rural Art and Industry admission requirements?",
+                "Information on eligibility for BA Integrated Rural Art and Industry programme?",
+                "What are the entry requirements for BA Integrated Rural Art and Industry programme?",
+                "Criteria for admission into BA Integrated Rural Art and Industry?",
+                "BA Integrated Rural Art and Industry programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Integrated Rural Art and Industry <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from Picture Making, Leatherwork, Graphic Design, Textiles, Jewellery, Basketry, Sculpture, Ceramics, General Knowledge in Art, Management in Living, Clothing & Textiles, Food and Nutrition, Physics, Chemistry, Elective Mathematics, Biology, Technical Drawing, Woodwork, Metalwork, Religious Studies, Construction, Economics, History, Akan, Geography, Literature in English, Business Management, Accounting, Costing, and ICT.    </p><br><li><b><u>'A' LEVEL APPLICANTS  </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in TWO (2) subjects including Art. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application with at least THREE (3) years working experience. </li><li>Must satisfy the requirements for WASSCE/SSSCE or 'A' Level, as in (1.0) and (2.0). </li><li>An applicant may be required to pass a qualifying examination at which they must submit a portfolio of Artworks showing interest in Rural and Industrial Art.  </li><li>Candidates must also pass an interview and a practical examination</li></ul><br><li><b><u>DIPLOMA HOLDERS </u></b></li><ul><li>An applicant who possesses the Diploma in Rural Art and Industry High National Diploma (HND) in Education will be admitted into SECOND or THIRD YEAR of the Programme.   </li><li>Applicants must also pass an interview or written examination or both. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Integrated Rural Art and Industry Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Integrated Rural Art and Industry",
+                "BA Integrated Rural Art and Industry cutoff points",
+                "minimum score for BA Integrated Rural Art and Industry",
+                "required score for BA Integrated Rural Art and Industry",
+                "aggregate for BA Integrated Rural Art and Industry",
+                "what is the cutoff for BA Integrated Rural Art and Industry",
+                "cutoff marks for BA Integrated Rural Art and Industry",
+                "BA Integrated Rural Art and Industry required marks",
+                "what aggregate do I need for BA Integrated Rural Art and Industry",
+                "score needed for BA Integrated Rural Art and Industry",
+                "cutoff points for Integrated Rural Art and Industry",
+                "aggregate requirements for Integrated Rural Art and Industry",
+                "what were the cut-off aggregates for Integrated Rural Art and Industry",
+                "what are the cut-off aggregates Integrated Rural Art and Industry"
+            ],
+            "responses": [
+                "The cutoff points for BA. Integrated Rural Art and Industry are typically around aggregate 15. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "ba_publishing_studies_requirements",
+            "patterns": [
+                "What are the requirements for BA Publishing Studies?",
+                "Can you provide the admission criteria for BA Publishing Studies programme?",
+                "Requirements for BA Publishing Studies programme?",
+                "What are the prerequisites for BA Publishing Studies?",
+                "BA Publishing Studies admission requirements?",
+                "Information on eligibility for BA Publishing Studies programme?",
+                "What are the entry requirements for BA Publishing Studies programme?",
+                "Criteria for admission into BA Publishing Studies?",
+                "BA Publishing Studies programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Publishing Studies <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from any of the following groupings: </p><ul><li><b>VISUAL ARTS:</b> General Knowledge in Art, Picture Making and/or Graphic Design plus Textiles or Sculpture or Leatherwork. </li><li><b>GENERAL ARTS:</b> Geography, Economics, Government, English Language, History, Religious Studies, French, Ghanaian Languages etc. </li><li><b>BUSINESS:</b> Economics, Accounting, Introduction to Business Management, Business Mathematics and Principles of Costing and Elective Mathematics. </li><li><b>VOCATIONAL/HOME ECONOMICS:</b> General knowledge in Art, Management in Living plus either Food and Nutrition or Clothing and Textiles </li><li><b>SCIENCE:</b> Biology, Chemistry plus Mathematics or Physics </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in at least TWO (2) passes in the relevant subject areas as indicated in (1.0) above.   </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application with at least FIVE (5) years working experience. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0). </li><li>Candidates must also pass an interview and a practical examination. </li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BA Publishing Studies Cutoff Points",
+            "patterns": [
+                "cutoff points for BA Publishing Studies",
+                "BA Publishing Studies cutoff points",
+                "minimum score for BA Publishing Studies",
+                "required score for BA Publishing Studies",
+                "aggregate for BA Publishing Studies",
+                "what is the cutoff for BA Publishing Studies",
+                "cutoff marks for BA Publishing Studies",
+                "BA Publishing Studies required marks",
+                "what aggregate do I need for BA Publishing Studies",
+                "score needed for BA Publishing Studies",
+                "cutoff points for Publishing Studies",
+                "aggregate requirements for Publishing Studies",
+                "what were the cut-off aggregates for Publishing Studies",
+                "what are the cut-off aggregates Publishing Studies"
+            ],
+            "responses": [
+                "The cutoff points for BA. Publishing Studies are typically around aggregate 15. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "metal_product_design_technology_requirements",
+            "patterns": [
+                "What are the requirements for Metal Product Design and Technology?",
+                "Can you provide the admission criteria for Metal Product Design and Technology programme?",
+                "Requirements for Metal Product Design and Technology programme?",
+                "What are the prerequisites for Metal Product Design and Technology?",
+                "Metal Product Design and Technology admission requirements?",
+                "Information on eligibility for Metal Product Design and Technology programme?",
+                "What are the entry requirements for Metal Product Design and Technology programme?",
+                "Criteria for admission into Metal Product Design and Technology?",
+                "Metal Product Design and Technology programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for Metal Product Design and Technology <ul><li><b><u>SSSCE/WASSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from the following disciplines: Visual Art, Home Economics, Technical, and Science. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b> Credit passes in at least TWO (2) passes in the relevant subject areas as indicated in (1.0) above.  </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0). </li><li>Candidates must also pass an interview and a practical examination. </li></ul><br><li><b><u>HND AND DIPLOMA CERTIFICATE IN RELEVANT AREAS </u></b></li><p>Applicants may be admitted starting either from the SECOND or THIRD YEAR based on performance at the interview. </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Metal Product Design Technology Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Metal Product Design Technology",
+                "BSc Metal Product Design Technology cutoff points",
+                "minimum score for BSc Metal Product Design Technology",
+                "required score for BSc Metal Product Design Technology",
+                "aggregate for BSc Metal Product Design Technology",
+                "what is the cutoff for BSc Metal Product Design Technology",
+                "cutoff marks for BSc Metal Product Design Technology",
+                "BSc Metal Product Design Technology required marks",
+                "what aggregate do I need for BSc Metal Product Design Technology",
+                "score needed for BSc Metal Product Design Technology",
+                "cutoff points for Metal Product Design Technology",
+                "aggregate requirements for Metal Product Design Technology",
+                "what were the cut-off aggregates for Metal Product Design Technology",
+                "what are the cut-off aggregates Metal Product Design Technology"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Metal Product Design Technology are typically around aggregate 17. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "textile_design_technology_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Textile Design and Technology?",
+                "Can you provide the admission criteria for BSc. Textile Design and Technology programme?",
+                "Requirements for BSc. Textile Design and Technology programme?",
+                "What are the prerequisites for BSc. Textile Design and Technology?",
+                "BSc. Textile Design and Technology admission requirements?",
+                "Information on eligibility for BSc. Textile Design and Technology programme?",
+                "What are the entry requirements for BSc. Textile Design and Technology programme?",
+                "Criteria for admission into BSc. Textile Design and Technology?",
+                "BSc. Textile Design and Technology programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Textile Design and Technology <ul><li><b><u>WASSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science.</p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from the following disciplines: Visual Arts, Home Economics, Technical, Science, General Arts, and Business. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b> Credit passes in at least TWO (2) passes in the relevant subject areas as indicated in (1.0) above.   </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0). </li><li>Candidates must also pass an interview and a practical examination. </li></ul><br><li><b><u>HND AND DIPLOMA CERTIFICATE IN RELEVANT AREAS </u></b></li><p>Applicants may be admitted to start either from the SECOND or THIRD YEAR based on performance at the interview.  </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Textile Design and Technology Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Textile Design and Technology",
+                "BSc Textile Design and Technology cutoff points",
+                "minimum score for BSc Textile Design and Technology",
+                "required score for BSc Textile Design and Technology",
+                "aggregate for BSc Textile Design and Technology",
+                "what is the cutoff for BSc Textile Design and Technology",
+                "cutoff marks for BSc Textile Design and Technology",
+                "BSc Textile Design and Technology required marks",
+                "what aggregate do I need for BSc Textile Design and Technology",
+                "score needed for BSc Textile Design and Technology",
+                "cutoff points for Textile Design and Technology",
+                "aggregate requirements for Textile Design and Technology",
+                "what were the cut-off aggregates for Textile Design and Technology",
+                "what are the cut-off aggregates Textile Design and Technology"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Textile Design and Technology are typically around aggregate 13. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "fashion_design_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Fashion Design?",
+                "Can you provide the admission criteria for BSc. Fashion Design programme?",
+                "Requirements for BSc. Fashion Design programme?",
+                "What are the prerequisites for BSc. Fashion Design?",
+                "BSc. Fashion Design admission requirements?",
+                "Information on eligibility for BSc. Fashion Design programme?",
+                "What are the entry requirements for BSc. Fashion Design programme?",
+                "Criteria for admission into BSc. Fashion Design?",
+                "BSc. Fashion Design programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Fashion Design <ul><li><b><u>WASSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science.</p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from the following disciplines: Visual Arts, Home Economics, Technical, Science, General Arts, and Business. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b> Credit passes in at least TWO (2) passes in the relevant subject areas as indicated in (1.0) above.   </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0). </li><li>Candidates must also pass an interview and a practical examination. </li></ul><br><li><b><u>HND AND DIPLOMA CERTIFICATE IN RELEVANT AREAS </u></b></li><p>Applicants may be admitted to start either from the SECOND or THIRD YEAR based on performance at the interview.  </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Fashion Design Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Fashion Design",
+                "BSc Fashion Design cutoff points",
+                "minimum score for BSc Fashion Design",
+                "required score for BSc Fashion Design",
+                "aggregate for BSc Fashion Design",
+                "what is the cutoff for BSc Fashion Design",
+                "cutoff marks for BSc Fashion Design",
+                "BSc Fashion Design required marks",
+                "what aggregate do I need for BSc Fashion Design",
+                "score needed for BSc Fashion Design",
+                "cutoff points for Fashion Design",
+                "aggregate requirements for Fashion Design",
+                "what were the cut-off aggregates for Fashion Design",
+                "what are the cut-off aggregates Fashion Design"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Fashion Design are typically around aggregate 12. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "ceramics_requirements",
+            "patterns": [
+                "What are the requirements for BFA. Ceramics?",
+                "Can you provide the admission criteria for BFA. Ceramics programme?",
+                "Requirements for BFA. Ceramics programme?",
+                "What are the prerequisites for BFA. Ceramics?",
+                "BFA. Ceramics admission requirements?",
+                "Information on eligibility for BFA. Ceramics programme?",
+                "What are the entry requirements for BFA. Ceramics programme?",
+                "Criteria for admission into BFA. Ceramics?",
+                "BFA. Ceramics programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BFA. Ceramics <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from ANY of the following disciplines: Visual Art, Home Economics, and General Arts. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in at least TWO (2) passes in the relevant subject areas as indicated in (1.0) above.   </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0). </li><li>Candidates must also pass an interview and a practical examination. </li></ul><br><li><b><u>HND AND DIPLOMA CERTIFICATE IN RELEVANT AREAS  </u></b></li><p>Applicants with a certificate in relevant areas may be admitted to start either from the SECOND or THIRD YEAR based on performance at the interview.  </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "ceramic_technology_requirements",
+            "patterns": [
+                "What are the requirements for BSc. Ceramic Technology?",
+                "Can you provide the admission criteria for BSc. Ceramic Technology programme?",
+                "Requirements for BSc. Ceramic Technology programme?",
+                "What are the prerequisites for BSc. Ceramic Technology?",
+                "BSc. Ceramic Technology admission requirements?",
+                "Information on eligibility for BSc. Ceramic Technology programme?",
+                "What are the entry requirements for BSc. Ceramic Technology programme?",
+                "Criteria for admission into BSc. Ceramic Technology?",
+                "BSc. Ceramic Technology programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for BSc. Ceramic Technology <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in any THREE (3) subjects from any ONE of the following groupings: </p><ul><li><b>Visual Art:</b> Ceramics, General Knowledge-in-Art, and Chemistry or Mathematics or Physics. </li><li><b>Science:</b> Mathematics, Chemistry, Physics or Biology. </li><li><b>Technical:</b> Technical Drawing, Building Construction, Applied Electricity, Auto Mechanics, Electronics, Physics. </li></ul><br><li><b><u>'A' LEVEL APPLICANTS AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) in Chemistry, Mathematics, Physics or Biology.   </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of the application. </li><li>Must satisfy the requirements for WASSCE/SSSCE or A' Level, as in (1.0) and (2.0). </li><li>Candidates must also pass an interview and a practical examination. </li></ul><br><li><b><u>HND AND DIPLOMA CERTIFICATE  </u></b></li><p>Applicants with a certificate in the relevant area may be admitted to start either from the SECOND or THIRD YEAR based on performance at the interview.  </p></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "BSc Ceramics Design Technology Cutoff Points",
+            "patterns": [
+                "cutoff points for BSc Ceramics Design Technology",
+                "BSc Ceramics Design Technology cutoff points",
+                "minimum score for BSc Ceramics Design Technology",
+                "required score for BSc Ceramics Design Technology",
+                "aggregate for BSc Ceramics Design Technology",
+                "what is the cutoff for BSc Ceramics Design Technology",
+                "cutoff marks for BSc Ceramics Design Technology",
+                "BSc Ceramics Design Technology required marks",
+                "what aggregate do I need for BSc Ceramics Design Technology",
+                "score needed for BSc Ceramics Design Technology",
+                "cutoff points for Ceramics Design Technology",
+                "aggregate requirements for Ceramics Design Technology",
+                "what were the cut-off aggregates for Ceramics Design Technology",
+                "what are the cut-off aggregates Ceramics Design Technology"
+            ],
+            "responses": [
+                "The cutoff points for BSc. Ceramics Design Technology are typically around aggregate 24. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        },        
+
+
+
+        {
+            "tag": "bed_junior_high_school_education_requirements",
+            "patterns": [
+                "What are the requirements for B.Ed. Junior High School Education?",
+                "Can you provide the admission criteria for B.Ed. Junior High School Education programme?",
+                "Requirements for B.Ed. Junior High School Education programme?",
+                "What are the prerequisites for B.Ed. Junior High School Education?",
+                "B.Ed. Junior High School Education admission requirements?",
+                "Information on eligibility for B.Ed. Junior High School Education programme?",
+                "What are the entry requirements for B.Ed. Junior High School Education programme?",
+                "Criteria for admission into B.Ed. Junior High School Education?",
+                "B.Ed. Junior High School Education programme prerequisites?"
+            ],
+            "responses": [
+                "Here are the requirements for B.Ed. Junior High School Education <ul><p><b>Options:</b></p><p>a. Mathematics </p><p>b. Science</p><p>c. I.C.T</p><p>d. Agricultural Science</p><p>e. Visual Art</p><p>f. History</p><p>g. Geography</p><br><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in any THREE (3) subjects from the following programmes:</p><ul><li>Science, General Agriculture, and I.C.T. <b>(for a-d)</b></li><li>Visual Art <b>(for e)</b></li><li>General Arts including History or Geography, as may be applied <b>(for f and g)</b></li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in THREE (3) subjects from the following programmes: </p><ul><li>Science, General Agriculture, and I.C.T. <b>(for a-d)</b></li><li>Visual Art <b>(for e)</b></li><li>General Arts including History or Geography, as may be applied <b>(for f and g)</b></li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "B.Ed. Junior High School Specialism Cutoff Points",
+            "patterns": [
+                "cutoff points for B.Ed. Junior High School Specialism",
+                "B.Ed. Junior High School Specialism cutoff points",
+                "minimum score for B.Ed. Junior High School Specialism",
+                "required score for B.Ed. Junior High School Specialism",
+                "aggregate for B.Ed. Junior High School Specialism",
+                "what is the cutoff for B.Ed. Junior High School Specialism",
+                "cutoff marks for B.Ed. Junior High School Specialism",
+                "B.Ed. Junior High School Specialism required marks",
+                "what aggregate do I need for B.Ed. Junior High School Specialism",
+                "score needed for B.Ed. Junior High School Specialism",
+                "cutoff points for Junior High School Specialism",
+                "aggregate requirements for Junior High School Specialism",
+                "what were the cut-off aggregates for Junior High School Specialism",
+                "what are the cut-off aggregates Junior High School Specialism"
+            ],
+            "responses": [
+                "The cutoff points for B.Ed. Junior High School Specialism are typically around aggregate 18. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year."
+            ],
+            "context_set": ""
+        }        
+    ]
+}

@@ -1,0 +1,362 @@
+{
+    "intents": [
+        {
+            "tag": "application_process",
+            "patterns": [
+                "Start application",
+                "How do I begin the application process?",
+                "What's the first step in applying?",
+                "Application process",
+                "How to apply?",
+                "What are the steps for applying?",
+                "How can I start my application?",
+                "How do I get started with the application?",
+                "Beginning the application",
+                "Where do I begin the application process?",
+                "How do I initiate the application?",
+                "Starting the application process"
+            ],
+            "responses":[
+                "Here are the steps to apply <ul><li><b>Step 1:</b> Purchase E-voucher</li><li><b>Step 2:</b> Gather check list or document for application</li><li><b>Step 3:</b> Start application</li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "e-voucher",
+            "patterns": [
+                "Purchase E-voucher from Ghana Post Office Only",
+                "Purchase E-voucher from Ghana Post Office",
+                "Where can I purchase the e-voucher?",
+                "How do I buy the e-voucher?",
+                "How can I obtain the e-voucher?",
+                "E-voucher purchase",
+                "Where to get the e-voucher?",
+                "How to get the e-voucher?",
+                "E-voucher for application",
+                "E-voucher purchase process",
+                "Buying the e-voucher",
+                "How do I obtain the e-voucher?",
+                "E-voucher acquisition",
+                "E-voucher for application process",
+                "Where can I get the e-voucher for application?",
+                "How can I purchase the e-voucher for application?",
+                "Where to purchase the e-voucher?",
+                "How to purchase the e-voucher?"
+            ],
+            "responses": [
+                "This is how you can acquire your e-voucher <ul><li>Undergraduate/A Level/Mature/Top-up & Others: Purchase E-Voucher from Ghana Post Office Only</li><li>Ghanaian/Other Applicants with Foreign Results/Certificate: Purchase E-Voucher from Ghana Post Office </li><li>International Applicant: All International Applicants are to generate Login ID/Serial Number and PIN for the online application <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/apply/Account/Register\">here</a> </li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "document_check_list",
+            "patterns": [
+                "Document checklist",
+                "What documents are required?",
+                "What do I need for the application?",
+                "Documents needed",
+                "Required documents",
+                "Checklist for application",
+                "What is the document checklist?",
+                "What documents do I need to submit?",
+                "Required paperwork",
+                "What paperwork is necessary?",
+                "What documents should I prepare?",
+                "Document requirements",
+                "Which documents are mandatory?",
+                "What should I bring?",
+                "Document submission",
+                "What is required for submission?"
+            ],
+            "responses": [
+                "Here are the documents needed to start application <ul><b>For all Applicant</b><li>Examination Results</li><li>Birth Certificate</li><li>Ghana Card/Passport</li><li>Passport Photograph (Light green background)</li><li>Applicants from non-English speaking countries must provide a minimum of <b>one year English Proficiency Certificate.</b></li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "accepted_examination_results",
+            "patterns": [
+                "Examination results accepted",
+                "What examination results are accepted?",
+                "Which exam results are valid?",
+                "Accepted exam results",
+                "What exams are considered for application?",
+                "Eligible examination results",
+                "What exams can I use for admission?",
+                "Examination requirements",
+                "Which exams are recognized?",
+                "What exams are suitable for application?",
+                "Accepted qualifications",
+                "What qualifications are accepted?",
+                "Examination criteria",
+                "Which exams meet the criteria?",
+                "What exams are eligible?"
+            ],
+            "responses": [
+                "Examination results accepted for application <ul><li>West African Senior Secondary Certificate Examination (WASSCE)/Senior Secondary School Certificate Examination (SSSCE)</li><li>WASSCE International</li><li>International Baccalaureate</li><li>American High School Grade 12</li><li>General Business Certificate Examination (GBCE) and Advanced Business Certificate Examination (ABCE)</li><li>General Certificate Examination (GCE)/International General Certificate of Secondary Education (IGCSE) (Cambridge) Ordinary and Advanced Level</li><li><b>Higher National Diploma (HND) Applicants:</b> HND Certificate plus High School Results</li><li><b>Post-First-Degree Law Applicants:</b> First degree certificate plus High School Results</li><li><b>Doctor of Pharmacy Top-Up Applicants:</b> First Degree Certificate (BPharm) plus High School Results and Pharmacy Licensure Certificate.</li><li>Other International High School Results</li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "how_to_apply",
+            "patterns": [
+                "How to apply",
+                "Application process",
+                "Steps to apply",
+                "Application instructions",
+                "Applying for admission",
+                "How do I start my application?",
+                "What are the application steps?",
+                "Guide to applying",
+                "Applying for admission process",
+                "How do I begin the application?",
+                "Application procedure",
+                "Starting the application process",
+                "What is the application process like?",
+                "How do I submit my application?",
+                "How to start the application?",
+                "Applying for admission at KNUST",
+                "How do I apply for admission?",
+                "Step-by-step application guide"
+            ],
+            "responses": [
+              "<ol><li>Click <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/apply/Account/Login\">here</a> to enter the credentials on the voucher to Start the Application.</li><li>Complete all mandatory fields marked with *</li><li>Save and exit (If you have to log out and continue later) or save and proceed to the next step.</li><li>Educational background - In the case where your Institution is not listed, kindly select Private.</li><li>Examination Results-<ul><li>Examination type - If your examination type is not listed, select Certification/Diploma/Degree.</li><li>Sitting - Select May/June (School) if your examination type is not WASSCE/SSSCE</li><li>Year - Select year of Examination</li><li>Index Number also known as candidate number or Examination ID.</li></ul></li><li>Subject - Select subjects offered in high school and the corresponding grades.<ul><li>If awaiting results, select awaiting as the grade.</li><li>If other certificates, select the certificate and the corresponding grade/class.</li></ul></li><li>Select add results if you have more than one results or certificate.</li><li>Attach all mandatory supporting documents scanned in PDF format.<ul><li>Birth Certificate</li><li>Results slips and or Certificates (For other modes of application excluding WASSCE)</li></ul></li><li>Applicant Declaration; read, agree and tick to declare that all information provided in the application is true.</li><li>Programme Choices. (select regular as the Stream)<ul><li>Tick yes, if you want to be considered for fee-paying or parallel.</li></ul></li><li>Identification document (Ghana Card/Passport) (PDF).</li><li>Review and proceed.</li><li>Tick to declare and agree that the information provided are true.</li><li>Submit and keep a copy of the application for Personal reference.</li></ol><br><b><i>Note:</i></b><i><ul><li>During the online application process, do not leave the online application inactive for more than 5 minutes. Doing this would automatically log you out.</li><li>Until the application deadline the application can be edited as many times as needed.</li><li>Check the subject requirements for the programme you are interested in to ensure that you qualify before selecting. For example, students with home economics background cannot read BSc. Nursing at KNUST.</li><li>Those applying with “Other International High School results” may be required to do an evaluation of results/Certificate from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency.</li><li>Fee paying option is for the entire duration of the programme of study. Once you opt for fee paying you retain that status for the entire duration of the programme.</li></ul></i>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "programme",
+            "patterns": [
+                "College selection",
+                "Which college should I choose?",
+                "Selecting college",
+                "Choosing a college",
+                "College options",
+                "College selection process",
+                "How to choose a college",
+                "What college should I enter?",
+                "Entering college",
+                "College choices",
+                "College selection criteria",
+                "Selecting a college for application",
+                "College preference",
+                "Picking a college",
+                "College decision",
+                "What programmes do you offer?"
+            ],
+            "responses": [
+                "Programmes are grouped into the various colleges that offer them, kindly enter the college.<ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>"
+            ],
+            "context_set": ""
+        },
+        
+
+
+        {
+            "tag": "agriculture_and_natural_resources_programmes",
+            "patterns": [
+                "Programmes offered by College of Agriculture and Natural Resources",
+                "What programmes are available in the College of Agriculture and Natural Resources?",
+                "List of programmes in Agriculture and Natural Resources College",
+                "College of Agriculture and Natural Resources programmes",
+                "Programmes in Agriculture and Natural Resources",
+                "What degrees are offered in the College of Agriculture and Natural Resources?",
+                "Available programmes in Agriculture and Natural Resources",
+                "College of Agriculture and Natural Resources courses",
+                "What courses are offered in Agriculture and Natural Resources College?",
+                "Programmes choices in Agriculture and Natural Resources",
+                "Agriculture and Natural Resources programmes options",
+                "Degree options in Agriculture and Natural Resources",
+                "Programmes decision in Agriculture and Natural Resources",
+                "What majors are available in Agriculture and Natural Resources College?"
+            ],
+            "responses": [
+                "List of Programmes offered by College of Agriculture and Natural Resources <ul><li><b>Faculty of Agriculture </b><ul><li>BSc. Agriculture</li><li>BSc. Agricultural Biotechnology</li><li>BSc. Agribusiness Management</li><li>BSc. Landscape Design and Management</li></ul><br></li><li><b>Faculty of Natural Resources  </b><ul><li>BSc. Natural Resource Management</li><li>BSc. Forest Resources Technology</li><li>BSc. Packaging Technology</li><li>BSc. Aquaculture and Water Resource Management</li></ul></li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "art_and_built_environment_programmes",
+            "patterns": [
+                "Programmes offered by College of Art and Built Environment",
+                "What programmes are available in the College of Art and Built Environment?",
+                "List of programmes in Art and Built Environment College",
+                "College of Art and Built Environment programmes",
+                "Programmes in Art and Built Environment",
+                "What degrees are offered in the College of Art and Built Environment?",
+                "Available programmes in Art and Built Environment",
+                "College of Art and Built Environment courses",
+                "What courses are offered in Art and Built Environment College?",
+                "Programmes choices in Art and Built Environment",
+                "Art and Built Environment programmes options",
+                "Degree options in Art and Built Environment",
+                "Programmes decision in Art and Built Environment",
+                "What majors are available in Art and Built Environment College?"
+            ],
+            "responses": [
+                "List of Programmes offered by College of Art and Built Environment <ul><li><b>Faculty of Built Environment</b><ul><li>BSc. Architecture</li><li>BSc. Construction Technology and Management</li><li>BSc. Quantity Surveying and Construction Economics</li><li>BSc. Development Planning</li><li>BSc. Human Settlement Planning</li><li>BSc. Land Economy</li><li>BSc. Real Estate</li></ul><br></li><li><b>Faculty of Art</b><ul><li>BA. Communication Design</li><li>BA. Integrated Rural Art and Industry</li><li>BA. Publishing Studies</li><li>BA. Metal Product Design Technology</li><li>BA. Textile Design and Technology</li><li>BFA. Fine Art and Curatorial Practice</li><li>BFA. Ceramics</li><li>BSc. Fashion Design</li><li>BSc. Ceramics Technology</li></ul><br></li><li><b>Faculty of Educational Studies </b><ul><li>B.Ed. Junior High School Education (Mathematics, Science, ICT, Agricultural Science, History, Visual Arts and Geography)</li></ul></li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "engineering_programmes",
+            "patterns": [
+                "Programmes offered by College of Engineering",
+                "What programmes are available in the College of Engineering?",
+                "List of programmes in Engineering College",
+                "College of Engineering programmes",
+                "Programmes in Engineering",
+                "What degrees are offered in the College of Engineering?",
+                "Available programmes in Engineering",
+                "College of Engineering courses",
+                "What courses are offered in Engineering College?",
+                "Programmes choices in Engineering",
+                "Engineering programmes options",
+                "Degree options in Engineering",
+                "Programmes decision in Engineering",
+                "What majors are available in Engineering College?"
+            ],
+            "responses": [
+                "List of Programmes offered by College of Engineering <ul><li><b>Faculty of Civil and Geo-Engineering</b><ul><li>BSc. Civil Engineering</li><li><b>BSc. Civil Engineering (Obuasi Campus)</b></li><li>BSc. Geological Engineering</li><li><b>BSc. Geological Engineering (Obuasi)</b></li><li>BSc. Geomatic Engineering</li><li><b>BSc. Geomatic Engineering (Obuasi Campus)</b></li><li>BSc. Petroleum Engineering</li></ul><br></li><li><b>Faculty of Electrical and Computer Engineering</b><ul><li>BSc. Biomedical Engineering</li><li>BSc. Computer Engineering</li><li>BSc. Electrical/Electronic Engineering</li><li><b>BSc. Electrical/Electronic Engineering (Obuasi Campus)</b></li><li>BSc. Telecommunications Engineering</li></ul><br></li><li><b>Faculty of Mechanical and Chemical Engineering</b><ul><li>BSc. Agricultural Engineering</li><li>BSc. Petrochemical Engineering</li><li>BSc. Chemical Engineering</li><li>BSc. Metallurgical Engineering</li><li><b>BSc. Metallurgical Engineering (Obuasi Campus)</b></li><li>BSc. Materials Engineering</li><li><b>BSc. Materials Engineering (Obuasi Campus)</b></li><li>BSc. Marine Engineering</li><li>BSc. Industrial Engineering</li><li>BSc. Automobile Engineering</li><li>BSc. Mechanical Engineering</li><li>BSc. Mechanical Engineering (Obuasi Campus)</li><li>BSc. Aerospace Engineering</li></ul></li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "health_sciences_programmes",
+            "patterns": [
+                "Programmes offered by College of Health Sciences",
+                "What programmes are available in the College of Health Sciences?",
+                "List of programmes in Health Sciences College",
+                "College of Health Sciences programmes",
+                "Programmes in Health Sciences",
+                "What degrees are offered in the College of Health Sciences?",
+                "Available programmes in Health Sciences",
+                "College of Health Sciences courses",
+                "What courses are offered in Health Sciences College?",
+                "Programmes choices in Health Sciences",
+                "Health Sciences programmes options",
+                "Degree options in Health Sciences",
+                "Programmes decision in Health Sciences",
+                "What majors are available in Health Sciences College?"
+            ],
+            "responses": [
+                "List of Programmes offered by College of Health Sciences <ul><li><b>Faculty of Allied Health Sciences</b><ul><li>BSc. Physiotherapy and Sports Science</li><li>BSc. Medical Imaging</li><li>BSc. Medical Laboratory Science</li><li><b>BSc. Medical Laboratory Science (Obuasi Campus)</b></li></ul><br></li><li><b>School of Nursing and Midwifery</b><ul><li>BSc. Nursing</li><li><b>BSc. Nursing (Obuasi Campus)</b></li><li>Nursing (Emergency Option for Practicing Nurses Only)</li><li>BSc. Midwifery <b>(Females only)</b></li><li>BSc. Midwifery (Females practicing Midwives only) <b>(Sandwich)</b></li><li><b>BSc. Midwifery (Obuasi Campus)</b></li></ul><br></li><li><b>Faculty of Pharmacy and Pharmaceutical Sciences</b><ul><li>Bachelor of Herbal Medicine (BHM)</li><li>Doctor of Pharmacy (Pharm D)</li><li>Doctor of Pharmacy (Pharm D) - 2 years Top-Up (Practicing Pharmacists only)</li></ul><br></li><li><b>School of Medicine and Dentistry</b><ul><li>Human Biology (Medicine) (MBChB)</li><li>802 Bachelor of Dental Surgery (BDS) (Fee-paying only)</li></ul><br></li><li><b>School of Veterinary Medicine</b><ul><li>Doctor of Veterinary Medicine (DVM)</li></ul><br></li><li><b>School of Public Health</b><ul><li>BSc. Disability and Rehabilitation Studies</li></ul></li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "sciences_programmes",
+            "patterns": [
+                "Programmes offered by College of Science",
+                "What programmes are available in the College of Science?",
+                "List of programmes in Science College",
+                "College of Science programmes",
+                "Programmes in Science",
+                "What degrees are offered in the College of Science?",
+                "Available programmes in Science",
+                "College of Science courses",
+                "What courses are offered in Science College?",
+                "Programmes choices in Science",
+                "Science programmes options",
+                "Degree options in Science",
+                "Programmes decision in Science",
+                "What majors are available in Science College?"
+            ],
+            "responses": [
+                "List of Programmes offered by College of Science <ul><li><b>Faculty of Biosciences</b><ul><li>BSc. Biochemistry</li><li>BSc. Food Science and Technology</li><li>BSc. Dietetics</li><li>BSc. Human Nutrition</li><li>BSc. Biological Science</li><li>BSc. Environmental Science</li><li><b>BSc. Environmental Science (Obuasi Campus)</b></li><li>Doctor of Optometry</li></ul><br></li><li><b>Faculty of Physical and Computational Sciences</b><ul><li>BSc. Chemistry</li><li>BSc. Mathematics</li><li>BSc. Physics</li><li>BSc. Computer Science</li><li>BSc. Statistics</li><li>BSc. Actuarial Science</li><li>BSc. Meteorology and Climate Science</li></ul></li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "humanities_and_social_sciences_programmes",
+            "patterns": [
+                "Programmes offered by College of Humanities and Social Sciences",
+                "What programmes are available in the College of Humanities and Social Sciences?",
+                "List of programmes in Humanities and Social Sciences College",
+                "College of Humanities and Social Sciences programmes",
+                "Programmes in Humanities and Social Sciences",
+                "What degrees are offered in the College of Humanities and Social Sciences?",
+                "Available programmes in Humanities and Social Sciences",
+                "College of Humanities and Social Sciences courses",
+                "What courses are offered in Humanities and Social Sciences College?",
+                "Programmes choices in Humanities and Social Sciences",
+                "Humanities and Social Sciences programmes options",
+                "Degree options in Humanities and Social Sciences",
+                "Programmes decision in Humanities and Social Sciences",
+                "What majors are available in Humanities and Social Sciences College?"
+            ],
+            "responses": [
+                "List of Programmes offered by College of Humanities and Social Sciences <ul><li><b>Faculty Of Law</b><ul><li>Bachelor of Laws (LLB)</li><li>LLB (Degree Holders Only) (Fee-Paying)</li></ul><br></li><li><b>Faculty of Social Science</b><ul><li>BA. Economics</li><li>BA. English</li><li>BA. Geography and Rural Development</li><li>BA. History</li><li>BA. Political Studies</li><li>BA. Akan Language and Culture</li><li>BA. French and Francophone Studies</li><li>BA. Linguistics</li><li>BA. Media and Communication Studies</li><li>BA. Religious Studies</li><li>BA. Sociology</li><li>BA. Social Work</li></ul><br></li><li><b>KNUST School of Business</b><ul><li>BSc. Business Administration (Human Resource Management /Management)</li><li><b>BSc. Business Administration (Human Resource Management /Management) (Obuasi Campus)</b></li><li>BSc. Business Administration (Marketing/International Business)</li><li><b>BSc. Business Administration (Marketing/International Business) (Obuasi Campus)</b></li><li>BSc. Business Administration (Accounting / Banking and Finance)</li><li><b>BSc. Business Administration (Accounting / Banking and Finance) (Obuasi Campus)</b></li><li>BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology)</li><li><b>BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology) (Obuasi Campus)</b></li><li>BSc. Hospitality and Tourism Management</li></ul></li></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "general_admission_requirement",
+            "patterns": [
+                "What are the general admission requirements?",
+                "Can you tell me about the admission requirements?",
+                "Requirements for admission?",
+                "general entry requirement",
+                "What do I need for admission?",
+                "Entry requirements for admission?",
+                "How can I qualify for admission?",
+                "What are the criteria for admission?",
+                "Admission prerequisites?",
+                "what is the general entry requirement",
+                "Information on admission criteria?",
+                "What qualifications are needed for admission?",
+                "Admission eligibility?",
+                "What are the prerequisites for admission?",
+                "Conditions for admission?",
+                "what are the general entry requirement",
+                "What qualifications do I need to apply?",
+                "What is required to apply for admission?",
+                "Requirements for applying?",
+                "What are the standards for admission?",
+                "How to qualify for admission?",
+                "What are the minimum requirements for admission?",
+                "Admission conditions?",
+                "What are the necessary documents for admission?",
+                "Documentation needed for admission?",
+                "What documents are required for admission?",
+                "Documents needed for application?"
+            ],
+            "responses": [
+                "Below are the general entry requirements for for candidates with WASSCE / SSSCE, GCE / IGCSE 'A' & 'O' LEVELS, ABCE / GBCE, MATURE and equivalent qualifications <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>An applicant for admission to a degree programme in the University must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate <b>24 or better</b>. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university.</p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements.</p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study.</p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE.</p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>An applicant for admission to a degree programme in the Kwame Nkrumah University of Science and Technology, Kumasi must have a Final Grade Point of at least 3.0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3.25. Admissions will be to the Year 1.</p></li></ul><br><p><i><u>Other relevant information</u></i></p><ul><i><li><b>Ghanaian/Other Applicants with Foreign Results/Certificate:</b> The University shall request an evaluation of results/Certificate other than those mentioned above, (a) to (f), from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission.</li><li>Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate.</li><li>Documents not in English should be accompanied by accredited translations in English.</li><li><b>Transfer of Applicants:</b> Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs <a target='_blank' href='admissions@knust.edu.gh'>here</a> or the International Programmes Office <a target='_blank' href='ipo@knust.edu.gh'>here</a> to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary.</li></i></ul>"
+            ],
+            "context_set": ""
+        }
+    ]
+}

@@ -1,0 +1,249 @@
+{
+    "intents": [
+        {
+            "tag": "agriculture_and_natural_resources_cut_off_aggregate",
+            "patterns": [
+                "What are the cut-off aggregates for agriculture and natural resources programmes?",
+                "Can you provide the cut-off aggregates for agriculture and natural resources programmes?",
+                "Cut-off aggregates for agriculture and natural resources programmes?",
+                "What were the cut-off aggregates for agriculture and natural resources programmes in the previous year?",
+                "Previous year's cut-off aggregates for agriculture and natural resources programmes?",
+                "Aggregate requirements for agriculture and natural resources programmes?",
+                "What are the minimum aggregates for agriculture and natural resources programmes?",
+                "Cut-off points for agriculture and natural resources programmes?",
+                "Information on cut-off aggregates for agriculture and natural resources programmes?",
+                "What are the required aggregates for agriculture and natural resources programmes?",
+                "Agriculture and natural resources programme cut-off aggregates?",
+                "Previous admissions cut-off aggregates for agriculture and natural resources programmes?",
+                "What are the cut-off aggregates for BSc. Agriculture?",
+                "Can you provide the cut-off aggregates for BSc. Agricultural Biotechnology?",
+                "What are the cut-off aggregates for BSc. Agribusiness Management?",
+                "What were the cut-off aggregates for BSc. Landscape Design and Management in the previous year?",
+                "Cut-off aggregates for BSc. Natural Resources Management?",
+                "Minimum aggregates for BSc. Forest Resources Technology?",
+                "BSc. Aquaculture and Water Resources Management cut-off points?",
+                "What are the required aggregates for BSc. Packaging Technology?",
+                "Cut-off aggregates for all programmes in the College of Agriculture and Natural Resources?",
+                "Previous year's cut-off aggregates for all programmes in the College of Agriculture and Natural Resources?"
+            ],
+            "responses": [
+                "<i>The Cut-off Aggregate is not predetermined; it may vary from year to year, based on the pass rate and the available space/resources for a programme.</i><br><br><i>The Cut-off Aggregates for programmes for the previous academic year's admissions are published, here-below, to guide prospective applicants in their selection of programmes.</i><br><br><table><tr><th>Programme</th><th>Cut-Off Aggregate</th></tr><tr><td>BSc. Agriculture</td><td>22</td></tr><tr><td>BSc. Agricultural Biotechnology</td><td>18</td></tr><tr><td>BSc. Agribusiness Management</td><td>17</td></tr><tr><td>BSc. Landscape Design and Management</td><td>19</td></tr><tr><td>BSc. Natural Resources Management</td><td>18</td></tr><tr><td>BSc. Forest Resources Technology</td><td>23</td></tr><tr><td>BSc. Aquaculture and Water Resources Management</td><td>22</td></tr><tr><td>BSc. Packaging Technology</td><td>16</td></tr></table>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "art_and_built_environment_cut_off_aggregate",
+            "patterns": [
+                "What are the cut-off aggregates for art and built environment programmes?",
+                "Can you provide the cut-off aggregates for art and built environment programmes?",
+                "Cut-off aggregates for art and built environment programmes?",
+                "What were the cut-off aggregates for art and built environment programmes in the previous year?",
+                "Previous year's cut-off aggregates for art and built environment programmes?",
+                "Aggregate requirements for art and built environment programmes?",
+                "What are the minimum aggregates for art and built environment programmes?",
+                "Cut-off points for art and built environment programmes?",
+                "Information on cut-off aggregates for art and built environment programmes?",
+                "What are the required aggregates for art and built environment programmes?",
+                "Art and built environment programme cut-off aggregates?",
+                "Previous admissions cut-off aggregates for art and built environment programmes?",
+                "What are the cut-off aggregates for BSc. Architecture?",
+                "Can you provide the cut-off aggregates for BSc. Construction Technology and Management?",
+                "What are the cut-off aggregates for BSc. Quantity Surveying and Construction Economics?",
+                "What were the cut-off aggregates for BSc. Development Planning in the previous year?",
+                "Cut-off aggregates for BSc. Human Settlement Planning?",
+                "Minimum aggregates for BSc. Land Economy?",
+                "BSc. Real Estate cut-off points?",
+                "What are the cut-off aggregates for BFA. Painting and Sculpture?",
+                "Cut-off aggregates for BA. Communication Design (Graphic Design)?",
+                "What are the required aggregates for BA. Integrated Rural Art and Industry?",
+                "Cut-off aggregates for BA. Publishing Studies?",
+                "Previous year's cut-off aggregates for BSc. Metal Product Design Technology?",
+                "Aggregate requirements for BSc. Textile Design and Technology?",
+                "What were the cut-off aggregates for BSc. Fashion Design in the previous year?",
+                "Information on cut-off aggregates for BSc. Ceramics Design Technology?",
+                "What are the cut-off aggregates for B.Ed. Junior High School Specialism?"
+            ],
+            "responses": [
+                "<i>The Cut-off Aggregate is not predetermined; it may vary from year to year, based on the pass rate and the available space/resources for a programme.</i><br><br><i>The Cut-off Aggregates for programmes for the previous academic year's admissions are published, here-below, to guide prospective applicants in their selection of programmes.</i><br><br><table><tr><th>Programme</th><th>Cut-Off Aggregate</th></tr><tr><td>BSc. Architecture</td><td>09</td></tr><tr><td>BSc. Construction Technology and Management</td><td>12</td></tr><tr><td>BSc. Quantity Surveying and Construction Economics</td><td>11</td></tr><tr><td>BSc. Development Planning</td><td>10</td></tr><tr><td>BSc. Human Settlement Planning</td><td>12</td></tr><tr><td>BSc. Land Economy</td><td>09</td></tr><tr><td>BSc. Real Estate</td><td>10</td></tr><tr><td>BFA. Painting and Sculpture</td><td>15</td></tr><tr><td>BA. Communication Design (Graphic Design)</td><td>13</td></tr><tr><td>BA. Integrated Rural Art and Industry</td><td>15</td></tr><tr><td>BA. Publishing Studies</td><td>15</td></tr><tr><td>BSc. Metal Product Design Technology</td><td>17</td></tr><tr><td>BSc. Textile Design and Technology</td><td>13</td></tr><tr><td>BSc. Fashion Design</td><td>12</td></tr><tr><td>BSc. Ceramics Design Technology</td><td>24</td></tr><tr><td>B.Ed. Junior High School Specialism</td><td>18</td></tr></table>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "engineering_cut_off_aggregate",
+            "patterns": [
+                "What are the cut-off aggregates for engineering programmes?",
+                "Can you provide the cut-off aggregates for engineering programmes?",
+                "Cut-off aggregates for engineering programmes?",
+                "What were the cut-off aggregates for engineering programmes in the previous year?",
+                "Previous year's cut-off aggregates for engineering programmes?",
+                "Aggregate requirements for engineering programmes?",
+                "What are the minimum aggregates for engineering programmes?",
+                "Cut-off points for engineering programmes?",
+                "Information on cut-off aggregates for engineering programmes?",
+                "What are the required aggregates for engineering programmes?",
+                "Engineering programme cut-off aggregates?",
+                "Previous admissions cut-off aggregates for engineering programmes?",
+                "What are the cut-off aggregates for BSc. Aerospace Engineering?",
+                "Can you provide the cut-off aggregates for BSc. Agricultural Engineering?",
+                "What are the cut-off aggregates for BSc. Automobile Engineering?",
+                "What were the cut-off aggregates for BSc. Biomedical Engineering in the previous year?",
+                "Cut-off aggregates for BSc. Chemical Engineering?",
+                "Minimum aggregates for BSc. Civil Engineering?",
+                "BSc. Computer Engineering cut-off points?",
+                "What are the cut-off aggregates for BSc. Electrical/Electronic Engineering?",
+                "Cut-off aggregates for BSc. Geological Engineering?",
+                "What were the cut-off aggregates for BSc. Geomatic (Geodetic) Engineering?",
+                "Information on cut-off aggregates for BSc. Industrial Engineering?",
+                "What are the cut-off aggregates for BSc. Marine Engineering?",
+                "Cut-off aggregates for BSc. Materials Engineering?",
+                "What were the cut-off aggregates for BSc. Mechanical Engineering in the previous year?",
+                "Aggregate requirements for BSc. Metallurgical Engineering?",
+                "What are the cut-off aggregates for BSc. Petrochemical Engineering?",
+                "Cut-off aggregates for BSc. Petroleum Engineering?",
+                "Previous year's cut-off aggregates for BSc. Telecommunication Engineering?"
+            ],
+            "responses": [
+                "<i>The Cut-off Aggregate is not predetermined; it may vary from year to year, based on the pass rate and the available space/resources for a programme.</i><br><br><i>The Cut-off Aggregates for programmes for the previous academic year's admissions are published, here-below, to guide prospective applicants in their selection of programmes.</i><br><br><table><tr><th>Programme</th><th>Cut-Off Aggregate</th></tr><tr><td>BSc. Aerospace Engineering</td><td>10</td></tr><tr><td>BSc. Agricultural Engineering</td><td>16</td></tr><tr><td>BSc. Automobile Engineering</td><td>13</td></tr><tr><td>BSc. Biomedical Engineering</td><td>07</td></tr><tr><td>BSc. Chemical Engineering</td><td>10</td></tr><tr><td>BSc. Civil Engineering</td><td>10</td></tr><tr><td>BSc. Computer Engineering</td><td>09</td></tr><tr><td>BSc. Electrical/Electronic Engineering</td><td>08</td></tr><tr><td>BSc. Geological Engineering</td><td>12</td></tr><tr><td>BSc. Geomatic (Geodetic) Engineering</td><td>13</td></tr><tr><td>BSc. Industrial Engineering</td><td>13</td></tr><tr><td>BSc. Marine Engineering</td><td>11</td></tr><tr><td>BSc. Materials Engineering</td><td>13</td></tr><tr><td>BSc. Mechanical Engineering</td><td>10</td></tr><tr><td>BSc. Metallurgical Engineering</td><td>14</td></tr><tr><td>BSc. Petrochemical Engineering</td><td>09</td></tr><tr><td>BSc. Petroleum Engineering</td><td>08</td></tr><tr><td>BSc. Telecommunication Engineering</td><td>12</td></tr></table>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "health_sciences_cut_off_aggregate",
+            "patterns": [
+                "What are the cut-off aggregates for health sciences programmes?",
+                "Can you provide the cut-off aggregates for health sciences programmes?",
+                "Cut-off aggregates for health sciences programmes?",
+                "What were the cut-off aggregates for health sciences programmes in the previous year?",
+                "Previous year's cut-off aggregates for health sciences programmes?",
+                "Aggregate requirements for health sciences programmes?",
+                "What are the minimum aggregates for health sciences programmes?",
+                "Cut-off points for health sciences programmes?",
+                "Information on cut-off aggregates for health sciences programmes?",
+                "What are the required aggregates for health sciences programmes?",
+                "Health sciences programme cut-off aggregates?",
+                "Previous admissions cut-off aggregates for health sciences programmes?",
+                "What are the cut-off aggregates for BSc. Disability and Rehabilitation Studies?",
+                "Can you provide the cut-off aggregates for Bachelor of Herbal Medicine (BHM)?",
+                "What are the cut-off aggregates for Doctor of Veterinary Medicine (DVM)?",
+                "What were the cut-off aggregates for BSc. Human Biology (Medicine) in the previous year?",
+                "Cut-off aggregates for BSc. Medical Laboratory Sciences?",
+                "Minimum aggregates for BSc. Medical Imaging?",
+                "BSc. Midwifery cut-off points?",
+                "What are the cut-off aggregates for BSc. Nursing?",
+                "Cut-off aggregates for BSc. Physiotherapy and Sports Science?",
+                "Previous year's cut-off aggregates for Pharm D (Doctor of Pharmacy)?"
+            ],
+            "responses": [
+                "<i>The Cut-off Aggregate is not predetermined; it may vary from year to year, based on the pass rate and the available space/resources for a programme.</i><br><br><i>The Cut-off Aggregates for programmes for the previous academic year's admissions are published, here-below, to guide prospective applicants in their selection of programmes.</i><br><br><table><tr><th>Programme</th><th>Cut-Off Aggregate</th></tr><tr><td>Bachelor of Dental Surgery (BDS) (Fee-Paying Only)</td><td>06</td></tr><tr><td>Doctor of Veterinary Medicine (DVM)</td><td>13</td></tr><tr><td>BSc. Disability and Rehabilitation Studies</td><td>14</td></tr><tr><td>Bachelor of Herbal Medicine (BHM)</td><td>15</td></tr><tr><td>BSc. Human Biology (Medicine)</td><td>06</td></tr><tr><td>BSc. Medical Laboratory Sciences</td><td>07</td></tr><tr><td>BSc. Medical Imaging</td><td>09</td></tr><tr><td>BSc. Midwifery</td><td>09</td></tr><tr><td>BSc. Nursing</td><td>08</td></tr><tr><td>BSc. Physiotherapy and Sports Science</td><td>12</td></tr><tr><td>Pharm D (Doctor of Pharmacy)</td><td>07</td></tr></table>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "humanities_and_social_sciences_cut_off_aggregate",
+            "patterns": [
+                "What are the cut-off aggregates for humanities and social sciences programmes?",
+                "Can you provide the cut-off aggregates for humanities and social sciences programmes?",
+                "Cut-off aggregates for humanities and social sciences programmes?",
+                "What were the cut-off aggregates for humanities and social sciences programmes in the previous year?",
+                "Previous year's cut-off aggregates for humanities and social sciences programmes?",
+                "Aggregate requirements for humanities and social sciences programmes?",
+                "What are the minimum aggregates for humanities and social sciences programmes?",
+                "Cut-off points for humanities and social sciences programmes?",
+                "Information on cut-off aggregates for humanities and social sciences programmes?",
+                "What are the required aggregates for humanities and social sciences programmes?",
+                "Humanities and social sciences programme cut-off aggregates?",
+                "Previous admissions cut-off aggregates for humanities and social sciences programmes?",
+                "What are the cut-off aggregates for BA. Akan Language and Culture?",
+                "Can you provide the cut-off aggregates for BA. English?",
+                "What were the cut-off aggregates for BSc Business Administration (Human Resource Management/Management) in the previous year?",
+                "Cut-off aggregates for LLB?",
+                "Minimum aggregates for BA. History?",
+                "BA. Media and Communication Studies cut-off points?",
+                "What are the cut-off aggregates for BSc. Hospitality and Tourism Management?",
+                "Cut-off aggregates for BA. French and Francophone Studies?",
+                "Previous year's cut-off aggregates for BSc. Business Administration (Marketing/International Business)?"
+            ],
+            "responses": [
+                "<i>The Cut-off Aggregate is not predetermined; it may vary from year to year, based on the pass rate and the available space/resources for a programme.</i><br><br><i>The Cut-off Aggregates for programmes for the previous academic year's admissions are published, here-below, to guide prospective applicants in their selection of programmes.</i><br><br><table><tr><th>Programme</th><th>Cut-Off Aggregate</th></tr><tr><td>BA. Akan Language and Culture</td><td>20</td></tr><tr><td>BA. Economics</td><td>13</td></tr><tr><td>BA. English</td><td>16</td></tr><tr><td>BA. French and Francophone Studies</td><td>14</td></tr><tr><td>BA. Geography and Rural Development</td><td>12</td></tr><tr><td>BA. History</td><td>16</td></tr><tr><td>BA. Linguistics</td><td>15</td></tr><tr><td>BA. Media and Communication Studies</td><td>10</td></tr><tr><td>BA. Political Studies</td><td>10</td></tr><tr><td>BA. Religious Studies</td><td>18</td></tr><tr><td>BA. Sociology</td><td>11</td></tr><tr><td>BA. Social Work</td><td>12</td></tr><tr><td>BSc Business Administration (Human Resource Management/Management)</td><td>09</td></tr><tr><td>BSc. Business Administration (Marketing/International Business)</td><td>10</td></tr><tr><td>BSc. Business Administration (Accounting/Banking and Finance)</td><td>07</td></tr><tr><td>BSc. Business Adm. (Logistics and Supply Chain Management/Business Information Technology)</td><td>09</td></tr><tr><td>BSc. Hospitality and Tourism Management</td><td>10</td></tr><tr><td>LLB</td><td>07</td></tr></table>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "science_cut_off_aggregate",
+            "patterns": [
+                "What are the cut-off aggregates for science programmes?",
+                "Can you provide the cut-off aggregates for science programmes?",
+                "Cut-off aggregates for science programmes?",
+                "What were the cut-off aggregates for science programmes in the previous year?",
+                "Previous year's cut-off aggregates for science programmes?",
+                "Aggregate requirements for science programmes?",
+                "What are the minimum aggregates for science programmes?",
+                "Cut-off points for science programmes?",
+                "Information on cut-off aggregates for science programmes?",
+                "What are the required aggregates for science programmes?",
+                "Science programme cut-off aggregates?",
+                "Previous admissions cut-off aggregates for science programmes?",
+                "What are the cut-off aggregates for BSc. Biochemistry?",
+                "Can you provide the cut-off aggregates for BSc. Food Science and Technology?",
+                "What were the cut-off aggregates for BSc. Physics in the previous year?",
+                "Cut-off aggregates for Doctor of Optometry?",
+                "Minimum aggregates for BSc. Chemistry?",
+                "BSc. Actuarial Science cut-off points?",
+                "What are the cut-off aggregates for BSc. Environmental Sciences?",
+                "Cut-off aggregates for BSc. Computer Science?",
+                "Previous year's cut-off aggregates for BSc. Mathematics?"
+            ],
+            "responses": [
+                "<i>The Cut-off Aggregate is not predetermined; it may vary from year to year, based on the pass rate and the available space/resources for a programme.</i><br><br><i>The Cut-off Aggregates for programmes for the previous academic year's admissions are published, here-below, to guide prospective applicants in their selection of programmes.</i><br><br><table><tr><th>Programme</th><th>Cut-Off Aggregate</th></tr><tr><td>BSc. Biochemistry</td><td>12</td></tr><tr><td>BSc. Food Science and Technology</td><td>13</td></tr><tr><td>BSc. Biological Science</td><td>12</td></tr><tr><td>BSc. Environmental Sciences</td><td>15</td></tr><tr><td>BSc. Chemistry</td><td>16</td></tr><tr><td>BSc. Computer Science</td><td>11</td></tr><tr><td>BSc. Mathematics</td><td>17</td></tr><tr><td>BSc. Actuarial Science</td><td>11</td></tr><tr><td>BSc. Statistics</td><td>12</td></tr><tr><td>BSc. Physics</td><td>18</td></tr><tr><td>BSc. Meteorology and Climate Science</td><td>19</td></tr><tr><td>Doctor of Optometry</td><td>09</td></tr></table>"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "obuasi_campus_cut_off_aggregate",
+            "patterns": [
+                "What are the cut-off aggregates for Obuasi Campus programmes?",
+                "Can you provide the cut-off aggregates for Obuasi Campus programmes?",
+                "Cut-off aggregates for programmes at Obuasi Campus?",
+                "What were the cut-off aggregates for Obuasi Campus programmes in the previous year?",
+                "Previous year's cut-off aggregates for Obuasi Campus programmes?",
+                "Aggregate requirements for Obuasi Campus programmes?",
+                "What are the minimum aggregates for Obuasi Campus programmes?",
+                "Cut-off points for Obuasi Campus programmes?",
+                "Information on cut-off aggregates for Obuasi Campus programmes?",
+                "What are the required aggregates for Obuasi Campus programmes?",
+                "Obuasi Campus programme cut-off aggregates?",
+                "Previous admissions cut-off aggregates for Obuasi Campus programmes?",
+                "What are the cut-off aggregates for BSc. Civil Engineering (Obuasi Campus)?",
+                "Can you provide the cut-off aggregates for BSc. Nursing (Obuasi Campus)?",
+                "What were the cut-off aggregates for BBA (HRM/Management) (Obuasi Campus) in the previous year?",
+                "Cut-off aggregates for BSc. Mechanical Engineering (Obuasi Campus)?",
+                "Minimum aggregates for BSc. Geomatic (Geodetic) Engineering (Obuasi Campus)?",
+                "BSc. Medical Laboratory Sciences cut-off points at Obuasi Campus?",
+                "What are the cut-off aggregates for BSc. Nursing (Obuasi Campus)?",
+                "Cut-off aggregates for BSc. Environmental Sciences (Obuasi Campus)?"
+            ],
+            "responses": [
+                "<i>The Cut-off Aggregate is not predetermined; it may vary from year to year, based on the pass rate and the available space/resources for a programme.</i><br><br><i>The Cut-off Aggregates for programmes for the previous academic year's admissions are published, here-below, to guide prospective applicants in their selection of programmes.</i><br><br><table><tr><th>Programme</th><th>Cut-Off Aggregate</th></tr><tr><td>BSc. Civil Engineering (Obuasi Campus)</td><td>14</td></tr><tr><td>BSc. Electrical/Electronic Engineering (Obuasi Campus)</td><td>13</td></tr><tr><td>BSc. Geological Engineering (Obuasi Campus)</td><td>16</td></tr><tr><td>BSc. Geomatic (Geodetic) Engineering (Obuasi Campus)</td><td>17</td></tr><tr><td>BSc. Materials Engineering (Obuasi Campus)</td><td>18</td></tr><tr><td>BSc. Mechanical Engineering (Obuasi Campus)</td><td>14</td></tr><tr><td>BSc. Metallurgical Engineering (Obuasi Campus)</td><td>19</td></tr><tr><td>BSc. Medical Laboratory Sciences (Obuasi Campus)</td><td>10</td></tr><tr><td>BSc. Midwifery (Obuasi Campus)</td><td>12</td></tr><tr><td>BSc. Nursing (Obuasi Campus)</td><td>11</td></tr><tr><td>BBA (HRM/Management) (Obuasi Campus)</td><td>16</td></tr><tr><td>BBA (Marketing/International Business) (Obuasi Campus)</td><td>17</td></tr><tr><td>BBA (Accounting/Banking and Finance) (Obuasi Campus)</td><td>13</td></tr><tr><td>BBA (Logistics & Supply Chain Management/Business Information Technology) (Obuasi Campus)</td><td>15</td></tr><tr><td>BSc. Environmental Sciences (Obuasi Campus)</td><td>18</td></tr></table>"
+            ],
+            "context_set": ""
+        }
+    ]
+}
