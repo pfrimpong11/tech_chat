@@ -9,6 +9,7 @@ from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
+from sklearn.model_selection import train_test_split
 
 # nltk.download('punkt')
 # nltk.download('wordnet')
@@ -28,6 +29,7 @@ for file_name in intent_files:
     with open(file_name, 'r', encoding='utf-8') as file:
         intents = json.load(file)
         all_intents['intents'].extend(intents['intents'])
+
 words = []
 classes = []
 documents = []
@@ -76,16 +78,31 @@ for features, label in training:
 train_x = np.array(train_x)
 train_y = np.array(train_y)
 
+# Split the data into training and validation sets
+train_x, val_x, train_y, val_y = train_test_split(train_x, train_y, test_size=0.2, random_state=42)
+
+# Define the model
 model = Sequential()
 model.add(Dense(128, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
+model.add(Dense(64, activation='relu'))  # Adding an extra dense layer
 model.add(Dense(len(classes), activation='softmax'))
 
-sgd = SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
+# Experiment with different learning rates and momentum values
+learning_rate = 0.001
+momentum = 0.9
+sgd = SGD(learning_rate=learning_rate, momentum=momentum, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
-model.fit(train_x, train_y, epochs=100, batch_size=5, verbose=1)
+# Train the model
+history = model.fit(train_x, train_y, validation_data=(val_x, val_y), epochs=100, batch_size=5, verbose=1)
+
+# Evaluate the model
+loss, accuracy = model.evaluate(val_x, val_y)
+print("Validation Loss:", loss)
+print("Validation Accuracy:", accuracy)
+
 model.save('chatbot_model.h5')  # Model saved
 print("Done")

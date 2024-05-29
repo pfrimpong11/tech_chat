@@ -57,7 +57,7 @@ def send_email(receiver_email, user_name):
         print("Error: Environment variables for email are not set properly.")
         return
 
-    # Render the HTML template for the email
+    # Render the feedback HTML template for the email
     email_html = render_template('email_templates/feedback_email.html', user_name=user_name)
 
     message = MIMEMultipart()
@@ -187,19 +187,6 @@ def record_feedback_with_user_details():
         "file_id": file_id
     }
 
-    # feedback_doc = {
-    #     "firstName": first_name,
-    #     "lastName": last_name,
-    #     "email": email,
-    #     "feedback": feedback
-    # }
-
-    # If a file was uploaded, decode it and store it in the document
-    # if file:
-    #     file_data = base64.b64decode(file)
-    #     feedback_doc["file"] = file_data
-    #     feedback_doc["fileName"] = file_name
-
     result = feedback_collection.insert_one(feedback_doc)
 
     if result.inserted_id:
@@ -253,7 +240,7 @@ def get_feedback_file(feedback_id):
 def correct_spelling(sentence):
     words = nltk.word_tokenize(sentence)
     corrected_words = [spell.correction(word) for word in words]
-    corrected_sentence = ' '.join(corrected_words)
+    corrected_sentence = ' '.join(filter(None, corrected_words))
     return corrected_sentence
 
 def clean_up_sentence(sentence):
@@ -273,26 +260,29 @@ def bag_of_words(sentence):
 def predict_class(sentence):
     bow = bag_of_words(sentence)
     res = model.predict(np.array([bow]), verbose=0)[0]
-    ERROR_THRESHOLD = 0.25
-    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-    results.sort(key=lambda x: x[1], reverse=True)
-    return_list = []
-    for r in results:
-        return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
-    return return_list
+    ERROR_THRESHOLD = 0.09  # Probability threshold
+    results = [{"intent": classes[i], "probability": str(res[i])} for i in range(len(classes)) if res[i] > ERROR_THRESHOLD]
+    results.sort(key=lambda x: float(x['probability']), reverse=True)
+    return results[:10]  # Return only the first 10 predicted tags
 
-def get_response_from_intent(intent_tag):
-    for intent in intents['intents']:
-        if intent['tag'] == intent_tag:
-            return random.choice(intent['responses'])
-    return "I'm sorry, I don't understand that."
+
+def get_response_from_intent(intents_list, all_intents):
+    for intent in intents_list:
+        tag = intent['intent']
+        for intent_data in intents['intents']:
+            if intent_data['tag'] == tag:
+                print(f"Using tag: {tag}")  # Print the tag used to generate the response
+                return random.choice(intent_data['responses'])
+    return "I'm sorry, I don't have a response for that."
 
 def generate_bot_response(user_message):
     intents_list = predict_class(user_message)
+    print("Predicted Tags:")
     if intents_list:
         for intent in intents_list:
-            intent_tag = intent['intent']
-            return get_response_from_intent(intent_tag)
+            print(f"- {intent['intent']}: {intent['probability']}")
+            # intent_tag = intent['intent'].lower()
+            return get_response_from_intent(intents_list, intents)
     return "I'm sorry, I don't understand that."
 
 if __name__ == "__main__":

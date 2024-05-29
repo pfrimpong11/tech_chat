@@ -22,16 +22,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     shareIcon.addEventListener('click', function () {
-        var chatContent = document.getElementById('chat-container').textContent;
+        var chatContent = document.getElementById('chat-container').textContent.trim();
+
         // Check if Web Share API is supported by the browser
         if (navigator.share) {
             navigator.share({
-                text: chatContent
+                title: 'Chat Content',
+                text: chatContent,
+                url: window.location.href // Optionally share the current page URL
             })
             .then(() => console.log('Shared successfully'))
             .catch((error) => console.error('Error sharing:', error));
         } else {
             alert('Sharing is not supported in your browser.');
+            console.log('Sharing is not supported in this browser.');
         }
     });
 
@@ -194,7 +198,7 @@ function sendMessage() {
     document.getElementById("chat-container").appendChild(loader);
 
 
-    // delay for 3s before displaying the response
+    // delay for 2s before displaying the response
     setTimeout(function() {
         // Make request to backend with user input
         fetch("/get_response", {
@@ -219,7 +223,7 @@ function sendMessage() {
             }
         })
         .catch(error => console.error("Error:", error));
-    }, 3000);
+    }, 2000);
 }
 
 

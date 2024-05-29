@@ -156,7 +156,13 @@
                 "College preference",
                 "Picking a college",
                 "College decision",
-                "What programmes do you offer?"
+                "What programmes do you offer?",
+                "available programmes",
+                "programmes offered in KNUST",
+                "Programmes available",
+                "list of programmes",
+                "How many programs does tech offer in all?",
+                "what are the programmes that tech offers"
             ],
             "responses": [
                 "Programmes are grouped into the various colleges that offer them, kindly enter the college.<ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>"
@@ -182,7 +188,11 @@
                 "Agriculture and Natural Resources programmes options",
                 "Degree options in Agriculture and Natural Resources",
                 "Programmes decision in Agriculture and Natural Resources",
-                "What majors are available in Agriculture and Natural Resources College?"
+                "What majors are available in Agriculture and Natural Resources College?",
+                "agriculture and natural resources programmes",
+                "college of agriculture and natural resources programmes",
+                "college of agriculture and natural resources",
+                "agriculture and natural resources"
             ],
             "responses": [
                 "List of Programmes offered by College of Agriculture and Natural Resources <ul><li><b>Faculty of Agriculture </b><ul><li>BSc. Agriculture</li><li>BSc. Agricultural Biotechnology</li><li>BSc. Agribusiness Management</li><li>BSc. Landscape Design and Management</li></ul><br></li><li><b>Faculty of Natural Resources  </b><ul><li>BSc. Natural Resource Management</li><li>BSc. Forest Resources Technology</li><li>BSc. Packaging Technology</li><li>BSc. Aquaculture and Water Resource Management</li></ul></li></ul>"
@@ -208,7 +218,11 @@
                 "Art and Built Environment programmes options",
                 "Degree options in Art and Built Environment",
                 "Programmes decision in Art and Built Environment",
-                "What majors are available in Art and Built Environment College?"
+                "What majors are available in Art and Built Environment College?",
+                "art and built environment programmes",
+                "college of art and built environment programmes",
+                "college of art and built environment",
+                "art and built environment"
             ],
             "responses": [
                 "List of Programmes offered by College of Art and Built Environment <ul><li><b>Faculty of Built Environment</b><ul><li>BSc. Architecture</li><li>BSc. Construction Technology and Management</li><li>BSc. Quantity Surveying and Construction Economics</li><li>BSc. Development Planning</li><li>BSc. Human Settlement Planning</li><li>BSc. Land Economy</li><li>BSc. Real Estate</li></ul><br></li><li><b>Faculty of Art</b><ul><li>BA. Communication Design</li><li>BA. Integrated Rural Art and Industry</li><li>BA. Publishing Studies</li><li>BA. Metal Product Design Technology</li><li>BA. Textile Design and Technology</li><li>BFA. Fine Art and Curatorial Practice</li><li>BFA. Ceramics</li><li>BSc. Fashion Design</li><li>BSc. Ceramics Technology</li></ul><br></li><li><b>Faculty of Educational Studies </b><ul><li>B.Ed. Junior High School Education (Mathematics, Science, ICT, Agricultural Science, History, Visual Arts and Geography)</li></ul></li></ul>"
@@ -234,7 +248,8 @@
                 "Engineering programmes options",
                 "Degree options in Engineering",
                 "Programmes decision in Engineering",
-                "What majors are available in Engineering College?"
+                "What majors are available in Engineering College?",
+                "college of engineering"
             ],
             "responses": [
                 "List of Programmes offered by College of Engineering <ul><li><b>Faculty of Civil and Geo-Engineering</b><ul><li>BSc. Civil Engineering</li><li><b>BSc. Civil Engineering (Obuasi Campus)</b></li><li>BSc. Geological Engineering</li><li><b>BSc. Geological Engineering (Obuasi)</b></li><li>BSc. Geomatic Engineering</li><li><b>BSc. Geomatic Engineering (Obuasi Campus)</b></li><li>BSc. Petroleum Engineering</li></ul><br></li><li><b>Faculty of Electrical and Computer Engineering</b><ul><li>BSc. Biomedical Engineering</li><li>BSc. Computer Engineering</li><li>BSc. Electrical/Electronic Engineering</li><li><b>BSc. Electrical/Electronic Engineering (Obuasi Campus)</b></li><li>BSc. Telecommunications Engineering</li></ul><br></li><li><b>Faculty of Mechanical and Chemical Engineering</b><ul><li>BSc. Agricultural Engineering</li><li>BSc. Petrochemical Engineering</li><li>BSc. Chemical Engineering</li><li>BSc. Metallurgical Engineering</li><li><b>BSc. Metallurgical Engineering (Obuasi Campus)</b></li><li>BSc. Materials Engineering</li><li><b>BSc. Materials Engineering (Obuasi Campus)</b></li><li>BSc. Marine Engineering</li><li>BSc. Industrial Engineering</li><li>BSc. Automobile Engineering</li><li>BSc. Mechanical Engineering</li><li>BSc. Mechanical Engineering (Obuasi Campus)</li><li>BSc. Aerospace Engineering</li></ul></li></ul>"
@@ -260,7 +275,9 @@
                 "Health Sciences programmes options",
                 "Degree options in Health Sciences",
                 "Programmes decision in Health Sciences",
-                "What majors are available in Health Sciences College?"
+                "What majors are available in Health Sciences College?",
+                "health sciences programmes",
+                "college of health sciences"
             ],
             "responses": [
                 "List of Programmes offered by College of Health Sciences <ul><li><b>Faculty of Allied Health Sciences</b><ul><li>BSc. Physiotherapy and Sports Science</li><li>BSc. Medical Imaging</li><li>BSc. Medical Laboratory Science</li><li><b>BSc. Medical Laboratory Science (Obuasi Campus)</b></li></ul><br></li><li><b>School of Nursing and Midwifery</b><ul><li>BSc. Nursing</li><li><b>BSc. Nursing (Obuasi Campus)</b></li><li>Nursing (Emergency Option for Practicing Nurses Only)</li><li>BSc. Midwifery <b>(Females only)</b></li><li>BSc. Midwifery (Females practicing Midwives only) <b>(Sandwich)</b></li><li><b>BSc. Midwifery (Obuasi Campus)</b></li></ul><br></li><li><b>Faculty of Pharmacy and Pharmaceutical Sciences</b><ul><li>Bachelor of Herbal Medicine (BHM)</li><li>Doctor of Pharmacy (Pharm D)</li><li>Doctor of Pharmacy (Pharm D) - 2 years Top-Up (Practicing Pharmacists only)</li></ul><br></li><li><b>School of Medicine and Dentistry</b><ul><li>Human Biology (Medicine) (MBChB)</li><li>802 Bachelor of Dental Surgery (BDS) (Fee-paying only)</li></ul><br></li><li><b>School of Veterinary Medicine</b><ul><li>Doctor of Veterinary Medicine (DVM)</li></ul><br></li><li><b>School of Public Health</b><ul><li>BSc. Disability and Rehabilitation Studies</li></ul></li></ul>"
@@ -286,7 +303,8 @@
                 "Science programmes options",
                 "Degree options in Science",
                 "Programmes decision in Science",
-                "What majors are available in Science College?"
+                "What majors are available in Science College?",
+                "college of science"
             ],
             "responses": [
                 "List of Programmes offered by College of Science <ul><li><b>Faculty of Biosciences</b><ul><li>BSc. Biochemistry</li><li>BSc. Food Science and Technology</li><li>BSc. Dietetics</li><li>BSc. Human Nutrition</li><li>BSc. Biological Science</li><li>BSc. Environmental Science</li><li><b>BSc. Environmental Science (Obuasi Campus)</b></li><li>Doctor of Optometry</li></ul><br></li><li><b>Faculty of Physical and Computational Sciences</b><ul><li>BSc. Chemistry</li><li>BSc. Mathematics</li><li>BSc. Physics</li><li>BSc. Computer Science</li><li>BSc. Statistics</li><li>BSc. Actuarial Science</li><li>BSc. Meteorology and Climate Science</li></ul></li></ul>"
@@ -312,7 +330,9 @@
                 "Humanities and Social Sciences programmes options",
                 "Degree options in Humanities and Social Sciences",
                 "Programmes decision in Humanities and Social Sciences",
-                "What majors are available in Humanities and Social Sciences College?"
+                "What majors are available in Humanities and Social Sciences College?",
+                "college of humanities and social sciences",
+                "humanities and social sciences"
             ],
             "responses": [
                 "List of Programmes offered by College of Humanities and Social Sciences <ul><li><b>Faculty Of Law</b><ul><li>Bachelor of Laws (LLB)</li><li>LLB (Degree Holders Only) (Fee-Paying)</li></ul><br></li><li><b>Faculty of Social Science</b><ul><li>BA. Economics</li><li>BA. English</li><li>BA. Geography and Rural Development</li><li>BA. History</li><li>BA. Political Studies</li><li>BA. Akan Language and Culture</li><li>BA. French and Francophone Studies</li><li>BA. Linguistics</li><li>BA. Media and Communication Studies</li><li>BA. Religious Studies</li><li>BA. Sociology</li><li>BA. Social Work</li></ul><br></li><li><b>KNUST School of Business</b><ul><li>BSc. Business Administration (Human Resource Management /Management)</li><li><b>BSc. Business Administration (Human Resource Management /Management) (Obuasi Campus)</b></li><li>BSc. Business Administration (Marketing/International Business)</li><li><b>BSc. Business Administration (Marketing/International Business) (Obuasi Campus)</b></li><li>BSc. Business Administration (Accounting / Banking and Finance)</li><li><b>BSc. Business Administration (Accounting / Banking and Finance) (Obuasi Campus)</b></li><li>BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology)</li><li><b>BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology) (Obuasi Campus)</b></li><li>BSc. Hospitality and Tourism Management</li></ul></li></ul>"

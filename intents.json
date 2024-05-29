@@ -198,7 +198,6 @@
         "who created you",
         "your developers",
         "your creators",
-        "who are your developers",
         "developers",
         "you are made by",
         "you are made by whom",
@@ -216,7 +215,7 @@
         "Tell me about your creators",
         "Give me information about your developers",
         "Give me information about your creators",
-        "Who are behind your creation?",
+        "Who is behind your creation?",
         "Who are the minds behind your design?",
         "Who are the brains behind your development?",
         "Who brought you into existence?",
@@ -978,7 +977,8 @@
         "Are there specific banks or outlets where I can purchase undergraduate application forms?",
         "Can I buy undergraduate application forms online, or are they only available in person?",
         "Is there a central location or office where I can obtain undergraduate application forms?",
-        "Can I pay for undergraduate application forms using mobile money or other electronic payment methods?"
+        "Can I pay for undergraduate application forms using mobile money or other electronic payment methods?",
+        "where can I purchase application form in Ghana?"
       ],
       "responses": [
         "<ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>"

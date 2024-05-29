@@ -11,7 +11,9 @@
                 "Information on eligibility for BSc. Human Biology?",
                 "What are the entry requirements for BSc. Human Biology programme?",
                 "Criteria for admission into BSc. Human Biology Medicine?",
-                "BSc. Human Biology Medicine programme prerequisites?"
+                "BSc. Human Biology Medicine programme prerequisites?",
+                "requirement for medicine",
+                "what is the requirement for medicine"
             ],
             "responses": [
                 "Here are the requirements for BSc. Human Biology (Medicine) (MBChB) <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Biology, Chemistry and Physics or Mathematics.  </p><ul><li>Programmes may be followed with a 3-year clinical programme for the MB. ChB degree </li><li>Short-listed Applicants must pass an interview.    </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in Biology, Chemistry and Physics or  Mathematics. </p><i>Applicants must also have a pass in General Paper. </i></ul>"
@@ -20,7 +22,7 @@
         },
 
         {
-            "tag": "BSc Human Biology (Medicine) Cutoff Points",
+            "tag": "BSc Human Biology Medicine Cutoff Points",
             "patterns": [
                 "cutoff points for BSc Human Biology Medicine",
                 "cutoff points for BSc Human Biology",
