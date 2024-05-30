@@ -482,7 +482,7 @@ aside {
         display: inline-block;
     }
 
-    header nav a {
+    header nav a #comment-icon {
         display: none;
     }
 

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6c1f0d67e3.js" crossorigin="anonymous"></script>
+    <title>Aggregate Calculator</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F0F6FB;
+            height: 100vh;
+        }
+
+        .header-container {
+            background-color: #f4f4f4;;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 20px;
+            margin-bottom: 5px;
+        }
+
+        .logo_box {
+            display: flex;
+            cursor: pointer;
+        }
+
+        .logo_box a{
+            text-decoration: none;
+        }
+
+        .logo {
+            height: 60px;
+        }
+
+        .school_name {
+            font-size: 20px;
+            font-weight: 600;
+            padding-left: 10px;
+            color: #000;
+        }
+
+        .back-navigate-box {
+            margin: 0 20px;
+        }
+
+        .back-navigate a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .main-container {
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .elective-container,
+        .core-container {
+            width: 48%;
+        }
+
+        form {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form input[type="number"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        .result-button-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .result-container {
+            padding: 10px 30px 10px 10px;
+            border: 1px solid #007bff;
+            border-radius: 3px;
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+            .main-container {
+                margin-top: 50px;
+            }
+
+            .elective-container,
+            .core-container {
+                /* width: 48%; */
+                margin: 0 10px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+
+    </style>
+
+    <header>
+        <div class="header-container">
+            <div class="logo_box">
+                <img src="/static/knust_logo.png" alt="KNUST Logo" class="logo">
+                <p class="school_name">KNUST | TechChat</p>
+            </div>
+        </div>
+        <span class="back-navigate-box">
+            <span class="back-navigate"><a href="/"><i class="fa-solid fa-house"></i>TechChat</a></span>
+            <span>||</span>
+            <span>Aggregate Calculator</span>
+        </span>
+    </header>
+
+    <section>
+        <div class="main-container">
+            <div class="elective-container">
+                <h2>Elective Subjects</h2>
+                <form id="compulsory-form">
+                    <label for="course1">Course 1:</label>
+                    <input type="number" name="course1" min="1" step="1" required><br>
+                    <label for="course2">Course 2:</label>
+                    <input type="number" name="course2" min="1" step="1" required><br>
+                    <label for="course3">Course 3:</label>
+                    <input type="number" name="course3" min="1" step="1" required><br>
+                    <label for="course4">Course 4:</label>
+                    <input type="number" name="course4" min="1" step="1" required><br>
+                </form>
+            </div>
+
+            <div class="core-container">
+                <h2>Core Subjects</h2>
+                <form id="optional-form">
+                    <label for="optional1">Course 1:</label>
+                    <input type="number" name="optional1" min="1" required><br>
+                    <label for="optional2">Course 2:</label>
+                    <input type="number" name="optional2" min="1" required><br>
+                    <label for="optional3">Course 3:</label>
+                    <input type="number" name="optional3" min="1" required><br>
+                    <label for="optional4">Course 4:</label>
+                    <input type="number" name="optional4" min="1" required><br>
+                </form>
+            </div>
+        </div>
+
+        
+        <div class="result-button-container">
+            <button id="calculate-btn">Calculate Aggregate</button>
+            <div class="result-container">
+                <span>Total Aggregate: </span>
+                <span id="result"></span>
+            </div>
+        </div>
+    </section>
+
+    
+    <script>
+        document.getElementById('calculate-btn').addEventListener('click', function(event) {
+        var compulsoryFormData = new FormData(document.getElementById('compulsory-form'));
+        var optionalFormData = new FormData(document.getElementById('optional-form'));
+
+        var compulsoryData = {};
+        compulsoryFormData.forEach(function(value, key) {
+            compulsoryData[key] = value;
+        });
+
+        var optionalData = {};
+        optionalFormData.forEach(function(value, key) {
+            optionalData[key] = value;
+        });
+
+        var data = { 'compulsory': compulsoryData, 'optional': optionalData };
+
+        fetch('/calculate-aggregate', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('result').innerText = data.total_aggregate;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+
+    </script>
+
+    <!-- <script src="{{ url_for('static', filename='script.js') }}"></script> -->
+</body>
+</html>
