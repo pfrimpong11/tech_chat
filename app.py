@@ -46,40 +46,6 @@ user_input_collection = db["user_inputs"]
 icon_feedback_collection = db["icon_feedback"]
 
 
-# Function to send email
-def send_email(receiver_email, user_name):
-    smtp_server = 'smtp-mail.outlook.com'
-    port = 587  # For starttls
-    sender_email = os.environ.get("SENDER_EMAIL")
-    sender_name = "TechChat Team"
-    password = os.environ.get("SENDER_PASSWORD")
-
-    if not sender_email or not password:
-        print("Error: Environment variables for email are not set properly.")
-        return
-
-    # Render the feedback HTML template for the email
-    email_html = render_template('email_templates/feedback_email.html', user_name=user_name)
-
-    message = MIMEMultipart()
-    message["From"] = f"{sender_name} <{sender_email}>"
-    message["To"] = receiver_email
-    message["Subject"] = "Thank you for your feedback"
-
-
-    message.attach(MIMEText(email_html, "html"))
-
-    try:
-        smtp = smtplib.SMTP(smtp_server, port)
-        smtp.ehlo()
-        smtp.starttls(context=ssl.create_default_context())
-        smtp.ehlo()
-        smtp.login(sender_email, password)
-        smtp.sendmail(sender_email, receiver_email, message.as_string())
-        smtp.quit()
-        print("Email sent successfully.")
-    except Exception as e:
-        print(f"Error: {e}")
 
 # Load trained chatbot model and other necessary data
 lemmatizer = WordNetLemmatizer()
@@ -94,10 +60,11 @@ intent_files = [
     'freshers_guide.json'
 ]
 
-intents = {'intents': []}
-for file in intent_files:
-    with open(file, 'r', encoding='utf-8') as f:
-        intents['intents'].extend(json.load(f)['intents'])
+all_intents = {'intents': []}
+for file_name in intent_files:
+        with open(file_name, 'r', encoding='utf-8') as file:
+            intents = json.load(file)
+            all_intents['intents'].extend(intents['intents'])
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
@@ -117,27 +84,6 @@ def feedback():
 def aggregate():
     return render_template('pages/aggregate.html')
 
-def calculate_total_aggregate(compulsory_data, optional_data):
-    def validate_and_convert_grade(grade):
-        try:
-            grade = int(grade)
-            if grade < 1:
-                raise ValueError("Grade must be a positive integer")
-            return min(grade, 4)  # Cap the grade at 4
-        except (ValueError, TypeError):
-            return 4
-
-    compulsory_grades = [validate_and_convert_grade(grade) for grade in list(compulsory_data.values())[:4]]
-    optional_grades = [validate_and_convert_grade(grade) for grade in list(optional_data.values())[:4]]
-
-    compulsory_grades.sort()
-    optional_grades.sort()
-
-    compulsory_sum = sum(compulsory_grades[:3])
-    optional_sum = sum(optional_grades[:3])
-
-    total_aggregate = compulsory_sum + optional_sum
-    return total_aggregate
 
 @app.route('/calculate-aggregate', methods=['POST'])
 def calculate_aggregate():
@@ -153,6 +99,23 @@ def calculate_aggregate():
 @app.route("/get_response", methods=["POST"])
 def get_response():
     user_message = request.json["message"].lower()
+
+
+    user_sentence = user_message
+    multiple_words = user_sentence.split()
+    # Correct each word
+    resolved_words = []
+    for word in multiple_words:
+        if word in spell:
+            resolved_words.append(word)
+        else:
+            resolved_words.append(spell.correction(word))
+    # Join the corrected words back into a sentence
+    resolved_sentence = " ".join(resolved_words)
+    print(f"Original: {user_sentence}")
+    print(f"Corrected: {resolved_sentence}")
+
+
     corrected_message = correct_spelling(user_message)
     bot_response = generate_bot_response(corrected_message)
     return jsonify({"response": bot_response})
@@ -282,6 +245,7 @@ def correct_spelling(sentence):
     return corrected_sentence
 
 def clean_up_sentence(sentence):
+    sentence = sentence.lower()
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
     return sentence_words
@@ -307,21 +271,83 @@ def predict_class(sentence):
 def get_response_from_intent(intents_list, all_intents):
     for intent in intents_list:
         tag = intent['intent']
-        for intent_data in intents['intents']:
+        for intent_data in all_intents['intents']:
             if intent_data['tag'] == tag:
                 print(f"Using tag: {tag}")  # Print the tag used to generate the response
                 return random.choice(intent_data['responses'])
     return "I'm sorry, I don't have a response for that."
 
 def generate_bot_response(user_message):
-    intents_list = predict_class(user_message)
+    intents = predict_class(user_message)
     print("Predicted Tags:")
-    if intents_list:
-        for intent in intents_list:
-            print(f"- {intent['intent']}: {intent['probability']}")
-            # intent_tag = intent['intent'].lower()
-            return get_response_from_intent(intents_list, intents)
+    # if intents:
+    for intent in intents:
+        print(f"- {intent['intent']}: {intent['probability']}")
+        # intent_tag = intent['intent'].lower()
+        return get_response_from_intent(intents, all_intents)
     return "I'm sorry, I don't understand that."
+
+
+def calculate_total_aggregate(compulsory_data, optional_data):
+    def validate_and_convert_grade(grade):
+        try:
+            grade = int(grade)
+            if grade < 1:
+                raise ValueError("Grade must be a positive integer")
+            return min(grade, 4) 
+        except (ValueError, TypeError):
+            return 4
+
+    compulsory_grades = [validate_and_convert_grade(grade) for grade in list(compulsory_data.values())[:4]]
+    optional_grades = [validate_and_convert_grade(grade) for grade in list(optional_data.values())[:4]]
+
+    compulsory_grades.sort()
+    optional_grades.sort()
+
+    compulsory_sum = sum(compulsory_grades[:3])
+    optional_sum = sum(optional_grades[:3])
+
+    total_aggregate = compulsory_sum + optional_sum
+    return total_aggregate
+
+
+
+# Function to send email
+def send_email(receiver_email, user_name):
+    smtp_server = 'smtp-mail.outlook.com'
+    port = 587  # For starttls
+    sender_email = os.environ.get("SENDER_EMAIL")
+    sender_name = "TechChat Team"
+    password = os.environ.get("SENDER_PASSWORD")
+
+    if not sender_email or not password:
+        print("Error: Environment variables for email are not set properly.")
+        return
+
+    # Render the feedback HTML template for the email
+    email_html = render_template('email_templates/feedback_email.html', user_name=user_name)
+
+    message = MIMEMultipart()
+    message["From"] = f"{sender_name} <{sender_email}>"
+    message["To"] = receiver_email
+    message["Subject"] = "Thank you for your feedback"
+
+
+    message.attach(MIMEText(email_html, "html"))
+
+    try:
+        smtp = smtplib.SMTP(smtp_server, port)
+        smtp.ehlo()
+        smtp.starttls(context=ssl.create_default_context())
+        smtp.ehlo()
+        smtp.login(sender_email, password)
+        smtp.sendmail(sender_email, receiver_email, message.as_string())
+        smtp.quit()
+        print("Email sent successfully.")
+    except Exception as e:
+        print(f"Error: {e}")
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
