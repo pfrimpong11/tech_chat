@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
         if (navigator.share) {
             navigator.share({
                 title: 'Chat Content',
-                text: chatContent,
-                url: window.location.href // Optionally share the current page URL
+                text: chatContent
+                // url: window.location.href // Optionally share the current page URL
             })
             .then(() => console.log('Shared successfully'))
             .catch((error) => console.error('Error sharing:', error));
@@ -292,7 +292,8 @@ function addBotMessage(message) {
         // Handle helpful feedback
         console.log("User found the response helpful");
         sendFeedback(true); // Send feedback to the server
-        feedbackButtons.remove(); // Remove feedback buttons after feedback is given
+        helpfulButton.remove(); // Remove feedback buttons after feedback is given
+        notHelpfulButton.remove();
     };
     var notHelpfulButton = document.createElement("span");
     notHelpfulButton.innerHTML = '<i class="fa-regular fa-thumbs-down"></i>';
@@ -301,7 +302,8 @@ function addBotMessage(message) {
         // Handle not helpful feedback
         console.log("User found the response not helpful");
         sendFeedback(false); // Send feedback to the server
-        feedbackButtons.remove(); // Remove feedback buttons after feedback is given
+        notHelpfulButton.remove(); // Remove feedback buttons after feedback is given
+        helpfulButton.remove();
     };
     var copyButton = document.createElement('span');
         copyButton.innerHTML = '<i class="fa-regular fa-copy"></i>';
@@ -323,6 +325,7 @@ function addBotMessage(message) {
 
     // animation effect for bot message
     animateMessage(messageDiv);
+    // writeAnimateMessage(messageDiv, removeHTMLTags(message));
 }
 
 function updateBotAvatar(botAvatar) {
@@ -341,18 +344,25 @@ function updateBotAvatars() {
 }
 
 function copyTextToClipboard(text) {
-    var tempInput = document.createElement('textarea');
-    tempInput.value = text;
-    document.body.appendChild(tempInput);
+    var tempElement = removeHTMLTags(text);
+    console.log(tempElement)
 
-    // Select and copy the text
-    tempInput.select();
-    document.execCommand('copy');
-
-    document.body.removeChild(tempInput);
+    navigator.clipboard.writeText(tempElement);
 
     alert('Response copied to clipboard!');
 }
+
+function removeHTMLTags(htmlString) {
+    // Create a new DOMParser instance
+    const parser = new DOMParser();
+    // Parse the HTML string into a DOM document
+    const doc = parser.parseFromString(htmlString, 'text/html');
+    // Extract the text content from the parsed document
+    const textContent = doc.body.textContent || "";
+    return textContent.trim(); // Trim any leading or trailing whitespace
+}
+
+
 
 
 
@@ -363,14 +373,23 @@ function toggleSpeech(text) {
     if (isSpeaking) {
         stopSpeaking();
     } else {
-        startSpeaking(text);
+        startSpeaking(removeHTMLTags(text));
     }
 }
 // Function to start speaking text using SpeechSynthesis API
 function startSpeaking(text) {
-    var utterance = new SpeechSynthesisUtterance(text);
+    var utterance = new SpeechSynthesisUtterance(removeHTMLTags(text));
+
+    // var voices = window.speechSynthesis.getVoices();
+    // utterance.voice = voices[2]; 
+    // speechSynthesis.speak(utterance);
+    
 
     window.speechSynthesis.speak(utterance);
+
+    // speechSynthesis.getVoices().forEach(function(voice) {
+    //     console.log(voice.name, voice.default ? voice.default :'');
+    // });
 
     isSpeaking = true;
     currentUtterance = utterance;
@@ -435,6 +454,37 @@ function animateMessage(element) {
         }
     }, 50);
 }
+
+
+function writeAnimateMessage(element, message) {
+    // Clear the element's content
+    element.innerHTML = '';
+
+    // Define the typing speed (characters per millisecond)
+    var typingSpeed = 30;
+
+    // Initialize index to keep track of the current position in the message
+    var index = 0;
+
+    // Define the typing function
+    function typeText() {
+        // Check if the entire message has been typed
+        if (index < message.length) {
+            // Append the next character to the element's content
+            element.innerHTML += message.charAt(index);
+            
+            // Increment the index to move to the next character
+            index++;
+
+            // Call the typing function recursively after a delay
+            setTimeout(typeText, typingSpeed);
+        }
+    }
+
+    // Start typing the message
+    typeText();
+}
+
 
 
 

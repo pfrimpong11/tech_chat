@@ -1,28 +1,23 @@
-import random
+# app.py
+from flask import Flask, render_template, request, jsonify, Response
 import json
 import pickle
-import numpy as np
-import nltk
-from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from flask import Flask, render_template, request, jsonify, send_file, Response
-from calculations import calculate_total_aggregate
-from spellchecker import SpellChecker
 import pymongo
+import markdown
 import os
-import ssl
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+import gridfs
+import tempfile
+from bson import ObjectId
 from datetime import datetime
 from dotenv import load_dotenv
 import base64
-import gridfs
-from bson import ObjectId
-import io
-import tempfile
 
+from modules.utils import correct_spelling
+from modules.response_generator import generate_bot_response
+from modules.db_operations import save_user_input, record_icon_feedback, record_feedback_with_user_details, get_feedback_file
+from modules.email_sender import send_email
+from modules.calculations import calculate_total_aggregate
 
 # Load environment variables from .env file
 load_dotenv()
@@ -45,19 +40,13 @@ feedback_collection = db["feedback"]
 user_input_collection = db["user_inputs"]
 icon_feedback_collection = db["icon_feedback"]
 
-
-
-# Load trained chatbot model and other necessary data
-lemmatizer = WordNetLemmatizer()
-spell = SpellChecker()
-
 # Load intents from multiple JSON files
 intent_files = [
-    'intents.json', 'instruction_prog_list.json', 'cut_off.json',
-    'sciences_requirement.json', 'humanities_social_sciences_requirement.json',
-    'health_science_requirement.json', 'engineering_requirement.json',
-    'art_and_built_requirement.json', 'agric_and_natural_resource_requirement.json',
-    'freshers_guide.json'
+    'intents/intents.json', 'intents/instruction_prog_list.json', 'intents/cut_off.json',
+    'intents/sciences_requirement.json', 'intents/humanities_social_sciences_requirement.json',
+    'intents/health_science_requirement.json', 'intents/engineering_requirement.json',
+    'intents/art_and_built_requirement.json', 'intents/agric_and_natural_resource_requirement.json',
+    'intents/freshers_guide.json'
 ]
 
 all_intents = {'intents': []}
@@ -66,6 +55,7 @@ for file_name in intent_files:
             intents = json.load(file)
             all_intents['intents'].extend(intents['intents'])
 
+# Load trained chatbot model and other necessary data
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 model = load_model('chatbot_model.h5')
@@ -79,11 +69,9 @@ def index():
 def feedback():
     return render_template('pages/feedback.html')
 
-
 @app.route('/pages/aggregate.html')
 def aggregate():
     return render_template('pages/aggregate.html')
-
 
 @app.route('/calculate-aggregate', methods=['POST'])
 def calculate_aggregate():
@@ -95,68 +83,32 @@ def calculate_aggregate():
 
     return jsonify({'total_aggregate': total_aggregate})
 
-
 @app.route("/get_response", methods=["POST"])
 def get_response():
     user_message = request.json["message"].lower()
-
-
-    user_sentence = user_message
-    multiple_words = user_sentence.split()
-    # Correct each word
-    resolved_words = []
-    for word in multiple_words:
-        if word in spell:
-            resolved_words.append(word)
-        else:
-            resolved_words.append(spell.correction(word))
-    # Join the corrected words back into a sentence
-    resolved_sentence = " ".join(resolved_words)
-    print(f"Original: {user_sentence}")
-    print(f"Corrected: {resolved_sentence}")
-
-
     corrected_message = correct_spelling(user_message)
-    bot_response = generate_bot_response(corrected_message)
-    return jsonify({"response": bot_response})
+    bot_response = generate_bot_response(corrected_message, model, words, classes, all_intents)
+    markup_response = markdown.markdown(bot_response)
+    return jsonify({"response": markup_response})
 
 @app.route("/save_user_input", methods=["POST"])
-def save_user_input():
+def save_user_input_route():
     user_input = request.json.get("userInput")
     if user_input:
-        # Prepare the document to insert into MongoDB
-        input_doc = {
-            "user_input": user_input,
-            "timestamp": datetime.now()
-        }
-        
-        # Insert the document into the collection
-        result = user_input_collection.insert_one(input_doc)
-        
-        if result.inserted_id:
+        result = save_user_input(user_input_collection, user_input)
+        if result:
             return {"message": "User input saved successfully."}, 200
         else:
             return {"error": "Failed to save user input."}, 500
     else:
         return {"error": "User input not provided."}, 400
 
-
 @app.route("/record_icon_feedback", methods=["POST"])
-def record_icon_feedback():
+def record_icon_feedback_route():
     feedback_data = request.json
     if feedback_data:
-        # Prepare the document to insert into MongoDB
-        feedback_doc = {
-            "user_message": feedback_data.get("userMessage"),
-            "bot_response": feedback_data.get("botResponse"),
-            "is_helpful": feedback_data.get("isHelpful"),
-            "timestamp": datetime.now()
-        }
-        
-        # Insert the document into the collection
-        result = icon_feedback_collection.insert_one(feedback_doc)
-        
-        if result.inserted_id:
+        result = record_icon_feedback(icon_feedback_collection, feedback_data)
+        if result:
             return {"message": "Feedback recorded successfully."}, 200
         else:
             return {"error": "Failed to record feedback."}, 500
@@ -164,52 +116,21 @@ def record_icon_feedback():
         return {"error": "Feedback data not provided."}, 400
 
 @app.route("/record_feedback_with_user_details", methods=["POST"])
-def record_feedback_with_user_details():
+def record_feedback_with_user_details_route():
     data = request.json
-    first_name = data.get("firstName")
-    last_name = data.get("lastName")
-    email = data.get("email")
-    feedback = data.get("feedback")
-    file = data.get("file")
-    file_name = data.get("fileName")
-
-
-    # Store file in GridFS
-    if file:
-        file_id = fs.put(base64.b64decode(file), filename=file_name)
-    else:
-        file_id = None
-
-    feedback_doc = {
-        "firstName": first_name,
-        "lastName": last_name,
-        "email": email,
-        "feedback": feedback,
-        "file_id": file_id
-    }
-
-    result = feedback_collection.insert_one(feedback_doc)
-
-    if result.inserted_id:
-        send_email(email, first_name)
+    result = record_feedback_with_user_details(feedback_collection, fs, data)
+    if result:
+        send_email(data.get("email"), data.get("firstName"))
         return jsonify({"message": "Feedback recorded successfully. Email sent"}), 200
     else:
         return jsonify({"error": "Failed to record feedback."}), 500
 
-
 @app.route("/get_feedback_file/<feedback_id>", methods=["GET"])
-def get_feedback_file(feedback_id):
+def get_feedback_file_route(feedback_id):
     try:
-        feedback_object_id = ObjectId(feedback_id)
-        feedback = feedback_collection.find_one({"_id": feedback_object_id})
-
-        if not feedback:
-            return jsonify({"error": "Feedback not found"}), 404
-        if 'file_id' not in feedback or feedback['file_id'] is None:
-            return jsonify({"error": "File not found in feedback"}), 404
-        
-        file_id = feedback['file_id']
-        file_data = fs.get(ObjectId(file_id))
+        file_data, error = get_feedback_file(feedback_collection, fs, feedback_id)
+        if error:
+            return jsonify({"error": error}), 404
 
         # Create a temporary file to write the file data
         temp_file = tempfile.NamedTemporaryFile(delete=False)
@@ -232,122 +153,6 @@ def get_feedback_file(feedback_id):
     except Exception as e:
         print("Exception:", str(e))
         return jsonify({"error": str(e)}), 500
-
-
-
-
-
-# Helper functions
-def correct_spelling(sentence):
-    words = nltk.word_tokenize(sentence)
-    corrected_words = [spell.correction(word) for word in words]
-    corrected_sentence = ' '.join(filter(None, corrected_words))
-    return corrected_sentence
-
-def clean_up_sentence(sentence):
-    sentence = sentence.lower()
-    sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
-    return sentence_words
-
-def bag_of_words(sentence):
-    sentence_words = clean_up_sentence(sentence)
-    bag = [0] * len(words)
-    for w in sentence_words:
-        for i, word in enumerate(words):
-            if word == w:
-                bag[i] = 1
-    return np.array(bag)
-
-def predict_class(sentence):
-    bow = bag_of_words(sentence)
-    res = model.predict(np.array([bow]), verbose=0)[0]
-    ERROR_THRESHOLD = 0.09  # Probability threshold
-    results = [{"intent": classes[i], "probability": str(res[i])} for i in range(len(classes)) if res[i] > ERROR_THRESHOLD]
-    results.sort(key=lambda x: float(x['probability']), reverse=True)
-    return results[:10]  # Return only the first 10 predicted tags
-
-
-def get_response_from_intent(intents_list, all_intents):
-    for intent in intents_list:
-        tag = intent['intent']
-        for intent_data in all_intents['intents']:
-            if intent_data['tag'] == tag:
-                print(f"Using tag: {tag}")  # Print the tag used to generate the response
-                return random.choice(intent_data['responses'])
-    return "I'm sorry, I don't have a response for that."
-
-def generate_bot_response(user_message):
-    intents = predict_class(user_message)
-    print("Predicted Tags:")
-    # if intents:
-    for intent in intents:
-        print(f"- {intent['intent']}: {intent['probability']}")
-        # intent_tag = intent['intent'].lower()
-        return get_response_from_intent(intents, all_intents)
-    return "I'm sorry, I don't understand that."
-
-
-def calculate_total_aggregate(compulsory_data, optional_data):
-    def validate_and_convert_grade(grade):
-        try:
-            grade = int(grade)
-            if grade < 1:
-                raise ValueError("Grade must be a positive integer")
-            return min(grade, 4) 
-        except (ValueError, TypeError):
-            return 4
-
-    compulsory_grades = [validate_and_convert_grade(grade) for grade in list(compulsory_data.values())[:4]]
-    optional_grades = [validate_and_convert_grade(grade) for grade in list(optional_data.values())[:4]]
-
-    compulsory_grades.sort()
-    optional_grades.sort()
-
-    compulsory_sum = sum(compulsory_grades[:3])
-    optional_sum = sum(optional_grades[:3])
-
-    total_aggregate = compulsory_sum + optional_sum
-    return total_aggregate
-
-
-
-# Function to send email
-def send_email(receiver_email, user_name):
-    smtp_server = 'smtp-mail.outlook.com'
-    port = 587  # For starttls
-    sender_email = os.environ.get("SENDER_EMAIL")
-    sender_name = "TechChat Team"
-    password = os.environ.get("SENDER_PASSWORD")
-
-    if not sender_email or not password:
-        print("Error: Environment variables for email are not set properly.")
-        return
-
-    # Render the feedback HTML template for the email
-    email_html = render_template('email_templates/feedback_email.html', user_name=user_name)
-
-    message = MIMEMultipart()
-    message["From"] = f"{sender_name} <{sender_email}>"
-    message["To"] = receiver_email
-    message["Subject"] = "Thank you for your feedback"
-
-
-    message.attach(MIMEText(email_html, "html"))
-
-    try:
-        smtp = smtplib.SMTP(smtp_server, port)
-        smtp.ehlo()
-        smtp.starttls(context=ssl.create_default_context())
-        smtp.ehlo()
-        smtp.login(sender_email, password)
-        smtp.sendmail(sender_email, receiver_email, message.as_string())
-        smtp.quit()
-        print("Email sent successfully.")
-    except Exception as e:
-        print(f"Error: {e}")
-
-
 
 if __name__ == "__main__":
     app.run(debug=True)
