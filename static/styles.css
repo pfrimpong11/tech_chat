@@ -227,10 +227,8 @@ main {
 }
 
 .chat-window {
-    padding: 0 15px;
     flex: 1;
     overflow-y: auto;
-
     overflow: hidden;
 }
 
@@ -287,6 +285,12 @@ main {
 
 .chat-input-container button i {
     font-size: 18px;
+}
+
+.disclaimer{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 aside {
@@ -526,6 +530,10 @@ aside {
 
     .main-content {
         flex-direction: column;
+    }
+
+    .disclaimer{
+        font-size: 9px;
     }
 }
 
