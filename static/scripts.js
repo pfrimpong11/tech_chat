@@ -223,7 +223,7 @@ function sendMessage() {
             }
         })
         .catch(error => console.error("Error:", error));
-    }, 2000);
+    }, 1500);
 }
 
 
