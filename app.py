@@ -62,8 +62,12 @@ model = load_model('chatbot_model.h5')
 
 # Flask routes
 @app.route("/")
+def startup():
+    return render_template("startup.html")
+
+@app.route('/index.html')
 def index():
-    return render_template("index.html")
+    return render_template('index.html')
 
 @app.route('/pages/feedback.html')
 def feedback():

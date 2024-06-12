@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechChat - Your Admission Enquiry Assistant for KNUST.">
+    <meta name="keywords" content="KNUST, admission, enquiry, chatbot">
+    <meta name="author" content="Frimpong & Akinie">
+    <title>Tech Chat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/static/techchat_logo_dark.png"/>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+            scrollbar-width: none;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            /* align-items: center; */
+            justify-content: space-between;
+            padding: 2rem;
+            margin-top: 50px;
+        }
+
+        .text-box {
+            text-align: left;
+            margin-top: 50px;
+            width: 50%;
+        }
+
+        .text-box img {
+            height: 70px;
+            margin-right: 0.5rem;
+        }
+
+        .text-box h1 {
+            font-size: 60px;
+            color: #0077b6;
+            margin-bottom: 40px;
+        }
+
+        .text-box p {
+            margin-bottom: 80px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        a {
+            padding: 1rem 2rem;
+            background-color: #0077b6;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .chatbot-box img {
+            max-width: 550px;
+        }
+
+        @media (max-width: 768px) {
+            main {
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+        }
+
+        .text-box {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .text-box p {
+            margin-bottom: 70px;
+        }
+
+        a {
+            padding: 1rem 2rem;
+            background-color: #0077b6;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .chatbot-box img {
+            display: none;
+        }
+        }
+    </style>
+
+    <div class="container">
+        <main>
+            <div class="text-box">
+                <img src="/static/knust_logo.png" alt="KNUST Logo">
+                <img src="/static/techchat_logo_light.png" alt="Chat Icon">
+                <h1>TechChat</h1>
+                <p>Welcome to TechChat, your personal assistant for KNUST undergraduate admissions. TechChat is here to help with all your questions about admissions at the KNUST. Whether you want to know about the application process, admission requirements, scholarship opportunities, or campus life, TechChat provides instant answers. Begin your journey to becoming a KNUST student today.</p>
+                <a href="/index.html">Chat Now</a>
+            </div>
+            <div class="chatbot-box">
+                <img src="/static/chatbot.gif" alt="Robot">
+            </div>
+        </main>
+    </div>
+</body>
+</html>
