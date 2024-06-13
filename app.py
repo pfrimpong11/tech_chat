@@ -77,6 +77,10 @@ def feedback():
 def aggregate():
     return render_template('pages/aggregate.html')
 
+@app.route('/pages/emailSent.html')
+def emailSent():
+    return render_template('pages/emailSent.html')
+
 @app.route('/calculate-aggregate', methods=['POST'])
 def calculate_aggregate():
     data = request.json

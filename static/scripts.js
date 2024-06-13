@@ -175,12 +175,16 @@ function sendUserFeedback(firstName, lastName, email, feedback, base64File, file
     .then(response => {
         if (response.ok) {
             console.log("Feedback recorded successfully.");
-            alert("Your feedback has been submitted successfully. Thank you");
+            window.location.href = "/pages/emailSent.html";
         } else {
             console.error("Failed to record feedback.");
+            alert("Failed to record feedback. Please try again later.");
         }
     })
-    .catch(error => console.error("Error:", error));
+    .catch(error => {
+        console.error("Error:", error);
+        alert("Error occurred. Please try again later.");
+    });
 }
 
 
@@ -198,7 +202,7 @@ function sendMessage() {
     document.getElementById("chat-container").appendChild(loader);
 
 
-    // delay for 2s before displaying the response
+    // delay for 1s before displaying the response
     setTimeout(function() {
         // Make request to backend with user input
         fetch("/get_response", {
@@ -223,7 +227,7 @@ function sendMessage() {
             }
         })
         .catch(error => console.error("Error:", error));
-    }, 1500);
+    }, 1000);
 }
 
 

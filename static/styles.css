@@ -379,6 +379,10 @@ aside {
     color: #b3b3b3;
 }
 
+.bot-avatar {
+    padding-top: 15px;
+}
+
 .user-message {
     font-family: Arial, sans-serif;
     padding: 10px;

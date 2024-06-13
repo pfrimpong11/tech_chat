@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password - TechChat</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .container {
+            border-radius: 10px;
+            padding: 20px;
+            margin-right: 120px;
+            width: 445px;
+            text-align: left; /* Align text to the left */
+            position: relative;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 140px;
+            margin-right: 10px;
+        }
+        .logo span {
+            color: #0b0f56;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        h2 {
+            color: #0b0f56;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .email-input {
+            position: relative;
+            width: 100%;
+        }
+        .email-input input {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .email-input input::placeholder {
+            color: #aaa;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #0b0f56;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 90px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #090c4a;
+        }
+        #carousel-part {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #carousel-part img {
+            height: 400px;
+            margin-left: 50px;
+        }
+
+        #submit {
+            width: 100%;
+            padding: 15px;
+            background-color: #0b0f56;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 90px;
+            transition: background-color 0.3s;
+        }
+        #submit:hover {
+        background-color: #F4ECFE;
+        border: 1px solid black;
+        color:#0B0F56;
+        }
+
+        .resend-link {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .resend-link:hover {
+            text-decoration: underline;
+        }
+        @media screen and (max-width: 768px) {
+            #carousel-part {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="/static/bot-logo.png" alt="TechChat Logo">
+        </div>
+        <h2>Email has been sent</h2>
+        <!-- <p>Please check your inbox and click on the received link to reset password</p> -->
+        <p>Your Feedback/Question has been received successfully. </p>
+        <br><br>
+        <div class="resend">
+            <span>Want to continue chatting? </span>
+            <a href="/index.html" class="resend-link">Home</a>
+        </div>
+    </div>
+    <div id="carousel-part">
+        <img src="/static/emailSentImage.png" alt="Illustration">
+    </div>
+</body>
+</html>
