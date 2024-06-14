@@ -295,7 +295,8 @@
         "Are there alternative ways to contact the university besides phone?",
         "Can I schedule an appointment to visit the campus?",
         "Is there a preferred method of contact for urgent matters?",
-        "How quickly can I expect a response to my inquiry?"
+        "How quickly can I expect a response to my inquiry?",
+        "Please any number to call the admission team if you have a problem?"
       ],
       "responses": [
         "You can contact the university at <ul> <li>Telephone: <a target=\"_blank\" href=\"tel:+233500099299\">+233 5000 99299</a> </li>  <li>Email: <a target=\"_blank\" href=\"mailto:uro@knust.edu.gh\">uro@knust.edu.gh</a> </li> </ul>"
@@ -321,7 +322,9 @@
         "fees",
         "about the fees",
         "tell me something about the fees",
-        "how much is the fees"
+        "how much is the fees",
+        "the parallel program and fee paying program, which is cheaper?",
+        "Can we get the bill for the fees?"
       ],
       "responses": [
         "For Fee detail visit <a target=\"_blank\" href=\"https://www.knust.edu.gh/academic-fees\"> here</a>"    ],
@@ -663,7 +666,8 @@
         "Are there any alternative application methods available for late applicants?",
         "Is there a waiting list for late applicants?",
         "What are the chances of acceptance for late applicants?",
-        "Are there any special conditions for late admissions?"
+        "Are there any special conditions for late admissions?",
+        "Please is it true that admission is still on going till ending of the month"
       ],
       "responses": [
         "Yes, you can continue your application online after the deadline, but only if you purchased the form before the deadline."
@@ -878,7 +882,8 @@
         "Are there specific dates announced each year for the commencement of undergraduate application form sales?",
         "Is there a trend or pattern for the start dates of undergraduate application form sales in previous years?",
         "Can I find the commencement dates for undergraduate application form sales on the university website?",
-        "Are there any deadlines for purchasing undergraduate application forms?"
+        "Are there any deadlines for purchasing undergraduate application forms?",
+        "Is the form out for students to buy?"
       ],
       "responses": [
         "Dates may differ based on the program. Kindly refer to the admission guidelines <a target=\"_blank\" href=\"https://www.knust.edu.gh/admissions/prospective/applying\">here</a>"

@@ -384,8 +384,9 @@ function toggleSpeech(text) {
 function startSpeaking(text) {
     var utterance = new SpeechSynthesisUtterance(removeHTMLTags(text));
 
-    // var voices = window.speechSynthesis.getVoices();
-    // utterance.voice = voices[2]; 
+    var voices = window.speechSynthesis.getVoices();
+    utterance.voice = voices[2];
+    utterance.rate = 0.7;
     // speechSynthesis.speak(utterance);
     
 
