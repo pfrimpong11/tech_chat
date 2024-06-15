@@ -19,6 +19,31 @@
             background-color: #fff;
         }
 
+        header {
+            padding: 5px 20px;
+            background: #F0F6FB;
+            border-bottom: 1px solid #d1e6f8;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        header img {
+            height: 70px;
+        }
+
+        .get-started {
+            padding-top: 30px;
+        }
+
+        header a {
+            background: #0077b6;
+        }
+
+        header a:hover {
+            background: #F0F6FB;
+        }
+
         .container {
             height: 100vh;
             display: flex;
@@ -34,21 +59,20 @@
             justify-content: space-between;
             padding: 2rem;
             margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
 
         .text-box {
             text-align: left;
-            margin-top: 50px;
             width: 50%;
         }
 
-        .text-box img {
-            height: 70px;
-            margin-right: 0.5rem;
-        }
-
-        .text-box h1 {
-            font-size: 60px;
+        .text-box h2 {
+            font-size: 40px;
             color: #0077b6;
             margin-bottom: 40px;
         }
@@ -70,6 +94,12 @@
             text-decoration: none;
         }
 
+        a:hover {
+            background-color: #fff;
+            color: #0077b6;
+            border: 1.5px solid #0077b6;
+        }
+
         .chatbot-box img {
             max-width: 550px;
         }
@@ -87,12 +117,17 @@
             margin-top: 20px;
         }
 
-        .text-box p {
-            margin-bottom: 70px;
+        .text-box h2 {
+            font-size: 20px;
         }
 
-        a {
-            padding: 1rem 2rem;
+        .text-box p {
+            margin-bottom: 70px;
+            font-size: 15px;
+        }
+
+        header a {
+            padding: 0.8rem 1rem;
             background-color: #0077b6;
             color: #fff;
             border: none;
@@ -109,16 +144,64 @@
     </style>
 
     <div class="container">
-        <section>
-            <div class="text-box">
+        <header>
+            <div>
                 <img src="/static/knust_logo.png" alt="KNUST Logo">
                 <img src="/static/techchat_logo_light.png" alt="Chat Icon">
-                <h1>TechChat</h1>
-                <p>Welcome to TechChat, your personal assistant for KNUST undergraduate admissions. TechChat is here to help with all your questions about admissions at the KNUST. Whether you want to know about the application process, admission requirements, scholarship opportunities, or campus life, TechChat provides instant answers. Begin your journey to becoming a KNUST student today.</p>
+            </div>
+            <div class="get-started">
+                <a href="/index.html">Get Started</a>
+            </div>
+        </header>
+        <section>
+            <div class="text-box">
+                <!-- <img src="/static/knust_logo.png" alt="KNUST Logo">
+                <img src="/static/techchat_logo_light.png" alt="Chat Icon"> -->
+                <h2>TechChat</h2>
+                <p>Welcome to TechChat, your personal assistant for KNUST undergraduate admissions. Whether you want to know about the application process, admission requirements, scholarship opportunities, or campus life, TechChat provides instant answers. Begin your journey to becoming a KNUST student today.</p>
                 <a href="/index.html">Chat Now</a>
             </div>
             <div class="chatbot-box">
                 <img src="/static/chatbot.gif" alt="Robot">
+            </div>
+        </section>
+
+        <section>
+            <div class="chatbot-box">
+                <img src="/static/prospective-student.jpg" alt="animated students">
+            </div>
+            <div class="text-box">
+                <!-- <img src="/static/knust_logo.png" alt="KNUST Logo">
+                <img src="/static/techchat_logo_light.png" alt="Chat Icon"> -->
+                <h2>Connect with Prospective Students</h2>
+                <p>Join our community of prospective KNUST students! Connect with others who are on the same journey, share experiences, and get valuable tips. Click below to join our student network.</p>
+                <a href="/index.html">Connect Now</a>
+            </div>
+        </section>
+
+        <section>
+            <div class="text-box">
+                <!-- <img src="/static/knust_logo.png" alt="KNUST Logo">
+                <img src="/static/techchat_logo_light.png" alt="Chat Icon"> -->
+                <h2>Aggregate Calculator</h2>
+                <p>Wondering how your grades stack up for KNUST admission? Use our aggregate calculator to estimate your admission score. This tool helps you understand your chances and plan accordingly.</p>
+                <a href="/index.html">Calculate Now</a>
+            </div>
+            <div class="chatbot-box">
+                <img src="/static/calculator.jpg" alt="calculator">
+            </div>
+        </section>
+
+        <section>
+            <div class="chatbot-box">
+                <img src="/static/feedback.jpg" alt="Robot">
+            </div>
+            <div class="text-box">
+                <!-- <img src="/static/knust_logo.png" alt="KNUST Logo">
+                <img src="/static/techchat_logo_light.png" alt="Chat Icon"> -->
+                <h2>Feedback and Support</h2>
+                <p>Your feedback is important to us! If you have specific questions that the bot couldn't answer or suggestions for improving our service, please let us know. Click below to send your feedback or ask a question.</p>
+                <a href="/index.html">Connect Now</a>
             </div>
         </section>
     </div>
