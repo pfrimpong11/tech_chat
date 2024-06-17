@@ -57,7 +57,8 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
+        "hi",
+        "Hi there",
         "How are you?",
         "Is anyone there?",
         "Are you good?",
@@ -82,7 +83,7 @@
         "Hello there",
         "Hiya!",
         "Howdy",
-        "hi",
+        "whatsup",
         "Hey, what's up?",
         "Hey, how have you been?",
         "??? ??? ??"
@@ -324,7 +325,11 @@
         "tell me something about the fees",
         "how much is the fees",
         "the parallel program and fee paying program, which is cheaper?",
-        "Can we get the bill for the fees?"
+        "Can we get the bill for the fees?",
+        "What is the tuition cost per semester/year",
+        "Are there additional fees besides tuition",
+        "How can I pay my tuition fees",
+        "Do you offer payment plans"
       ],
       "responses": [
         "For Fee detail visit <a target=\"_blank\" href=\"https://www.knust.edu.gh/academic-fees\"> here</a>"    ],
@@ -335,6 +340,10 @@
     {
       "tag": "Scholarships for Needy Students",
       "patterns": [
+        "Do you offer scholarships",
+        "What are the financial aid options",
+        "How do I apply for financial aid",
+        "Are there any grants available",
         "Are there any scholarships available for needy students at KNUST?",
         "Can you provide information about scholarships for brilliant but needy students at KNUST?",
         "Where can I find details about scholarships for needy students at KNUST?",
@@ -509,37 +518,15 @@
       "tag": "Profanity/Inappropriate Language",
       "patterns": [
         "fuck",
-        "bitch",
-        "shut up",
-        "hell",
-        "stupid",
-        "idiot",
-        "dumb ass",
-        "asshole",
-        "fucker",
-        "fuck you bitch",
-        "nigga shut up",
-        "crap",
-        "dick",
-        "shit",
-        "damn",
-        "bloody hell",
-        "bitch piss",
-        "dick",
-        "cock",
-        "darn",
-        "cunt",
-        "pussy",
-        "bastard",
-        "fag bugger",
-        "bastard fag",
-        "slut pussy",
-        "douche bollocks",
-        "bloody slut",
-        "cunt arsehole",
-        "bugger darn",
-        "bollocks asshole",
-        "arsehole douche"
+        "fuck you okay bastard",
+        "bitch ass nigga",
+        "shut the fuck up",
+        "hell fucker damn",
+        "stupid you are",
+        "idiot dick cock",
+        "dumb ass cunt pussy",
+        "asshole crap fucker",
+        "bloody hell"
       ],
       "responses": [
         "Please use appropriate language",
@@ -565,6 +552,7 @@
         "k",
         "ok",
         "okay",
+        "i like you",
         "I appreciate your assistance!",
         "You've been very helpful, thank you!",
         "Great job, I'm impressed!",
@@ -602,6 +590,9 @@
       "tag": "Chatbot Capabilities",
       "patterns": [
         "what can you do",
+        "Can I ask a question?",
+        "I need help",
+        "I'm interested in applying",
         "what are the thing you can do",
         "things you can do",
         "what can u do for me",
@@ -632,7 +623,7 @@
         "Do you have any unique functionalities?"
       ],
       "responses": [
-        "You can ask me questions regarding KNUST admissions and I will try to answer them"
+        "You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them"
       ],
       "context_set": ""
     },
@@ -730,7 +721,6 @@
       ],
       "context_set": ""
     },
-    
 
 
     {
@@ -753,6 +743,28 @@
       ],
       "responses": [
         "You can access the KNUST admission portal <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/\">here</a>"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "international student",
+      "patterns": [
+        "Do you accept international students",
+        "Are international students welcome?",
+        "Can I apply as an international student?",
+        "Do you have programs for international students?",
+        "What are the requirements for international students?",
+        "Is there support for international students?",
+        "Can international students get scholarships?",
+        "What is the application process for international students?",
+        "Are there services for international students?",
+        "Do you offer assistance to international students?",
+        "Do international students need a specific visa?"
+      ],
+      "responses": [
+        "Yes, we do accept international students! We welcome applicants from around the globe and offer a range of programs and support services tailored to meet their needs. Our admissions team is here to help you through the application process, and we offer various resources, including scholarships, to ensure your success. For more detailed information, please visit our international students' page or contact our admissions office."
       ],
       "context_set": ""
     },
@@ -831,6 +843,7 @@
     {
       "tag": "Checking Undergraduate Admission Status Timeline",
       "patterns": [
+        "How can I check my application status",
         "When can I check my admission status as an undergraduate student?",
         "At what time can I verify my admission status as an undergraduate student?",
         "When will the admission status for undergraduate students be available?",
@@ -963,7 +976,10 @@
         "Can I buy undergraduate application forms online, or are they only available in person?",
         "Is there a central location or office where I can obtain undergraduate application forms?",
         "Can I pay for undergraduate application forms using mobile money or other electronic payment methods?",
-        "where can I purchase application form in Ghana?"
+        "where can I purchase application form in Ghana?",
+        "any short code to buy the e-voucher?",
+        "how can i buy the forms",
+        "Is there an application fee"
       ],
       "responses": [
         "<ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>"

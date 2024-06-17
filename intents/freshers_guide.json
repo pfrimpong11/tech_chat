@@ -415,6 +415,7 @@
         {
             "tag": "campus_living",
             "patterns": [
+                "What are the facilities like",
                 "What are the accommodation options at KNUST?",
                 "Can you tell me about living on campus at KNUST?",
                 "What are the residential facilities like at KNUST?"
@@ -445,7 +446,8 @@
             "patterns": [
                 "What dining options are available at KNUST?",
                 "Can you tell me about the food joints at KNUST?",
-                "Where can I find food on campus at KNUST?"
+                "Where can I find food on campus at KNUST?",
+                "Are there dining options on campus"
             ],
             "responses": [
                 "KNUST and its neighboring suburbs have a diverse range of restaurants serving local and international cuisine. There are over 30 dining locations in and around campus, offering plenty of variety and convenience. The dining halls of the six halls of residence offer a variety of dishes and snacks at affordable prices to students, and most restaurants around campus offer room services."

@@ -96,4 +96,4 @@ while True:
     response = get_response(intents, all_intents)
     print("Bot:", response)
     
-    log_interaction(message, intents, response)
+    # log_interaction(message, intents, response)

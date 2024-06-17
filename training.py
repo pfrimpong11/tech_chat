@@ -18,10 +18,11 @@ lemmatizer = WordNetLemmatizer()
 
 # Load all intents from multiple JSON files
 intent_files = [
-    'intents.json', 'instruction_prog_list.json', 'cut_off.json', 'sciences_requirement.json',
-    'humanities_social_sciences_requirement.json', 'health_science_requirement.json', 
-    'engineering_requirement.json', 'art_and_built_requirement.json', 
-    'agric_and_natural_resource_requirement.json', 'freshers_guide.json'
+    'intents/intents.json', 'intents/instruction_prog_list.json', 'intents/cut_off.json',
+    'intents/sciences_requirement.json', 'intents/humanities_social_sciences_requirement.json',
+    'intents/health_science_requirement.json', 'intents/engineering_requirement.json',
+    'intents/art_and_built_requirement.json', 'intents/agric_and_natural_resource_requirement.json',
+    'intents/freshers_guide.json'
 ]
 
 all_intents = {'intents': []}
