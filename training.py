@@ -2,6 +2,7 @@ import random
 import json
 import pickle
 import numpy as np
+import matplotlib.pyplot as plt
 
 import nltk
 from nltk.stem import WordNetLemmatizer
@@ -84,7 +85,7 @@ train_x, val_x, train_y, val_y = train_test_split(train_x, train_y, test_size=0.
 
 # Define the model
 model = Sequential()
-model.add(Dense(128, activation='relu'))
+model.add(Dense(128, activation='relu', input_shape=(len(train_x[0]),)))
 model.add(Dropout(0.5))
 model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
@@ -107,3 +108,28 @@ print("Validation Accuracy:", accuracy)
 
 model.save('chatbot_model.h5')  # Model saved
 print("Done")
+
+# Print the model summary
+model.summary()
+
+# Plot the accuracy and loss
+plt.figure(figsize=(12, 4))
+
+plt.subplot(1, 2, 1)
+plt.plot(history.history['accuracy'], label='Train Accuracy')
+plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
+plt.title('Model Accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.legend(loc='upper left')
+
+plt.subplot(1, 2, 2)
+plt.plot(history.history['loss'], label='Train Loss')
+plt.plot(history.history['val_loss'], label='Validation Loss')
+plt.title('Model Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend(loc='upper left')
+
+plt.tight_layout()
+plt.show()
