@@ -3,6 +3,15 @@ import random
 import numpy as np
 from modules.utils import bag_of_words
 
+
+def log_interaction(user_input, predicted_intents, response):
+    with open('chatbot_interactions.txt', 'a', encoding='utf-8') as f:
+        f.write(f"User: {user_input}\n")
+        f.write("Predicted Intents:\n")
+        for intent in predicted_intents:
+            f.write(f"- {intent['intent']}: {intent['probability']}\n")
+        f.write(f"Bot: {response}\n\n")
+
 def predict_class(sentence, model, words, classes):
     bow = bag_of_words(sentence, words)
     res = model.predict(np.array([bow]), verbose=0)[0]
@@ -25,4 +34,6 @@ def generate_bot_response(user_message, model, words, classes, all_intents):
     print("Predicted Tags:")
     for intent in intents:
         print(f"- {intent['intent']}: {intent['probability']}")
-    return get_response_from_intent(intents, all_intents)
+    response = get_response_from_intent(intents, all_intents)
+    log_interaction(user_message, intents, response) #log user interaction
+    return response

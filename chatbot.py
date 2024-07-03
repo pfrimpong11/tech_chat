@@ -34,7 +34,9 @@ try:
 
     words = pickle.load(open('words.pkl', 'rb'))
     classes = pickle.load(open('classes.pkl', 'rb'))
-    model = load_model('chatbot_model.h5')
+    # model = load_model('chatbot_model.h5')
+    model = load_model('chatbot_functional_model.h5')
+
 
 except FileNotFoundError as e:
     print(f"Error: {e}")
@@ -81,6 +83,14 @@ def log_interaction(user_input, predicted_intents, response):
     logging.info(f"Predicted Intents: {predicted_intents}")
     logging.info(f"Bot: {response}")
 
+    # Write to text file
+    with open('chatbot_interactions.txt', 'a', encoding='utf-8') as f:
+        f.write(f"User: {user_input}\n")
+        f.write("Predicted Intents:\n")
+        for intent in predicted_intents:
+            f.write(f"- {intent['intent']}: {intent['probability']}\n")
+        f.write(f"Bot: {response}\n\n")
+
 print("GO! BOT IS RUNNING (type 'exit' to stop)")
 
 while True:
@@ -96,4 +106,4 @@ while True:
     response = get_response(intents, all_intents)
     print("Bot:", response)
     
-    # log_interaction(message, intents, response)
+    log_interaction(message, intents, response)

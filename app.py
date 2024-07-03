@@ -58,7 +58,9 @@ for file_name in intent_files:
 # Load trained chatbot model and other necessary data
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
-model = load_model('chatbot_model.h5')
+# model = load_model('chatbot_model.h5')
+model = load_model('chatbot_functional_model.h5')
+
 
 # Flask routes
 @app.route("/")

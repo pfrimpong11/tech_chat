@@ -72,7 +72,8 @@
                 "Which documents are mandatory?",
                 "What should I bring?",
                 "Document submission",
-                "What is required for submission?"
+                "What is required for submission?",
+                "documents needed for application"
             ],
             "responses": [
                 "Here are the documents needed to start application <ul><b>For all Applicant</b><li>Examination Results</li><li>Birth Certificate</li><li>Ghana Card/Passport</li><li>Passport Photograph (Light green background)</li><li>Applicants from non-English speaking countries must provide a minimum of <b>one year English Proficiency Certificate.</b></li></ul>"
