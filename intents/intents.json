@@ -172,10 +172,8 @@
     {
       "tag": "creator",
       "patterns": [
-        "what is the name of your developers",
-        "what is the name of your creators",
-        "what is the name of the developers",
-        "what is the name of the creators",
+        "the name of your developers",
+        "the name of your creators",
         "who created you",
         "your developers",
         "your creators",

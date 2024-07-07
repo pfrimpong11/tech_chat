@@ -63,6 +63,34 @@
 
 
         {
+            "tag": "facilities",
+            "patterns": [
+                "What facilities does KNUST offer?",
+                "Can you describe the facilities available at KNUST?",
+                "What are the different types of facilities at KNUST?",
+                "Can you provide an overview of KNUST's facilities?",
+                "Tell me about the accommodation options at KNUST.",
+                "What accommodation facilities are there at KNUST?",
+                "What are the traditional halls of residence at KNUST?",
+                "What academic facilities does KNUST have?",
+                "Describe the academic resources available at KNUST.",
+                "What libraries and research centers are available at KNUST?",
+                "What sporting facilities are available at KNUST?",
+                "Can you list the sports amenities at KNUST?",
+                "What commercial services are provided on the KNUST campus?",
+                "Tell me about the commercial area at KNUST.",
+                "What kind of healthcare services does KNUST offer?",
+                "What medical facilities are available at KNUST?",
+                "How does KNUST support student healthcare?"
+            ],
+            "responses": [
+                "Here are the facilities available at KNUST: <ul><li><b><u>Accommodation</u></b></li><p>KNUST has six traditional halls of residence:</p><ul><li>University Hall</li><li>Unity Hall</li><li>Africa Hall</li><li>Queen Elizabeth II Hall</li><li>Independence Hall</li><li>Republic Hall</li></ul><p>Additionally, there are numerous private hostels on and around campus.</p><br><li><b><u>Academic Facilities</u></b></li><p>KNUST boasts a wide range of academic facilities:</p><ul><li>Lecture Halls: Modern and well-equipped for various courses.</li><li>Laboratories: State-of-the-art labs for disciplines such as engineering, science, and health.</li><li>Computer Labs: Accessible to students for research and coursework.</li><li>Libraries: Including the main KNUST Library and various college and departmental libraries.</li><li>Research Centers and Institutes: Examples include the Kumasi Center for Collaborative Research (KCCR) and the West African Science Service Center on Climate Change and Adapted Land Use (WASCAL).</li></ul><br><li><b><u>Sporting Facilities</u></b></li><p>KNUST offers a variety of sports amenities:</p><ul><li>Paa Joe Sports Stadium: Seats about 40,000 spectators and hosts numerous sports events.</li><li>Swimming Pool: For swimming and aquatic sports.</li></ul><br><li><b><u>Commercial Area</u></b></li><p>The KNUST Commercial Area serves as a hub for various services:</p><ul><li>Shops: Provide daily necessities and other goods.</li><li>Restaurants: Offer diverse dining options for students and staff.</li><li>Banks: Ensure financial services are easily accessible.</li><li>Other Businesses: Cater to a wide range of needs, from printing services to electronics.</li></ul><br><li><b><u>Healthcare</u></b></li><p>KNUST has comprehensive healthcare facilities:</p><ul><li>University Hospital: Provides extensive medical care for students, faculty, and staff.</li><li>Students' Clinic: Offer specialized services and general medical consultations.</li></ul></ul>"
+            ],
+            "context_set": ""
+        },
+
+
+        {
             "tag": "Accommodation Options at KNUST",
             "patterns": [
                 "What are the accommodation options available at KNUST?",
@@ -546,7 +574,8 @@
             "patterns": [
                 "What can you tell me about the KNUST Library?",
                 "Can you provide information about the University Library at KNUST?",
-                "How old is the University Library at KNUST?"
+                "How old is the University Library at KNUST?",
+                "Do you have a library?"
             ],
             "responses": [
                 "The KNUST Library has been an integral part of the university since its inception. Established in 1952 with 4,000 volumes from the Teacher Training Department of Achimota College, it has grown significantly over the years. Currently located near the Great Hall, the library boasts a stock of about 214,692 volumes and a journal holding of over 3,850 titles, with a seating capacity of 1,420."

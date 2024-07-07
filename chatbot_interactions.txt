@@ -112,3 +112,190 @@ Predicted Intents:
 - Accommodation for Ghanaian/Local Students on Campus: 0.15727769
 Bot: All Foreign Students are accommodated at GUSSS Hostel within the University Campus.
 
+User: do you have a girlfriend ?
+Predicted Intents:
+- Chatbot Capabilities: 0.7072365
+- random: 0.16638757
+- Positive Feedback/Appreciation: 0.098818384
+Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
+
+User: do you do disability and rehabilitation studies ?
+Predicted Intents:
+- BSc Disability and Rehabilitation Studies Cutoff Points: 0.98586375
+Bot: The cutoff points for BSc. Disability and Rehabilitation Studies are typically around aggregate 14. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
+
+User: what are the requirements for disability and rehabilitation studies ?
+Predicted Intents:
+- bsc_disability_rehabilitation_studies_requirements: 0.931986
+Bot: Here are the requirements for BSc. Disability and Rehabilitation Studies <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes from the following groups: General Science, General Art, Business, Visual Art or Vocational. </p></ul>
+
+User: thank you
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.8177099
+- goodbye: 0.162452
+Bot: I am glad I helped you
+
+User: where can i get the admissions forms ?
+Predicted Intents:
+- e-voucher: 0.59629834
+- application_process: 0.1330803
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.11156433
+- how_to_apply: 0.09876325
+Bot: This is how you can acquire your e-voucher <ul><li>Undergraduate/A Level/Mature/Top-up & Others: Purchase E-Voucher from Ghana Post Office Only</li><li>Ghanaian/Other Applicants with Foreign Results/Certificate: Purchase E-Voucher from Ghana Post Office </li><li>International Applicant: All International Applicants are to generate Login ID/Serial Number and PIN for the online application <a target="_blank" href="https://apps.knust.edu.gh/admissions/apply/Account/Register">here</a> </li></ul>
+
+User: is there a short code i can use to buy ?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.46700597
+- goodbye: 0.11820232
+- Positive Feedback/Appreciation: 0.09623674
+Bot: <ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>
+
+User: after buying the forms , what documents do i need to start the admission process ?
+Predicted Intents:
+- Post-Application Form Printing Procedures: 0.7035312
+- how_to_apply: 0.15856338
+- application_process: 0.10132515
+Bot: Online print-out should be added to the admission forms filled manually and posted through DHL (For International Students) or EMS Delivery Services (for local students).
+
+User: what documents do i need to start the admission process ?
+Predicted Intents:
+- how_to_apply: 0.44816902
+- application_process: 0.23193742
+- general_admission_requirement: 0.155379
+Bot: <ol><li>Click <a target="_blank" href="https://apps.knust.edu.gh/admissions/apply/Account/Login">here</a> to enter the credentials on the voucher to Start the Application. </li><li>Complete all mandatory fields marked with * </li><li>Save and exit (If you have to log out and continue later) or save and proceed to the next step. </li><li>Educational background - In the case where your Institution is not listed, kindly select Private. </li><li> Examination Results- <ul><li> Examination type - If your examination type is not listed, select Certification/Diploma/Degree. </li><li>Sitting - Select May/June (School) if your examination type is not WASSCE/SSSCE. </li><li>Year - Select year of Examination </li><li>Index Number also known as candidate number or Examination ID. </li></ul></li><li>Subject - Select subjects offered in high school and the corresponding grades. <ul><li>If awaiting results, select awaiting as the grade. </li><li>If other certificates, select the certificate and the corresponding grade/class. </li></ul></li><li>Select add results if you have more than one results or certificate. </li><li>Attach all mandatory supporting documents scanned in PDF format. <ul><li>Birth Certificate. </li><li>Results slips and or Certificates (For other modes of application excluding WASSCE). </li></ul></li><li>Applicant Declaration; read, agree and tick to declare that all information provided in the application is true. </li><li>Programme Choices. (select regular as the Stream). <ul><li> Tick yes, if you want to be considered for fee-paying or parallel. </li></ul></li><li>Identification document (Ghana Card/Passport) (PDF). </li><li> Review and proceed. </li><li> Tick to declare and agree that the information provided are true. </li><li> Submit and keep a copy of the application for Personal reference. </li></ol><br><b><i>Note: </i></b><i><ul><li>During the online application process, do not leave the online application inactive for more than 5 minutes. Doing this would automatically log you out. </li><li>Until the application deadline the application can be edited as many times as needed. </li><li>Check the subject requirements for the programme you are interested in to ensure that you qualify before selecting. For example, students with home economics background cannot read BSc. Nursing at KNUST. </li><li>Those applying with “Other International High School results” may be required to do an evaluation of results/Certificate from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency. </li><li>Fee paying option is for the entire duration of the programme of study. Once you opt for fee paying you retain that status for the entire duration of the programme. </li></ul></i>
+
+User: what happens when i do not post the acceptance letter ?
+Predicted Intents:
+- Post-Admission Procedures (Undergraduate): 0.3054557
+- Error Correction: 0.17932394
+- Post-Application Form Printing Procedures: 0.1284295
+Bot: <ul><li>Visit the admissions portal <a target="_blank" href="https://apps.knust.edu.gh/admissions/"> here</a></li><li>Click on login or click <a target="_blank" href="https://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F">here</a></li><li>Enter your application serial and PIN and click on Log in</li><li>Click on Check Status </li><li>Confirm your admission and print it out</li><li>Print your acceptance form and your fee schedule <a target="_blank" href="https://www.knust.edu.gh/academic-fees">here</a></li><li>Pay your fees</li><li>Book your accommodation <a target="_blank" href="https://accommodation.knust.edu.gh/">here</a></li><li>Login to your student portal <a target="_blank" href="https://apps.knust.edu.gh/students/Account/Login?ReturnUrl=%2Fstudents%2F">here</a> or download the AIM app from the <a target="_blank" href="https://apps.apple.com/us/app/knust-aim/id1632229714">Apple Appstore</a> and <a target="_blank" href="https://play.google.com/store/apps/details?id=gh.edu.knust.aim&gl=US&pli=1">Google Playstore</a> </li><li>Click on Course Registration in the portal and proceed to register your courses for the semester</li><li>Visit the UITS Support Center at the Basement of the Casely-Hayford Building for further assistance</li></ul>
+
+User: can i contact the school ?
+Predicted Intents:
+- Contact Information: 0.958868
+Bot: You can contact the Admissions Office at <ul> <li>Telephone: <a target="_blank" href="tel:+233240130946">+233240130946</a> OR <a target="_blank" href="tel:+233500482807">+233500482807</a> </li>  <li>Email: <a target="_blank" href="mailto:admissions@knust.edu.gh">admissions@knust.edu.gh</a> </li> </ul>
+
+User: thank you very much
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.8542076
+- goodbye: 0.12729445
+Bot: I am glad I helped you
+
+User: i think i like you
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.7264995
+- random: 0.19344895
+Bot: welcome, anything else I can assist you with?
+
+User: i am in love with you
+Predicted Intents:
+- random: 0.69738287
+- Positive Feedback/Appreciation: 0.20330875
+Bot: I am not program for this, please ask appropriate query
+
+User: wow
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.48051825
+- goodbye: 0.44334507
+Bot: I am glad I helped you
+
+User: what else can i you do ?
+Predicted Intents:
+- Chatbot Capabilities: 0.9004872
+Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
+
+User: what is your name ?
+Predicted Intents:
+- creator: 0.64689016
+- name: 0.25944385
+Bot: A group of university students developed me, Frimpong Prince and Akinie Samuel Aterh
+
+User: what can i call you ?
+Predicted Intents:
+- Chatbot Capabilities: 0.63352877
+- Positive Feedback/Appreciation: 0.103420936
+Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
+
+User: what should i call you
+Predicted Intents:
+- greeting: 0.2991196
+- Chatbot Capabilities: 0.20596692
+- name: 0.14796384
+- random: 0.13583092
+- creator: 0.10708672
+Bot: Hello!
+
+User: who are you ?
+Predicted Intents:
+- creator: 0.9564654
+Bot: A group of university students developed me, Frimpong Prince and Akinie Samuel Aterh
+
+User: what can you tell me about just
+Predicted Intents:
+- greeting: 0.30645806
+- name: 0.22150548
+- Chatbot Capabilities: 0.21945854
+- creator: 0.109013885
+Bot: Hey, things are going well! How about you?
+
+User: hah
+Predicted Intents:
+- greeting: 0.5887987
+- Positive Feedback/Appreciation: 0.1409347
+- goodbye: 0.091325514
+Bot: Hi there, how can I help?
+
+User: leave me the fuck alone
+Predicted Intents:
+- Profanity/Inappropriate Language: 0.25392362
+- creator: 0.1934046
+- name: 0.13142966
+- random: 0.12515454
+Bot: Please use appropriate language
+
+User: oh okay
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.70991415
+- goodbye: 0.1854854
+Bot: I am glad I helped you
+
+User: when can i apply
+Predicted Intents:
+- Tuition Fees: 0.46476713
+- application_process: 0.107259154
+- how_to_apply: 0.0939068
+Bot: For Fee detail visit <a target="_blank" href="https://www.knust.edu.gh/academic-fees"> here</a>
+
+User: show me directions to campus
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.42695087
+- Chatbot Capabilities: 0.1875749
+- goodbye: 0.11440227
+Bot: welcome, anything else I can assist you with?
+
+User: what facilities do you have on campus ?
+Predicted Intents:
+- general_admission_requirement: 0.103404135
+Bot: Below are the general entry requirements for for candidates with WASSCE / SSSCE, GCE / IGCSE 'A' & 'O' LEVELS, ABCE / GBCE, MATURE and equivalent qualifications <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>An applicant for admission to a degree programme in the University must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate <b>24 or better</b>. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university.</p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements.</p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study.</p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE.</p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>An applicant for admission to a degree programme in the Kwame Nkrumah University of Science and Technology, Kumasi must have a Final Grade Point of at least 3.0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3.25. Admissions will be to the Year 1.</p></li></ul><br><p><i><u>Other relevant information</u></i></p><ul><i><li><b>Ghanaian/Other Applicants with Foreign Results/Certificate:</b> The University shall request an evaluation of results/Certificate other than those mentioned above, (a) to (f), from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission.</li><li>Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate.</li><li>Documents not in English should be accompanied by accredited translations in English.</li><li><b>Transfer of Applicants:</b> Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs <a target='_blank' href='admissions@knust.edu.gh'>here</a> or the International Programmes Office <a target='_blank' href='ipo@knust.edu.gh'>here</a> to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary.</li></i></ul>
+
+User: do you have a library ?
+Predicted Intents:
+- Chatbot Capabilities: 0.83773094
+- random: 0.091225155
+Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
+
+User: what can you tell me about just library ?
+Predicted Intents:
+- name: 0.28410062
+- greeting: 0.25471908
+- creator: 0.15810771
+- Chatbot Capabilities: 0.14430702
+Bot: I'm TechChat
+
+User: how old is the university library ?
+Predicted Intents:
+- University Location/Address: 0.45592242
+- University Hours/Operating Hours: 0.25902122
+Bot: KNUST is located in Kumasi, Ghana, which is the Ashanti Region's capital <ul> <li><a target="_blank" href="https://maps.app.goo.gl/FiengdzdZqxpAsbSA">Google map</a></li>  <li>Ghana Post GPS Address: AK-385-1973</li>  </ul>
+
