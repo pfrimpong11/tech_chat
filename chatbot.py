@@ -64,7 +64,7 @@ def bag_of_words(sentence):
 def predict_class(sentence):
     bow = bag_of_words(sentence)
     res = model.predict(np.array([bow]), verbose=0)[0]
-    ERROR_THRESHOLD = 0.35  # Probability threshold
+    ERROR_THRESHOLD = 0.09  # Probability threshold
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
 
     results.sort(key=lambda x: x[1], reverse=True)

@@ -35,7 +35,7 @@ def bag_of_words(sentence, words):
 def predict_class(sentence, model, words, classes):
     bow = bag_of_words(sentence, words)
     res = model.predict(np.array([bow]), verbose=0)[0]
-    ERROR_THRESHOLD = 0.50  # Probability threshold
+    ERROR_THRESHOLD = 0.25  # Probability threshold
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
 
     results.sort(key=lambda x: x[1], reverse=True)
@@ -46,7 +46,7 @@ def predict_class(sentence, model, words, classes):
 
 def get_response_from_intent(intents_list, all_intents):
     for intent in intents_list:
-        tag = intent['intent'].lower()
+        tag = intent['intent']
         for intent_data in all_intents['intents']:
             if intent_data['tag'] == tag:
                 print(f"Using tag: {tag}")  # Print the tag used to generate the response
