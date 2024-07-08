@@ -86,6 +86,7 @@
         "whatsup",
         "Hey, what's up?",
         "Hey, how have you been?",
+        "good evening",
         "??? ??? ??"
       ],
       "responses": [
@@ -503,7 +504,9 @@
         "Are you single?",
         "I want to be with you",
         "Do you think about me?",
-        "Can you love me?"
+        "Can you love me?",
+        "do you have a girl friend",
+        "i want a wife"
       ],
       "responses": [
         "I am not program for this, please ask appropriate query"
@@ -1102,6 +1105,30 @@
       ],
       "responses": [
         "It is essential to fully and properly complete the application at the time of submission to avoid processing delays or rejection. Applicants must carefully review all sections of the application form and ensure that all required fields are filled accurately. Any incomplete or improperly filled application may not be processed or considered for admission."
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "KNUST info",
+      "patterns": [
+          "Tell me about KNUST.",
+          "What is KNUST?",
+          "Can you provide information on KNUST?",
+          "What are the key features of KNUST?",
+          "Give me an overview of KNUST.",
+          "What are KNUST's achievements?",
+          "What are the research achievements of KNUST?",
+          "What ranking does KNUST hold?",
+          "What makes KNUST unique?",
+          "Why is KNUST well-known?",
+          "What is the history of KNUST?",
+          "How is KNUST ranked globally?",
+          "what makes knust unique compared to other universities in ghana"
+      ],
+      "responses": [
+        "KNUST, also referred to as UST, Tech or Kwame Tech, is a public university located in Kumasi, Ashanti Region, Ghana. It is the second public university established in Ghana and the largest university in the Ashanti Region. Established in 1951 as the Kumasi College of Technology, it became a full-fledged university in 1961 and was named after Kwame Nkrumah, the first president of Ghana. <ul><li><b><u>Programs and Focus</u></b></li><p>KNUST is a science and technology-focused university with a strong reputation for research and development. It offers a wide range of undergraduate and postgraduate programs in science, engineering, agriculture, medicine, pharmacy, law, social sciences, and humanities. The university is known for its research outcomes and the development of human resources in these fields.</p><br><li><b><u>Achievements</u></b></li><ul><li>Ranked 14th in Africa and 706th in the world, according to Times Higher Education World University Rankings.</li><li>Ranked No. 1 globally for the provision of quality education by the World University Ranking in 2023.</li><li>First university in West Africa to have won the Pan African Universities Debate Championship consecutively in 2018, 2019, and 2020.</li><li>First university in Ghana to win the Ghana national rounds of the Philip C. Jessup International Law Moot Court Competition.</li><li>First university in Africa to have won the Pan African Universities Debating Championship three consecutive times by December 2020.</li></ul><br><li><b><u>Campus Facilities</u></b></li><ul><li>Accommodation: Halls of residence</li><li>Academic Facilities: Lecture halls, laboratories, computer labs, libraries</li><li>Research Centers and Institutes</li><li>Sporting Facilities</li><li>Commercial Area: Shops, restaurants, and banks</li><li>Healthcare: University Hospital</li></ul></ul>"
       ],
       "context_set": ""
     }

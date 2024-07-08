@@ -64,10 +64,14 @@ def bag_of_words(sentence):
 def predict_class(sentence):
     bow = bag_of_words(sentence)
     res = model.predict(np.array([bow]), verbose=0)[0]
-    ERROR_THRESHOLD = 0.09  # Probability threshold
-    results = [{"intent": classes[i], "probability": str(res[i])} for i in range(len(classes)) if res[i] > ERROR_THRESHOLD]
-    results.sort(key=lambda x: float(x['probability']), reverse=True)
-    return results[:10]  # Return only the first 10 predicted tags
+    ERROR_THRESHOLD = 0.35  # Probability threshold
+    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+
+    results.sort(key=lambda x: x[1], reverse=True)
+    return_list = []
+    for r in results:
+        return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
+    return return_list[:10] # Return only the first 10 predicted tags
 
 def get_response(intents_list, all_intents):
     for intent in intents_list:
@@ -82,14 +86,6 @@ def log_interaction(user_input, predicted_intents, response):
     logging.info(f"User: {user_input}")
     logging.info(f"Predicted Intents: {predicted_intents}")
     logging.info(f"Bot: {response}")
-
-    # Write to text file
-    with open('chatbot_interactions.txt', 'a', encoding='utf-8') as f:
-        f.write(f"User: {user_input}\n")
-        f.write("Predicted Intents:\n")
-        for intent in predicted_intents:
-            f.write(f"- {intent['intent']}: {intent['probability']}\n")
-        f.write(f"Bot: {response}\n\n")
 
 print("GO! BOT IS RUNNING (type 'exit' to stop)")
 

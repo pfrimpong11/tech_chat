@@ -73,7 +73,8 @@
                 "What should I bring?",
                 "Document submission",
                 "What is required for submission?",
-                "documents needed for application"
+                "documents needed for application",
+                "what are the information required in filling admission forms"
             ],
             "responses": [
                 "Here are the documents needed to start application <ul><b>For all Applicant</b><li>Examination Results</li><li>Birth Certificate</li><li>Ghana Card/Passport</li><li>Passport Photograph (Light green background)</li><li>Applicants from non-English speaking countries must provide a minimum of <b>one year English Proficiency Certificate.</b></li></ul>"
@@ -166,7 +167,8 @@
                 "Programmes available",
                 "list of programmes",
                 "How many programs does tech offer in all?",
-                "what are the programmes that tech offers"
+                "what are the programmes that tech offers",
+                "what are some of the programs offered in knust"
             ],
             "responses": [
                 "Programmes are grouped into the various colleges that offer them, kindly enter the college.<ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>"
@@ -371,7 +373,8 @@
                 "What are the standards for admission?",
                 "How to qualify for admission?",
                 "What are the minimum requirements for admission?",
-                "general Admission conditions?"
+                "general Admission conditions?",
+                "i want to know about knust admission"
             ],
             "responses": [
                 "Below are the general entry requirements for for candidates with WASSCE / SSSCE, GCE / IGCSE 'A' & 'O' LEVELS, ABCE / GBCE, MATURE and equivalent qualifications <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>An applicant for admission to a degree programme in the University must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate <b>24 or better</b>. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university.</p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements.</p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study.</p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE.</p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>An applicant for admission to a degree programme in the Kwame Nkrumah University of Science and Technology, Kumasi must have a Final Grade Point of at least 3.0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3.25. Admissions will be to the Year 1.</p></li></ul><br><p><i><u>Other relevant information</u></i></p><ul><i><li><b>Ghanaian/Other Applicants with Foreign Results/Certificate:</b> The University shall request an evaluation of results/Certificate other than those mentioned above, (a) to (f), from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission.</li><li>Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate.</li><li>Documents not in English should be accompanied by accredited translations in English.</li><li><b>Transfer of Applicants:</b> Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs <a target='_blank' href='admissions@knust.edu.gh'>here</a> or the International Programmes Office <a target='_blank' href='ipo@knust.edu.gh'>here</a> to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary.</li></i></ul>"

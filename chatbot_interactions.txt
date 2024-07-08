@@ -1,301 +1,387 @@
-User: do you offer computer engineering
+User: good evening
 Predicted Intents:
-- bsc_computer_engineering_requirements: 0.75768965
-- BSc Computer Engineering Cutoff Points: 0.16738243
-Bot: Here are the requirements for BSc. Computer Engineering: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Applicants shall have at least Second Class Honours from any accredited Computer Engineering oriented programme such as Electrical and Electronic Engineering.  </li><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>
-
-User: programmes available at college of science
-Predicted Intents:
-- sciences_programmes: 0.9247755
-Bot: List of Programmes offered by College of Science <ul><li><b>Faculty of Biosciences</b><ul><li>BSc. Biochemistry</li><li>BSc. Food Science and Technology</li><li>BSc. Dietetics</li><li>BSc. Human Nutrition</li><li>BSc. Biological Science</li><li>BSc. Environmental Science</li><li><b>BSc. Environmental Science (Obuasi Campus)</b></li><li>Doctor of Optometry</li></ul><br></li><li><b>Faculty of Physical and Computational Sciences</b><ul><li>BSc. Chemistry</li><li>BSc. Mathematics</li><li>BSc. Physics</li><li>BSc. Computer Science</li><li>BSc. Statistics</li><li>BSc. Actuarial Science</li><li>BSc. Meteorology and Climate Science</li></ul></li></ul>
-
-User: what are the accepted examination results ?
-Predicted Intents:
-- accepted_examination_results: 0.9838516
-Bot: Examination results accepted for application <ul><li>West African Senior Secondary Certificate Examination (WASSCE)/Senior Secondary School Certificate Examination (SSSCE)</li><li>WASSCE International</li><li>International Baccalaureate</li><li>American High School Grade 12</li><li>General Business Certificate Examination (GBCE) and Advanced Business Certificate Examination (ABCE)</li><li>General Certificate Examination (GCE)/International General Certificate of Secondary Education (IGCSE) (Cambridge) Ordinary and Advanced Level</li><li><b>Higher National Diploma (HND) Applicants:</b> HND Certificate plus High School Results</li><li><b>Post-First-Degree Law Applicants:</b> First degree certificate plus High School Results</li><li><b>Doctor of Pharmacy Top-Up Applicants:</b> First Degree Certificate (BPharm) plus High School Results and Pharmacy Licensure Certificate.</li><li>Other International High School Results</li></ul>
-
-User: what are the requirements for computer engineering ?
-Predicted Intents:
-- bsc_computer_engineering_requirements: 0.98470217
-Bot: Here are the requirements for BSc. Computer Engineering: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Applicants shall have at least Second Class Honours from any accredited Computer Engineering oriented programme such as Electrical and Electronic Engineering.  </li><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>
-
-User: what are the accepted examination results ?
-Predicted Intents:
-- accepted_examination_results: 0.9838516
-Bot: Examination results accepted for application <ul><li>West African Senior Secondary Certificate Examination (WASSCE)/Senior Secondary School Certificate Examination (SSSCE)</li><li>WASSCE International</li><li>International Baccalaureate</li><li>American High School Grade 12</li><li>General Business Certificate Examination (GBCE) and Advanced Business Certificate Examination (ABCE)</li><li>General Certificate Examination (GCE)/International General Certificate of Secondary Education (IGCSE) (Cambridge) Ordinary and Advanced Level</li><li><b>Higher National Diploma (HND) Applicants:</b> HND Certificate plus High School Results</li><li><b>Post-First-Degree Law Applicants:</b> First degree certificate plus High School Results</li><li><b>Doctor of Pharmacy Top-Up Applicants:</b> First Degree Certificate (BPharm) plus High School Results and Pharmacy Licensure Certificate.</li><li>Other International High School Results</li></ul>
-
-User: where can i check my admission status as an undergraduate student ?
-Predicted Intents:
-- Checking Undergraduate Admission Status Timeline: 0.41663918
-- Undergraduate Admission Status: 0.3569268
-- Post-Admission Procedures (Undergraduate): 0.21209341
-Bot: You can check for updates on the admission portal <a target="_blank" href="https://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F">here</a>
-
-User: hey
-Predicted Intents:
-- greeting: 0.9764664
-Bot: Hey, I've been good. How about you?
-
-User: what is the general admission requirement ?
-Predicted Intents:
-- general_admission_requirement: 0.9528964
-Bot: Below are the general entry requirements for for candidates with WASSCE / SSSCE, GCE / IGCSE 'A' & 'O' LEVELS, ABCE / GBCE, MATURE and equivalent qualifications <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>An applicant for admission to a degree programme in the University must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate <b>24 or better</b>. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university.</p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements.</p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study.</p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE.</p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>An applicant for admission to a degree programme in the Kwame Nkrumah University of Science and Technology, Kumasi must have a Final Grade Point of at least 3.0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3.25. Admissions will be to the Year 1.</p></li></ul><br><p><i><u>Other relevant information</u></i></p><ul><i><li><b>Ghanaian/Other Applicants with Foreign Results/Certificate:</b> The University shall request an evaluation of results/Certificate other than those mentioned above, (a) to (f), from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission.</li><li>Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate.</li><li>Documents not in English should be accompanied by accredited translations in English.</li><li><b>Transfer of Applicants:</b> Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs <a target='_blank' href='admissions@knust.edu.gh'>here</a> or the International Programmes Office <a target='_blank' href='ipo@knust.edu.gh'>here</a> to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary.</li></i></ul>
-
-User: what is the address for the just admission portal ?
-Predicted Intents:
-- Admission Portal Information: 0.27161607
-- general_admission_requirement: 0.17518699
-Bot: You can access the KNUST admission portal <a target="_blank" href="https://apps.knust.edu.gh/admissions/">here</a>
-
-User: programmes available at college of science
-Predicted Intents:
-- sciences_programmes: 0.9247755
-Bot: List of Programmes offered by College of Science <ul><li><b>Faculty of Biosciences</b><ul><li>BSc. Biochemistry</li><li>BSc. Food Science and Technology</li><li>BSc. Dietetics</li><li>BSc. Human Nutrition</li><li>BSc. Biological Science</li><li>BSc. Environmental Science</li><li><b>BSc. Environmental Science (Obuasi Campus)</b></li><li>Doctor of Optometry</li></ul><br></li><li><b>Faculty of Physical and Computational Sciences</b><ul><li>BSc. Chemistry</li><li>BSc. Mathematics</li><li>BSc. Physics</li><li>BSc. Computer Science</li><li>BSc. Statistics</li><li>BSc. Actuarial Science</li><li>BSc. Meteorology and Climate Science</li></ul></li></ul>
-
-User: what are the accepted examination results ?
-Predicted Intents:
-- accepted_examination_results: 0.9838516
-Bot: Examination results accepted for application <ul><li>West African Senior Secondary Certificate Examination (WASSCE)/Senior Secondary School Certificate Examination (SSSCE)</li><li>WASSCE International</li><li>International Baccalaureate</li><li>American High School Grade 12</li><li>General Business Certificate Examination (GBCE) and Advanced Business Certificate Examination (ABCE)</li><li>General Certificate Examination (GCE)/International General Certificate of Secondary Education (IGCSE) (Cambridge) Ordinary and Advanced Level</li><li><b>Higher National Diploma (HND) Applicants:</b> HND Certificate plus High School Results</li><li><b>Post-First-Degree Law Applicants:</b> First degree certificate plus High School Results</li><li><b>Doctor of Pharmacy Top-Up Applicants:</b> First Degree Certificate (BPharm) plus High School Results and Pharmacy Licensure Certificate.</li><li>Other International High School Results</li></ul>
-
-User: obuasi campus cut off points
-Predicted Intents:
-- obuasi_campus_cut_off_aggregate: 0.9796809
-Bot: <i>The Cut-off Aggregate is not predetermined; it may vary from year to year, based on the pass rate and the available space/resources for a programme.</i><br><br><i>The Cut-off Aggregates for programmes for the previous academic year's admissions are published, here-below, to guide prospective applicants in their selection of programmes.</i><br><br><table><tr><th>Programme</th><th>Cut-Off Aggregate</th></tr><tr><td>BSc. Civil Engineering (Obuasi Campus)</td><td>14</td></tr><tr><td>BSc. Electrical/Electronic Engineering (Obuasi Campus)</td><td>13</td></tr><tr><td>BSc. Geological Engineering (Obuasi Campus)</td><td>16</td></tr><tr><td>BSc. Geomatic (Geodetic) Engineering (Obuasi Campus)</td><td>17</td></tr><tr><td>BSc. Materials Engineering (Obuasi Campus)</td><td>18</td></tr><tr><td>BSc. Mechanical Engineering (Obuasi Campus)</td><td>14</td></tr><tr><td>BSc. Metallurgical Engineering (Obuasi Campus)</td><td>19</td></tr><tr><td>BSc. Medical Laboratory Sciences (Obuasi Campus)</td><td>10</td></tr><tr><td>BSc. Midwifery (Obuasi Campus)</td><td>12</td></tr><tr><td>BSc. Nursing (Obuasi Campus)</td><td>11</td></tr><tr><td>BBA (HRM/Management) (Obuasi Campus)</td><td>16</td></tr><tr><td>BBA (Marketing/International Business) (Obuasi Campus)</td><td>17</td></tr><tr><td>BBA (Accounting/Banking and Finance) (Obuasi Campus)</td><td>13</td></tr><tr><td>BBA (Logistics & Supply Chain Management/Business Information Technology) (Obuasi Campus)</td><td>15</td></tr><tr><td>BSc. Environmental Sciences (Obuasi Campus)</td><td>18</td></tr></table>
-
-User: college of health sciences programmes available
-Predicted Intents:
-- health_sciences_programmes: 0.9930842
-Bot: List of Programmes offered by College of Health Sciences <ul><li><b>Faculty of Allied Health Sciences</b><ul><li>BSc. Physiotherapy and Sports Science</li><li>BSc. Medical Imaging</li><li>BSc. Medical Laboratory Science</li><li><b>BSc. Medical Laboratory Science (Obuasi Campus)</b></li></ul><br></li><li><b>School of Nursing and Midwifery</b><ul><li>BSc. Nursing</li><li><b>BSc. Nursing (Obuasi Campus)</b></li><li>Nursing (Emergency Option for Practicing Nurses Only)</li><li>BSc. Midwifery <b>(Females only)</b></li><li>BSc. Midwifery (Females practicing Midwives only) <b>(Sandwich)</b></li><li><b>BSc. Midwifery (Obuasi Campus)</b></li></ul><br></li><li><b>Faculty of Pharmacy and Pharmaceutical Sciences</b><ul><li>Bachelor of Herbal Medicine (BHM)</li><li>Doctor of Pharmacy (Pharm D)</li><li>Doctor of Pharmacy (Pharm D) - 2 years Top-Up (Practicing Pharmacists only)</li></ul><br></li><li><b>School of Medicine and Dentistry</b><ul><li>Human Biology (Medicine) (MBChB)</li><li>802 Bachelor of Dental Surgery (BDS) (Fee-paying only)</li></ul><br></li><li><b>School of Veterinary Medicine</b><ul><li>Doctor of Veterinary Medicine (DVM)</li></ul><br></li><li><b>School of Public Health</b><ul><li>BSc. Disability and Rehabilitation Studies</li></ul></li></ul>
-
-User: where can i purchase application form in ghana ?
-Predicted Intents:
-- Purchasing/buying Undergraduate Application Forms in Ghana: 0.9910555
-Bot: <ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>
-
-User: what are the steps for applying to just ?
-Predicted Intents:
-- general_admission_requirement: 0.4708849
-- how_to_apply: 0.1893771
-- application_process: 0.115140714
-Bot: Below are the general entry requirements for for candidates with WASSCE / SSSCE, GCE / IGCSE 'A' & 'O' LEVELS, ABCE / GBCE, MATURE and equivalent qualifications <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>An applicant for admission to a degree programme in the University must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate <b>24 or better</b>. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university.</p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements.</p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study.</p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE.</p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>An applicant for admission to a degree programme in the Kwame Nkrumah University of Science and Technology, Kumasi must have a Final Grade Point of at least 3.0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3.25. Admissions will be to the Year 1.</p></li></ul><br><p><i><u>Other relevant information</u></i></p><ul><i><li><b>Ghanaian/Other Applicants with Foreign Results/Certificate:</b> The University shall request an evaluation of results/Certificate other than those mentioned above, (a) to (f), from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission.</li><li>Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate.</li><li>Documents not in English should be accompanied by accredited translations in English.</li><li><b>Transfer of Applicants:</b> Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs <a target='_blank' href='admissions@knust.edu.gh'>here</a> or the International Programmes Office <a target='_blank' href='ipo@knust.edu.gh'>here</a> to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary.</li></i></ul>
-
-User: what are the steps for applying to just ?
-Predicted Intents:
-- general_admission_requirement: 0.4708849
-- how_to_apply: 0.1893771
-- application_process: 0.115140714
-Bot: Below are the general entry requirements for for candidates with WASSCE / SSSCE, GCE / IGCSE 'A' & 'O' LEVELS, ABCE / GBCE, MATURE and equivalent qualifications <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>An applicant for admission to a degree programme in the University must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate <b>24 or better</b>. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university.</p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements.</p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study.</p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE.</p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>An applicant for admission to a degree programme in the Kwame Nkrumah University of Science and Technology, Kumasi must have a Final Grade Point of at least 3.0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3.25. Admissions will be to the Year 1.</p></li></ul><br><p><i><u>Other relevant information</u></i></p><ul><i><li><b>Ghanaian/Other Applicants with Foreign Results/Certificate:</b> The University shall request an evaluation of results/Certificate other than those mentioned above, (a) to (f), from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission.</li><li>Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate.</li><li>Documents not in English should be accompanied by accredited translations in English.</li><li><b>Transfer of Applicants:</b> Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs <a target='_blank' href='admissions@knust.edu.gh'>here</a> or the International Programmes Office <a target='_blank' href='ipo@knust.edu.gh'>here</a> to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary.</li></i></ul>
-
-User: where can i purchase application form in ghana ?
-Predicted Intents:
-- Purchasing/buying Undergraduate Application Forms in Ghana: 0.9910555
-Bot: <ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>
-
-User: what are the accepted examination results ?
-Predicted Intents:
-- accepted_examination_results: 0.9838516
-Bot: Examination results accepted for application <ul><li>West African Senior Secondary Certificate Examination (WASSCE)/Senior Secondary School Certificate Examination (SSSCE)</li><li>WASSCE International</li><li>International Baccalaureate</li><li>American High School Grade 12</li><li>General Business Certificate Examination (GBCE) and Advanced Business Certificate Examination (ABCE)</li><li>General Certificate Examination (GCE)/International General Certificate of Secondary Education (IGCSE) (Cambridge) Ordinary and Advanced Level</li><li><b>Higher National Diploma (HND) Applicants:</b> HND Certificate plus High School Results</li><li><b>Post-First-Degree Law Applicants:</b> First degree certificate plus High School Results</li><li><b>Doctor of Pharmacy Top-Up Applicants:</b> First Degree Certificate (BPharm) plus High School Results and Pharmacy Licensure Certificate.</li><li>Other International High School Results</li></ul>
-
-User: what are the requirements for computer engineering ?
-Predicted Intents:
-- bsc_computer_engineering_requirements: 0.98470217
-Bot: Here are the requirements for BSc. Computer Engineering: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Applicants shall have at least Second Class Honours from any accredited Computer Engineering oriented programme such as Electrical and Electronic Engineering.  </li><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>
-
-User: what is the cost of application forms for foreign students ?
-Predicted Intents:
-- Application Form Fees for Foreign Students: 0.94436485
-Bot: Kindly refer to the admission guidelines <a target="_blank" href="https://www.knust.edu.gh/admissions/prospective/applying">here</a>
-
-User: where are foreign students accommodated on campus ?
-Predicted Intents:
-- Accommodation for Foreign/international Students on Campus: 0.7919827
-- Accommodation for Ghanaian/Local Students on Campus: 0.15727769
-Bot: All Foreign Students are accommodated at GUSSS Hostel within the University Campus.
-
-User: do you have a girlfriend ?
-Predicted Intents:
-- Chatbot Capabilities: 0.7072365
-- random: 0.16638757
-- Positive Feedback/Appreciation: 0.098818384
-Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
-
-User: do you do disability and rehabilitation studies ?
-Predicted Intents:
-- BSc Disability and Rehabilitation Studies Cutoff Points: 0.98586375
-Bot: The cutoff points for BSc. Disability and Rehabilitation Studies are typically around aggregate 14. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
-
-User: what are the requirements for disability and rehabilitation studies ?
-Predicted Intents:
-- bsc_disability_rehabilitation_studies_requirements: 0.931986
-Bot: Here are the requirements for BSc. Disability and Rehabilitation Studies <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes from the following groups: General Science, General Art, Business, Visual Art or Vocational. </p></ul>
-
-User: thank you
-Predicted Intents:
-- Positive Feedback/Appreciation: 0.8177099
-- goodbye: 0.162452
-Bot: I am glad I helped you
-
-User: where can i get the admissions forms ?
-Predicted Intents:
-- e-voucher: 0.59629834
-- application_process: 0.1330803
-- Purchasing/buying Undergraduate Application Forms in Ghana: 0.11156433
-- how_to_apply: 0.09876325
-Bot: This is how you can acquire your e-voucher <ul><li>Undergraduate/A Level/Mature/Top-up & Others: Purchase E-Voucher from Ghana Post Office Only</li><li>Ghanaian/Other Applicants with Foreign Results/Certificate: Purchase E-Voucher from Ghana Post Office </li><li>International Applicant: All International Applicants are to generate Login ID/Serial Number and PIN for the online application <a target="_blank" href="https://apps.knust.edu.gh/admissions/apply/Account/Register">here</a> </li></ul>
-
-User: is there a short code i can use to buy ?
-Predicted Intents:
-- Purchasing/buying Undergraduate Application Forms in Ghana: 0.46700597
-- goodbye: 0.11820232
-- Positive Feedback/Appreciation: 0.09623674
-Bot: <ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>
-
-User: after buying the forms , what documents do i need to start the admission process ?
-Predicted Intents:
-- Post-Application Form Printing Procedures: 0.7035312
-- how_to_apply: 0.15856338
-- application_process: 0.10132515
-Bot: Online print-out should be added to the admission forms filled manually and posted through DHL (For International Students) or EMS Delivery Services (for local students).
-
-User: what documents do i need to start the admission process ?
-Predicted Intents:
-- how_to_apply: 0.44816902
-- application_process: 0.23193742
-- general_admission_requirement: 0.155379
-Bot: <ol><li>Click <a target="_blank" href="https://apps.knust.edu.gh/admissions/apply/Account/Login">here</a> to enter the credentials on the voucher to Start the Application. </li><li>Complete all mandatory fields marked with * </li><li>Save and exit (If you have to log out and continue later) or save and proceed to the next step. </li><li>Educational background - In the case where your Institution is not listed, kindly select Private. </li><li> Examination Results- <ul><li> Examination type - If your examination type is not listed, select Certification/Diploma/Degree. </li><li>Sitting - Select May/June (School) if your examination type is not WASSCE/SSSCE. </li><li>Year - Select year of Examination </li><li>Index Number also known as candidate number or Examination ID. </li></ul></li><li>Subject - Select subjects offered in high school and the corresponding grades. <ul><li>If awaiting results, select awaiting as the grade. </li><li>If other certificates, select the certificate and the corresponding grade/class. </li></ul></li><li>Select add results if you have more than one results or certificate. </li><li>Attach all mandatory supporting documents scanned in PDF format. <ul><li>Birth Certificate. </li><li>Results slips and or Certificates (For other modes of application excluding WASSCE). </li></ul></li><li>Applicant Declaration; read, agree and tick to declare that all information provided in the application is true. </li><li>Programme Choices. (select regular as the Stream). <ul><li> Tick yes, if you want to be considered for fee-paying or parallel. </li></ul></li><li>Identification document (Ghana Card/Passport) (PDF). </li><li> Review and proceed. </li><li> Tick to declare and agree that the information provided are true. </li><li> Submit and keep a copy of the application for Personal reference. </li></ol><br><b><i>Note: </i></b><i><ul><li>During the online application process, do not leave the online application inactive for more than 5 minutes. Doing this would automatically log you out. </li><li>Until the application deadline the application can be edited as many times as needed. </li><li>Check the subject requirements for the programme you are interested in to ensure that you qualify before selecting. For example, students with home economics background cannot read BSc. Nursing at KNUST. </li><li>Those applying with “Other International High School results” may be required to do an evaluation of results/Certificate from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency. </li><li>Fee paying option is for the entire duration of the programme of study. Once you opt for fee paying you retain that status for the entire duration of the programme. </li></ul></i>
-
-User: what happens when i do not post the acceptance letter ?
-Predicted Intents:
-- Post-Admission Procedures (Undergraduate): 0.3054557
-- Error Correction: 0.17932394
-- Post-Application Form Printing Procedures: 0.1284295
-Bot: <ul><li>Visit the admissions portal <a target="_blank" href="https://apps.knust.edu.gh/admissions/"> here</a></li><li>Click on login or click <a target="_blank" href="https://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F">here</a></li><li>Enter your application serial and PIN and click on Log in</li><li>Click on Check Status </li><li>Confirm your admission and print it out</li><li>Print your acceptance form and your fee schedule <a target="_blank" href="https://www.knust.edu.gh/academic-fees">here</a></li><li>Pay your fees</li><li>Book your accommodation <a target="_blank" href="https://accommodation.knust.edu.gh/">here</a></li><li>Login to your student portal <a target="_blank" href="https://apps.knust.edu.gh/students/Account/Login?ReturnUrl=%2Fstudents%2F">here</a> or download the AIM app from the <a target="_blank" href="https://apps.apple.com/us/app/knust-aim/id1632229714">Apple Appstore</a> and <a target="_blank" href="https://play.google.com/store/apps/details?id=gh.edu.knust.aim&gl=US&pli=1">Google Playstore</a> </li><li>Click on Course Registration in the portal and proceed to register your courses for the semester</li><li>Visit the UITS Support Center at the Basement of the Casely-Hayford Building for further assistance</li></ul>
-
-User: can i contact the school ?
-Predicted Intents:
-- Contact Information: 0.958868
-Bot: You can contact the Admissions Office at <ul> <li>Telephone: <a target="_blank" href="tel:+233240130946">+233240130946</a> OR <a target="_blank" href="tel:+233500482807">+233500482807</a> </li>  <li>Email: <a target="_blank" href="mailto:admissions@knust.edu.gh">admissions@knust.edu.gh</a> </li> </ul>
-
-User: thank you very much
-Predicted Intents:
-- Positive Feedback/Appreciation: 0.8542076
-- goodbye: 0.12729445
-Bot: I am glad I helped you
-
-User: i think i like you
-Predicted Intents:
-- Positive Feedback/Appreciation: 0.7264995
-- random: 0.19344895
+- Positive Feedback/Appreciation: 0.6576532
+- greeting: 0.16458416
 Bot: welcome, anything else I can assist you with?
 
-User: i am in love with you
+User: i want know about knsut admission
 Predicted Intents:
-- random: 0.69738287
-- Positive Feedback/Appreciation: 0.20330875
-Bot: I am not program for this, please ask appropriate query
+- law_requirements: 0.30210513
+- general_admission_requirement: 0.24556194
+Bot: Here are the requirements for Bachelor of Law (LLB) <ul><li><b><u>WASSCE/SSSCE APPLICANTS (Category I) </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) from the following programmes: General Arts; Business; Visual Art or General Science. </p><br><li><b><u>'A' LEVEL APPLICANTS (Category I) </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:</b>  Credit passes in relevant subjects in General Science, Business, Visual Art or General Arts. </p><br><li><b><u>MATURE APPLICANTS (Category I) </u></b></li><ul><li>An applicant should be at least 25 years at the time of the application. </li><li>An applicant must satisfy the requirements for either WASSCE/SSSCE or 'A' Level </li><li>Short-listed Applicants shall take an entrance examination and pass an interview.  Applicants in this category will be required to pursue the Programme for Four (4) Years. </li><br><i>Mature applicants must be non-degree holders. </i></ul><br><li><b><u>OTHER APPLICANTS (Category II) </u></b></li><br><i><b>Degree and/or Higher Degree Holders in Any Discipline </b></i><p>Applicants must satisfy the University's General Requirements for Admission into Degree Programmes. </p><p>Applicants with the above qualification in any discipline may apply. Short-listed applicants shall take an entrance examination and pass an interview. </p><p><b>Applicants in category II</b></p><ul><li>Will be required to pursue the Programme, in Parallel mode, for Three (3) years</li><li>Mature applicants with a Diploma with more than Ten (10) years working experience may apply under this category. </li></ul></ul>
 
-User: wow
+User: what are some of the programs offered in knsut
 Predicted Intents:
-- Positive Feedback/Appreciation: 0.48051825
-- goodbye: 0.44334507
-Bot: I am glad I helped you
+- accommodation: 0.4172746
+- greeting: 0.24774294
+- programme: 0.19742808
+Bot: There are Six Halls of residence and a number of hostels on the University Campus. <ul> <li> <a target="_blank" href="https://www.knust.edu.gh/students/housing">Halls of Residence</a></li>  <li><a target="_blank" href="https://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year">Recommended Hostels</a></li> </ul>
 
-User: what else can i you do ?
+User: what the information required in filling admission forms
 Predicted Intents:
-- Chatbot Capabilities: 0.9004872
-Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.8095465
+Bot: <ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>
+
+User: what makes knsut unique compared to other universities in ghana
+Predicted Intents:
+- University Location/Address: 0.84447336
+Bot: KNUST is located in Kumasi, Ghana, which is the Ashanti Region's capital <ul> <li><a target="_blank" href="https://maps.app.goo.gl/FiengdzdZqxpAsbSA">Google map</a></li>  <li>Ghana Post GPS Address: AK-385-1973</li>  </ul>
+
+User: where can i purchase knsut admission forms
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.77660745
+- e-voucher: 0.14750926
+Bot: <ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>
+
+User: what are the preferred grade for admission
+Predicted Intents:
+- general_admission_requirement: 0.7909318
+Bot: Below are the general entry requirements for for candidates with WASSCE / SSSCE, GCE / IGCSE 'A' & 'O' LEVELS, ABCE / GBCE, MATURE and equivalent qualifications <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>An applicant for admission to a degree programme in the University must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate <b>24 or better</b>. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university.</p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements.</p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study.</p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE.</p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>An applicant for admission to a degree programme in the Kwame Nkrumah University of Science and Technology, Kumasi must have a Final Grade Point of at least 3.0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3.25. Admissions will be to the Year 1.</p></li></ul><br><p><i><u>Other relevant information</u></i></p><ul><i><li><b>Ghanaian/Other Applicants with Foreign Results/Certificate:</b> The University shall request an evaluation of results/Certificate other than those mentioned above, (a) to (f), from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission.</li><li>Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate.</li><li>Documents not in English should be accompanied by accredited translations in English.</li><li><b>Transfer of Applicants:</b> Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs <a target='_blank' href='admissions@knust.edu.gh'>here</a> or the International Programmes Office <a target='_blank' href='ipo@knust.edu.gh'>here</a> to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary.</li></i></ul>
+
+User: what is the cut off point for civil engineer
+Predicted Intents:
+- BSc Civil Engineering Cutoff Points: 0.50850457
+- BSc Biological Science Cutoff Points: 0.37068415
+Bot: The cutoff points for BSc. Civil Engineering are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
+
+User: how many colleges departments are in knsut
+Predicted Intents:
+- Available Colleges/Departments: 0.44505522
+- programme: 0.41148397
+Bot: <ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>
+
+User: what are some of the halls in knsut
+Predicted Intents:
+- accommodation: 0.9931907
+Bot: There are Six Halls of residence and a number of hostels on the University Campus. <ul> <li> <a target="_blank" href="https://www.knust.edu.gh/students/housing">Halls of Residence</a></li>  <li><a target="_blank" href="https://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year">Recommended Hostels</a></li> </ul>
+
+User: what documents do i need to fill a residence form
+Predicted Intents:
+- document_check_list: 0.6922338
+Bot: Here are the documents needed to start application <ul><b>For all Applicant</b><li>Examination Results</li><li>Birth Certificate</li><li>Ghana Card/Passport</li><li>Passport Photograph (Light green background)</li><li>Applicants from non-English speaking countries must provide a minimum of <b>one year English Proficiency Certificate.</b></li></ul>
+
+User: am i suppose to purchase books before coming to knsut ?
+Predicted Intents:
+- goodbye: 0.89619535
+Bot: Happy to help! If you have any other inquiries, feel free to ask. Goodbye!
+
+User: who is the vice chancellor in knsut
+Predicted Intents:
+- creator: 0.74265915
+Bot: A group of university students developed me, Frimpong Prince and Akinie Samuel Aterh
+
+User: what is the start time and end time for lectures
+Predicted Intents:
+- BSc Quantity Surveying and Construction Economics Cutoff Points: 0.2867639
+Bot: The cutoff points for BSc. Quantity Surveying and Construction Economics are typically around aggregate 11. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
+
+User: what is the fee for engineering courses
+Predicted Intents:
+- ba_integrated_rural_art_industry_requirements: 0.25520843
+- BSc Geomatic (Geodetic) Engineering Cutoff Points: 0.24083602
+- bsc_geomatic_engineering_requirements: 0.11819262
+- engineering_programmes: 0.111423
+Bot: Here are the requirements for BA. Integrated Rural Art and Industry <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in THREE (3) subjects from Picture Making, Leatherwork, Graphic Design, Textiles, Jewellery, Basketry, Sculpture, Ceramics, General Knowledge in Art, Management in Living, Clothing & Textiles, Food and Nutrition, Physics, Chemistry, Elective Mathematics, Biology, Technical Drawing, Woodwork, Metalwork, Religious Studies, Construction, Economics, History, Akan, Geography, Literature in English, Business Management, Accounting, Costing, and ICT.    </p><br><li><b><u>'A' LEVEL APPLICANTS  </u></b></li><p><b>'O' Level or equivalent:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Credit passes in TWO (2) subjects including Art. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application with at least THREE (3) years working experience. </li><li>Must satisfy the requirements for WASSCE/SSSCE or 'A' Level, as in (1.0) and (2.0). </li><li>An applicant may be required to pass a qualifying examination at which they must submit a portfolio of Artworks showing interest in Rural and Industrial Art.  </li><li>Candidates must also pass an interview and a practical examination</li></ul><br><li><b><u>DIPLOMA HOLDERS </u></b></li><ul><li>An applicant who possesses the Diploma in Rural Art and Industry High National Diploma (HND) in Education will be admitted into SECOND or THIRD YEAR of the Programme.   </li><li>Applicants must also pass an interview or written examination or both. </li></ul></ul>
+
+User: what do you know about campus hostels
+Predicted Intents:
+- accommodation: 0.83766025
+- Accommodation for Ghanaian/Local Students on Campus: 0.09078734
+Bot: There are Six Halls of residence and a number of hostels on the University Campus. <ul> <li> <a target="_blank" href="https://www.knust.edu.gh/students/housing">Halls of Residence</a></li>  <li><a target="_blank" href="https://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year">Recommended Hostels</a></li> </ul>
+
+User: which body of knsut is responsible for regulating student affairs
+Predicted Intents:
+- accommodation: 0.47164997
+- Accommodation for Foreign/international Students on Campus: 0.19629388
+- Accommodation for Ghanaian/Local Students on Campus: 0.13215852
+Bot: There are Six Halls of residence and a number of hostels on the University Campus. <ul> <li> <a target="_blank" href="https://www.knust.edu.gh/students/housing">Halls of Residence</a></li>  <li><a target="_blank" href="https://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year">Recommended Hostels</a></li> </ul>
+
+User: does knsut offer diploma programs
+Predicted Intents:
+- programme: 0.48188263
+- Available Colleges/Departments: 0.17930812
+- accommodation: 0.09746776
+Bot: Programmes are grouped into the various colleges that offer them, kindly enter the college.<ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>
 
 User: what is your name ?
 Predicted Intents:
-- creator: 0.64689016
-- name: 0.25944385
-Bot: A group of university students developed me, Frimpong Prince and Akinie Samuel Aterh
+- name: 0.96559227
+Bot: You can call me TechChat.
 
-User: what can i call you ?
+User: what is the application process like ?
 Predicted Intents:
-- Chatbot Capabilities: 0.63352877
-- Positive Feedback/Appreciation: 0.103420936
+- how_to_apply: 0.7518301
+- application_process: 0.22602595
+Bot: <ol><li>Click <a target="_blank" href="https://apps.knust.edu.gh/admissions/apply/Account/Login">here</a> to enter the credentials on the voucher to Start the Application. </li><li>Complete all mandatory fields marked with * </li><li>Save and exit (If you have to log out and continue later) or save and proceed to the next step. </li><li>Educational background - In the case where your Institution is not listed, kindly select Private. </li><li> Examination Results- <ul><li> Examination type - If your examination type is not listed, select Certification/Diploma/Degree. </li><li>Sitting - Select May/June (School) if your examination type is not WASSCE/SSSCE. </li><li>Year - Select year of Examination </li><li>Index Number also known as candidate number or Examination ID. </li></ul></li><li>Subject - Select subjects offered in high school and the corresponding grades. <ul><li>If awaiting results, select awaiting as the grade. </li><li>If other certificates, select the certificate and the corresponding grade/class. </li></ul></li><li>Select add results if you have more than one results or certificate. </li><li>Attach all mandatory supporting documents scanned in PDF format. <ul><li>Birth Certificate. </li><li>Results slips and or Certificates (For other modes of application excluding WASSCE). </li></ul></li><li>Applicant Declaration; read, agree and tick to declare that all information provided in the application is true. </li><li>Programme Choices. (select regular as the Stream). <ul><li> Tick yes, if you want to be considered for fee-paying or parallel. </li></ul></li><li>Identification document (Ghana Card/Passport) (PDF). </li><li> Review and proceed. </li><li> Tick to declare and agree that the information provided are true. </li><li> Submit and keep a copy of the application for Personal reference. </li></ol><br><b><i>Note: </i></b><i><ul><li>During the online application process, do not leave the online application inactive for more than 5 minutes. Doing this would automatically log you out. </li><li>Until the application deadline the application can be edited as many times as needed. </li><li>Check the subject requirements for the programme you are interested in to ensure that you qualify before selecting. For example, students with home economics background cannot read BSc. Nursing at KNUST. </li><li>Those applying with “Other International High School results” may be required to do an evaluation of results/Certificate from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency. </li><li>Fee paying option is for the entire duration of the programme of study. Once you opt for fee paying you retain that status for the entire duration of the programme. </li></ul></i>
+
+User: what is the address for the knsut admission portal ?
+Predicted Intents:
+- Admission Portal Information: 0.9591405
+Bot: You can access the KNUST admission portal <a target="_blank" href="https://apps.knust.edu.gh/admissions/">here</a>
+
+User: ; buyer
+Predicted Intents:
+- greeting: 0.37864023
+- Positive Feedback/Appreciation: 0.24752322
+- Profanity/Inappropriate Language: 0.13038023
+Bot: Hey, things are going well! How about you?
+
+User: 11
+Predicted Intents:
+- greeting: 0.37864023
+- Positive Feedback/Appreciation: 0.24752322
+- Profanity/Inappropriate Language: 0.13038023
+Bot: Hey! I'm here to help.
+
+User: 0999
+Predicted Intents:
+- greeting: 0.37864023
+- Positive Feedback/Appreciation: 0.24752322
+- Profanity/Inappropriate Language: 0.13038023
+Bot: Hey, not too much. How about you?
+
+User: programmes available at college of science
+Predicted Intents:
+- sciences_programmes: 0.9178793
+Bot: List of Programmes offered by College of Science <ul><li><b>Faculty of Biosciences</b><ul><li>BSc. Biochemistry</li><li>BSc. Food Science and Technology</li><li>BSc. Dietetics</li><li>BSc. Human Nutrition</li><li>BSc. Biological Science</li><li>BSc. Environmental Science</li><li><b>BSc. Environmental Science (Obuasi Campus)</b></li><li>Doctor of Optometry</li></ul><br></li><li><b>Faculty of Physical and Computational Sciences</b><ul><li>BSc. Chemistry</li><li>BSc. Mathematics</li><li>BSc. Physics</li><li>BSc. Computer Science</li><li>BSc. Statistics</li><li>BSc. Actuarial Science</li><li>BSc. Meteorology and Climate Science</li></ul></li></ul>
+
+User: when do we start the sale of undergraduate application forms for each successive academic year ?
+Predicted Intents:
+- Commencement of Undergraduate Application Form Sales: 0.92482686
+Bot: Dates may differ based on the program. Kindly refer to the admission guidelines <a target="_blank" href="https://www.knust.edu.gh/admissions/prospective/applying">here</a>
+
+User: can you give me driving directions to campus
+Predicted Intents:
+- Chatbot Capabilities: 0.85290265
 Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
 
-User: what should i call you
+User: who is the dean of student ?
 Predicted Intents:
-- greeting: 0.2991196
-- Chatbot Capabilities: 0.20596692
-- name: 0.14796384
-- random: 0.13583092
-- creator: 0.10708672
+- accommodation: 0.09773462
+- Scholarships for Needy Students: 0.09248039
+- payment_afuf: 0.09040268
+Bot: There are Six Halls of residence and a number of hostels on the University Campus. <ul> <li> <a target="_blank" href="https://www.knust.edu.gh/students/housing">Halls of Residence</a></li>  <li><a target="_blank" href="https://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year">Recommended Hostels</a></li> </ul>
+
+User: can you repeat that
+Predicted Intents:
+- fallback: 0.72927666
+Bot: I'm sorry, I couldn't understand that. Could you please rephrase or ask a different question?
+
+User: i wan to travel but i don't have money
+Predicted Intents:
+- random: 0.3668785
+- fallback: 0.33658317
+- goodbye: 0.10461551
+Bot: I am not program for this, please ask appropriate query
+
+User: he did not tell me anything useful so i was pissed
+Predicted Intents:
+- random: 0.39544284
+- fallback: 0.17163818
+- greeting: 0.14534536
+Bot: I am not program for this, please ask appropriate query
+
+User: but when you think about it , is it reasonable ?
+Predicted Intents:
+- greeting: 0.43811455
+- Profanity/Inappropriate Language: 0.18705778
+- goodbye: 0.16420823
+Bot: Hiya! How's it going?
+
+User: but when you think about it , is it reasonable ?
+Predicted Intents:
+- greeting: 0.43811455
+- Profanity/Inappropriate Language: 0.18705778
+- goodbye: 0.16420823
+Bot: Hey, I'm doing well. How about yourself?
+
+User: he did not tell me anything useful so i was pissed
+Predicted Intents:
+- random: 0.39544284
+- fallback: 0.17163818
+- greeting: 0.14534536
+Bot: I am not program for this, please ask appropriate query
+
+User: so he wanted me to do something and i didn't like it
+Predicted Intents:
+- greeting: 0.60114413
+Bot: Hey, good to see you!
+
+User: hahaha
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Hey, not too much. How about you?
+
+User: what are you saying?
+Predicted Intents:
+- name: 0.43132868
+Bot: I'm TechChat
+
+User: dddddddddddddddddddddddddddddddd
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Hey, I've been good. How about you?
+
+User: iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Hey there! How can I assist you today?
+
+User: qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Hi there, how can I help?
+
+User: 11111111111111111111111111111
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Hey, not too much. How about you?
+
+User: rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+Predicted Intents:
+- greeting: 0.37864023
 Bot: Hello!
 
-User: who are you ?
+User: oh come on
 Predicted Intents:
-- creator: 0.9564654
+- greeting: 0.49050176
+Bot: Good to see you again!
+
+User: who made you?
+Predicted Intents:
+- creator: 0.9859833
 Bot: A group of university students developed me, Frimpong Prince and Akinie Samuel Aterh
 
-User: what can you tell me about just
+User: eeeeeeeeeeeeeeeeeeee
 Predicted Intents:
-- greeting: 0.30645806
-- name: 0.22150548
-- Chatbot Capabilities: 0.21945854
-- creator: 0.109013885
-Bot: Hey, things are going well! How about you?
+- greeting: 0.37864023
+Bot: Hey, I've been good. How about you?
+
+User: 111111111111111111111111
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Hey, I'm doing well. How about yourself?
+
+User: cccccccccccccccccccccccccccc
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Howdy! What can I do for you?
+
+User: ccccccccccccccccccccccccccc
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Hey, not too much. How about you?
+
+User: what he said didnt make sense
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.37068656
+Bot: welcome, anything else I can assist you with?
+
+User: dddddd
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Hey, not too much. How about you?
+
+User: hello
+Predicted Intents:
+- greeting: 0.8223516
+Bot: Hey, good to see you!
+
+User: hi
+Predicted Intents:
+- greeting: 0.8663447
+Bot: Hey, I'm doing well. How about yourself?
+
+User: what is your name?
+Predicted Intents:
+- name: 0.96559227
+Bot: You can call me TechChat.
+
+User: hello
+Predicted Intents:
+- greeting: 0.8223516
+Bot: Good to see you again!
+
+User: hello
+Predicted Intents:
+- greeting: 0.8223516
+Bot: Hello there! How can I assist you?
+
+User: i don't even know what to say
+Predicted Intents:
+Bot: I'm sorry, I don't have a response for that.
+
+User: i dont even know what to say
+Predicted Intents:
+Bot: I'm sorry, I don't have a response for that.
+
+User: i dont even know what to say
+Predicted Intents:
+- greeting: 0.33066267
+- name: 0.2834672
+Bot: Hey, I've been good. How about you?
+
+User: requirements for computer engineering
+Predicted Intents:
+- bsc_computer_engineering_requirements: 0.83802295
+Bot: Here are the requirements for BSc. Computer Engineering: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:</b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:</b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:</b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:</b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Applicants shall have at least Second Class Honours from any accredited Computer Engineering oriented programme such as Electrical and Electronic Engineering.  </li><li>Admission would be based on assessment of Academic Transcript.</li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively. </li></ul></ul>
+
+User: i dont know what to say
+Predicted Intents:
+- greeting: 0.57191175
+Bot: Hey, I've been good. How about you?
+
+User: i dont even know what to say
+Predicted Intents:
+Bot: I'm sorry, I don't have a response for that.
+
+User: i do not even know what to say
+Predicted Intents:
+- name: 0.4330822
+Bot: You can call me TechChat.
 
 User: hah
 Predicted Intents:
-- greeting: 0.5887987
-- Positive Feedback/Appreciation: 0.1409347
-- goodbye: 0.091325514
-Bot: Hi there, how can I help?
+- greeting: 0.37864023
+Bot: Good to see you again!
 
-User: leave me the fuck alone
+User: i do not even understand that
 Predicted Intents:
-- Profanity/Inappropriate Language: 0.25392362
-- creator: 0.1934046
-- name: 0.13142966
-- random: 0.12515454
-Bot: Please use appropriate language
+- fallback: 0.77551407
+Bot: I'm sorry, I'm not able to provide a response to that. If you have any specific questions, feel free to ask.
 
-User: oh okay
+User: hey
 Predicted Intents:
-- Positive Feedback/Appreciation: 0.70991415
-- goodbye: 0.1854854
-Bot: I am glad I helped you
+- greeting: 0.9705345
+Bot: Hiya! How's it going?
 
-User: when can i apply
+User: hi
 Predicted Intents:
-- Tuition Fees: 0.46476713
-- application_process: 0.107259154
-- how_to_apply: 0.0939068
-Bot: For Fee detail visit <a target="_blank" href="https://www.knust.edu.gh/academic-fees"> here</a>
+- greeting: 0.8663447
+Bot: Hello!
 
-User: show me directions to campus
+User: what is your name
 Predicted Intents:
-- Positive Feedback/Appreciation: 0.42695087
-- Chatbot Capabilities: 0.1875749
-- goodbye: 0.11440227
-Bot: welcome, anything else I can assist you with?
+- name: 0.96559227
+Bot: You can call me TechChat.
 
-User: what facilities do you have on campus ?
+User: hey
 Predicted Intents:
-- general_admission_requirement: 0.103404135
-Bot: Below are the general entry requirements for for candidates with WASSCE / SSSCE, GCE / IGCSE 'A' & 'O' LEVELS, ABCE / GBCE, MATURE and equivalent qualifications <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>An applicant for admission to a degree programme in the University must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate <b>24 or better</b>. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university.</p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements.</p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study.</p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE.</p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>An applicant for admission to a degree programme in the Kwame Nkrumah University of Science and Technology, Kumasi must have a Final Grade Point of at least 3.0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3.25. Admissions will be to the Year 1.</p></li></ul><br><p><i><u>Other relevant information</u></i></p><ul><i><li><b>Ghanaian/Other Applicants with Foreign Results/Certificate:</b> The University shall request an evaluation of results/Certificate other than those mentioned above, (a) to (f), from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission.</li><li>Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate.</li><li>Documents not in English should be accompanied by accredited translations in English.</li><li><b>Transfer of Applicants:</b> Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs <a target='_blank' href='admissions@knust.edu.gh'>here</a> or the International Programmes Office <a target='_blank' href='ipo@knust.edu.gh'>here</a> to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary.</li></i></ul>
+- greeting: 0.9705345
+Bot: Hey, not too much. How about you?
 
-User: do you have a library ?
+User: he told me to do that for him , could you believe it ?
 Predicted Intents:
-- Chatbot Capabilities: 0.83773094
-- random: 0.091225155
-Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
+- random: 0.9068834
+Bot: I am not program for this, please ask appropriate query
 
-User: what can you tell me about just library ?
+User: i was astonished to hear that
 Predicted Intents:
-- name: 0.28410062
-- greeting: 0.25471908
-- creator: 0.15810771
-- Chatbot Capabilities: 0.14430702
-Bot: I'm TechChat
+- goodbye: 0.9309932
+Bot: Great! If you have any more questions, feel free to contact us. Goodbye!
 
-User: how old is the university library ?
+User: i said i could not take it anymore
 Predicted Intents:
-- University Location/Address: 0.45592242
-- University Hours/Operating Hours: 0.25902122
-Bot: KNUST is located in Kumasi, Ghana, which is the Ashanti Region's capital <ul> <li><a target="_blank" href="https://maps.app.goo.gl/FiengdzdZqxpAsbSA">Google map</a></li>  <li>Ghana Post GPS Address: AK-385-1973</li>  </ul>
+- Positive Feedback/Appreciation: 0.6627509
+Bot: I'm sorry, I don't have a response for that.
 
