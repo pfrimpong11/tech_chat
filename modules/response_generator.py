@@ -51,7 +51,7 @@ def get_response_from_intent(intents_list, all_intents):
             if intent_data['tag'] == tag:
                 print(f"Using tag: {tag}")  # Print the tag used to generate the response
                 return random.choice(intent_data['responses'])
-        return "I'm sorry, I don't have a response for that."
+    return "I'm sorry, I don't have a response for that."
 
 def generate_bot_response(user_message, model, words, classes, all_intents):
     intents = predict_class(user_message, model, words, classes)
