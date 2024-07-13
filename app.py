@@ -4,7 +4,6 @@ import json
 import pickle
 from tensorflow.keras.models import load_model
 import pymongo
-import markdown
 import os
 import gridfs
 import tempfile
@@ -98,8 +97,7 @@ def get_response():
     user_message = request.json["message"].lower()
     corrected_message = correct_spelling(user_message)
     bot_response = generate_bot_response(corrected_message, model, words, classes, all_intents)
-    markup_response = markdown.markdown(bot_response)
-    return jsonify({"response": markup_response})
+    return jsonify({"response": bot_response})
 
 @app.route("/save_user_input", methods=["POST"])
 def save_user_input_route():
@@ -135,6 +133,8 @@ def record_feedback_with_user_details_route():
     else:
         return jsonify({"error": "Failed to record feedback."}), 500
 
+
+# Route for downloading feedback file from database
 @app.route("/get_feedback_file/<feedback_id>", methods=["GET"])
 def get_feedback_file_route(feedback_id):
     try:

@@ -4,6 +4,20 @@ import numpy as np
 from modules.utils import bag_of_words
 import nltk
 from nltk.stem import WordNetLemmatizer
+import markdown
+import google.generativeai as genai
+import re
+from dotenv import load_dotenv
+import os
+
+
+load_dotenv()
+
+# Set your Gemini API key
+api_key = os.getenv('API_KEY')
+
+genai.configure(api_key=api_key)
+
 
 # Initialize the lemmatizer
 lemmatizer = WordNetLemmatizer()
@@ -16,6 +30,25 @@ def log_interaction(user_input, predicted_intents, response):
         for intent in predicted_intents:
             f.write(f"- {intent['intent']}: {intent['probability']}\n")
         f.write(f"Bot: {response}\n\n")
+
+
+# Function to generate response from Gemini
+def generate_gem_response(question, model_response):
+    prompt = f"Given the question and the answer, give a response to suit the question. Everything is about KNUST admissions:\n\n\n Question: {question} \n\n Response: {model_response} \n\n\n Ignore wrong answers, mistakes and go straight to the point \n Don't tell me how good or bad my response is"
+
+    model = genai.GenerativeModel('gemini-1.5-pro')
+    response = model.generate_content(prompt)
+
+    # Extracting the text from the response
+    response_content = ""
+    if hasattr(response, 'candidates') and response.candidates:
+        candidate = response.candidates[0]
+        if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
+            for part in candidate.content.parts:
+                response_content += part.text
+    
+    clean_response = re.sub(r'\*\*|\#\#|\n', '', response_content).strip()
+    return clean_response
 
 def clean_up_sentence(sentence):
     sentence = sentence.lower()  # Convert the sentence to lowercase
@@ -58,7 +91,9 @@ def generate_bot_response(user_message, model, words, classes, all_intents):
     print("Predicted Tags:")
     for intent in intents:
         print(f"- {intent['intent']}: {intent['probability']}")
-        response = get_response_from_intent(intents, all_intents)
-        log_interaction(user_message, intents, response) #log user interaction
-        return response
+        intent_response = get_response_from_intent(intents, all_intents)
+        # markup_response = markdown.markdown(intent_response) #removing html tags from response
+        final_response = generate_gem_response(user_message, intent_response) #call function to generate final response
+        log_interaction(user_message, intents, final_response) #log user interaction
+        return final_response
     return "I'm sorry, I don't understand that."

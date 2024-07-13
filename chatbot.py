@@ -3,11 +3,42 @@ import json
 import pickle
 import numpy as np
 import logging
+import markdown
 
 import nltk
 from nltk.stem import WordNetLemmatizer
 
 from tensorflow.keras.models import load_model
+
+from dotenv import load_dotenv
+import os
+import google.generativeai as genai
+import re
+
+load_dotenv()
+
+api_key = os.getenv('API_KEY')
+
+genai.configure(api_key=api_key)
+
+# Function to generate response from Gemini
+def generate_gem_response(question, model_response):
+    prompt = f"Given the question and the answer, give a response to suit the question. Everything is about KNUST admissions:\n\n\n Question: {question} \n\n Response: {model_response} \n\n\n Go straight to the point"
+
+    model = genai.GenerativeModel('gemini-1.5-pro')
+    response = model.generate_content(prompt)
+
+    # Extracting the text from the response
+    response_content = ""
+    if hasattr(response, 'candidates') and response.candidates:
+        candidate = response.candidates[0]
+        if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
+            for part in candidate.content.parts:
+                response_content += part.text
+    
+    clean_response = re.sub(r'\*\*|\#\#|\n', '', response_content).strip()
+    return clean_response
+
 
 # Set up logging
 logging.basicConfig(filename='chatbot.log', level=logging.INFO)
@@ -100,6 +131,8 @@ while True:
         print(f"- {intent['intent']}: {intent['probability']}")
     
     response = get_response(intents, all_intents)
-    print("Bot:", response)
+    # markup_response = markdown.markdown(response) #removing html tags from response
+    final_response = generate_gem_response(message, response)
+    print("Bot:", final_response)
     
     log_interaction(message, intents, response)

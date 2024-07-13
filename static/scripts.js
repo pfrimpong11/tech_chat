@@ -328,8 +328,8 @@ function addBotMessage(message) {
     chatContainer.appendChild(feedbackButtons);
 
     // animation effect for bot message
-    animateMessage(messageDiv);
-    // writeAnimateMessage(messageDiv, removeHTMLTags(message));
+    // animateMessage(messageDiv);
+    writeAnimateMessage(messageDiv, removeHTMLTags(message));
 }
 
 function updateBotAvatar(botAvatar) {

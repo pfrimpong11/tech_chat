@@ -1,3 +1,4 @@
+# importing packages 
 import random
 import json
 import pickle
@@ -12,8 +13,8 @@ from tensorflow.keras.layers import Input, Dense, Dropout
 from tensorflow.keras.optimizers import SGD
 from sklearn.model_selection import train_test_split
 
-# nltk.download('punkt')
-# nltk.download('wordnet')
+# nltk.download('punkt') # download the NLTK
+# nltk.download('wordnet') #
 
 lemmatizer = WordNetLemmatizer()
 
@@ -26,6 +27,7 @@ intent_files = [
     'intents/freshers_guide.json'
 ]
 
+# get all intent from the intent_files
 all_intents = {'intents': []}
 for file_name in intent_files:
     with open(file_name, 'r', encoding='utf-8') as file:
@@ -33,19 +35,22 @@ for file_name in intent_files:
         all_intents['intents'].extend(intents['intents'])
 
 words = []
-classes = []
+classes = []  # storing the intent tag in the classes
 documents = []
 ignore_letters = ['?', '!', '.', ',']
 
+
 for intent in all_intents['intents']:
-    for pattern in intent['patterns']:
-        word_list = nltk.word_tokenize(pattern)
-        words.extend(word_list)
+    for pattern in intent['patterns']:  
+        word_list = nltk.word_tokenize(pattern) # breaking the sentences [the patterns] into [ words ]
+        words.extend(word_list) #store the word list in the words array
         documents.append((word_list, intent['tag']))
         if intent['tag'] not in classes:
-            classes.append(intent['tag'])
+            classes.append(intent['tag']) # storing the tag in the classes.
 
-words = [lemmatizer.lemmatize(word.lower()) for word in words if word not in ignore_letters]
+
+# we are now setting the word array into words but into the base form.
+words = [lemmatizer.lemmatize(word.lower()) for word in words if word not in ignore_letters] #words array is now in base form.
 words = sorted(set(words))
 
 classes = sorted(set(classes))
