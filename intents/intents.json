@@ -21,7 +21,36 @@
         "This is confusing",
         "What am I reading?",
         "I'm lost",
-        ""
+        "what are you saying?",
+        "what were you saying ?",
+        "what he said didn't make sense",
+        "did you mean to say that ?",
+        "i didn't know what to say so i left the premises",
+        "who can i bribe to get computer engineering ?",
+        "who can i bribe to get a programme to do at kwame nkrumah university of science and technology",
+        "i didn't know what to say so i left",
+        "i don't even know what to say",
+        "i said i could not take it anymore",
+        "am i suppose to purchase books before coming to knust?",
+        "what is the start time and end time for lectures",
+        "which body of knust is responsible for regulating student affairs",
+        "but when you think about it , is it reasonable ?",
+        "so he wanted me to do something and i didn't like it",
+        "i want to hack knust",
+
+        "is it possible to come to school with aggregate 16",
+        "what programme can i study with aggregate 14",
+        "who is the vice chancellor",
+        "is oncology here offered here",
+        "who established knust",
+        "how to connect to knust wifi",
+        "i have paid my school fees through aim app but it does not reflect on my aim app . What must be done ?",
+        "where can i do my biometric registration",
+        "where can i do my course registration ?",
+        "where can i do my lecture assessment ?",
+        "my student id is lost where can i replace it ?",
+        "where can i replace my school telecel sim ?",
+        "i think the university is having problem with the website"
       ],
       "responses": [
         "I'm sorry, I couldn't understand that. Could you please rephrase or ask a different question?",
@@ -79,6 +108,7 @@
         "Hey, what's going on?",
         "Hey, is anyone around?",
         "Hey, are you busy?",
+        "so what is going on now ?",
         "Greetings",
         "Hello there",
         "Hiya!",
@@ -86,7 +116,11 @@
         "whatsup",
         "Hey, what's up?",
         "Hey, how have you been?",
+        "good to see you too",
         "good evening",
+        "good morning",
+        "good afternoon",
+        "good evening to you",
         "??? ??? ??"
       ],
       "responses": [
@@ -127,6 +161,7 @@
         "i got to go",
         "wow",
         "gtg",
+        "anyways never mind",
         "Thank you for the information",
         "That's all for now",
         "I'll get back to you later",
@@ -328,7 +363,9 @@
         "What is the tuition cost per semester/year",
         "Are there additional fees besides tuition",
         "How can I pay my tuition fees",
-        "Do you offer payment plans"
+        "Do you offer payment plans",
+        "Full payment or partial for fees?",
+        "what is the fee for engineering courses"
       ],
       "responses": [
         "For Fee detail visit <a target=\"_blank\" href=\"https://www.knust.edu.gh/academic-fees\"> here</a>"    ],
@@ -360,7 +397,8 @@
         "Can international students also apply for scholarships for students with financial need?",
         "What documents are required to apply for scholarships for needy students?",
         "Are there any community-based or external scholarships available for needy students?",
-        "Can I get assistance with filling out scholarship applications?"
+        "Can I get assistance with filling out scholarship applications?",
+        "what are some of the scholarship offers in knust"
       ],
       "responses": [
         "Access the available scholarships for KNUST students <a target=\"_blank\" href=\"https://www.knust.edu.gh/students/scholarships-and-grants\"> here</a>"
@@ -387,7 +425,9 @@
         "address",
         "location",
         "Can you provide the GPS coordinates for the university?",
-        "where can i locate the school"
+        "where can i locate the school",
+        "where is knust located ?",
+        "what is the post address for knust"
       ],
       "responses": [
         "KNUST is located in Kumasi, Ghana, which is the Ashanti Region's capital <ul> <li><a target=\"_blank\" href=\"https://maps.app.goo.gl/FiengdzdZqxpAsbSA\">Google map</a></li>  <li>Ghana Post GPS Address: AK-385-1973</li>  </ul>"
@@ -527,7 +567,12 @@
         "idiot dick cock",
         "dumb ass cunt pussy",
         "asshole crap fucker",
-        "bloody hell"
+        "bloody hell",
+        "you are very stupid",
+        "foolish boy",
+        "you are fool !",
+        "foolish ai",
+        "fool like you"
       ],
       "responses": [
         "Please use appropriate language",
@@ -621,7 +666,9 @@
         "What are your areas of expertise?",
         "How do you respond to user queries?",
         "Can you provide personalized assistance?",
-        "Do you have any unique functionalities?"
+        "Do you have any unique functionalities?",
+        "who is the dean of student?",
+        "i want some info"
       ],
       "responses": [
         "You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them"

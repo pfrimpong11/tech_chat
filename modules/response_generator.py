@@ -9,6 +9,8 @@ import google.generativeai as genai
 import re
 from dotenv import load_dotenv
 import os
+import requests
+from google.api_core.exceptions import InternalServerError
 
 
 load_dotenv()
@@ -36,18 +38,28 @@ def log_interaction(user_input, predicted_intents, response):
 def generate_gem_response(question, model_response):
     prompt = f"Given the question and the answer, give a response to suit the question. Everything is about KNUST admissions:\n\n\n Question: {question} \n\n Response: {model_response} \n\n\n Ignore wrong answers, mistakes and go straight to the point \n Don't tell me how good or bad my response is"
 
-    model = genai.GenerativeModel('gemini-1.5-pro')
-    response = model.generate_content(prompt)
+    try:
+        model = genai.GenerativeModel('gemini-1.5-pro')
+        response = model.generate_content(prompt)
 
-    # Extracting the text from the response
-    response_content = ""
-    if hasattr(response, 'candidates') and response.candidates:
-        candidate = response.candidates[0]
-        if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
-            for part in candidate.content.parts:
-                response_content += part.text
-    
-    clean_response = re.sub(r'\*\*|\#\#|\n', '', response_content).strip()
+        # Extracting the text from the response
+        response_content = ""
+        if hasattr(response, 'candidates') and response.candidates:
+            candidate = response.candidates[0]
+            if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
+                for part in candidate.content.parts:
+                    response_content += part.text
+
+        clean_response = re.sub(r'\*\*|\#\#|\n', '', response_content).strip()
+    except (requests.ConnectionError, InternalServerError):
+        # If there's a connection error or internal server error, fall back to the model response
+        clean_response = model_response
+
+    # Insert a space after every period for better readability
+    clean_response = re.sub(r'\.(?=[^\s])', '. ', clean_response)
+    # Ensure new line after colon
+    clean_response = re.sub(r':', ':\n', clean_response)
+
     return clean_response
 
 def clean_up_sentence(sentence):
