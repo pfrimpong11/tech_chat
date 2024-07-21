@@ -13,18 +13,37 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #F0F6FB;
+            background-color: rgba(240, 246, 251, 0.98); /* Adjust the color and opacity as needed */
+            /* background-image: url('../../static/bot-logo.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             height: 100vh;
+            position: relative; */
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 110%;
+            background-color: rgba(240, 246, 251, 0.98); /* Adjust the color and opacity as needed */
+            z-index: -1;
         }
 
         .header-container {
-            background-color: #f4f4f4;;
+            background-color: #f4f4f4;
             border-bottom: 1px solid #ddd;
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 5px 20px;
             margin-bottom: 5px;
+            /* position: fixed;
+            width: 100%;
+            top: 0; */
         }
 
         .logo_box {
@@ -32,7 +51,7 @@
             cursor: pointer;
         }
 
-        .logo_box a{
+        .logo_box a {
             text-decoration: none;
         }
 
@@ -64,15 +83,37 @@
             text-align: center;
         }
 
+        /* form {
+            background-color: #F0F6FB;
+        } */
+
+        select {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 100px;
+            margin-top: 10px;
+        }
+
         section {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            width: 60%;
         }
 
         .main-container {
-            max-width: 800px;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -84,32 +125,35 @@
             width: 48%;
         }
 
-        form {
+        .elective-form, .core-form {
             background-color: #fff;
             border: 1px solid #ccc;
             border-radius: 5px;
             padding: 20px;
             margin-bottom: 20px;
+            box-shadow: 0 0 2px #454158;
         }
 
-        form label {
+        .elective-form label, .core-form label {
             display: block;
-            margin-bottom: 10px;
+            margin-bottom: 7px;
         }
 
-        form input[type="number"] {
+        .elective-form input, .core-form input[type="number"] {
             width: calc(100% - 22px);
             padding: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 40px;
             border: 1px solid #ccc;
             border-radius: 3px;
             box-sizing: border-box;
+            background-color: #F0F6FB;
         }
 
         .result-button-container {
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-top: 30px;
         }
 
         .result-container {
@@ -135,15 +179,53 @@
             background-color: #0056b3;
         }
 
+        /* Scroll bar */
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #fff;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #F0F6FB;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #bdd4ee;
+        }
+
         @media (max-width: 768px) {
+            select {
+                width: 200px;
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            main {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0;
+            }
+
             .main-container {
-                margin-top: 50px;
+                margin-top: 30px;
+            }
+
+            section {
+                width: 100%;
             }
 
             .elective-container,
             .core-container {
-                /* width: 48%; */
                 margin: 0 10px;
+            }
+
+            .elective-form input, .core-form input[type="number"] {
+                margin-bottom: 10px;
             }
 
             h2 {
@@ -160,90 +242,156 @@
                 <p class="school_name">KNUST | TechChat</p>
             </div>
         </div>
-        <span class="back-navigate-box">
-            <span class="back-navigate"><a href="/index.html"><i class="fa-solid fa-house"></i>TechChat</a></span>
-            <span>||</span>
-            <span>Aggregate Calculator</span>
-        </span>
     </header>
 
-    <section>
-        <div class="main-container">
-            <div class="elective-container">
-                <h2>Elective Subjects</h2>
-                <form id="compulsory-form">
-                    <label for="course1">Course 1:</label>
-                    <input type="number" name="course1" min="1" step="1" required><br>
-                    <label for="course2">Course 2:</label>
-                    <input type="number" name="course2" min="1" step="1" required><br>
-                    <label for="course3">Course 3:</label>
-                    <input type="number" name="course3" min="1" step="1" required><br>
-                    <label for="course4">Course 4:</label>
-                    <input type="number" name="course4" min="1" step="1" required><br>
-                </form>
+    <form id="aggregateForm">
+        <main>
+            <div>
+                <h2>Select Programme</h2>
+                <select id="programme" onchange="updateLabels()">
+                    <!-- values will be imported here -->
+                </select>
             </div>
 
-            <div class="core-container">
-                <h2>Core Subjects</h2>
-                <form id="optional-form">
-                    <label for="optional1">Course 1:</label>
-                    <input type="number" name="optional1" min="1" required><br>
-                    <label for="optional2">Course 2:</label>
-                    <input type="number" name="optional2" min="1" required><br>
-                    <label for="optional3">Course 3:</label>
-                    <input type="number" name="optional3" min="1" required><br>
-                    <label for="optional4">Course 4:</label>
-                    <input type="number" name="optional4" min="1" required><br>
-                </form>
-            </div>
-        </div>
+            <section>
+                <div class="main-container">
+                    <div class="elective-container">
+                        <h2>Elective Subjects</h2>
+                        <div class="elective-form">
+                            <label for="elective1" id="labelElective1">Elective 1:</label>
+                            <input type="number" id="elective1" name="elective1" min="1" max="6" step="1"><br>
+                            
+                            <label for="elective2" id="labelElective2">Elective 2:</label>
+                            <input type="number" id="elective2" name="elective2" min="1" max="6" step="1"><br>
+                            
+                            <label for="elective3" id="labelElective3">Elective 3:</label>
+                            <input type="number" id="elective3" name="elective3" min="1" max="6" step="1"><br>
+                        </div>
+                    </div>
 
-        
-        <div class="result-button-container">
-            <button id="calculate-btn">Calculate Aggregate</button>
-            <div class="result-container">
-                <span>Total Aggregate: </span>
-                <span id="result"></span>
-            </div>
-        </div>
-    </section>
+                    <div class="core-container">
+                        <h2>Core Subjects</h2>
+                        <div class="core-form">
+                            <label for="core1" id="labelCore1">Core 1:</label>
+                            <input type="number" id="core1" name="core1" min="1" max="6" step="1"><br>
+                            
+                            <label for="core2" id="labelCore2">Core 2:</label>
+                            <input type="number" id="core2" name="core2" min="1" max="6" step="1"><br>
+                            
+                            <label for="core3" id="labelCore3">Core 3:</label>
+                            <input type="number" id="core3" name="core3" min="1" max="6" step="1"><br>
+                        </div>
+                    </div>
+                </div>
 
-    
+                <div class="result-button-container">
+                    <button type="button" onclick="calculateAggregate()">Calculate Aggregate</button>
+                    <div class="result-container">
+                        <span>Total Aggregate: </span>
+                        <span id="result"></span>
+                    </div>
+                    <div id="cut-off"></div>
+                </div>
+            </section>
+        </main>
+    </form>
+
     <script>
-        document.getElementById('calculate-btn').addEventListener('click', function(event) {
-        var compulsoryFormData = new FormData(document.getElementById('compulsory-form'));
-        var optionalFormData = new FormData(document.getElementById('optional-form'));
+        // Fetch and insert programme options
+        fetch('/programmeOptions')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('programme').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error fetching programme options:', error);
+            });
 
-        var compulsoryData = {};
-        compulsoryFormData.forEach(function(value, key) {
-            compulsoryData[key] = value;
-        });
+        let programmeRequirements = {};
 
-        var optionalData = {};
-        optionalFormData.forEach(function(value, key) {
-            optionalData[key] = value;
-        });
+        fetch('/calculateAggregate')
+            .then(response => response.json())
+            .then(data => {
+                programmeRequirements = data;
+            })
+            .catch(error => {
+                console.error('Error fetching programme requirements:', error);
+            });
 
-        var data = { 'compulsory': compulsoryData, 'optional': optionalData };
+        let cut_off = "";
+        function updateLabels() {
+            const programme = document.getElementById('programme').value;
+            if (programme) {
+                const electiveSubjects = programmeRequirements[programme].elective_subjects;
+                const coreSubjects = programmeRequirements[programme].core_subjects;
+                cut_off = programmeRequirements[programme].cut_off[0];
 
-        fetch('/calculate-aggregate', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-        })
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById('result').innerText = data.total_aggregate;
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-    });
+                document.getElementById('labelElective1').innerText = electiveSubjects[0] + ":";
+                document.getElementById('labelElective2').innerText = electiveSubjects[1] + ":";
+                document.getElementById('labelElective3').innerText = electiveSubjects[2] + ":";
 
+                document.getElementById('labelCore1').innerText = coreSubjects[0] + ":";
+                document.getElementById('labelCore2').innerText = coreSubjects[1] + ":";
+                document.getElementById('labelCore3').innerText = coreSubjects[2] + ":";
+            } else {
+                document.getElementById('labelElective1').innerText = "Elective 1:";
+                document.getElementById('labelElective2').innerText = "Elective 2:";
+                document.getElementById('labelElective3').innerText = "Elective 3:";
+
+                document.getElementById('labelCore1').innerText = "Core 1:";
+                document.getElementById('labelCore2').innerText = "Core 2:";
+                document.getElementById('labelCore3').innerText = "Core 3:";
+            }
+            // Clear input fields
+            document.getElementById('elective1').value = '';
+            document.getElementById('elective2').value = '';
+            document.getElementById('elective3').value = '';
+            document.getElementById('core1').value = '';
+            document.getElementById('core2').value = '';
+            document.getElementById('core3').value = '';
+            document.getElementById('result').innerText = '';
+            document.getElementById('cut-off').innerText = '';
+        }
+
+        function validateAndConvertGrade(grade) {
+            if (grade >= 4 && grade <= 6) {
+                return 4;
+            }
+            return grade;
+        }
+
+        function calculateAggregate() {
+            const programmeNoValue = document.getElementById('programme');
+            const programme = programmeNoValue.value;
+            const programmeText = programmeNoValue.options[programmeNoValue.selectedIndex].text;
+            if (!programme) {
+                document.getElementById('result').innerHTML = `<span style="color:red;">Please select a programme.</span>`;
+                return;
+            }
+
+            const elective1 = validateAndConvertGrade(parseInt(document.getElementById('elective1').value) || 0);
+            const elective2 = validateAndConvertGrade(parseInt(document.getElementById('elective2').value) || 0);
+            const elective3 = validateAndConvertGrade(parseInt(document.getElementById('elective3').value) || 0);
+            const core1 = validateAndConvertGrade(parseInt(document.getElementById('core1').value) || 0);
+            const core2 = validateAndConvertGrade(parseInt(document.getElementById('core2').value) || 0);
+            const core3 = validateAndConvertGrade(parseInt(document.getElementById('core3').value) || 0);
+
+            if ([elective1, elective2, elective3, core1, core2, core3].some(grade => grade < 1 || grade > 6)) {
+                document.getElementById('result').innerHTML = `<span style="color: red;">All grades must be between A1 and C6.</span>`;
+                return;
+            }
+
+            const electives = [elective1, elective2, elective3];
+            const cores = [core1, core2, core3];
+
+            let totalAggregate = electives.reduce((a, b) => a + b, 0) + cores.reduce((a, b) => a + b, 0);
+            document.getElementById('result').innerText = `${totalAggregate}`;
+            if (totalAggregate <= cut_off){
+                document.getElementById('cut-off').innerHTML = `<i style="color: green;">The cutoff for ${programmeText} is around ${cut_off}.</i>`
+            }else{
+                document.getElementById('cut-off').innerHTML = `<i style="color: red;">The cutoff for ${programmeText} is around ${cut_off}.</i>`
+            }
+        }
     </script>
-
-    <!-- <script src="{{ url_for('static', filename='script.js') }}"></script> -->
 </body>
 </html>

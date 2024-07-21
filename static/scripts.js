@@ -328,8 +328,8 @@ function addBotMessage(message) {
     chatContainer.appendChild(feedbackButtons);
 
     // animation effect for bot message
-    // animateMessage(messageDiv);
-    writeAnimateMessage(messageDiv, removeHTMLTags(message));
+    animateMessage(messageDiv);
+    // writeAnimateMessage(messageDiv, removeHTMLTags(message));
 }
 
 function updateBotAvatar(botAvatar) {
@@ -466,7 +466,7 @@ function writeAnimateMessage(element, message) {
     element.innerHTML = '';
 
     // Define the typing speed (characters per millisecond)
-    var typingSpeed = 30;
+    var typingSpeed = 15;
 
     // Initialize index to keep track of the current position in the message
     var index = 0;

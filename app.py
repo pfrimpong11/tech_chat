@@ -78,6 +78,14 @@ def feedback():
 def aggregate():
     return render_template('pages/aggregate.html')
 
+@app.route('/programmeOptions')
+def programme_options():
+    return render_template('pages/programmeOptions.html')
+
+@app.route('/calculateAggregate')
+def calculateAggregate():
+    return app.send_static_file('calculateAggregate.json')
+
 @app.route('/pages/emailSent.html')
 def emailSent():
     return render_template('pages/emailSent.html')
@@ -96,7 +104,7 @@ def calculate_aggregate():
 def get_response():
     user_message = request.json["message"].lower()
     corrected_message = correct_spelling(user_message)
-    bot_response = generate_bot_response(corrected_message, model, words, classes, all_intents)
+    bot_response = generate_bot_response(user_message, model, words, classes, all_intents)
     return jsonify({"response": bot_response})
 
 @app.route("/save_user_input", methods=["POST"])

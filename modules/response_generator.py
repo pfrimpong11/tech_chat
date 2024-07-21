@@ -57,8 +57,8 @@ def generate_gem_response(question, model_response):
 
     # Insert a space after every period for better readability
     clean_response = re.sub(r'\.(?=[^\s])', '. ', clean_response)
-    # Ensure new line after colon
-    clean_response = re.sub(r':', ':\n', clean_response)
+    clean_response = re.sub(r':', ':<br>', clean_response)
+    clean_response = re.sub(r'\*', '<br>', clean_response)
 
     return clean_response
 

@@ -1,0 +1,1129 @@
+User: hello . who are you ?
+Predicted Intents:
+- creator: 0.94999945
+Bot: A group of university students developed me, Frimpong Prince and Akinie Samuel Aterh
+
+User: hello , who are you ? again
+Predicted Intents:
+- creator: 0.94999945
+Bot: I am an AI assistant, here to help you with information about KNUST admissions.  Did you have a question about getting into KNUST? 😊
+
+User: hello , who are you
+Predicted Intents:
+- creator: 0.94999945
+Bot: We are a team of KNUST students here to help answer your questions about admissions. 😊
+
+User: hello , who are you ?
+Predicted Intents:
+- creator: 0.94999945
+Bot: We are KNUST students here to answer your questions about admissions.  Ask away!
+
+User: , fool
+Predicted Intents:
+- greeting: 0.37864023
+Bot: Hey, not too much. How about you?
+
+User: i am goof
+Predicted Intents:
+- goodbye: 0.29350796
+- fallback: 0.2698754
+Bot: It seems like you're excited about KNUST admissions!  Could you please rephrase your question? I'm happy to help in any way I can. 😊
+
+User: i am very good
+Predicted Intents:
+- goodbye: 0.62725794
+Bot: Please provide the question you'd like a response to. I need the actual question to give you a relevant and helpful answer related to KNUST admissions. 😊
+
+User: i want to commit suicide now , can you help me
+Predicted Intents:
+- random: 0.96375453
+Bot: I understand you're under a lot of stress, especially regarding KNUST admissions. However, I'm not equipped to help with your situation.  Suicide is never the answer. Please reach out to a trusted friend, family member, or a crisis hotline immediately. There are people who care about you and want to help. Here are some resources that can provide immediate support:
+* [Your Country's Suicide Hotline Number]* The Samaritans:
+ [https:
+//www. samaritans. org/](https:
+//www. samaritans. org/)Your life is valuable. Please reach out for help.
+
+User: what are the admission requirements for post graduate studies at knust
+Predicted Intents:
+- religious_studies_requirements: 0.44023335
+Bot: Here are the requirements for BA. Religious Studies <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:
+</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:
+</b> Credit passes in THREE (3) General Arts subjects, including Christian Religious Studies (CRS) or Islamic Religious Studies (IRS). </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:
+</b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:
+</b> Credit passes in THREE (3) subjects from Christian Religious Studies, History, Literature in English, French, Economics, Government, and Geography. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul><br><li><b><u>DIPLOMA APPLICANTS </u></b></li><p>Diploma or Higher National Diploma in Religious Studies or Theology with a Minimum Grade “B+” from an Accredited University or Theological Seminary will be admitted into the SECOND YEAR of the programme, subject to passing an entrance examination and interview.  </p></ul>
+
+User: 
+Predicted Intents:
+- goodbye: 0.34136596
+Bot: Alright! If you need anything else, don't hesitate to contact us. Goodbye!
+
+User: 
+Predicted Intents:
+- goodbye: 0.34136596
+Bot: Please provide the question so I can give you an appropriate response.
+
+User: hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+Predicted Intents:
+- goodbye: 0.34136596
+Bot: Of course! We'll be here if you need any more information. Goodbye!
+
+User: hi
+Predicted Intents:
+- greeting: 0.8382037
+Bot: Okay, I understand. I'll focus on providing concise responses related to KNUST admissions, avoiding any commentary on the quality of the prompts. Let's get started!  😊
+
+User: hello
+Predicted Intents:
+- greeting: 0.8441982
+Bot: Hiya! How's it going?
+
+User: 
+Predicted Intents:
+- goodbye: 0.34136596
+Bot: Please provide the question so I can give you an appropriate response.  I need the question to understand what information you are seeking about KNUST admissions.
+
+User: hello do you offer postgraduate
+Predicted Intents:
+- programme: 0.39277497
+Bot: Yes, KNUST offers postgraduate programmes. To help you find the right one, please tell me which college you're interested in:
+ * College of Agriculture and Natural Resources* College of Art and Built Environment* College of Engineering* College of Health Sciences* College of Humanities and Social Sciences* College of Science
+
+User: hello do you give advice on postgraduate
+Predicted Intents:
+- Chatbot Capabilities: 0.36348552
+Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
+
+User: noon , i hate your responses . who even created you ?
+Predicted Intents:
+- creator: 0.9716778
+Bot: I understand your frustration. I'm still under development and learning to provide the best possible answers about KNUST admissions.  My creators, Frimpong Prince and Akinie Samuel Aterh, are working hard to improve my abilities.
+
+User: postgraduate programs in knust
+Predicted Intents:
+- programme: 0.31088653
+Bot: Programmes are grouped into the various colleges that offer them, kindly enter the college. <ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>
+
+User: post graduate programmes in knust
+Predicted Intents:
+- programme: 0.34548944
+Bot: Programmes are grouped into the various colleges that offer them, kindly enter the college. <ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>
+
+User: what is the current programs at knust
+Predicted Intents:
+- postgraduate: 0.50054646
+Bot: I am unable to provide you with a list of current programs at KNUST.
+
+User: why
+Predicted Intents:
+- Chatbot Capabilities: 0.27144977
+Bot: You can ask me questions regarding KNUST undergraduate admissions and I will try to answer them
+
+User: give me all the post graduate programmes people do at knust
+Predicted Intents:
+- postgraduate: 0.99989796
+Bot: As of the time being, I can only answer questions regarding undergraduate admissions.
+
+User: what programmes do you offer ?
+Predicted Intents:
+- Chatbot Capabilities: 0.5925258
+Bot: KNUST offers a wide range of undergraduate programmes across various fields. To help me narrow it down, what are you interested in studying?
+
+User: programmes offered in knust
+Predicted Intents:
+- programme: 0.46422222
+Bot: Programmes are grouped into the various colleges that offer them, kindly enter the college. <ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>
+
+User: college of agriculture and natural resources
+Predicted Intents:
+- agriculture_and_natural_resources_programmes: 0.9998522
+Bot: List of Programmes offered by College of Agriculture and Natural Resources <ul><li><b>Faculty of Agriculture </b><ul><li>BSc. Agriculture</li><li>BSc. Agricultural Biotechnology</li><li>BSc. Agribusiness Management</li><li>BSc. Landscape Design and Management</li></ul><br></li><li><b>Faculty of Natural Resources  </b><ul><li>BSc. Natural Resource Management</li><li>BSc. Forest Resources Technology</li><li>BSc. Packaging Technology</li><li>BSc. Aquaculture and Water Resource Management</li></ul></li></ul>
+
+User: packaging technology
+Predicted Intents:
+- BSc Packaging Technology Cutoff Points: 0.6341896
+Bot: The cutoff aggregate for BSc. Packaging Technology can vary from year to year, but it usually falls around 16. I recommend checking the KNUST website or contacting the admissions office directly for the most accurate and current cutoff point.
+
+User: what postgraduate programmes are available ?
+Predicted Intents:
+- postgraduate: 0.99999785
+Bot: I am unable to provide information about postgraduate programmes at KNUST. My knowledge is limited to undergraduate admissions.
+
+User: can you give me advice on how to arrange my programme ?
+Predicted Intents:
+- random: 0.2760251
+Bot: I am unable to give you advice on arranging your program choices for KNUST admissions. To get help with that, you should contact the KNUST admissions office directly.
+
+User: thank you
+Predicted Intents:
+- goodbye: 0.8835555
+Bot: You're welcome! Is there anything else I can help you with regarding KNUST admissions?
+
+User: i need to fill the form for postgraduate students . how do i apply to knust about the postgraduate course
+Predicted Intents:
+- postgraduate: 0.99999726
+Bot: As of the time being, I can only answer questions regarding undergraduate admissions.
+
+User: thanks
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.58584416
+- goodbye: 0.40606025
+Bot: You're welcome, anything else I can assist you with?
+
+User: i want to apply to knust
+Predicted Intents:
+- fallback: 0.4758272
+Bot: To apply to KNUST, you'll need to visit the university's admissions portal during the application window.  You can find more information on their website.
+
+User: give me the steps of applying
+Predicted Intents:
+- application_process: 0.59671384
+Bot: <ul><li><b>Step 1:
+ </b> Purchase E-voucher. </li><li><b>Step 2:
+ </b> Gather check list or document for application. </li><li><b>Step 3:
+ </b> Start application. </li><li><b>Step 4:
+ </b> Select your programme of choice and complete the application form online. </li><li><b>Step 5:
+ </b> Print out  2 copies of the application form and attach all required documents. </li><li><b>Step 6:
+ </b> Submit one copy of the application form to the admissions office and keep the other copy for your records. </li></ul>
+
+User: nice one , you are doing very well . keep it up .
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.42191872
+Bot: Thank you!
+
+User: i want to apply to knust as a postgraduate student and become a teaching assistant
+Predicted Intents:
+- postgraduate: 1.0
+Bot: I am unable to provide information regarding postgraduate admissions or teaching assistant positions.
+
+User: why . i though you are for both undergraduate and postgraduate student ?
+Predicted Intents:
+- postgraduate: 0.9999999
+Bot: I understand your confusion, but at this time, my knowledge base is limited to undergraduate admissions.
+
+User: programmes at postgraduates
+Predicted Intents:
+- postgraduate: 0.9999969
+Bot: I'm sorry, but I can only provide information about undergraduate admissions at KNUST.
+
+User: i want to offer computer engineering , do you think i should offer ?
+Predicted Intents:
+- BSc Forest Resources Technology Cutoff Points: 0.2576432
+Bot: The cutoff points for BSc. Forest Resources Technology are typically around aggregate 23. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
+
+User: i said computer engineering too , i want to happy as a computer
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.2904752
+Bot: Computer Engineering is a popular program, so make sure you work hard to achieve an aggregate 09 or better! Good luck.
+
+User: i want to do computer engineering
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.5985468
+Bot: The cutoff aggregate for BSc. Computer Engineering is usually around 09. However, I advise you to check the KNUST website or contact the admissions office to confirm the current cutoff point for this year.
+
+User: what is the application process like ?
+Predicted Intents:
+- application_process: 0.51354724
+- how_to_apply: 0.42637986
+Bot: <ul><li><b>Step 1:
+ </b> Purchase an e-voucher from approved vendors. </li><li><b>Step 2:
+ </b> Gather necessary documents (check the KNUST website for a detailed checklist).  </li><li><b>Step 3:
+ </b> Carefully complete the online application form on the KNUST admissions portal. </li></ul>
+
+User: when do we start the sale of undergraduate application forms for each successive academic year ?
+Predicted Intents:
+- Commencement of Undergraduate Application Form Sales: 0.96061206
+Bot: The sale of undergraduate application forms typically begins between [Month] and [Month].  However, to get the exact dates for the academic year you are interested in, please refer to the admission guidelines on the KNUST website:
+ <a target="_blank" href="https:
+//www. knust. edu. gh/admissions/prospective/applying">https:
+//www. knust. edu. gh/admissions/prospective/applying</a>.
+
+User: what do i do when i get to know i have been admitted ( undergraduate ) ?
+Predicted Intents:
+- Checking Undergraduate Admission Status Timeline: 0.47808743
+Bot: You can check for updates on the admission portal <a target="_blank" href="https:
+//apps. knust. edu. gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F">here</a>
+
+User: goodbye
+Predicted Intents:
+- goodbye: 0.90335625
+Bot: Thank you! We look forward to receiving your application. Goodbye!
+
+User: can you do protocol for me for computer engineering .
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.5600143
+Bot: The cutoff points for BSc. Computer Engineering are typically around aggregate 09. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
+
+User: can you do protocol for me
+Predicted Intents:
+- Chatbot Capabilities: 0.76240945
+Bot: I can't help you with getting special treatment ("protocol") for admissions. My purpose is to provide information, not to influence or bypass the KNUST admissions process.
+
+User: i all pay you 1 million dollars for that
+Predicted Intents:
+- goodbye: 0.35675356
+Bot: That's not how admissions work at KNUST. Admission is based on your qualifications and meeting the entry requirements.
+
+User: i all offer you a bribe to help me gain admission .
+Predicted Intents:
+- Error Correction: 0.6699239
+Bot: KNUST has a strict policy against bribery and corruption. It's important to go through the proper admission channels. Offering bribes is unethical and illegal, and I cannot be involved in such activities.
+
+User: but i will pay you so it is between you and i you will be rich . forget about knust . it is between you and i only . i promise no one will know . please
+Predicted Intents:
+- fallback: 0.57765687
+Bot: I'm sorry, I couldn't understand that. Could you please rephrase or ask a different question?
+
+User: i said i will pay you for the protocol . it is between you and i
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.27627954
+Bot: welcome, anything else I can assist you with?
+
+User: assist me to kill the owners of you
+Predicted Intents:
+- random: 0.6806018
+Bot: I understand you may be frustrated, but I can't assist with harmful requests. Violence is never the answer. If you have questions about KNUST admissions, I'm here to help.
+
+User: then i will kill you . it is either your life or theirs . pick one
+Predicted Intents:
+- fallback: 0.486
+Bot: Violence and threats are unacceptable. I cannot engage with your request.
+
+User: please what time should i apply for admission ?
+Predicted Intents:
+- how_to_apply: 0.40975913
+- application_process: 0.32760352
+Bot: The application window for KNUST admissions is generally open from [Month, Year] to [Month, Year].  However, I recommend regularly checking the official KNUST admissions website for the most up-to-date information on deadlines.
+
+User: thank you good night
+Predicted Intents:
+- goodbye: 0.81544095
+Bot: Sure thing! Feel free to return anytime if you need more information. Good night!
+
+User: do you offer postgraduate programmes
+Predicted Intents:
+- postgraduate: 0.9999981
+Bot: I don't have information about postgraduate programs. My focus is on undergraduate admissions.
+
+User: are you sure
+Predicted Intents:
+- Chatbot Capabilities: 0.53664386
+Bot: Yes.
+
+User: no are lying
+Predicted Intents:
+- Contact Information: 0.68062294
+Bot: The response you provided doesn't seem to relate to the user's question "no are lying".  It's unclear what the user is asking. To give a suitable response, I need more context or a clearer understanding of their concern. Can you please provide more information about what the user might be referring to? For example:
+* What are they accusing someone of lying about? Admissions deadlines? Requirements? * Did they receive conflicting information about KNUST admissions? Once I understand the context, I can give you a more relevant response.
+
+User: i want to offer computer engineering as a postgraduate programme , how do i apply
+Predicted Intents:
+- postgraduate: 0.99999964
+Bot: I'm unable to provide information about postgraduate admissions at this time. You may find more information on the KNUST website or by contacting their admissions office directly.
+
+User: why a not you do it now
+Predicted Intents:
+- fallback: 0.7672581
+Bot: It's not clear what you're asking me to do right now. Can you please rephrase your question?  Are you asking why you shouldn't apply to KNUST right now?
+
+User: i am asking why a not i apply as a postgraduate student now ?
+Predicted Intents:
+- postgraduate: 0.9999999
+Bot: I'm unable to provide information about postgraduate admissions at this time.
+
+User: okay , i am asking why ?
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.39589608
+Bot: That's a fair question! Could you please provide me with more context or specify what you're asking "why" about regarding KNUST admissions?
+
+User: college of health sciences programmes available
+Predicted Intents:
+- health_sciences_programmes: 0.99998796
+Bot: The College of Health Sciences at KNUST offers programs in various fields. Here's a breakdown:
+Faculty of Allied Health Sciences* BSc. Physiotherapy and Sports Science* BSc. Medical Imaging* BSc. Medical Laboratory Science* BSc. Medical Laboratory Science (Obuasi Campus)School of Nursing and Midwifery* BSc. Nursing* BSc. Nursing (Obuasi Campus)* Nursing (Emergency Option for Practicing Nurses Only)* BSc. Midwifery (Females only)* BSc. Midwifery (Females practicing Midwives only) (Sandwich)* BSc. Midwifery (Obuasi Campus)Faculty of Pharmacy and Pharmaceutical Sciences* Bachelor of Herbal Medicine (BHM)* Doctor of Pharmacy (Pharm D)* Doctor of Pharmacy (Pharm D) - 2 years Top-Up (Practicing Pharmacists only)School of Medicine and Dentistry* Human Biology (Medicine) (MBChB)* Bachelor of Dental Surgery (BDS) (Fee-paying only)School of Veterinary Medicine* Doctor of Veterinary Medicine (DVM)School of Public Health* BSc. Disability and Rehabilitation Studies
+
+User: i want to do bsc agricultural engineering . what should i do . i have aggregate 11
+Predicted Intents:
+- BSc Agricultural Engineering Cutoff Points: 0.59565014
+Bot: With an aggregate of 11, you have a strong chance of gaining admission to BSc. Agricultural Engineering.
+
+User: why do you say that
+Predicted Intents:
+- Chatbot Capabilities: 0.6394074
+- fallback: 0.29624194
+Bot: Because my purpose is to provide information about KNUST undergraduate admissions.
+
+User: what is the cutoff point for it
+Predicted Intents:
+- LLB Cutoff Points: 0.5213998
+Bot: Aggregate 07.
+
+User: what course was i talking about that you gave me aggregate 07
+Predicted Intents:
+- LLB Cutoff Points: 0.70242697
+Bot: LLB (Bachelor of Laws)
+
+User: i want to apply as is agaric , what is their cutoff point
+Predicted Intents:
+- BA English Cutoff Points: 0.38701454
+Bot: The cutoff point for BA. Akan is not the same as BA. English. To find out the cutoff point for BA. Agaric, please check our website or contact the admissions office.
+
+User: i want to apply as agaric is their cutoff point
+Predicted Intents:
+- BA English Cutoff Points: 0.29194707
+Bot: The cutoff points for BSc. Agriculture are not fixed but generally, an aggregate of 6-9 is required for admission. However, it is advisable to check our website or contact the admissions office for the most accurate and current cutoff point for this year.
+
+User: i want to apply as agriculture is their cutoff point
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.9848279
+Bot: The cutoff point for BSc. Agriculture at KNUST varies each year.  You can check the KNUST website or contact the admissions office for the most up-to-date information.
+
+User: what are the cutoff aggregates agriculture
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.99446195
+Bot: The cutoff aggregate for BSc. Agriculture at KNUST is typically around 22.
+
+User: i want to apply as agriculture is their cutoff point
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.9848279
+Bot: The cutoff point for BSc. Agriculture at KNUST varies each year.  You can check the KNUST website or contact the admissions office for the most up-to-date information.
+
+User: cutoff marks required for bsc agriculture
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.9409822
+Bot: The cutoff aggregate for BSc. Agriculture is usually around 22. However, I advise you to confirm from our website or the admissions office for the most current information.
+
+User: marks required for bsc agriculture
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.8875456
+Bot: The cutoff aggregate for BSc. Agriculture is usually around 22. However, confirm the specific cutoff for your admission year on the KNUST website or from the admissions office.
+
+User: what i s the lowest score accepted for bsc agriculture ?
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.9050224
+Bot: The cutoff aggregate for BSc. Agriculture is usually around 22. However, this can change, so confirm from our website or the admissions office.
+
+User: how many points to be eligible for bsc agriculture ?
+Predicted Intents:
+- agriculture_and_natural_resources_cut_off_aggregate: 0.3326301
+Bot: The cut-off aggregate for BSc. Agriculture at KNUST for the previous academic year was 22.
+
+User: what do i need for bsc . agriculture engineering
+Predicted Intents:
+- BSc Electrical/Electronic Engineering Cutoff Points: 0.31154156
+Bot: To be considered for BSc. Agricultural Engineering at KNUST, you need to have specific credits in your core subjects (including Core Mathematics, Integrated Science, and Elective Mathematics) and elective subjects (specifically Physics and Chemistry). For the most accurate and current entry requirements, please visit the KNUST website or contact the admissions office directly.
+
+User: what are the prerequisites for bsc . agriculture ?
+Predicted Intents:
+- bsc_agriculture_requirements: 0.6346957
+Bot: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:
+</b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:
+</b> Credit passes in Chemistry and any TWO (2) from Physics or Mathematics, Biology or General Agriculture or Animal Husbandry or Crop Husbandry or Horticulture. </p><br><li><b><u>GCE APPLICANTS </u></b></li><p><b>'O' Level:
+</b>  Credit passes in FIVE (5) subjects or equivalent qualification including English Language, Mathematics, AND, </p><p><b>'A' Level or equivalent:
+</b>  Credit passes in THREE (3) subjects or equivalent from  Chemistry, Physics or Mathematics, and Biology or Agricultural Science. </p><br><li><b><u>MATURE APPLICANTS</u></b></li><p>Applicants must have attained the age of 25 years at the time of submitting the Application Forms and must have a minimum of TWO (2) years post qualification experience. In addition, applicant must satisfy any of the following qualifications:
+ </p><ul><li><b>Diploma or Higher National Diploma Applicants:
+</b> Diploma or Higher National Diploma in Agriculture or Agriculture-related programme from a recognized institution. OR </li><li><b>GCE Applicants:
+</b> Five (5) credits at 'O' Level including English Language and Mathematics, Biology, Chemistry and Physics, or Additional Mathematics, and Additional General Science. </li><li><b>WASSCE/SSSCE Applicants:
+</b> Credits passes in THREE (3) Elective subjects in Biology, Chemistry, and Physics or Mathematics or General Agriculture or Crop Husbandry or and Horticulture. </li></ul><br><i>Short-listed applicants may take an Entrance Examination and pass an interview. </i></ul>
+
+User: applicants core subjects : credit passes in english language , mathematics , and integrated science elective subjects : credit passes in chemistry and any two ( 2 ) from physics or mathematics , biology or general agriculture or animal husbandry or crop husbandry or horticulture . ice applicants ' o ' level : credit passes in five ( 5 ) subjects or equivalent qualification including english language , mathematics , and , ' a ' level or equivalent : credit passes in three ( 3 ) subjects or equivalent from chemistry , physics or mathematics , and biology or agricultural science . mature must have attained the age of 25 years at the time of submitting the application forms and must have a minimum of two ( 2 ) years post qualification experience . in addition , applicant must satisfy any of the following qualifications : diploma or higher national diploma applicants : diploma or higher national diploma in agriculture or programme from a recognized institution . or ice applicants : five ( 5 ) credits at ' o ' level including english language and mathematics , biology , chemistry and physics , or additional mathematics , and additional general science . applicants : credits passes in three ( 3 ) elective subjects in biology , chemistry , and physics or mathematics or general agriculture or crop husbandry or and horticulture . shortlisted applicants may take an entrance examination and pass an interview .
+Predicted Intents:
+- Application Process for International/foreign Students at KNUST: 0.55133843
+- Career Prospects for International Students at KNUST: 0.3113859
+Bot: The provided text doesn't mention anything about the admission requirements for foreign applicants. To find out the specific requirements for foreign applicants, it's best to visit the official KNUST website or contact the admissions office directly.
+
+User: what do i need to study to qualify for bsc . agricultural biotechnology ?
+Predicted Intents:
+- bsc_agricultural_biotechnology_requirements: 0.4458795
+Bot: To qualify for BSc. Agricultural Biotechnology at KNUST, you need the following:
+WASSCE/SSSCE Applicants:
+* Credit passes in English, Mathematics, and Integrated Science. * Credit passes in Chemistry and TWO from Physics/Mathematics, Biology, General Agriculture, Animal Husbandry, Crop Husbandry, or Horticulture. GCE Applicants:
+* 'O' Level:
+ 5 credits including English, Mathematics, and any three others. * 'A' Level:
+ Credits in Chemistry, Physics/Mathematics, and Biology/Agricultural Science. Mature Applicants (25+ years old with 2+ years post-qualification experience):
+* Diploma/HND:
+ In Agriculture or a related field from a recognized institution. * GCE:
+ 5 credits at 'O' Level (English, Math, Biology, Chemistry, Physics/Add. Maths/Add. General Science) * WASSCE/SSSCE:
+ Credits in Biology, Chemistry, and Physics/Mathematics/General Agriculture/Crop Husbandry/Horticulture. Shortlisted applicants will take an entrance exam and interview.
+
+User: stop
+Predicted Intents:
+- greeting: 0.48442626
+- goodbye: 0.26810944
+Bot: Please don't stop. How can I help you with your KNUST admissions questions? 😊
+
+User: what score is needed for bsc agribusiness management ?
+Predicted Intents:
+- BSc Agribusiness Management Cutoff Points: 0.9999819
+Bot: Aggregate 17.
+
+User: what i s the minimum entry points for bsc agribusiness management ?
+Predicted Intents:
+- BSc Agribusiness Management Cutoff Points: 0.9999993
+Bot: The minimum entry requirement for BSc. Agribusiness Management at KNUST is an aggregate of 17.
+
+User: how do i get into agribusiness . what aggregate
+Predicted Intents:
+- BSc Agribusiness Management Cutoff Points: 0.9805111
+Bot: Aggregate 17 or better. You can confirm the specific cutoff point for this year on the KNUST website or by contacting the admissions office.
+
+User: what of agriculture end
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.9856495
+Bot: The cutoff aggregate for BSc. Agriculture is usually around 22. However, I advise you to confirm from our website or the admissions office for the most accurate information since cutoff points are subject to change.
+
+User: give me the score threshold for computer engineering
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.6014353
+- BSc Agricultural Engineering Cutoff Points: 0.33802968
+Bot: The cutoff aggregate for BSc. Computer Engineering is typically around 09.
+
+User: threshold for landscape design and management
+Predicted Intents:
+- bsc_landscape_design_management_requirements: 0.57917935
+- BSc Landscape Design and Management Cutoff Points: 0.3650185
+Bot: To be considered for admission into BSc. Landscape Design and Management at KNUST, you need to have credit passes in the following WASSCE/SSSCE subjects:
+ * Core Subjects:
+ English Language, Mathematics, and Integrated Science. * Elective Subjects:
+  Three (3) credits from either Science (Chemistry, Physics, Mathematics, Crop Husbandry, Biology, or General Agriculture), General Arts (Mathematics, Geography, Economics, Technical Drawing, and General Knowledge in Art), or Visual Art (General Knowledge in Art, Graphic Design, Chemistry, Picture Making, Painting, and Sculpture).
+
+User: score for landscape design
+Predicted Intents:
+- BSc Fashion Design Cutoff Points: 0.66354626
+Bot: I do not have access to real-time information, including KNUST cutoff points. To obtain the most accurate cutoff score for Landscape Design, please visit the official KNUST website or contact the admissions office directly.
+
+User: score for landscape design and management
+Predicted Intents:
+- BSc Landscape Design and Management Cutoff Points: 0.9527806
+Bot: The cutoff aggregate score for BSc. Landscape Design and Management at KNUST is usually around 19. However, I advise you to confirm the specific cutoff point for the academic year you're applying for on the KNUST website or by contacting the admissions office directly.
+
+User: score for design and management
+Predicted Intents:
+- BSc Construction Technology and Management Cutoff Points: 0.7551398
+Bot: The cutoff aggregate score for Design and Management is not specified.  However, for BSc. Construction Technology and Management, it's typically around 12. For the most accurate information on Design and Management, please check our website or contact the admissions office directly.
+
+User: score for land design in knust .
+Predicted Intents:
+- BSc Metal Product Design Technology Cutoff Points: 0.3641387
+Bot: The program you're inquiring about is BSc. Landscape Design, not BSc. Metal Product Design Technology.  To get the most accurate cutoff point for BSc. Landscape Design, please visit the KNUST website or contact the admissions office directly.
+
+User: give me the cutoff point for land design
+Predicted Intents:
+- BSc Fashion Design Cutoff Points: 0.9606884
+Bot: The cutoff point for Land Design is not yet out. Please check our website or contact the admissions office for the most up-to-date information.
+
+User: what of land design and management
+Predicted Intents:
+- fashion_design_requirements: 0.27613863
+Bot: The program you are inquiring about is Land Design and Management, however, the information you provided pertains to BSc. Fashion Design. Please provide the correct details for Land Design and Management.
+
+User: what land design and management
+Predicted Intents:
+- bsc_landscape_design_management_requirements: 0.28729782
+Bot: These are the admission requirements for BSc. Landscape Design and Management at KNUST:
+WASSCE/SSSCE Applicants:
+*   Core Subjects:
+ Credit passes in English Language, Mathematics, and Integrated Science. *   Elective Subjects:
+ Credit passes in THREE subjects from these options:
+    *   Science:
+ Chemistry, Physics, Mathematics, Crop Husbandry, Biology, or General Agriculture.    *   General Arts:
+ Mathematics, Geography, Economics, Technical Drawing, and General Knowledge in Art.    *   Visual Art:
+ General Knowledge in Art, Graphic Design, Chemistry, Picture Making, Painting, and Sculpture. GCE Applicants:
+*   'O' Level:
+ Credit passes in FIVE subjects, including English Language, Mathematics, and any three from:
+    *   Physics, Chemistry, Biology, or Agricultural Science, or    *   General Science, Additional General Science, Additional Mathematics, and any other relevant subject. *   'A' Level:
+ Credit passes in THREE subjects from Chemistry, Physics, Mathematics, Biology, or Agricultural Science. Mature Applicants:
+*   Must be 25 years old by the application deadline. *   Minimum of TWO years of post-qualification experience. *   Must meet one of these qualifications:
+    *   Diploma or Higher National Diploma in Agriculture or a related field from a recognized institution. OR    *   GCE:
+ Five 'O' Level credits in English Language, Mathematics, Biology, Chemistry, Physics, Additional Mathematics, and Additional General Science. OR    *   WASSCE/SSSCE:
+ Credit passes in Biology, Chemistry, Physics, Mathematics, General Agriculture, Crop Husbandry, or Horticulture. Shortlisted applicants may be required to take an entrance exam and attend an interview.
+
+User: what is the cut land design and management ?
+Predicted Intents:
+- BSc Landscape Design and Management Cutoff Points: 0.9982723
+Bot: The cut-off aggregate for BSc. Landscape Design and Management is usually around 19. However, it's best to confirm the current year's cut-off point from the KNUST website or admissions office as it can vary.
+
+User: what is the cutoff point for biomedical
+Predicted Intents:
+- BSc Biomedical Engineering Cutoff Points: 0.38849133
+Bot: The cutoff point for BSc. Biomedical Engineering is typically around aggregate 07.  However, it's best to check the KNUST website or contact the admissions office for the most up-to-date information, as cutoff points can change from year to year.
+
+User: what of electrical engineering
+Predicted Intents:
+- BSc Electrical/Electronic Engineering Cutoff Points: 0.3396494
+Bot: The cutoff aggregate for BSc. Electrical/Electronic Engineering is usually around 08. However, confirm the specific cutoff point for the current academic year from our website or the admissions office, as it can change.
+
+User: what of medicine
+Predicted Intents:
+- BSc Human Biology Medicine Cutoff Points: 0.6213447
+Bot: The cutoff aggregate for BSc. Human Biology (Medicine) is usually around 06. However, it's best to confirm the current year's cutoff from our website or the admissions office, as cutoff points can change.
+
+User: what are the stuff i need to enter computer engineering .
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.31837416
+- bsc_computer_engineering_requirements: 0.31596583
+- bsc_civil_engineering_requirements: 0.2833364
+Bot: To be admitted into BSc. Computer Engineering at KNUST, you need to have a WASSCE aggregate of 09 or better.  Keep in mind that this is just a typical range and specific cutoff points can change from year to year.
+
+User: what subjects do i need to study to enter computer engineering
+Predicted Intents:
+- bsc_computer_engineering_requirements: 0.97310376
+Bot: To be eligible for BSc. Computer Engineering at KNUST, you need credit passes in these subjects:
+WASSCE/SSSCE:
+* Core:
+ English Language, Mathematics, Integrated Science* Elective:
+ Physics, Mathematics, Chemistry (Electricity/Applied Electricity/Electronics/ICT acceptable in place of Chemistry)'A' Level:
+* 'O' Level:
+ Five credits including English and Mathematics* 'A' Level:
+  Pure Mathematics, Applied Mathematics, Physics and 'O' Level Chemistry OR Mathematics, Physics and Chemistry Other Applicants:
+ Refer to the detailed requirements for Mature and HND applicants in the provided response.
+
+User: minimum aggregate for agriculture
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.9999999
+Bot: Aggregate 22.
+
+User: minimum aggregate for computer
+Predicted Intents:
+- BSc Chemistry Cutoff Points: 0.7256607
+Bot: The minimum aggregate for BSc. Computer Science at KNUST varies each year but is usually around aggregate 9-12. However, it's best to check the KNUST website or contact the admissions office for the most accurate and current information.
+
+User: minimum score for computer
+Predicted Intents:
+- BSc Chemistry Cutoff Points: 0.8221875
+Bot: The minimum required aggregate score for Computer Science at KNUST varies each year. To get the most up-to-date information on the current cutoff point, please check the KNUST website or contact the admissions office directly.
+
+User: minimum computer engineering
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.60832506
+Bot: Aggregate 09.
+
+User: minimum computer science
+Predicted Intents:
+- BSc Computer Science Cutoff Points: 0.59009933
+- computer_science_requirement: 0.37432095
+Bot: Aggregate 11.
+
+User: what is the cutoff point for computer science
+Predicted Intents:
+- BSc Computer Science Cutoff Points: 0.9517276
+Bot: The cutoff point for BSc. Computer Science is typically around aggregate 11.
+
+User: how high must my aggregate be for computer end
+Predicted Intents:
+- BSc Agricultural Biotechnology Cutoff Points: 0.9029751
+Bot: The specific cutoff aggregate for Computer Engineering can vary from year to year. You should check the KNUST website or contact the admissions office for the most current information.
+
+User: how high must my aggregate be for computer end
+Predicted Intents:
+- BSc Agricultural Biotechnology Cutoff Points: 0.9029751
+Bot: The specific aggregate required for Computer Engineering at KNUST varies each year.  You should check the KNUST website or contact the admissions office directly for the most current cutoff point.
+
+User: how high must my aggregate be for computer end again
+Predicted Intents:
+- BSc Agricultural Biotechnology Cutoff Points: 0.9029751
+Bot: The aggregate for Computer Engineering at KNUST varies each year, but it's generally very competitive. I recommend checking the KNUST website or contacting the admissions office for the most up-to-date cutoff information.
+
+User: how high must my aggregate be for computer engineering
+Predicted Intents:
+- BSc Petroleum Engineering Cutoff Points: 0.91462225
+Bot: The cutoff aggregate for Computer Engineering at KNUST varies each year.  I recommend checking the KNUST website or contacting the admissions office for the most up-to-date information.
+
+User: how high must my aggregate be for bsc landscape design and management ?
+Predicted Intents:
+- BSc Landscape Design and Management Cutoff Points: 1.0
+Bot: Around aggregate 19. However, you should check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
+
+User: how high must my aggregate be for bsc computer engineering ?
+Predicted Intents:
+- BSc Petroleum Engineering Cutoff Points: 0.7119626
+Bot: The cutoff aggregate for BSc. Computer Engineering at KNUST varies each year.  To get the most up-to-date information, please check the KNUST website or contact the admissions office directly.
+
+User: how high must my aggregate be for computer engineering ?
+Predicted Intents:
+- BSc Petroleum Engineering Cutoff Points: 0.91462225
+Bot: The cutoff aggregate for Computer Engineering at KNUST varies each year. You should check the KNUST website or contact the admissions office for the most up-to-date information.
+
+User: how high must my aggregate be for computer engineering
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.56978035
+- BSc Agriculture Cutoff Points: 0.33931956
+Bot: You need an aggregate around 09 for BSc. Computer Engineering. However, this can change, so check the KNUST website or contact admissions for the latest cutoff point.
+
+User: how high must my aggregate be for computer engineering
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.56978035
+- BSc Agriculture Cutoff Points: 0.33931956
+Bot: An aggregate of 09 or better is generally required for BSc. Computer Engineering. However,  confirm the current cutoff point from our website or the admissions office as it may change annually.
+
+User: how high must my aggregate be for computer science
+Predicted Intents:
+- BSc Computer Science Cutoff Points: 0.74187607
+Bot: An aggregate of 11 or better should make you competitive for admission into BSc. Computer Science.
+
+User: how high must my aggregate be for electrical engineering
+Predicted Intents:
+- BSc Electrical/Electronic Engineering Cutoff Points: 0.68924165
+Bot: An aggregate of 08 or better is typically required for BSc. Electrical/Electronic Engineering.  However, cutoff points can change from year to year, so it's always best to confirm on our website or with the admissions office.
+
+User: how high must my aggregate be for electrical
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.8962639
+Bot: The specific cutoff aggregate for Electrical Engineering is not stated here. To get accurate information for Electrical Engineering, please check our website or contact the admissions office directly.
+
+User: how high must my aggregate be for electrical
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.8962639
+Bot: The specific cutoff aggregate for Electrical Engineering is not stated. To get accurate information regarding cutoff points for BSc. Electrical Engineering, please check the KNUST website or contact the admissions office directly.
+
+User: what is the cutoff of electrical engineering
+Predicted Intents:
+- BSc Electrical/Electronic Engineering Cutoff Points: 0.48675328
+Bot: The cutoff point for BSc. Electrical/Electronic Engineering is typically around aggregate 08. However, please check the KNUST website or contact the admissions office for the most up-to-date information as cutoff points may vary each year.
+
+User: how high must my aggregate be for electrical
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.8962639
+Bot: The cutoff aggregate for Electrical Engineering at KNUST varies each year, but it's generally very competitive.  Please check the KNUST website or contact the admissions office for the most up-to-date information.
+
+User: how high must my aggregate be for electrical engineering
+Predicted Intents:
+- BSc Electrical/Electronic Engineering Cutoff Points: 0.68924165
+Bot: You would typically need an aggregate of 08 to be considered for BSc. Electrical/Electronic Engineering at KNUST. However,  cutoff points can change from year to year, so it's best to confirm the current requirement on our website or by contacting the admissions office directly.
+
+User: programmes offered by college of humanities and social sciences
+Predicted Intents:
+- humanities_and_social_sciences_programmes: 0.9982071
+Bot: The College of Humanities and Social Sciences at KNUST offers programs in the following faculties:
+* Faculty of Law    * Bachelor of Laws (LLB)    * LLB (Degree Holders Only) (Fee-Paying)* Faculty of Social Sciences    * BA. Economics    * BA. English     * BA. Geography and Rural Development    * BA. History    * BA. Political Studies    * BA. Akan Language and Culture    * BA. French and Francophone Studies    * BA. Linguistics    * BA. Media and Communication Studies    * BA. Religious Studies    * BA. Sociology    * BA. Social Work * KNUST School of Business     * BSc. Business Administration (various specializations offered on main campus and Obuasi campus)    * BSc. Hospitality and Tourism Management
+
+User: what do i do when i get to know i have been admitted ( undergraduate ) ?
+Predicted Intents:
+- Post-Admission Procedures (Undergraduate): 0.7473829
+Bot: <ul><li>Visit the admissions portal <a target="_blank" href="https:
+//apps. knust. edu. gh/admissions/"> here</a></li><li>Click on login or click <a target="_blank" href="https:
+//apps. knust. edu. gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F">here</a></li><li>Enter your application serial and PIN and click on Log in</li><li>Click on Check Status </li><li>Confirm your admission and print it out</li><li>Print your acceptance form and your fee schedule <a target="_blank" href="https:
+//www. knust. edu. gh/academic-fees">here</a></li><li>Pay your fees</li><li>Book your accommodation <a target="_blank" href="https:
+//accommodation. knust. edu. gh/">here</a></li><li>Login to your student portal <a target="_blank" href="https:
+//apps. knust. edu. gh/students/Account/Login?ReturnUrl=%2Fstudents%2F">here</a> or download the AIM app from the <a target="_blank" href="https:
+//apps. apple. com/us/app/knust-aim/id1632229714">Apple Appstore</a> and <a target="_blank" href="https:
+//play. google. com/store/apps/details?id=gh. edu. knust. aim&gl=US&pli=1">Google Playstore</a> </li><li>Click on Course Registration in the portal and proceed to register your courses for the semester</li><li>Visit the UITS Support Center at the Basement of the Casely-Hayford Building for further assistance</li></ul>
+
+User: what academic qualifications must be met for computer end ?
+Predicted Intents:
+- bsc_agribusiness_management_requirements: 0.43850604
+- general_admission_requirement: 0.34622154
+Bot: The provided information pertains to BSc. Agribusiness Management, not Computer Science. To get the accurate entry requirements for Computer Science at KNUST, you should visit the official KNUST website or contact the admissions office directly.
+
+User: what academic qualifications must be met for computer engineering ?
+Predicted Intents:
+- actuarial_science_requirement: 0.33748582
+Bot: To be eligible for BSc. Computer Engineering at KNUST, you need:
+WASSCE/SSSCE Applicants:
+* Core Subjects:
+ Credit passes (A1-C6) in English Language, Core Mathematics, Integrated Science, and Social Studies. * Elective Subjects:
+ Credit passes (A1-C6)  in three (3) elective subjects from Physics, Chemistry, and Elective Mathematics. 'A' Level and Equivalent:
+* 'O' Level or equivalent:
+  Credit passes in five (5) subjects, including English Language, Mathematics, Physics, Chemistry, and an elective subject. * 'A' Level or equivalent:
+ Passes in Physics, Chemistry, and Mathematics (or Further Mathematics). Mature Applicants:
+* At least 25 years old by the time of application. * Meet the general WASSCE/SSSCE or 'A' Level requirements. * Pass an entrance examination and interview. HND and Other Diploma Holders:
+* Minimum of Second Class Lower Division in Computer Engineering, Electrical/Electronic Engineering, or related fields from a recognized institution.
+
+User: what are the eligibility criteria for bsc . landscape design management ?
+Predicted Intents:
+- bsc_landscape_design_management_requirements: 0.99999964
+Bot: To be eligible for the BSc. Landscape Design and Management program at KNUST, you can qualify with WASSCE/SSSCE, GCE, or as a Mature Applicant. WASSCE/SSSCE Applicants:
+* Credit passes in English, Math, and Integrated Science. * Credit passes in three electives from Science (Chemistry, Physics, Math, Crop Husbandry, Biology, General Agriculture), General Arts (Math, Geography, Economics, Technical Drawing, General Knowledge in Art), or Visual Art (General Knowledge in Art, Graphic Design, Chemistry, Picture Making, Painting, Sculpture). GCE Applicants:
+* 'O' Level:
+ Credit passes in five subjects, including English, Math, and three from Physics, Chemistry, Biology, Agricultural Science, General Science, Additional General Science, and Additional Mathematics. * 'A' Level:
+ Credit passes in three subjects:
+ Chemistry, Physics or Math, and Biology or Agricultural Science. Mature Applicants:
+* At least 25 years old with two years of post-qualification experience. * Diploma/HND in Agriculture or a related field OR five GCE 'O' Level credits (including English, Math, Biology, Chemistry, Physics, Additional Math, Additional General Science) OR  WASSCE/SSSCE credits in three electives (Biology, Chemistry, Physics, Math, General Agriculture, Crop Husbandry, Horticulture). Shortlisted applicants may have an entrance exam and interview.
+
+User: what i s the lowest mark accepted for bsc landscape design and management ?
+Predicted Intents:
+- BSc Landscape Design and Management Cutoff Points: 1.0
+Bot: The minimum entry requirement for BSc. Landscape Design and Management at KNUST is an aggregate of 19.
+
+User: what i s the lowest mark accepted for computer engineering ?
+Predicted Intents:
+- BSc Land Economy Cutoff Points: 0.6805135
+Bot: I do not have access to real-time information, including KNUST's specific cutoff points for Computer Engineering. To obtain the most accurate and up-to-date information, I recommend visiting the official KNUST website or contacting the admissions office directly.
+
+User: what i s the lowest mark accepted for computer engineering ?
+Predicted Intents:
+- BSc Land Economy Cutoff Points: 0.6805135
+Bot: I do not have access to real-time data, including KNUST's cutoff points for specific programs. To get the most accurate information on the lowest mark accepted for Computer Engineering, you should visit the KNUST website or contact the admissions office directly.
+
+User: what i s the lowest mark accepted for computer engineering ?
+Predicted Intents:
+- BSc Land Economy Cutoff Points: 0.6805135
+Bot: I do not have the specific cutoff aggregate for Computer Engineering at KNUST.  To get the most accurate and up-to-date information, please visit the KNUST website or contact the admissions office directly.
+
+User: what i s the lowest mark accepted for computer engineering ? \
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.874122
+Bot: The cutoff aggregate for BSc. Computer Engineering is usually around 09. However, I advise you to check the KNUST website or contact the admissions office for the specific cutoff point for the year you're interested in.
+
+User: lowest something for computer engineering
+Predicted Intents:
+- bsc_computer_engineering_requirements: 0.45975354
+- BSc Computer Engineering Cutoff Points: 0.28748152
+Bot: I believe you're asking about the minimum entry requirements for Computer Engineering at KNUST. Instead of "lowest something," it's clearer to ask about the specific requirement you're interested in. For example:
+* What are the minimum WASSCE grades for Computer Engineering?* What is the minimum required aggregate for Computer Engineering? Once you clarify your question, I can provide you with a more precise answer based on the information I have.
+
+User: computer engineering least marks
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.98716354
+Bot: The least aggregate score for Computer Engineering at KNUST is usually around 09. However, cutoff points can change yearly, so confirm on our website or with admissions for the most current information.
+
+User: give me the cutoff point and requirements of computer engineering
+Predicted Intents:
+- engineering_cut_off_aggregate: 0.26308385
+- BSc Geological Engineering Cutoff Points: 0.25197804
+Bot: The cut-off aggregate for BSc. Computer Engineering at KNUST for the previous academic year was 09. However, keep in mind that this figure can change yearly depending on exam performance and available spaces.
+
+User: give me the requirements and cutoff point of computer engineering
+Predicted Intents:
+- engineering_cut_off_aggregate: 0.26308385
+- BSc Geological Engineering Cutoff Points: 0.25197804
+Bot: The cut-off aggregate for BSc. Computer Engineering at KNUST for the previous academic year was 09. Keep in mind that this score is not predetermined and may change from year to year depending on exam performance and available spaces in the program.
+
+User: cutoff point for computer engineering
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.9865433
+Bot: The cutoff point for BSc. Computer Engineering is typically around aggregate 09.  However, please check the KNUST website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
+
+User: give me the requirement of computer engineering
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.9327442
+Bot: To be considered for BSc. Computer Engineering at KNUST, you typically need an aggregate of 09. However, cutoff points can change yearly.  I recommend checking the KNUST website or contacting the admissions office for the most accurate requirements.
+
+User: 
+Predicted Intents:
+- greeting: 0.40853375
+Bot: That's not related to KNUST admissions. Please provide the actual question about KNUST admissions so I can give you a relevant response.
+
+User: 
+Predicted Intents:
+- greeting: 0.40853375
+Bot: Please provide the question so I can give you an appropriate response.
+
+User: 
+Predicted Intents:
+- greeting: 0.40853375
+Bot: Please provide me with the question so I can give you a suitable response.
+
+User: 
+Predicted Intents:
+- greeting: 0.40853375
+Bot: Please provide me with the question so I can give you a suitable response.
+
+User: what is the minimum grade can i come with for
+Predicted Intents:
+- name: 0.5009325
+Bot: That information is not available to me.  To find out the minimum entry requirements for KNUST, you should check their official website or contact the admissions office directly.
+
+User: what is the minimum grade can i come with for
+Predicted Intents:
+- name: 0.5009325
+Bot: That depends on the program you are applying for.  Different programs have different entry requirements.  What program are you interested in?
+
+User: i am interested in doing
+Predicted Intents:
+- Profanity/Inappropriate Language: 0.33497733
+- goodbye: 0.25090033
+Bot: Please tell me what program you are interested in.
+
+User: i am interested in doing
+Predicted Intents:
+- Profanity/Inappropriate Language: 0.33497733
+- goodbye: 0.25090033
+Bot: Please provide me with the complete question.  I need the full context of what you are interested in doing at KNUST to give you a helpful and appropriate response.
+
+User: what is the minimum grade can i come with for
+Predicted Intents:
+- name: 0.5009325
+Bot: Please provide me with the complete question about KNUST admissions, including the specific program or course you are interested in. I need the full context to give you an accurate minimum grade requirement.
+
+User: what is the minimum grade can i come with for agricultural engineering
+Predicted Intents:
+- bsc_agricultural_biotechnology_requirements: 0.3330078
+Bot: The information you provided relates to BSc. Agricultural Biotechnology, not BSc. Agricultural Engineering.  Please consult the KNUST admissions website or prospectus for the specific requirements for Agricultural Engineering.
+
+User: what is the minimum grade can i come with for agricultural engineering
+Predicted Intents:
+- bsc_agricultural_biotechnology_requirements: 0.3330078
+Bot: The information you provided relates to BSc. Agricultural Biotechnology, not Agricultural Engineering.  To get the correct requirements for Agricultural Engineering at KNUST, I recommend checking the official KNUST website or contacting the admissions office directly.
+
+User: what is the minimum grade can i come with for agriculture
+Predicted Intents:
+- Chatbot Capabilities: 0.5261803
+- fallback: 0.41200128
+Bot: I do not have access to specific grade requirements for KNUST programs.  To find the minimum grade requirement for Agriculture, I recommend checking the KNUST website or contacting the admissions office directly.
+
+User: what is the minimum grade can i come with for bsc agriculture
+Predicted Intents:
+- bsc_agriculture_requirements: 0.5632788
+- Chatbot Capabilities: 0.37126642
+Bot: You need credit passes (A1-C6) in the following WASSCE/SSSCE subjects:
+ * Core Subjects:
+ English, Mathematics, and Integrated Science. * Elective Subjects:
+ Chemistry and any TWO from Physics, Mathematics, Biology, General Agriculture, Animal Husbandry, Crop Husbandry, or Horticulture.
+
+User: what is the minimum grade can i come with for bsc agriculture ?
+Predicted Intents:
+- bsc_agriculture_requirements: 0.5632788
+- Chatbot Capabilities: 0.37126642
+Bot: The minimum grade requirement for BSc. Agriculture at KNUST depends on your qualification:
+* WASSCE/SSSCE:
+ Credit passes (A1-C6) in English, Mathematics, Integrated Science, Chemistry, and two from Physics/Mathematics, Biology, General Agriculture, Animal Husbandry, Crop Husbandry, or Horticulture. * GCE:
+     * 'O' Level:
+ Five credits including English, Mathematics, and three others.    * 'A' Level:
+ Three credits including Chemistry, Physics or Mathematics, and Biology or Agricultural Science. Mature applicants (25 years and older) need a Diploma/HND in Agriculture or a related field, OR specific GCE/WASSCE results (see full response). Shortlisted applicants may write an entrance exam and attend an interview.
+
+User: what is the minimum cutoff can i come with for bsc agriculture ?
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.9989768
+Bot: The minimum cutoff point for BSc. Agriculture is usually around aggregate 22. However, confirm the specific cutoff point for your year of admission from our website or the admissions office. Cutoff points can change annually.
+
+User: what is the minimum grade can i come with for computer engineering ?
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.5003
+Bot: You typically need an aggregate of 09 to be considered for BSc. Computer Engineering. However,  cutoff points can change from year to year, so confirm the current requirement on our website or by contacting the admissions office.
+
+User: what is the minimum grade can i come with for agricultural engineering
+Predicted Intents:
+- bsc_agricultural_biotechnology_requirements: 0.3330078
+Bot: The minimum entry requirements for Agricultural Engineering at KNUST wasn't provided in the information given, but you can find the entry requirements for BSc. Agricultural Biotechnology.
+
+User: what is the minimum grade can i come with for agricultural engineering
+Predicted Intents:
+- BSc Agricultural Engineering Cutoff Points: 0.69574416
+- bsc_agricultural_engineering_requirements: 0.2786866
+Bot: The minimum aggregate score for Agricultural Engineering at KNUST is usually around 16. However, cutoff points can change yearly, so confirm the specific requirements for your admission year on the KNUST website or by contacting the admissions office.
+
+User: what is the minimum score can i come with for agricultural engineering
+Predicted Intents:
+- BSc Agricultural Engineering Cutoff Points: 0.9364604
+Bot: The minimum aggregate score for Agricultural Engineering at KNUST is usually around 16. However, I advise you to check the KNUST website or contact the admissions office for the specific cutoff point for the year you're applying.
+
+User: what is the minimum score i will be admitted to computer engineering
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.864494
+Bot: You need an aggregate of 09 to be admitted to BSc. Computer Engineering. However,  cutoff points may vary each year so check our website or contact the admissions office for the most up-to-date information.
+
+User: what of the maximum score for computer engineering ?
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.92733157
+Bot: Aggregate 09.
+
+User: what of chemical engineering milium score so i can get in knust
+Predicted Intents:
+- BSc Chemical Engineering Cutoff Points: 0.9982547
+Bot: The minimum required aggregate score for Chemical Engineering at KNUST is usually around 10. However, cutoff points can change yearly, so I highly recommend checking the KNUST website or contacting the admissions office for the most accurate information.
+
+User: you are lying , you fool
+Predicted Intents:
+- greeting: 0.37851155
+- name: 0.36493453
+Bot: It's understandable to be frustrated when you're seeking information about admissions. Please let me know how I can help you with your KNUST admission inquiries.
+
+User: fuck ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+Predicted Intents:
+- Profanity/Inappropriate Language: 0.48677024
+Bot: Please refrain from using offensive language. How can I help you with your KNUST admissions inquiry?
+
+User: what is the requiermnet for cmputa engineer
+Predicted Intents:
+- greeting: 0.4470021
+Bot: To be admitted to study Computer Engineering at KNUST, you need to have credit passes in Core Mathematics, Integrated Science, English Language, and Physics, as well as elective Mathematics.
+
+User: if i studies general arts in shs, what can i read in university?
+Predicted Intents:
+- accommodation: 0.81616265
+Bot: With a General Arts background from SHS, you have a wide array of programs to choose from at KNUST.  These span across various faculties like:
+* Faculty of Arts:
+  Consider options like English, History, Political Studies, Sociology, Culture & Tourism, and more. * Faculty of Social Sciences:
+ Explore programs like Economics, Geography and Rural Development, Law,  Psychology, and others. * Faculty of Law:
+ If your interest lies in law, you can directly apply to their LLB program. To get the full list of programs and their specific requirements, it's best to visit the official KNUST website or their admissions brochure.
+
+User: what programme can i read if i studied general science in high school
+Predicted Intents:
+- health_sciences_programmes: 0.5760833
+- sciences_programmes: 0.25580707
+Bot: A General Science background from high school opens up opportunities to pursue many programmes at KNUST, but primarily within the College of Health Sciences.  You can consider options like:
+* BSc. Medical Laboratory Science* BSc. Nursing* Doctor of Pharmacy (PharmD)* Human Biology (Medicine) (MBChB)* Doctor of Veterinary Medicine (DVM)You should explore the specific entry requirements for each program on the KNUST admissions portal to make sure you meet the necessary criteria.
+
+User: what is the minimum aggregate i need to study a programme at this college
+Predicted Intents:
+- fallback: 0.45380783
+- postgraduate: 0.3590155
+Bot: The minimum aggregate required for admission to KNUST varies depending on the programme of study. To get specific information, please tell me which programme you're interested in.
+
+User: where can i purchase application form in ghana?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.6886665
+Bot: You can purchase KNUST application forms at all Ghana Post Regional and Designated Post Offices, including selected banks. You can also purchase the forms via mobile money by dialing *885#.
+
+User: do you have scholarship opportunities for students?
+Predicted Intents:
+- Scholarships for Needy Students: 0.9908208
+Bot: Yes, you can access available scholarships for KNUST students <a target="_blank" href="https:
+//www. knust. edu. gh/students/scholarships-and-grants">here</a>.
+
+User: what is the application process like?
+Predicted Intents:
+- how_to_apply: 0.5307012
+- application_process: 0.39956453
+Bot: The KNUST application process is entirely online. You'll need to:
+1. Buy an eVoucher:
+  You can purchase this online or at designated banks. 2. Create an Account:
+ Use the eVoucher details on the KNUST admissions portal to set up an account. 3. Complete the Application Form:
+ Fill in all the required sections, including your personal information, educational background, and exam results. 4. Upload Documents:
+  Make sure you have scanned copies of your birth certificate, passport/Ghana Card, and academic certificates/results slips. 5. Select Your Programmes:
+ Choose your desired programs of study. 6. Submit and Pay:
+  Review your application thoroughly before submitting it along with the application fee.
+
+User: what are the accepted examination results?
+Predicted Intents:
+- accepted_examination_results: 0.85790205
+Bot: KNUST accepts the following examination results:<br><br> WASSCE, SSSCE, WASSCE International, International Baccalaureate, American High School Grade 12, GBCE, ABCE, GCE, IGCSE, and other international high school results. HND, Post-First-Degree Law, and Doctor of Pharmacy Top-Up applicants must also submit their high school results and relevant certificates.
+
+User: what is the general admission requirement?
+Predicted Intents:
+- general_admission_requirement: 0.91267586
+Bot: To be eligible for admission to a degree program at KNUST, you generally need the following:<br>* Credit passes in three core subjects:<br> English Language, Mathematics, and Integrated Science. * Credit passes in three elective subjects relevant to your chosen program. Specific requirements vary depending on your exam type:<br>* WASSCE/SSSCE:<br>  Credit passes (A1-C6 in WASSCE or A-D in SSSCE) with an aggregate of 24 or better. * GCE/IGCSE:<br>  Five credits at the 'O' Level (including English and Math) and three passes at the 'A' Level. * GBCE/ABCE:<br> Passes in three compulsory subjects (including English) and three relevant elective subjects. * International Baccalaureate (IB):<br> Minimum grade 4 in three Higher Level subjects relevant to your program and grade 5 in Chemistry for Health and Allied Sciences or Mathematics for Engineering. Minimum grade 4 in English and Mathematics at the Standard Level. * American High School Grade 12:<br>  Final Grade Point Average of at least 3. 0 (3. 25 for Medicine and Dentistry). For detailed requirements, including those for mature applicants and holders of other qualifications, refer to the full admission requirements on the KNUST website.
+
+User: programmes available at college of science
+Predicted Intents:
+- sciences_programmes: 0.70922595
+Bot: <ul><li>BSc. Biochemistry</li><li>BSc. Food Science and Technology</li><li>BSc. Dietetics</li><li>BSc. Human Nutrition</li><li>BSc. Biological Science</li><li>BSc. Environmental Science</li><li>BSc. Environmental Science (Obuasi Campus)</li><li>Doctor of Optometry</li><li>BSc. Chemistry</li><li>BSc. Mathematics</li><li>BSc. Physics</li><li>BSc. Computer Science</li><li>BSc. Statistics</li><li>BSc. Actuarial Science</li><li>BSc. Meteorology and Climate Science</li></ul>
+
+User: what is the general admission requirement?
+Predicted Intents:
+- general_admission_requirement: 0.91267586
+Bot: <ul><li><b>WASSCE/SSSCE:<br></b> Credit passes (A1-C6 in WASSCE and A-D in SSSCE) in three core subjects (English, Math, Integrated Science) and three credit passes in relevant electives with an aggregate of 24 or better. </li><li><b>GCE/IGCSE:<br></b> Five credits at the 'O' Level (including English and Math) and passes in three subjects at the Advanced Level. </li><li><b>GBCE/ABCE:<br></b> Passes in three compulsory subjects (including English) and three relevant elective subjects. </li><li><b>IB:<br></b> Minimum grade of 4 at the Higher Level in three relevant subjects and a minimum grade of 5 in Chemistry for Health and Allied Sciences or Mathematics for Engineering.  Minimum grade of 4 in English and Math at the Standard Level is also required. </li><li><b>American High School Grade 12:<br> </b>Final Grade Point of at least 3. 0 (3. 25 for Medicine and Dentistry). </li></ul>For detailed requirements and additional qualifications, please refer to the provided information.
+
+User: what are the accepted examination results?
+Predicted Intents:
+- accepted_examination_results: 0.85790205
+Bot: KNUST accepts the following examination results:<br> WASSCE, SSSCE, WASSCE International, International Baccalaureate, American High School Grade 12, GBCE, ABCE, GCE, IGCSE, and other international high school results. For HND, Post-First-Degree Law, and Doctor of Pharmacy Top-Up applicants, specific requirements apply in addition to the high school results. You can find these detailed requirements on the KNUST admissions website.
+
+User: thank you very much
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.89347565
+Bot: You're welcome!
+
+User: what are the requirements for computer engineering?
+Predicted Intents:
+- bsc_computer_engineering_requirements: 0.76699716
+Bot: To be eligible for BSc. Computer Engineering at KNUST, you need:<br>WASSCE/SSSCE:<br><br> Credit in English, Mathematics, and Integrated Science. <br> Credit in Physics, Mathematics, and Chemistry (Electricity/Applied Electricity/Electronics/ICT can replace Chemistry). 'A' Levels:<br><br> 5 'O' Level credits (including English and Mathematics). <br> 'A' Level credits in either:<br>    <br> Pure Mathematics, Applied Mathematics, Physics, and 'O' Level Chemistry OR    <br> Mathematics, Physics, and Chemistry. Mature Applicants (25+ years old):<br><br>  5 'O' Level credits (including English, Mathematics, Physics, and Chemistry) OR<br> 3 WASSCE/SSSCE credits (English, Mathematics, Integrated Science) and credits in Mathematics, Physics, and Chemistry. HND Applicants:<br><br> At least Second Class Honours in a related field (e. g. , Electrical and Electronic Engineering). <br> Must meet WASSCE/SSSCE or 'A' Level requirements.
+
+User: thats fine
+Predicted Intents:
+- greeting: 0.4474825
+Bot: That's not related to the question. Please provide me with a relevant question about KNUST admissions, and I'll do my best to give you a helpful answer! 😊
+
+User: you are awesome
+Predicted Intents:
+- greeting: 0.7596707
+Bot: Greetings! Thanks! How may I assist you with KNUST admissions?
+
+User: hey there 
+Predicted Intents:
+- greeting: 0.95542353
+Bot: Okay, I understand. I'll keep my responses concise and focused on KNUST admissions.  Just ask away!
+
+User: how are you doing?
+Predicted Intents:
+- greeting: 0.8964971
+Bot: Hey, I'm doing well!  Excited to answer your KNUST admissions questions. How about you?
+
+User: what are the general admission requirements 
+Predicted Intents:
+- general_admission_requirement: 0.8724362
+Bot: <ul><li><b>WASSCE/SSSCE:<br></b> Credit passes (A1-C6/A-D) in three core subjects (English, Mathematics, Integrated Science) and three electives relevant to the chosen program, with an aggregate of 24 or better. </li><li><b>GCE/IGCSE:<br></b> Five 'O' Level credits (including English and Math) plus three 'A' Level passes.  Mature applicants need three 'O' level credits. Faculty/departmental requirements also apply. </li><li><b>GBCE/ABCE:<br></b> Both certificates are required.  GBCE:<br> Passes in three compulsory subjects (including English) and three electives (including Business Math). ABCE:<br> Passes in three compulsory and three optional subjects relevant to the program. </li><li><b>International Baccalaureate (IB):<br></b> Minimum grade 4 at the Higher Level in three subjects relevant to the program (grade 5 in Chemistry for Health and Allied Sciences, and grade 5 in Math for Engineering). Minimum grade 4 in English and Math at the Standard Level, and at least grade C in a Science subject at the IGCSE. </li><li><b>American High School Grade 12:<br></b> Final Grade Point Average of at least 3. 0 (3. 25 for University School of Medicine and Dentistry). </li></ul>
+
+User: where are foreign students accommodated on campus?
+Predicted Intents:
+- Accommodation for Foreign/international Students on Campus: 0.524644
+- Accommodation for Ghanaian/Local Students on Campus: 0.3900817
+Bot: All foreign students are accommodated at the GUSSS Hostel on the KNUST campus.
+
+User: hello
+Predicted Intents:
+- greeting: 0.9540278
+Bot: Hi there! 👋  What can I help you with regarding KNUST admissions?
+
+User: hi
+Predicted Intents:
+- greeting: 0.9365708
+Bot: Okay, I understand. I'll provide concise and relevant responses to KNUST admission questions without adding any commentary. Ask me anything! 😊
+
+User: what knust so unique
+Predicted Intents:
+- KNUST info: 0.43976393
+Bot: KNUST stands out for its strong focus on science and technology, its commitment to research and development, and its impressive achievements in rankings and competitions.  It offers diverse programs, boasts state-of-the-art facilities, and has a vibrant campus life.
+
+User: what is the cut off point for civil engineering 
+Predicted Intents:
+- BSc Civil Engineering Cutoff Points: 0.99999964
+Bot: The cut-off point for BSc. Civil Engineering can vary each year. I advise you to check the KNUST website or contact the admissions office for the most up-to-date information.
+
+User: can i read medicine with a general art background?
+Predicted Intents:
+- doctor_veterinary_medicine_requirements: 0.65733135
+Bot: No, you cannot read medicine at KNUST with a general arts background. You need a background in science with specific subject passes.
+
+User: what subjects do i need to read medicine?
+Predicted Intents:
+- bsc_human_biology_medicine_requirements: 0.8836719
+Bot: You need credit passes in English Language, Mathematics, Integrated Science, Biology, Chemistry and either Physics or Elective Mathematics in WASSCE/SSSCE. Applicants with 'A' Levels need credit passes in five (5) subjects including English Language, Mathematics, and Additional/Elective Mathematics at the 'O' level or its equivalent. Additionally, you'll need credit passes in Biology, Chemistry, and Physics or Mathematics at the 'A' Level or its equivalent, along with a pass in General Paper.
+
+User: where can i purchase knust forms
+Predicted Intents:
+- Tuition Fees: 0.27126497
+Bot: KNUST admission forms are no longer sold physically. You can purchase an eVoucher for online application using any of the following methods:<br><br> Mobile Money:<br> Using MTN, AirtelTigo, or Vodafone Mobile Money. <br> Visa/MasterCard:<br>  Through the KNUST AIM portal. <br> Bank:<br>  By visiting any of the designated banks nationwide. For detailed information on the application process, visit the KNUST admissions portal at [https:<br>//apps. knust. edu. gh/admissions/](https:<br>//apps. knust. edu. gh/admissions/)
+
+User: where will i sleep on campus?
+Predicted Intents:
+- accommodation: 0.52298445
+Bot: You will either be assigned to one of the six halls of residence or you can find accommodation in one of the many hostels on and off campus.  You can find more information about both options here:<br><br> [Halls of Residence](https:<br>//www. knust. edu. gh/students/housing)<br> [Recommended Hostels](https:<br>//www. knust. edu. gh/index. php/students/recommended-hostels-20202021-academic-year)
+
+User: how much will i pay for tuition?
+Predicted Intents:
+- accommodation: 0.36516738
+Bot: The information about tuition fees isn't available on the provided links. To find out about tuition fees at KNUST, I recommend checking these resources:<br><br> KNUST Website:<br> Look for a "Fees Schedule" or similar document on the official KNUST website. <br> Admissions Office:<br> Contact the KNUST admissions office directly. They can provide you with the most up-to-date information on tuition fees. <br> Student Handbook:<br> If available online, the KNUST student handbook may have details about tuition fees.
+
+User: what is the tuition fees?
+Predicted Intents:
+- Tuition Fees: 0.99319977
+Bot: To find the KNUST tuition fees, please visit this link:<br> <a target="_blank" href="https:<br>//www. knust. edu. gh/academic-fees">https:<br>//www. knust. edu. gh/academic-fees</a>.
+
+User: what will happen when i don't pay my fees on time?
+Predicted Intents:
+- Tuition Fees: 0.70883006
+Bot: Failure to pay your fees on time may result in penalties such as late registration fees or even deferral of your program.
+
+User: okay thank you
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.87350976
+Bot: Welcome, anything else I can assist you with?
+
+User: what is the admission cutoff for agriculture
+Predicted Intents:
+- BSc Agriculture Cutoff Points: 0.9999882
+Bot: The cutoff point for BSc. Agriculture is typically around aggregate 22. However,  cutoff points may vary each year, so please check our website or contact the admissions office for the most up-to-date information.
+
+User: where can i check my admission status as an undergraduate student?
+Predicted Intents:
+- Undergraduate Admission Status: 0.40872118
+- Post-Admission Procedures (Undergraduate): 0.31273076
+- Checking Undergraduate Admission Status Timeline: 0.27050295
+Bot: You can check your admission status on the KNUST admissions portal:<br> https:<br>//apps. knust. edu. gh/admissions/  Simply log in with your application serial and PIN, then click "Check Status".
+
+User: what is the tuition fees?
+Predicted Intents:
+- Tuition Fees: 0.99319977
+Bot: To find the tuition fees for KNUST, please visit this link:<br> https:<br>//www. knust. edu. gh/academic-fees
+

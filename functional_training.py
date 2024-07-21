@@ -37,7 +37,7 @@ for file_name in intent_files:
 words = []
 classes = []  # storing the intent tag in the classes
 documents = []
-ignore_letters = ['?', '!', '.', ',']
+ignore_letters = ['?', '!', '.', ',','_']
 
 
 for intent in all_intents['intents']:

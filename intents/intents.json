@@ -121,6 +121,7 @@
         "good morning",
         "good afternoon",
         "good evening to you",
+        "i am greeting you",
         "??? ??? ??"
       ],
       "responses": [
@@ -368,7 +369,8 @@
         "what is the fee for engineering courses"
       ],
       "responses": [
-        "For Fee detail visit <a target=\"_blank\" href=\"https://www.knust.edu.gh/academic-fees\"> here</a>"    ],
+        "For Fee detail visit www.knust.edu.gh/academic-fees"
+      ],
       "context_set": ""
     },
 
@@ -401,7 +403,7 @@
         "what are some of the scholarship offers in knust"
       ],
       "responses": [
-        "Access the available scholarships for KNUST students <a target=\"_blank\" href=\"https://www.knust.edu.gh/students/scholarships-and-grants\"> here</a>"
+        "Access the available scholarships for KNUST students www.knust.edu.gh/students/scholarships-and-grants"
       ],
       "context_set": ""
     },
@@ -430,7 +432,7 @@
         "what is the post address for knust"
       ],
       "responses": [
-        "KNUST is located in Kumasi, Ghana, which is the Ashanti Region's capital <ul> <li><a target=\"_blank\" href=\"https://maps.app.goo.gl/FiengdzdZqxpAsbSA\">Google map</a></li>  <li>Ghana Post GPS Address: AK-385-1973</li>  </ul>"
+        "KNUST is located in Kumasi, Ghana, which is the Ashanti Region's capital <ul> <li> Google map https://maps.app.goo.gl/FiengdzdZqxpAsbSA </li>  <li>Ghana Post GPS Address: AK-385-1973</li>  </ul>"
       ],
       "context_set": ""
     },
@@ -518,7 +520,7 @@
         "How many Halls are in KNUST?"
       ],
       "responses": [
-        "There are Six Halls of residence and a number of hostels on the University Campus. <ul> <li> <a target=\"_blank\" href=\"https://www.knust.edu.gh/students/housing\">Halls of Residence</a></li>  <li><a target=\"_blank\" href=\"https://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year\">Recommended Hostels</a></li> </ul>"
+        "There are Six Halls of residence and a number of hostels on the University Campus. <ul> <li> www.knust.edu.gh/students/housing </li>  <li> www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year</li> </ul>"
       ],
       "context_set": ""
     },
@@ -765,7 +767,7 @@
         "What opportunities are available for undergraduate students to get involved in campus life?"
       ],
       "responses": [
-        "<ul><li>Visit the admissions portal <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/\"> here</a></li><li>Click on login or click <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F\">here</a></li><li>Enter your application serial and PIN and click on Log in</li><li>Click on Check Status </li><li>Confirm your admission and print it out</li><li>Print your acceptance form and your fee schedule <a target=\"_blank\" href=\"https://www.knust.edu.gh/academic-fees\">here</a></li><li>Pay your fees</li><li>Book your accommodation <a target=\"_blank\" href=\"https://accommodation.knust.edu.gh/\">here</a></li><li>Login to your student portal <a target=\"_blank\" href=\"https://apps.knust.edu.gh/students/Account/Login?ReturnUrl=%2Fstudents%2F\">here</a> or download the AIM app from the <a target=\"_blank\" href=\"https://apps.apple.com/us/app/knust-aim/id1632229714\">Apple Appstore</a> and <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=gh.edu.knust.aim&gl=US&pli=1\">Google Playstore</a> </li><li>Click on Course Registration in the portal and proceed to register your courses for the semester</li><li>Visit the UITS Support Center at the Basement of the Casely-Hayford Building for further assistance</li></ul>"
+        "<ul><li>Visit the admissions portal https://apps.knust.edu.gh/admissions/ </li><li>Click on login or click </li><li>Enter your application serial and PIN and click on Log in</li><li>Click on Check Status </li><li>Confirm your admission and print it out</li><li>Print your acceptance form and your fee schedule www.knust.edu.gh/academic-fees </li><li>Pay your fees</li><li>Book your accommodation https://accommodation.knust.edu.gh/ </li><li>Login to your student portal or download the AIM app from the Apple App store and Google Play store </li><li>Click on Course Registration in the portal and proceed to register your courses for the semester</li><li>Visit the UITS Support Center at the Basement of the Casely-Hayford Building for further assistance</li></ul>"
       ],
       "context_set": ""
     },
@@ -790,7 +792,7 @@
         "Can I access the KNUST admission portal from my smartphone or tablet?"
       ],
       "responses": [
-        "You can access the KNUST admission portal <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/\">here</a>"
+        "You can access the KNUST admission portal https://apps.knust.edu.gh/admissions/"
       ],
       "context_set": ""
     },
@@ -835,7 +837,7 @@
         "How do I obtain a receipt for paying the application fee for foreign students?"
       ],
       "responses": [
-        "Kindly refer to the admission guidelines <a target=\"_blank\" href=\"https://www.knust.edu.gh/admissions/prospective/applying\">here</a>"
+        "Kindly refer to the admission guidelines www.knust.edu.gh/admissions/prospective/applying"
       ],
       "context_set": ""
     },
@@ -904,7 +906,7 @@
         "Can I request assistance if I encounter issues while checking my undergraduate admission status?"
       ],
       "responses": [
-        "You can check for updates on the admission portal <a target=\"_blank\" href=\"https://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F\">here</a>"
+        "You can check for updates on the admission portal"
       ],
       "context_set": ""
     },
@@ -927,7 +929,7 @@
         "Is there a registration period before the academic resumption date?"
       ],
       "responses": [
-        "You can find the exact dates for both freshmen and continuing students to report to school on the university website under the academic calendar page. Visit <a target=\"_blank\" href=\"https://www.knust.edu.gh/\">knust.edu.gh</a>, click on <a target=\"_blank\" href=\"https://www.knust.edu.gh/academics\">Academics</a>, and then on the <a target=\"_blank\" href=\"https://www.knust.edu.gh/academics/academic-calendar\"> Academic Calendar</a>."
+        "You can find the exact dates for both freshmen and continuing students to report to school on the university website under the academic calendar page. Visit www.knust.edu.gh/ , click on Academics , and then on the Academic Calendar."
       ],
       "context_set": ""
     },
@@ -947,7 +949,7 @@
         "Is the form out for students to buy?"
       ],
       "responses": [
-        "Dates may differ based on the program. Kindly refer to the admission guidelines <a target=\"_blank\" href=\"https://www.knust.edu.gh/admissions/prospective/applying\">here</a>"
+        "Dates may differ based on the program. Kindly refer to the admission guidelines www.knust.edu.gh/admissions/prospective/applying"
       ],
       "context_set": ""
     },
@@ -1007,7 +1009,7 @@
         "Can I check the admission status of other applicants, such as friends or family members?"
       ],
       "responses": [
-        "<ul><li>Visit the admissions portal <a target='_blank' href='https://apps.knust.edu.gh/admissions/'>here</a></li><li>Click on login or click <a target='_blank' href='https://apps.knust.edu.gh/admissions/apply/Account/Login?ReturnUrl=%2Fadmissions%2Fapply%2F'>here</a></li><li>Enter your application serial and PIN and click on Log in</li><li>Click on Check Status</li></ul>"
+        "<ul><li>Visit the admissions portal https://apps.knust.edu.gh/admissions </li><li>Click on login </li><li>Enter your application serial and PIN and click on Log in</li><li>Click on Check Status</li></ul>"
       ],
       "context_set": ""
     },
