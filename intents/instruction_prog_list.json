@@ -136,7 +136,7 @@
                 "Step-by-step application guide"
             ],
             "responses": [
-              "<ol><li>Click https://apps.knust.edu.gh/admissions/apply/Account/Login to enter the credentials on the voucher to Start the Application. </li><li>Complete all mandatory fields marked with * </li><li>Save and exit (If you have to log out and continue later) or save and proceed to the next step. </li><li>Educational background - In the case where your Institution is not listed, kindly select Private. </li><li> Examination Results- <ul><li> Examination type - If your examination type is not listed, select Certification/Diploma/Degree. </li><li>Sitting - Select May/June (School) if your examination type is not WASSCE/SSSCE. </li><li>Year - Select year of Examination </li><li>Index Number also known as candidate number or Examination ID. </li></ul></li><li>Subject - Select subjects offered in high school and the corresponding grades. <ul><li>If awaiting results, select awaiting as the grade. </li><li>If other certificates, select the certificate and the corresponding grade/class. </li></ul></li><li>Select add results if you have more than one results or certificate. </li><li>Attach all mandatory supporting documents scanned in PDF format. <ul><li>Birth Certificate. </li><li>Results slips and or Certificates (For other modes of application excluding WASSCE). </li></ul></li><li>Applicant Declaration; read, agree and tick to declare that all information provided in the application is true. </li><li>Programme Choices. (select regular as the Stream). <ul><li> Tick yes, if you want to be considered for fee-paying or parallel. </li></ul></li><li>Identification document (Ghana Card/Passport) (PDF). </li><li> Review and proceed. </li><li> Tick to declare and agree that the information provided are true. </li><li> Submit and keep a copy of the application for Personal reference. </li></ol><br><b><i>Note: </i></b><i><ul><li>During the online application process, do not leave the online application inactive for more than 5 minutes. Doing this would automatically log you out. </li><li>Until the application deadline the application can be edited as many times as needed. </li><li>Check the subject requirements for the programme you are interested in to ensure that you qualify before selecting. For example, students with home economics background cannot read BSc. Nursing at KNUST. </li><li>Those applying with “Other International High School results” may be required to do an evaluation of results/Certificate from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency. </li><li>Fee paying option is for the entire duration of the programme of study. Once you opt for fee paying you retain that status for the entire duration of the programme. </li></ul></i>"
+              "<ol><li>Click https://apps.knust.edu.gh/admissions/apply/Account/Login to enter the credentials on the voucher to Start the Application. </li><li>Complete all mandatory fields marked asterisk </li><li>Save and exit (If you have to log out and continue later) or save and proceed to the next step. </li><li>Educational background - In the case where your Institution is not listed, kindly select Private. </li><li> Examination Results- <ul><li> Examination type - If your examination type is not listed, select Certification/Diploma/Degree. </li><li>Sitting - Select May/June (School) if your examination type is not WASSCE/SSSCE. </li><li>Year - Select year of Examination </li><li>Index Number also known as candidate number or Examination ID. </li></ul></li><li>Subject - Select subjects offered in high school and the corresponding grades. <ul><li>If awaiting results, select awaiting as the grade. </li><li>If other certificates, select the certificate and the corresponding grade/class. </li></ul></li><li>Select add results if you have more than one results or certificate. </li><li>Attach all mandatory supporting documents scanned in PDF format. <ul><li>Birth Certificate. </li><li>Results slips and or Certificates (For other modes of application excluding WASSCE). </li></ul></li><li>Applicant Declaration; read, agree and tick to declare that all information provided in the application is true. </li><li>Programme Choices. (select regular as the Stream). <ul><li> Tick yes, if you want to be considered for fee-paying or parallel. </li></ul></li><li>Identification document (Ghana Card/Passport) (PDF). </li><li> Review and proceed. </li><li> Tick to declare and agree that the information provided are true. </li><li> Submit and keep a copy of the application for Personal reference. </li></ol><br><b><i>Note: </i></b><i><ul><li>During the online application process, do not leave the online application inactive for more than 5 minutes. Doing this would automatically log you out. </li><li>Until the application deadline the application can be edited as many times as needed. </li><li>Check the subject requirements for the programme you are interested in to ensure that you qualify before selecting. For example, students with home economics background cannot read BSc. Nursing at KNUST. </li><li>Those applying with “Other International High School results” may be required to do an evaluation of results/Certificate from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency. </li><li>Fee paying option is for the entire duration of the programme of study. Once you opt for fee paying you retain that status for the entire duration of the programme. </li></ul></i>"
             ],
             "context_set": ""
         },
@@ -388,10 +388,39 @@
         {
             "tag": "multiple_results",
             "patterns": [
-                "Please can I use two different wassce results for admission?"
+                "Please can I use two different wassce results for admission?",
+                "Can I combine two WASSCE results for my application?",
+                "Is it possible to use two sets of WASSCE results for admission?",
+                "Can I apply with combined WASSCE results?",
+                "Is it allowed to use multiple WASSCE results for admission?",
+                "Can I submit two WASSCE results for my application?",
+                "Can I use results from two WASSCE sittings for admission?",
+                "Are two WASSCE results acceptable for admission?",
+                "Can I combine WASSCE results from different years for my application?",
+                "Is it permissible to use multiple WASSCE results for admission?",
+                "Can I use more than one WASSCE result for my application?",
+                "Can I apply with WASSCE results from different years?",
+                "Is it possible to use multiple WASSCE certificates for admission?",
+                "Can I combine my WASSCE results for the application process?",
+                "Is combining two WASSCE results allowed for admission?",
+                "Can I use two sets of WASSCE results for my university application?",
+                "Are multiple WASSCE results accepted for admission?",
+                "Can I submit results from two different WASSCE exams for admission?",
+                "Can I use two WASSCE result slips for my application?",
+                "Is it okay to combine WASSCE results for admission?",
+                "Can I use results from two separate WASSCE exams for admission?",
+                "Can I combine my WASSCE grades for university admission?",
+                "Is it allowed to submit multiple WASSCE results for my application?",
+                "Can I use two different WASSCE results for my admission application?",
+                "Are combined WASSCE results valid for admission?",
+                "Can I apply with more than one WASSCE result?",
+                "Can I use two sets of WASSCE results for university admission?",
+                "Is it acceptable to combine WASSCE results for admission?",
+                "Can I submit multiple WASSCE results for my university application?",
+                "Can I combine WASSCE results from different sittings for admission?"
             ],
             "responses": [
-
+                "Multiple results can be used but be sure to check the admission guidelines and  current requirements for your programme of choice before doing so."
             ],
             "context_set": ""
         },
@@ -400,10 +429,39 @@
         {
             "tag": "withheld_results",
             "patterns": [
-                "Please what will happen to students whose results are on withheld and yet to be released?"
+                "Please what will happen to students whose results are on withheld and yet to be released?",
+                "What should students with withheld WASSCE results do?",
+                "What happens if my WASSCE results are withheld?",
+                "Can I apply if my results are withheld?",
+                "What can be done about withheld WASSCE results?",
+                "How are withheld WASSCE results handled?",
+                "What if my WASSCE results are not yet released?",
+                "What to do if my results are on withheld?",
+                "Is there any support for students with withheld WASSCE results?",
+                "What should I do if my WASSCE results are on withheld?",
+                "Will withheld results affect my application?",
+                "Can I still apply if my WASSCE results are withheld?",
+                "What does it mean if my results are withheld?",
+                "How long does it take for withheld results to be released?",
+                "What can I do if my results are on withheld status?",
+                "Are students with withheld results eligible for admission?",
+                "What are the implications of having withheld WASSCE results?",
+                "What steps can I take if my WASSCE results are withheld?",
+                "How will my admission be affected by withheld results?",
+                "What is the process for dealing with withheld WASSCE results?",
+                "Can I appeal if my WASSCE results are withheld?",
+                "Is there a way to expedite the release of withheld WASSCE results?",
+                "What happens to withheld WASSCE results?",
+                "Why would WASSCE results be withheld?",
+                "Can I contact someone about my withheld WASSCE results?",
+                "What are my options if my WASSCE results are withheld?",
+                "Can withheld WASSCE results be resolved before admission deadlines?",
+                "What can delay the release of WASSCE results?",
+                "How do withheld results impact my application status?",
+                "What advice do you have for students with withheld WASSCE results?"
             ],
             "responses": [
-
+                "We are sorry but there is nothing we can do about withheld results as we do not see  to the release of WASSCE results."
             ],
             "context_set": ""
         },
@@ -412,15 +470,48 @@
         {
             "tag": "admission_list",
             "patterns": [
-                "When Will admission be outside?",
+                "When will admission list be outside?",
                 "How will you know that you have been admitted?",
-                "Are they done with the admission or is still ongoing",
-                "Are they done with the admission?",
-                "What if you had Admission but your name is not in the list",
-                "Is the admission list out yet?"
+                "Are they done with the admission list or is still ongoing?",
+                "Are they done with the admission list?",
+                "What if you had admission but your name is not in the list?",
+                "Is the admission list out yet?",
+                "When will the admission list be released?",
+                "How can I check if I have been admitted on the list?",
+                "How do I find out if my name is on the admission list?",
+                "When will the admission results be announced?",
+                "Has the admission list been published?",
+                "What should I do if my name is not on the admission list?",
+                "How will I be notified of my admission status?",
+                "When can we expect the admission list to be out?",
+                "Is there a way to verify if I have been admitted?",
+                "When is the admission list coming out?",
+                "How will they announce the admission results?",
+                "Are the admissions finalized?",
+                "Where can I find the admission list?",
+                "Will I receive an email if I am admitted?",
+                "Is the admission list available online?",
+                "What if my admission status is not listed?",
+                "How do I know if I have been accepted?",
+                "When will the university release the admission list?",
+                "Is the admission list published yet?",
+                "How will I know if I am on the admission list?",
+                "Is the admission list posted anywhere?",
+                "Can I check my admission status online?",
+                "What happens if my name is not on the admission list?",
+                "When is the admission list expected to be out?",
+                "Is the admission list for this year available?",
+                "How will I be informed about my admission?",
+                "Are they still working on the admission process?",
+                "Will the admission list be out soon?",
+                "What if my name is missing from the admission list?",
+                "How can I confirm my admission status?",
+                "When will the university announce the admission list?",
+                "Is the admission process still ongoing?",
+                "How do I find out if I have been accepted into the program?"
             ],
             "responses": [
-
+                "Unfortunately, there isn't a publicly announced fixed date for KNUST to release their admission list. The release typically happens after the West African Senior School Certificate Examination (WASSCE) results are published. Do well to check your admission status online or your email."
             ],
             "context_set": ""
         },
@@ -444,7 +535,7 @@
                 "okay , what do i do if i do not get regular admission ?"
             ],
             "responses": [
-
+                "There isn't a specific, publicly announced date for KNUST to release the fee-paying admission list separate from the general admission list. Do well to check your admission status online or your email."
             ],
             "context_set": ""
         },
@@ -454,10 +545,48 @@
             "tag": "fee_paying_application",
             "patterns": [
                 "So how do I apply for the fee paying",
-                "Can I still apply for fee paying?"
+                "Can I still apply for fee paying?",
+                "What is the process for applying as a fee-paying student?",
+                "How can I indicate that I want to be a fee-paying student?",
+                "Is there an option for fee-paying in the application form?",
+                "Can I choose to be a fee-paying student during the application?",
+                "How do I apply for the fee-paying category?",
+                "What are the steps to apply as a fee-paying student?",
+                "Is there a separate application for fee-paying students?",
+                "Can I switch to fee-paying after applying?",
+                "How do I become a fee-paying student?",
+                "What should I do to apply for fee-paying?",
+                "How can I specify fee-paying in my application?",
+                "Can I apply for both regular and fee-paying?",
+                "Is there a deadline for fee-paying applications?",
+                "How do I know if I am eligible for fee-paying?",
+                "Can international students apply for fee-paying?",
+                "What is the difference between regular and fee-paying applications?",
+                "Is there a higher chance of admission as a fee-paying student?",
+                "How do I indicate my interest in fee-paying?",
+                "Can I change my application to fee-paying later?",
+                "What is required to apply for fee-paying?",
+                "Can I be considered for fee-paying automatically?",
+                "Do I need to submit additional documents for fee-paying?",
+                "Is there a different fee structure for fee-paying students?",
+                "How does the fee-paying application process work?",
+                "Can I apply for fee-paying after the regular deadline?",
+                "What are the benefits of applying as a fee-paying student?",
+                "How do I fill out the fee-paying section in the application?",
+                "Can I apply for financial aid if I am a fee-paying student?",
+                "What criteria must I meet to apply for fee-paying?",
+                "Are there any restrictions on applying for fee-paying?",
+                "Can I apply for fee-paying if I missed the regular application?",
+                "What happens if I don't get selected for fee-paying?",
+                "How do I specify that I want to be considered for fee-paying?",
+                "Can I apply for fee-paying if my grades are low?",
+                "Is there a quota for fee-paying students?",
+                "Can I still get a scholarship as a fee-paying student?",
+                "What happens after I apply for fee-paying?",
+                "How do I change my status to fee-paying after admission?"
             ],
             "responses": [
-
+                "Unfortunately, there isn't a separate application process specifically for \"fee-paying\" students at KNUST but you can specify during your application process if you would want to be considered for fee-paying."
             ],
             "context_set": ""
         },
@@ -466,11 +595,40 @@
         {
             "tag": "parallel_admission",
             "patterns": [
-                "please when will the parallel options be made available?"
-            ],
-            "responses": [
-
-            ],
+            "please when will the parallel options be made available?",
+            "When can we apply for parallel admission?",
+            "What is the timeline for parallel admission?",
+            "How do I apply for parallel programs?",
+            "When will the parallel admission form be out?",
+            "How can I know when parallel admissions start?",
+            "What are the dates for parallel admissions?",
+            "When will the parallel admission portal open?",
+            "When is the parallel program application deadline?",
+            "Are parallel options available now?",
+            "When will the parallel admission schedule be released?",
+            "Can I apply for parallel admission now?",
+            "When will the parallel application be available?",
+            "Is there a specific date for parallel admission?",
+            "When will the parallel program start?",
+            "When will they announce parallel admissions?",
+            "How do I find out about parallel admission dates?",
+            "Is the parallel admission process ongoing?",
+            "What is the start date for parallel admission?",
+            "When can we expect the parallel admission forms?",
+            "When will the university release parallel admission options?",
+            "Are the parallel admission forms out yet?",
+            "When is the opening date for parallel admissions?",
+            "When will the university announce parallel admissions?",
+            "When can we expect the release of parallel admission details?",
+            "When is the parallel admission application period?",
+            "When will the parallel program options be posted?",
+            "What is the release date for parallel admission options?",
+            "When will they open applications for parallel admission?",
+            "When will the dates for parallel admission be announced?"
+        ],
+        "responses": [
+            "The timeline for parallel admissions will be announced by the university. Please check the official KNUST website or contact the admissions office for the most current information."
+        ],
             "context_set": ""
         },
 
@@ -481,10 +639,40 @@
                 "I gained admission to fee paying can I change it to parallel?",
                 "What can you do if they don't give you the course you originally applied for?",
                 "What about if you want to change your course before the academic year starts?",
-                "Can the program I got be changed"
+                "Can the program I got be changed?",
+                "How can I change my course after being admitted?",
+                "Can I change my program before school starts?",
+                "What should I do if I want to change my course?",
+                "Can I transfer to a different program after admission?",
+                "How do I request a program change?",
+                "Can I switch to another course if I'm not happy with mine?",
+                "Is there a process to change my course?",
+                "Can I apply to change my program before classes begin?",
+                "What are the steps to change my course?",
+                "Can I move from one program to another after admission?",
+                "Can I change my course selection after I've been accepted?",
+                "Is it allowed to change your course after admission?",
+                "What is the procedure for changing programs?",
+                "Can I change my major before starting the academic year?",
+                "How do I switch programs at the university?",
+                "What can I do if I'm not satisfied with my assigned course?",
+                "Can I change my course after I've been admitted?",
+                "Is it possible to transfer to another course after admission?",
+                "What do I need to do to change my program?",
+                "Can I request a course change before the term starts?",
+                "What are the conditions for changing my course?",
+                "Can I change my field of study after being admitted?",
+                "Is there an option to switch programs before starting school?",
+                "How can I switch to a different course before the academic year begins?",
+                "Can I alter my course choice after admission?",
+                "What if I want to change my program after getting accepted?",
+                "How can I change my admission status from fee-paying to parallel?",
+                "Can I switch to a different program once I've been admitted?",
+                "Is it possible to change my course allocation?",
+                "What should I do if I need to change my program before school starts?"
             ],
             "responses": [
-
+                "There is a process for students to apply to change their programme internally after admission, but before starting classes. This might involve meeting specific criteria and getting approval from both the original and desired program. Do well to contact the Admissions office for further details."
             ],
             "context_set": ""
         },
@@ -597,6 +785,57 @@
             "responses": [
                 "As of the time being, I can only answer questions regarding undergraduate admissions."
             ],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "programme_arrangement",
+            "patterns": [
+            "How do I arrange my programmes to gain admission?",
+            "What courses should be my options from 1 - 4?",
+            "Can I select a double programme for the process?",
+            "How should I rank my course choices?",
+            "What is the best order to arrange my programmes?",
+            "How do I prioritize my course selections?",
+            "Which programme should I list first on my application?",
+            "What is the recommended way to order my course choices?",
+            "Can I apply for two programmes simultaneously?",
+            "What is the ideal arrangement for my course choices?",
+            "How do I decide the order of my programme preferences?",
+            "Can I list multiple courses in my application?",
+            "What are the guidelines for arranging my programme choices?",
+            "How do I select my top course choices?",
+            "Can I choose more than one programme in my application?",
+            "What factors should I consider when arranging my course choices?",
+            "How do I rank my programmes for the best chance of admission?",
+            "What is the proper way to arrange my course options?",
+            "Can I apply for dual programmes?",
+            "How should I sequence my course selections?",
+            "What should be my first choice programme?",
+            "Is there a specific order for listing courses?",
+            "How do I prioritize my programmes to increase admission chances?",
+            "Can I apply for two different courses?",
+            "How do I organize my programme choices effectively?",
+            "What is the strategy for arranging my programme preferences?",
+            "How do I determine the order of my course options?",
+            "Can I opt for two programmes in the application?",
+            "What is the best way to order my course selections?",
+            "How do I arrange my programmes on the application form?",
+            "What order should I follow for listing my courses?",
+            "Can I include multiple programmes in my application?",
+            "What is the suggested order for arranging programme choices?",
+            "How should I order my course options for the application?",
+            "What sequence should I follow for my programme choices?",
+            "Can I put two courses as my first choice?",
+            "How do I rank my programme preferences?",
+            "What is the optimal arrangement for my course choices?",
+            "Can I apply for more than one programme?",
+            "What is the best way to list my course choices?"
+        ],
+        "responses": [
+            "When arranging your programmes, it's best to prioritize your choices based on your preferences and strengths. Typically, your most desired programme should be listed first, followed by others in order of preference. Make sure to check the specific requirements and cut-off aggregate for each programme. For dual programmes or selecting multiple options, please contact the admissions office for detailed instructions."
+        ],
             "context_set": ""
         }
     ]

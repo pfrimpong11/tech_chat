@@ -13,37 +13,17 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: rgba(240, 246, 251, 0.98); /* Adjust the color and opacity as needed */
-            /* background-image: url('../../static/bot-logo.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh;
-            position: relative; */
-        }
-
-        body::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 110%;
-            background-color: rgba(240, 246, 251, 0.98); /* Adjust the color and opacity as needed */
-            z-index: -1;
+            background-color: #1f4959;
         }
 
         .header-container {
-            background-color: #f4f4f4;
-            border-bottom: 1px solid #ddd;
+            background-color: #011425;
+            border-bottom: 1px solid #5c7c89;
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 5px 20px;
             margin-bottom: 5px;
-            /* position: fixed;
-            width: 100%;
-            top: 0; */
         }
 
         .logo_box {
@@ -63,7 +43,7 @@
             font-size: 20px;
             font-weight: 600;
             padding-left: 10px;
-            color: #000;
+            color: #fff;
         }
 
         .back-navigate-box {
@@ -81,11 +61,8 @@
 
         h2 {
             text-align: center;
+            color: #fff;
         }
-
-        /* form {
-            background-color: #F0F6FB;
-        } */
 
         select {
             width: 300px;
@@ -158,16 +135,17 @@
 
         .result-container {
             padding: 10px 30px 10px 10px;
-            border: 1px solid #007bff;
+            border: 1px solid #5c7c89;
             border-radius: 3px;
             text-align: center;
             font-weight: bold;
             font-style: italic;
+            color: #fff;
         }
 
         button {
             padding: 10px 20px;
-            background-color: #007bff;
+            background-color: #5c7c89;
             color: #fff;
             border: none;
             border-radius: 3px;
@@ -176,7 +154,11 @@
         }
 
         button:hover {
-            background-color: #0056b3;
+            background-color: #377791;
+        }
+
+        .aggregate {
+            color: #fff;
         }
 
         /* Scroll bar */
@@ -238,8 +220,8 @@
     <header>
         <div class="header-container">
             <div class="logo_box">
-                <img src="/static/knust_logo.png" alt="KNUST Logo" class="logo">
-                <p class="school_name">KNUST | TechChat</p>
+                <img src="/static/bot_avatar_dark.png" alt="Logo" class="logo">
+                <p class="school_name">TechChat</p>
             </div>
         </div>
     </header>
@@ -287,7 +269,7 @@
                 <div class="result-button-container">
                     <button type="button" onclick="calculateAggregate()">Calculate Aggregate</button>
                     <div class="result-container">
-                        <span>Total Aggregate: </span>
+                        <span class="aggregate">Total Aggregate: </span>
                         <span id="result"></span>
                     </div>
                     <div id="cut-off"></div>
@@ -387,9 +369,9 @@
             let totalAggregate = electives.reduce((a, b) => a + b, 0) + cores.reduce((a, b) => a + b, 0);
             document.getElementById('result').innerText = `${totalAggregate}`;
             if (totalAggregate <= cut_off){
-                document.getElementById('cut-off').innerHTML = `<i style="color: green;">The cutoff for ${programmeText} is around ${cut_off}.</i>`
+                document.getElementById('cut-off').innerHTML = `<i style="color: white;">The cutoff for ${programmeText} is around aggregate ${cut_off}.</i>`
             }else{
-                document.getElementById('cut-off').innerHTML = `<i style="color: red;">The cutoff for ${programmeText} is around ${cut_off}.</i>`
+                document.getElementById('cut-off').innerHTML = `<i style="color: red;">The cutoff for ${programmeText} is around aggregate ${cut_off}.</i>`
             }
         }
     </script>

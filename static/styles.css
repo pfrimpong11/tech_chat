@@ -126,8 +126,13 @@ header {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 4s steps(30, end), blink-caret 0.75s step-end 4s;
-    font-size: 15px;
+    /* animation: typing 4s steps(30, end), blink-caret 0.75s step-end 4s; */
+    font-size: 20px;
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 @keyframes typing {

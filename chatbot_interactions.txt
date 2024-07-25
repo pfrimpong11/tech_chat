@@ -1127,3 +1127,196 @@ Predicted Intents:
 - Tuition Fees: 0.99319977
 Bot: To find the tuition fees for KNUST, please visit this link:<br> https:<br>//www. knust. edu. gh/academic-fees
 
+User: how should i arrange my programmes for admission?
+Predicted Intents:
+- programme_arrangement: 0.99695
+Bot: List your programmes in order of preference, starting with the one you want most.
+
+User: how should i order my course options for admisiion?
+Predicted Intents:
+- programme_arrangement: 0.99782217
+Bot: List your most preferred course first, followed by your other choices in descending order of preference.
+
+User: can i change my programme or course?
+Predicted Intents:
+- programme_change: 0.99941194
+Bot: Yes, you can apply for an internal programme change after admission but before starting classes. You'll need to meet certain criteria and get approval from both departments. Contact the Admissions office for details.
+
+User: what van you tell me about parallel admission?
+Predicted Intents:
+- parallel_admission: 0.7467262
+Bot: Parallel admissions at KNUST are handled separately from the main admissions and usually occur later in the year.
+
+User: what is the process for applying as a fee paying student?
+Predicted Intents:
+- fee_paying_application: 0.8432055
+Bot: There is no separate application process for fee-paying students. However, you can indicate your preference to be considered for fee-paying during the regular application.
+
+User: when will they release the fee paying admission list?
+Predicted Intents:
+- fee_paying_admission_list: 0.9801145
+Bot: KNUST doesn't usually release a separate fee-paying admission list.  Keep checking your online portal or email for updates on the general admission list.
+
+User: when will the admission list be outside?
+Predicted Intents:
+- admission_list: 0.99988353
+Bot: KNUST doesn't have a fixed date for releasing the admission list, but it usually comes out after WASSCE results are released. Check your status online or via email.
+
+User: my results are withheld, what can you do about it?
+Predicted Intents:
+- withheld_results: 0.99992955
+Bot: We understand your concern but unfortunately, we cannot process your admission with withheld results. You need to resolve that with WAEC directly as they are responsible for releasing WASSCE results.
+
+User:  can i combine multiple results for the admission?
+Predicted Intents:
+- multiple_results: 0.9431274
+Bot: You can combine multiple results, but make sure to check the admission guidelines and current requirements for your specific program.
+
+User: what is the application process like?
+Predicted Intents:
+- how_to_apply: 0.6679309
+Bot: The KNUST online application process involves these key steps:<br>1. Access the Application Portal:<br> Begin by visiting https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login and entering your voucher credentials. 2. Provide Personal and Academic Information:<br> Fill in all required fields (<br>), including your educational background and examination results. 3. Upload Supporting Documents:<br> Scan and upload necessary documents, such as your birth certificate and results slips. 4. Make Program Choices:<br> Select your desired program(s) and indicate if you'd like to be considered for fee-paying options. 5. Review and Submit:<br> Carefully review all entered information, agree to the declaration, and submit your application.
+
+User: what are the programmes you offer?
+Predicted Intents:
+- programme: 0.8467255
+Bot: To see the programmes we offer, please tell me which college you're interested in:<br><br> College of Agriculture and Natural Resources<br> College of Art and Built Environment<br> College of Engineering<br> College of Health Sciences<br> College of Humanities and Social Sciences<br> College of Science
+
+User: college of art and built environment
+Predicted Intents:
+- art_and_built_environment_programmes: 0.99817216
+Bot: The College of Art and Built Environment at KNUST offers programs in three faculties:<br><br> Faculty of Built Environment:<br>    <br> BSc. Architecture    <br> BSc. Construction Technology and Management    <br> BSc. Quantity Surveying and Construction Economics    <br> BSc. Development Planning    <br> BSc. Human Settlement Planning    <br> BSc. Land Economy    <br> BSc. Real Estate<br> Faculty of Art:<br>    <br> BA. Communication Design    <br> BA. Integrated Rural Art and Industry    <br> BA. Publishing Studies    <br> BA. Metal Product Design Technology    <br> BA. Textile Design and Technology    <br> BFA. Fine Art and Curatorial Practice    <br> BFA. Ceramics    <br> BSc. Fashion Design    <br> BSc. Ceramics Technology<br> Faculty of Educational Studies:<br>    <br> B. Ed. Junior High School Education (Mathematics, Science, ICT, Agricultural Science, History, Visual Arts and Geography)
+
+User: college of health sciences
+Predicted Intents:
+- health_sciences_programmes: 0.9212287
+Bot: The College of Health Sciences at KNUST offers programs in various fields. Here's a breakdown:<br>Faculty of Allied Health Sciences<br> BSc. Physiotherapy and Sports Science<br> BSc. Medical Imaging<br> BSc. Medical Laboratory Science<br> BSc. Medical Laboratory Science (Obuasi Campus)School of Nursing and Midwifery<br> BSc. Nursing<br> BSc. Nursing (Obuasi Campus)<br> Nursing (Emergency Option for Practicing Nurses Only)<br> BSc. Midwifery (Females only)<br> BSc. Midwifery (Females practicing Midwives only) (Sandwich)<br> BSc. Midwifery (Obuasi Campus)Faculty of Pharmacy and Pharmaceutical Sciences<br> Bachelor of Herbal Medicine (BHM)<br> Doctor of Pharmacy (Pharm D)<br> Doctor of Pharmacy (Pharm D) - 2 years Top-Up (Practicing Pharmacists only)School of Medicine and Dentistry<br> Human Biology (Medicine) (MBChB)<br> Bachelor of Dental Surgery (BDS) (Fee-paying only)School of Veterinary Medicine<br> Doctor of Veterinary Medicine (DVM)School of Public Health<br> BSc. Disability and Rehabilitation Studies
+
+User: so what is your name?
+Predicted Intents:
+- name: 0.8660305
+Bot: TechChat
+
+User: so how should i call you?
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.3767765
+- name: 0.26049957
+Bot: You're welcome to call me by my name (if you stated it earlier) or refer to me as KNUST admissions support.
+
+User: can you write a code for me?
+Predicted Intents:
+- random: 0.30727938
+- Chatbot Capabilities: 0.29580066
+Bot: I'm sorry, I can't help you with writing code. I am designed to provide information about KNUST admissions.  Do you have any questions about the admission process, requirements, or deadlines?
+
+User: what is the deadline for the admission?
+Predicted Intents:
+- Contact Information: 0.3888625
+Bot: Please contact the KNUST Admissions Office directly for the admission deadline.
+
+User: what is the admission process?
+Predicted Intents:
+- admission_list: 0.84997576
+Bot: To gain admission to KNUST, you need to apply online through their portal during the application window. Once the application window closes, you will have to wait for the release of the admission list which is usually after the release of the WASSCE results.
+
+User: what is the general admission requirement?
+Predicted Intents:
+- general_admission_requirement: 0.9855596
+Bot: To be eligible for admission to a degree program at KNUST, you generally need the following:<br><br> Credit passes in three core subjects:<br> English Language, Mathematics, and Integrated Science. These are required for all programs. <br> Credit passes in three elective subjects:<br>  These should be relevant to your chosen program. <br> Specific grade requirements:<br> These vary depending on your examination board (WASSCE, GCE, etc. ) and program of study. For detailed information on grade requirements and other qualifications, please refer to the provided response.
+
+User: hey whatsup
+Predicted Intents:
+- greeting: 0.8566849
+Bot: Okay, I can help you with that. I'll give concise and relevant responses related to KNUST admissions.  Let's try another question. 😊
+
+User: hey whatsup
+Predicted Intents:
+- greeting: 0.8566849
+Bot: Response:<br> Hey!  Thinking about KNUST admissions? 🤔
+
+User: yeah, what can you tell me about knust admissions?
+Predicted Intents:
+- KNUST info: 0.278644
+Bot: KNUST is a public university in Kumasi, Ghana, known for its focus on science and technology.  They offer various undergraduate and postgraduate programs.  You can apply online through their admissions portal during the application window.  Make sure you meet the entry requirements for your chosen program, which you can find on their website.  Good luck with your application!
+
+User: do you know where i can get the admissions forms?
+Predicted Intents:
+- admission_list: 0.5673902
+Bot: You can purchase admission forms from various banks across the country or apply online via the KNUST website.
+
+User: where can i buy the forms
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.63155884
+Bot: You can buy KNUST admission forms at all Ghana Post Regional and Designated Post Offices, including selected banks. You can also purchase the forms via mobile money by dialing <br>885#.
+
+User: where can i buy the admission forms?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.70184624
+Bot: You can buy KNUST admission forms at all Ghana Post Regional and Designated Post Offices, including selected banks. You can also purchase the forms via mobile money by dialing <br>885#.
+
+User: what are the things you can do?
+Predicted Intents:
+- Chatbot Capabilities: 0.9023161
+Bot: Ask me questions regarding KNUST undergraduate admissions and I will try to answer them.
+
+User: what are the things you can do?
+Predicted Intents:
+- Chatbot Capabilities: 0.9023161
+Bot: Ask me anything about KNUST undergraduate admissions and I'll do my best to answer you.
+
+User: what is the cut-off point for computer engineering?
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.86651653
+Bot: The cut-off point for BSc. Computer Engineering at KNUST is typically around an aggregate of 09. However, it's best to confirm from the KNUST website or admissions office for the most accurate and current information as cut-off points can change yearly.
+
+User: so what subject do i need to study computer engineering?
+Predicted Intents:
+- bsc_agricultural_engineering_requirements: 0.5103497
+- bsc_computer_engineering_requirements: 0.3868956
+Bot: You actually want the requirements for Computer Engineering, not Agricultural Engineering. Here are the requirements for BSc. Computer Engineering at KNUST:<br><br> Core Subjects:<br> Credit passes in English Language, Mathematics (Core), Integrated Science, and Social Studies. <br> Elective Subjects:<br> Credit passes in Physics, Chemistry and Elective Mathematics.
+
+User: what are the subjects i need to read computer engineering?
+Predicted Intents:
+- bsc_computer_engineering_requirements: 0.8242843
+Bot: You need credit passes in the following subjects:<br>WASSCE/SSSCE<br> Core Subjects:<br> English Language, Mathematics, and Integrated Science. <br> Elective Subjects:<br>  Physics, Mathematics and Chemistry (Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry). 'A' Level<br> 'O' Level:<br> Five (5) subjects including English Language and Mathematics<br> 'A' Level:<br>  Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry OR Mathematics, Physics and Chemistry.
+
+User: what is your name?
+Predicted Intents:
+- name: 0.9213613
+Bot: TechChat
+
+User: who made you by the way
+Predicted Intents:
+- creator: 0.94657624
+Bot: I was developed by a group of university students, specifically Frimpong Prince and Akinie Samuel Aterh.
+
+User: who made you by the way
+Predicted Intents:
+- creator: 0.94657624
+Bot: I was created by Frimpong Prince and Akinie Samuel Aterh, a group of university students.
+
+User: what are the things you can do?
+Predicted Intents:
+- Chatbot Capabilities: 0.9023161
+Bot: I can answer your questions about KNUST undergraduate admissions.
+
+User: what are the things you can do?
+Predicted Intents:
+- Chatbot Capabilities: 0.9023161
+Bot: You can ask me about admission requirements for specific programs, the application process, deadlines, cut-off points, and scholarships.
+
+User: thank you
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.87394434
+Bot: welcome, anything else I can assist you with?
+
+User: thank you
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.87394434
+Bot: welcome, anything else I can assist you with?
+
+User: what are the steps i can use to apply?
+Predicted Intents:
+- programme: 0.46720585
+Bot: To apply to KNUST, you first need to choose a program from one of the six colleges:<br><br> College of Agriculture and Natural Resources<br> College of Art and Built Environment<br> College of Engineering<br> College of Health Sciences<br> College of Humanities and Social Sciences<br> College of ScienceOnce you have chosen your program, you can proceed with the application process within that college.
+

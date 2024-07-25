@@ -220,13 +220,12 @@
         "who created you",
         "who create you",
         "creators",
-        "who made you",
-        "who designed you",
-        "Who built you?",
-        "Who programmed you?",
-        "Who developed you?",
-        "Who crafted you?",
-        "Who constructed you?",
+        "who decided to make you",
+        "who sat down to designed you",
+        "Who initiated to built you?",
+        "Who are the people that programmed you?",
+        "Who is behind your development or developed you?",
+        "Who took time to construct you?",
         "Tell me about your developers",
         "Tell me about your creators",
         "Give me information about your developers",
@@ -248,23 +247,23 @@
     {
       "tag": "name",
       "patterns": [
-        "name",
-        "your name",
-        "do you have a name",
-        "what are you called",
+        "name you are called by",
+        "your name is what",
+        "do you have a name i can use to call you",
+        "what are you called by",
         "what is your name",
         "what should I call you",
         "whats your name?",
-        "what are you",
-        "who are you",
-        "who is this",
+        "what are you are called by",
+        "who are you by the way",
+        "who is this i am chatting with",
         "what am i chatting to",
         "who am i talking to",
-        "what are you",
+        "what are you, tell me your name",
         "what should I call this chatbot",
-        "what's your title",
-        "what can I name you",
-        "what do you go by"
+        "what's your title or your name",
+        "what do you go by in terns of name",
+        "so how should i call you?"
       ],
       "responses": [
         "You can call me TechChat.",
@@ -1032,7 +1031,7 @@
         "Is there an application fee"
       ],
       "responses": [
-        "<ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>"
+        "<ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial .*885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>"
       ],
       "context_set": ""
     },

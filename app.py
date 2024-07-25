@@ -70,6 +70,10 @@ def startup():
 def index():
     return render_template('index.html')
 
+@app.route('/chatbotPop')
+def chatbotPop():
+    return render_template('pages/chatbotPop.html')
+
 @app.route('/pages/feedback.html')
 def feedback():
     return render_template('pages/feedback.html')
