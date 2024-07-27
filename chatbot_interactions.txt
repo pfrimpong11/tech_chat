@@ -1320,3 +1320,8 @@ Predicted Intents:
 - programme: 0.46720585
 Bot: To apply to KNUST, you first need to choose a program from one of the six colleges:<br><br> College of Agriculture and Natural Resources<br> College of Art and Built Environment<br> College of Engineering<br> College of Health Sciences<br> College of Humanities and Social Sciences<br> College of ScienceOnce you have chosen your program, you can proceed with the application process within that college.
 
+User: hey good morning 
+Predicted Intents:
+- greeting: 0.90794605
+Bot: Good morning! How can I help you with KNUST admissions today?
+
