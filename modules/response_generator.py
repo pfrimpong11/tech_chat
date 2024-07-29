@@ -36,7 +36,7 @@ def log_interaction(user_input, predicted_intents, response):
 
 # Function to generate response from Gemini
 def generate_gem_response(question, model_response):
-    prompt = f"Given the question and the answer, give a response to suit the question. Everything is about KNUST admissions:\n\n\n Question: {question} \n\n Response: {model_response} \n\n\n Ignore wrong answers, mistakes and go straight to the point \n Don't tell me how good or bad my response is"
+    prompt = f"Given the question and the answer, give a response to suit the question. Everything is about KNUST admissions:\n\n\n Question: {question} \n\n Response: {model_response} \n\n\n Ignore wrong answers, mistakes and go straight to the point. No preambles \n Don't tell me how good or bad my response is"
 
     try:
         model = genai.GenerativeModel('gemini-1.5-pro')

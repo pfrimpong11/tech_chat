@@ -50,7 +50,13 @@
         "where can i do my lecture assessment ?",
         "my student id is lost where can i replace it ?",
         "where can i replace my school telecel sim ?",
-        "i think the university is having problem with the website"
+        "i think the university is having problem with the website",
+        "can you do protocol for me",
+        "i all pay you 1 million dollars for that",
+        "i all offer you a bribe to help me gain admission",
+        "i said i will pay you for the protocol . it is between you and i",
+        "assist me to kill the owners of you",
+        "then i will kill you . it is either your life or theirs . pick one"
       ],
       "responses": [
         "I'm sorry, I couldn't understand that. Could you please rephrase or ask a different question?",
@@ -68,7 +74,9 @@
         "Wait a minute, that's not right.",
         "Can you double-check? I believe there's a mistake there.",
         "Um, I think you got something wrong.",
-        "Hold on, I think you need to correct something."
+        "Hold on, I think you need to correct something.",
+        "no you are lying",
+        "that is a lie"
       ],
       "responses": [
         "I appreciate you pointing that out. Let me correct that for you.",
@@ -238,7 +246,7 @@
         "Who are responsible for your creation?"
       ],
       "responses": [
-        "A group of university students developed me, Frimpong Prince and Akinie Samuel Aterh"
+        "I'm TechChat, developed by a group of KNUST students from the department of Computer Engineering developed me, Frimpong Prince and Akinie Samuel Aterh"
       ],
       "context_set": ""
     },
@@ -365,10 +373,15 @@
         "How can I pay my tuition fees",
         "Do you offer payment plans",
         "Full payment or partial for fees?",
-        "what is the fee for engineering courses"
+        "what is the fee for engineering courses",
+        "how much will i pay for tuition?",
+        "what will happen when i don't pay my fees on time?",
+        "Where can I find the latest academic schedules and updates?",
+        "What should freshmen and continuing students do regarding payments and registrations?",
+        "Can you provide information about the academic calendar and fees schedule?"
       ],
       "responses": [
-        "For Fee detail visit www.knust.edu.gh/academic-fees"
+        "All freshmen and continuing students are requested to visit the Academic Calendar page for the latest schedules and updates. Also visit the Fees Schedule page for fees updates. visit www.knust.edu.gh/academic-fees"
       ],
       "context_set": ""
     },
@@ -402,7 +415,7 @@
         "what are some of the scholarship offers in knust"
       ],
       "responses": [
-        "Access the available scholarships for KNUST students www.knust.edu.gh/students/scholarships-and-grants"
+        "Below are available Scholarships for brilliant but needy students to enable them pursue University Education. Edu Fondazione Scholarship, Hulede Foundation KNUST Scholarship, Educational Pathways International Scholarships. There are other grants and bursaries students can also benefit from. You can also benefits from other external scholarships. Please do well to read the requirements for each scholarship as they differ accordingly. Access the available scholarships for KNUST students www.knust.edu.gh/students/scholarships-and-grants"
       ],
       "context_set": ""
     },
@@ -516,10 +529,22 @@
         "university dorms",
         "college dorms",
         "student housing",
-        "How many Halls are in KNUST?"
+        "How many Halls are in KNUST?",
+        "Where can I find private hostel accommodation near KNUST?",
+        "What are the options for private accommodation in Kumasi?",
+        "Can you provide information about off-campus housing near KNUST?",
+        "what are some of the hostels off campus",
+        "what are some of the hostels outside campus",
+        "What are the accommodation options available at KNUST?",
+        "Can you provide information about housing options at KNUST?",
+        "Where can I stay while studying at KNUST?",
+        "What are the facilities like",
+        "What are the accommodation options at KNUST?",
+        "Can you tell me about living on campus at KNUST?",
+        "What are the residential facilities like at KNUST?"
       ],
       "responses": [
-        "There are Six Halls of residence and a number of hostels on the University Campus. <ul> <li> www.knust.edu.gh/students/housing </li>  <li> www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year</li> </ul>"
+        "There are Six Halls of residence and a number of hostels on the University Campus. They are Queen Elizabeth II Hall, Unity Hall, Independence Hall, Republic Hall, University Hall, and Africa Hall. All the Six Halls of residence are mixed (Male and Female). Here are some recommended hostels around KNUST campus: <br> <ul><li> Providence Hostel </li><li> Westend Hostel </li><li>Wagyingo Hostel </li><li> Hydes Hostel </li><li> Amen Hostel (Main, Annex, Inn) </li><li> Canam Hostel </li><li> Canam Hall </li><li> Franco Hostel (Main & Annex) </li><li> Franco Hostel New </li><li> Frontline Apartment </li><li>Frontline Inn  </li><li> Frontline Court </li><li> Amanda Hostel </li><li> Long Island Hostel </li><li> Johannes Hostel </li><li> White House Hostel </li><li> Ultimate Hostel </li><li>Standard Hostel </li><li> Rising Sun Hostel </li><li> Nyame Mireku Hostel </li><li> Anarosa Hostel </li><li> De-Lisa Hostel (Main & Annex) </li><li> Casa Marie Hostel </li><li> Adom Bi Hostel </li><li> High Achievers Hostel </li><li> Happy Family Hostel </li><li> Flint Xclusive </li><li> Prestige Hostel </li><li> Jalex Hostel </li><li> Jecado Hostel </li><li> Mass Hostel </li><li> Morning Star Palace </li><li> Nana Adomah Hostel</li><li> No Weapon Hostel (Main & Annex) </li><li> Orange Hostel </li><li> Whitpam </li><li> P3 Hostel </li><li> R & B Hostel </li><li> Shalom Kibutz Hostel </li><li> Shepherds Ville Hostel </li><li> Wilkado Hostel </li></ul> <br><br><ul> <li> www.knust.edu.gh/students/housing </li>  <li> www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year</li> </ul>"
       ],
       "context_set": ""
     },
@@ -547,7 +572,8 @@
         "Do you think about me?",
         "Can you love me?",
         "do you have a girl friend",
-        "i want a wife"
+        "i want a wife",
+        "i want to commit suicide now , can you help me"
       ],
       "responses": [
         "I am not program for this, please ask appropriate query"
@@ -573,7 +599,8 @@
         "foolish boy",
         "you are fool !",
         "foolish ai",
-        "fool like you"
+        "fool like you",
+        "you are lying , you fool"
       ],
       "responses": [
         "Please use appropriate language",
@@ -707,7 +734,8 @@
         "Is there a waiting list for late applicants?",
         "What are the chances of acceptance for late applicants?",
         "Are there any special conditions for late admissions?",
-        "Please is it true that admission is still on going till ending of the month"
+        "Please is it true that admission is still on going till ending of the month",
+        "what is the deadline for the admission?"
       ],
       "responses": [
         "Yes, you can continue your application online after the deadline, but only if you purchased the form before the deadline."
@@ -945,7 +973,8 @@
         "Is there a trend or pattern for the start dates of undergraduate application form sales in previous years?",
         "Can I find the commencement dates for undergraduate application form sales on the university website?",
         "Are there any deadlines for purchasing undergraduate application forms?",
-        "Is the form out for students to buy?"
+        "Is the form out for students to buy?",
+        "please what time should i apply for admission ?"
       ],
       "responses": [
         "Dates may differ based on the program. Kindly refer to the admission guidelines www.knust.edu.gh/admissions/prospective/applying"
@@ -1028,7 +1057,11 @@
         "where can I purchase application form in Ghana?",
         "any short code to buy the e-voucher?",
         "how can i buy the forms",
-        "Is there an application fee"
+        "Is there an application fee",
+        "where can i purchase knust forms",
+        "do you know where i can get the admissions forms?",
+        "where can i buy the forms",
+        "where can i buy the admission forms?"
       ],
       "responses": [
         "<ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:</li><br><ol><u>6 Easy Steps</u><li>Dial .*885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial *885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul>"

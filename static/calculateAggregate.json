@@ -266,6 +266,16 @@
     "cut_off":["10"]
     },
 
+    "bsc_civil_engineering_obuasi": {
+    "elective_subjects": [
+        "Physics",
+        "Mathematics",
+        "Chemistry"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["14"]
+    },
+
     "bsc_materials_engineering": {
     "elective_subjects": [
         "Physics",
@@ -276,6 +286,16 @@
     "cut_off":["13"]
     },
 
+    "bsc_materials_engineering_obuasi": {
+    "elective_subjects": [
+        "Physics",
+        "Mathematics",
+        "Chemistry"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["18"]
+    },
+
     "bsc_mechanical_engineering": {
     "elective_subjects": [
         "Physics",
@@ -284,6 +304,16 @@
     ],        
     "core_subjects": ["Core Maths", "English", "Integrated Science"],
     "cut_off":["10"]
+    },
+
+    "bsc_mechanical_engineering_obuasi": {
+    "elective_subjects": [
+        "Physics",
+        "Mathematics",
+        "Chemistry / Metal Work / Auto Mechanics / Applied Electricity / Technical Drawing / Building Construction / Wood work"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["14"]
     },
 
     "bsc_aerospace_engineering": {
@@ -316,6 +346,16 @@
     "cut_off":["12"]
     },
 
+    "bsc_geological_engineering_obuasi": {
+    "elective_subjects": [
+        "Physics",
+        "Mathematics",
+        "Chemistry"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["16"]
+    },
+
     "bsc_geomatic_engineering": {
     "elective_subjects": [
         "Physics",
@@ -326,6 +366,16 @@
     "cut_off":["13"]
     },
 
+    "bsc_geomatic_engineering_obuasi": {
+    "elective_subjects": [
+        "Physics",
+        "Mathematics",
+        "Chemistry / Geography / Applied Electricity / Electronics"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["17"]
+    },
+
     "bsc_electrical_and_electronic_engineering": {
     "elective_subjects": [
         "Physics",
@@ -334,6 +384,16 @@
     ],        
     "core_subjects": ["Core Maths", "English", "Integrated Science"],
     "cut_off":["08"]
+    },
+
+    "bsc_electrical_and_electronic_engineering_obuasi": {
+    "elective_subjects": [
+        "Physics",
+        "Mathematics",
+        "Chemistry / Basic / Applied Electricity / Basic Electronics / Information Technology"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["13"]
     },
 
     "bsc_computer_engineering": {
@@ -384,6 +444,16 @@
     ],        
     "core_subjects": ["Core Maths", "English", "Integrated Science"],
     "cut_off":["14"]
+    },
+
+    "bsc_metallurgical_engineering_obuasi": {
+    "elective_subjects": [
+        "Physics",
+        "Mathematics",
+        "Chemistry"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["19"]
     },
 
     "bsc_automobile_engineering": {
@@ -459,6 +529,16 @@
     "cut_off":["07"]
     },
 
+    "bsc_medical_laboratory_sciences_obuasi": {
+    "elective_subjects": [
+        "Biology",
+        "Chemistry",
+        "Physics / Mathematics"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["10"]
+    },
+
     "bsc_general_nursing": {
     "elective_subjects": [
         "Biology",
@@ -469,6 +549,16 @@
     "cut_off":["08"]
     },
 
+    "bsc_general_nursing_obuasi": {
+    "elective_subjects": [
+        "Biology",
+        "Chemistry",
+        "Physics / Mathematics"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["11"]
+    },
+
     "bsc_midwifery": {
     "elective_subjects": [
         "Biology",
@@ -477,6 +567,16 @@
     ],        
     "core_subjects": ["Core Maths", "English", "Integrated Science"],
     "cut_off":["09"]
+    },
+
+    "bsc_midwifery_obuasi": {
+    "elective_subjects": [
+        "Biology",
+        "Chemistry",
+        "Physics / Mathematics"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["12"]
     },
 
     "bsc_physiotherapy_and_sports_science": {
@@ -673,6 +773,16 @@
     "cut_off":["09"]
     },
 
+    "human_resource_management_obuasi": {
+    "elective_subjects": [
+        "Any elective from (Business / General Arts / General Science / Vocational / Home Economics)",
+        "Any elective from (Business / General Arts / General Science / Vocational / Home Economics)",
+        "Any elective from (Business / General Arts / General Science / Vocational / Home Economics)"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["16"]
+    },
+
     "marketing_or_international_business": {
     "elective_subjects": [
         "Any elective from (Business / General Arts / General Science / Vocational / Home Economics)",
@@ -681,6 +791,16 @@
     ],        
     "core_subjects": ["Core Maths", "English", "Integrated Science"],
     "cut_off":["10"]
+    },
+
+    "marketing_or_international_business_obuasi": {
+    "elective_subjects": [
+        "Any elective from (Business / General Arts / General Science / Vocational / Home Economics)",
+        "Any elective from (Business / General Arts / General Science / Vocational / Home Economics)",
+        "Any elective from (Business / General Arts / General Science / Vocational / Home Economics)"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["17"]
     },
 
     "bsc_hospitality_and_tourism_management": {
@@ -703,6 +823,16 @@
     "cut_off":["07"]
     },
 
+    "accounting_banking_and_finance_obuasi": {
+    "elective_subjects": [
+        "Any elective from (Business / General Arts / General Science)",
+        "Any elective from (Business / General Arts / General Science)",
+        "Any elective from (Business / General Arts / General Science)"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["13"]
+    },
+
     "business_information_technology": {
     "elective_subjects": [
         "Any elective from (Business / General Arts / General Science)",
@@ -711,6 +841,16 @@
     ],        
     "core_subjects": ["Core Maths", "English", "Integrated Science"],
     "cut_off":["09"]
+    },
+
+    "business_information_technology_obuasi": {
+    "elective_subjects": [
+        "Any elective from (Business / General Arts / General Science)",
+        "Any elective from (Business / General Arts / General Science)",
+        "Any elective from (Business / General Arts / General Science)"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["15"]
     },
 
 
@@ -775,6 +915,16 @@
     ],        
     "core_subjects": ["Core Maths", "English", "Integrated Science"],
     "cut_off":["15"]
+    },
+
+    "bsc_environmental_science_obuasi": {
+    "elective_subjects": [
+        "Biology / Agricultural Science",
+        "Chemistry",
+        "Physics / Mathematics"
+    ],        
+    "core_subjects": ["Core Maths", "English", "Integrated Science"],
+    "cut_off":["18"]
     },
 
     "doctor_of_optometry": {

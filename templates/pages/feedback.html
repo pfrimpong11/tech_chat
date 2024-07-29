@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="TechChat - Your Admission Enquiry Assistant for KNUST.">
     <meta name="keywords" content="KNUST, admission, enquiry, chatbot">
@@ -20,43 +21,43 @@
         }
 
         .header-container {
-            background-color: #f4f4f4;;
-            border-bottom: 1px solid #5c7c89;
+            background-color: #fff;
             display: flex;
-            align-items: center;
+            flex-direction: row;
             justify-content: space-between;
-            padding: 5px 20px;
-            margin-bottom: 5px;
+            padding: 10px 30px;
+            border-bottom: 1px solid #ddd;
         }
 
-        .logo_box {
-            display: flex;
-            cursor: pointer;
-        }
-
-        .logo_box a{
-            text-decoration: none;
+        .logo-container {
+            display: inline-flex;
         }
 
         .logo {
-            height: 60px;
+            width: 40px;
+            height: auto;
         }
 
-        .school_name {
+        .logo-name {
+            padding-top: 10px;
+            padding-left: 20px;
             font-size: 20px;
             font-weight: 600;
-            padding-left: 10px;
-            color: #000;
         }
 
-        .back-navigate-box {
-            margin: 0 20px;
-        }
+        #error-message {
+        background-color: #f2dede;
+        color: #ff0602;
+        font-weight: 600;
+        padding: 8px;
+        border: 1px solid #ebccd1;
+        border-radius: 3px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
 
-        .back-navigate a {
-            text-decoration: none;
-            color: #000;
-        }
 
         .container {
             max-width: 700px;
@@ -130,14 +131,17 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="logo_box">
-                <img src="/static/bot-logo.png" alt="Logo" class="logo">
-                <p class="school_name">TechChat</p>
+            <div class="logo-container">
+                <span><a href="http://localhost:5000/index.html"><img src="/static/bot-logo.png" class="logo" alt="TechChat logo"></a></span>
+                <span class="logo-name">Feedback</span>
             </div>
         </div>
     </header>
+
     <div class="container">
         <h1>Submit a Feedback</h1>
+        <div id="error-message" style="color: red; font-size: 13px; background-color: #fff; border: none;"></div>
+
         <form action="/submit-request" method="post" enctype="multipart/form-data">
             <label for="first-name">First Name <span class="required">REQUIRED</span></label>
             <input type="text" id="first-name" name="first-name"  required>

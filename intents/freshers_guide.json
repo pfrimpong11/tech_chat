@@ -8,7 +8,43 @@
                 "What's the best way to reach KNUST?",
                 "Can you provide directions to reach KNUST?",
                 "I'm coming from another city. How can I reach KNUST?",
-                "What transportation options are available to reach to KNUST?"
+                "What transportation options are available to reach to KNUST?",
+                "How can I travel to KNUST?",
+                "What is the easiest route to KNUST?",
+                "How do I find KNUST from the main road?",
+                "Can you guide me to KNUST?",
+                "What is the best way to get to KNUST from Accra?",
+                "How do I reach KNUST campus?",
+                "Can you help me with directions to KNUST?",
+                "What are the transport routes to KNUST?",
+                "How can I get to KNUST by bus?",
+                "Is there a direct route to KNUST?",
+                "How do I reach KNUST by public transport?",
+                "Can you tell me how to get to KNUST?",
+                "What is the fastest way to reach KNUST?",
+                "How can I arrive at KNUST?",
+                "What routes should I take to KNUST?",
+                "How do I navigate to KNUST?",
+                "Can you explain how to get to KNUST?",
+                "What directions should I follow to get to KNUST?",
+                "How do I get to KNUST from Kumasi airport?",
+                "How can I get to KNUST from Kumasi central?",
+                "What is the best way to travel to KNUST?",
+                "How do I drive to KNUST?",
+                "What is the quickest way to get to KNUST?",
+                "Can you tell me the route to KNUST from the bus station?",
+                "How can I find my way to KNUST?",
+                "How do I reach KNUST if I'm coming from another university?",
+                "What are the different ways to get to KNUST?",
+                "What are the driving directions to KNUST?",
+                "What is the most convenient way to get to KNUST?",
+                "Can you give me directions to KNUST?",
+                "How do I locate KNUST?",
+                "What public transportation options lead to KNUST?",
+                "What is the address of KNUST and how do I get there?",
+                "Can you provide driving directions to KNUST?",
+                "How do I drive to KNUST?",
+                "I'm planning to drive to KNUST. What route should I take?"
             ],
             "responses": [
                 "KNUST is located in Kumasi, the Garden City, in the Ashanti Region of Ghana. For persons within and around the Kumasi Metropolis, the first access point to Ghana's No.1 University is Tech. Junction, a major station just outside the main gate of the University. From any point in and around the metropolis, one can board any vehicle, be it private or commercial to Tech Junction. Outside Kumasi, one can get to KNUST by either driving to Kumasi or by boarding a Kumasi Bound bus and then locating Tech. Junction. From the Tech Junction, there are available options to enable you to reach your destination on campus."
@@ -23,7 +59,42 @@
                 "How do I navigate around KNUST campus?",
                 "What are the transportation options within KNUST campus?",
                 "Can you provide information on getting around KNUST campus?",
-                "How do I travel from one place to another within KNUST campus?"
+                "How do I travel from one place to another within KNUST campus?",
+                "What is the best way to get around KNUST campus?",
+                "Are there shuttle services within KNUST campus?",
+                "How do I find my way around KNUST?",
+                "What transport services are available on KNUST campus?",
+                "How do I get from one hall to another on KNUST campus?",
+                "Is there a map of KNUST campus for navigation?",
+                "What is the easiest way to move around KNUST campus?",
+                "How do I get to the academic areas from the halls of residence on KNUST campus?",
+                "Can you guide me on the transport options within KNUST campus?",
+                "What are the taxi services like on KNUST campus?",
+                "How can I commute between different parts of KNUST campus?",
+                "Are there designated routes for shuttles on KNUST campus?",
+                "How do students typically move around KNUST campus?",
+                "Is it easy to walk around KNUST campus?",
+                "What are the available means of transportation within KNUST?",
+                "How do I get to the commercial area from the halls on KNUST campus?",
+                "What are the options for getting to Tech Junction from KNUST campus?",
+                "Are there any transport schedules for shuttles on KNUST campus?",
+                "How frequently do shuttles run on KNUST campus?",
+                "Can you provide directions for getting around KNUST campus?",
+                "Is there a campus bus service at KNUST?",
+                "How do I get to the various lecture halls on KNUST campus?",
+                "What are the different ways to travel across KNUST campus?",
+                "Are there ride-sharing options on KNUST campus?",
+                "How can I find a taxi on KNUST campus?",
+                "What are the typical transport costs within KNUST campus?",
+                "How do I get from the halls to the library on KNUST campus?",
+                "What is the best mode of transport for getting around KNUST?",
+                "Are there any apps for navigating KNUST campus?",
+                "What is the transport system like within KNUST campus?",
+                "How do I travel to the various faculties on KNUST campus?",
+                "What are the pedestrian pathways like on KNUST campus?",
+                "Can you provide tips for getting around KNUST campus?",
+                "What is the best way to reach the campus facilities at KNUST?",
+                "How do I get to the sports complex from my hall on KNUST campus?"
             ],
             "responses": [
                 "Getting around campus is easy either by foot, taxi, or shuttle services. Taxis use designated routes that lead you to and fro various halls of residence on campus and to Tech. Junction. Shuttles lead to and fro various halls of residence on campus, academic areas, and also to the commercial area of KNUST. However, shuttles occasionally go to and fro Tech. Junction when more services to transport to the main campus are required."
@@ -38,25 +109,45 @@
                 "What are the transportation fare rates to KNUST?",
                 "Can you provide information on transportation fares to KNUST?",
                 "How much does it cost to get to KNUST from different locations?",
-                "What are the prices for transportation to KNUST?"
+                "What are the prices for transportation to KNUST?",
+                "How much is the fare to KNUST?",
+                "What are the transport costs to KNUST?",
+                "Can you tell me the fare rates to KNUST?",
+                "What is the price for traveling to KNUST?",
+                "How much does transportation to KNUST cost?",
+                "What are the bus fares to KNUST?",
+                "How much do taxis charge to get to KNUST?",
+                "What is the cost of a shuttle to KNUST?",
+                "What are the fare rates for traveling to KNUST?",
+                "How much will it cost me to reach KNUST?",
+                "Can you provide details on the cost of transportation to KNUST?",
+                "What are the charges for traveling to KNUST?",
+                "How much is a ticket to KNUST?",
+                "What is the fare for a trip to KNUST?",
+                "What are the transportation prices to KNUST?",
+                "How much does it cost to get to KNUST from Accra?",
+                "What is the price of a bus ticket to KNUST?",
+                "How much do I need to pay for transportation to KNUST?",
+                "What are the costs involved in traveling to KNUST?",
+                "Can you tell me the price of transport to KNUST?",
+                "How much is the travel fare to KNUST?",
+                "What is the cost of a taxi ride to KNUST?",
+                "How much does a shuttle to KNUST cost?",
+                "What are the travel expenses to KNUST?",
+                "How much do buses charge to get to KNUST?",
+                "What is the cost of getting to KNUST from Kumasi?",
+                "How much are the travel rates to KNUST?",
+                "What are the prices for different transport options to KNUST?",
+                "How much is the fare from Tech. Junction to KNUST?",
+                "What is the cost of public transport to KNUST?",
+                "What are the transportation fees to KNUST?",
+                "Can you give me an estimate of transportation costs to KNUST?",
+                "What is the charge for taking a bus to KNUST?",
+                "How much do shuttles charge to KNUST?",
+                "What are the fare details for getting to KNUST?"
             ],
             "responses": [
                 "Transport fares from various cities, towns, and villages differ based on the distance to Kumasi and the type of vehicle available. You may check fares at various stations to know how much it costs to get to Kumasi from your current location. From Tech. Junction to main campus, it costs a nominal fee to join a shuttle or commercially registered KNUST embossed taxi. However, transport fares for chartered vehicles may vary."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "Driving Directions to KNUST",
-            "patterns": [
-                "Can you provide driving directions to KNUST?",
-                "How do I drive to KNUST?",
-                "I'm planning to drive to KNUST. What route should I take?",
-                "What are the driving directions from [location] to KNUST?"
-            ],
-            "responses": [
-                "For those driving to KNUST, the university is located in Kumasi, the Garden City, in the Ashanti Region of Ghana. You can plan your route to Tech Junction, a major station just outside the main gate of the University. From Tech Junction, there are available options to enable you to reach your destination on campus."
             ],
             "context_set": ""
         },
@@ -81,24 +172,17 @@
                 "Tell me about the commercial area at KNUST.",
                 "What kind of healthcare services does KNUST offer?",
                 "What medical facilities are available at KNUST?",
-                "How does KNUST support student healthcare?"
+                "How does KNUST support student healthcare?",
+                "What can you tell me about the KNUST Library?",
+                "Can you provide information about the University Library at KNUST?",
+                "How old is the University Library at KNUST?",
+                "Do you have a library?",
+                "What services does the University Health Services provide?",
+                "Can you tell me about the University Hospital at KNUST?",
+                "Where is the University Hospital located?"
             ],
             "responses": [
-                "Here are the facilities available at KNUST: <ul><li><b><u>Accommodation</u></b></li><p>KNUST has six traditional halls of residence:</p><ul><li>University Hall</li><li>Unity Hall</li><li>Africa Hall</li><li>Queen Elizabeth II Hall</li><li>Independence Hall</li><li>Republic Hall</li></ul><p>Additionally, there are numerous private hostels on and around campus.</p><br><li><b><u>Academic Facilities</u></b></li><p>KNUST boasts a wide range of academic facilities:</p><ul><li>Lecture Halls: Modern and well-equipped for various courses.</li><li>Laboratories: State-of-the-art labs for disciplines such as engineering, science, and health.</li><li>Computer Labs: Accessible to students for research and coursework.</li><li>Libraries: Including the main KNUST Library and various college and departmental libraries.</li><li>Research Centers and Institutes: Examples include the Kumasi Center for Collaborative Research (KCCR) and the West African Science Service Center on Climate Change and Adapted Land Use (WASCAL).</li></ul><br><li><b><u>Sporting Facilities</u></b></li><p>KNUST offers a variety of sports amenities:</p><ul><li>Paa Joe Sports Stadium: Seats about 40,000 spectators and hosts numerous sports events.</li><li>Swimming Pool: For swimming and aquatic sports.</li></ul><br><li><b><u>Commercial Area</u></b></li><p>The KNUST Commercial Area serves as a hub for various services:</p><ul><li>Shops: Provide daily necessities and other goods.</li><li>Restaurants: Offer diverse dining options for students and staff.</li><li>Banks: Ensure financial services are easily accessible.</li><li>Other Businesses: Cater to a wide range of needs, from printing services to electronics.</li></ul><br><li><b><u>Healthcare</u></b></li><p>KNUST has comprehensive healthcare facilities:</p><ul><li>University Hospital: Provides extensive medical care for students, faculty, and staff.</li><li>Students' Clinic: Offer specialized services and general medical consultations.</li></ul></ul>"
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "Accommodation Options at KNUST",
-            "patterns": [
-                "What are the accommodation options available at KNUST?",
-                "Can you provide information about housing options at KNUST?",
-                "Where can I stay while studying at KNUST?"
-            ],
-            "responses": [
-                "There are Six Halls of residence and a number of hostels on the University Campus. They are Queen Elizabeth II Hall, Unity Hall, Independence Hall, Republic Hall, University Hall, and Africa Hall. All the Six Halls of residence are mixed (Male and Female). Of the five hostels, two are for postgraduate students, one for both undergraduate and graduate students and managed by the Ghana Universities Staff Superannuation Scheme (GUSSS)."
+                "Here are the facilities available at KNUST: <ul><li><b><u>Accommodation</u></b></li><p>KNUST has six traditional halls of residence:</p><ul><li>University Hall</li><li>Unity Hall</li><li>Africa Hall</li><li>Queen Elizabeth II Hall</li><li>Independence Hall</li><li>Republic Hall</li></ul><p>Additionally, there are numerous private hostels on and around campus.</p><li> Providence Hostel </li><li> Westend Hostel </li><li>Wagyingo Hostel </li><li> Hydes Hostel </li><li> Amen Hostel (Main, Annex, Inn) </li><li> Canam Hostel </li><li> Canam Hall </li><li> Franco Hostel (Main & Annex) </li><li> Franco Hostel New </li><li> Frontline Apartment </li><li>Frontline Inn  </li><li> Frontline Court </li><li> Amanda Hostel </li><li> Long Island Hostel </li><br><li><b><u>Academic Facilities</u></b></li><p>KNUST boasts a wide range of academic facilities:</p><ul><li>Lecture Halls: Modern and well-equipped for various courses.</li><li>Laboratories: State-of-the-art labs for disciplines such as engineering, science, and health.</li><li>Computer Labs: Accessible to students for research and coursework.</li><li>Libraries: Including the main KNUST Library and various college and departmental libraries.</li><li>Research Centers and Institutes: Examples include the Kumasi Center for Collaborative Research (KCCR) and the West African Science Service Center on Climate Change and Adapted Land Use (WASCAL).</li></ul><br><li><b><u>Sporting Facilities</u></b></li><p>KNUST offers a variety of sports amenities:</p><ul><li>Paa Joe Sports Stadium: Seats about 40,000 spectators and hosts numerous sports events.</li><li>Swimming Pool: For swimming and aquatic sports.</li></ul><br><li><b><u>Commercial Area</u></b></li><p>The KNUST Commercial Area serves as a hub for various services:</p><ul><li>Shops: Provide daily necessities and other goods.</li><li>Restaurants: Offer diverse dining options for students and staff.</li><li>Banks: Ensure financial services are easily accessible.</li><li>Other Businesses: Cater to a wide range of needs, from printing services to electronics.</li></ul><br><li><b><u>Healthcare</u></b></li><p>KNUST has comprehensive healthcare facilities:</p><ul><li>University Hospital: Provides extensive medical care for students, faculty, and staff.</li><li>Students' Clinic: Offer specialized services and general medical consultations.</li></ul></ul>"
             ],
             "context_set": ""
         },
@@ -113,22 +197,6 @@
             ],
             "responses": [
                 "As part of the measures to improve the security of our Students, particularly International Students and to ensure the provision of an enabling residential facility and environment for their studies and stay, it is the policy of the University that all International Students are to be accommodated on Campus in University's Halls of Residence, GUSSS, Hall Seven, and SRC Hostels Facilities. It is therefore an offence for any International Student to lodge outside the designated places."
-            ],
-            "context_set": ""
-        },
-
-        
-        {
-            "tag": "private_hostel_accommodation",
-            "patterns": [
-                "Where can I find private hostel accommodation near KNUST?",
-                "What are the options for private accommodation in Kumasi?",
-                "Can you provide information about off-campus housing near KNUST?",
-                "what are some of the hostels off campus",
-                "what are some of the hostels outside campus"
-            ],
-            "responses": [
-                "There is a wide range of private hostel accommodation for students of KNUST to consider in Kumasi. These range from hostels with shared kitchen and bathroom facilities to flats, those with the study bedrooms having their own private bathrooms and small kitchenettes. Some of the hostels even have air conditioners and internet connectivity in the study bedrooms. All of them are self-catering. Kumasi is a fantastic city to live in, and living in your own accommodation away from the University will afford you the best opportunity to experience the vibrant and diverse nature of the city. However, private hostel accommodation is not easy to find and costs are considerably high in Kumasi."
             ],
             "context_set": ""
         },
@@ -149,25 +217,48 @@
 
 
         {
-            "tag": "academic_calendar_fees_schedule",
-            "patterns": [
-                "Where can I find the latest academic schedules and updates?",
-                "What should freshmen and continuing students do regarding payments and registrations?",
-                "Can you provide information about the academic calendar and fees schedule?"
-            ],
-            "responses": [
-                "All freshmen and continuing students are requested to visit the Academic Calendar page for the latest schedules and updates. Also visit the Fees Schedule page for fees updates."
-            ],
-            "context_set": ""
-        },
-
-
-        {
             "tag": "provisional_admission_offer",
             "patterns": [
                 "How can successful applicants obtain their Provisional Offer of Admission letter?",
                 "What is the process for printing the Provisional Offer of Admission letter?",
-                "Can you provide information about obtaining the Provisional Offer of Admission?"
+                "Can you provide information about obtaining the Provisional Offer of Admission?",
+                "How do I get my Provisional Offer of Admission letter?",
+                "What steps do I need to take to print the Provisional Offer of Admission letter?",
+                "Where can I print my Provisional Offer of Admission letter?",
+                "What is required to obtain the Provisional Offer of Admission letter?",
+                "Can you guide me on how to print the Provisional Offer of Admission letter?",
+                "How can I access my Provisional Offer of Admission letter online?",
+                "What do I need to do to get my Provisional Offer of Admission letter?",
+                "How do successful applicants get their Provisional Offer of Admission letter?",
+                "Where can I find the Provisional Offer of Admission letter?",
+                "What is the procedure for getting the Provisional Offer of Admission letter?",
+                "Can you explain how to obtain the Provisional Offer of Admission letter?",
+                "How do I print the Provisional Offer of Admission letter from the portal?",
+                "What are the instructions for printing the Provisional Offer of Admission letter?",
+                "Where do I go to print my Provisional Offer of Admission letter?",
+                "What is the online process for getting the Provisional Offer of Admission letter?",
+                "Can you tell me how to get my Provisional Offer of Admission letter?",
+                "What are the steps to obtain the Provisional Offer of Admission letter?",
+                "How can I download my Provisional Offer of Admission letter?",
+                "Where can successful applicants get their Provisional Offer of Admission letter?",
+                "What is the method for printing the Provisional Offer of Admission letter?",
+                "Can you provide steps for obtaining the Provisional Offer of Admission letter?",
+                "How do I print out my Provisional Offer of Admission letter?",
+                "What is needed to get the Provisional Offer of Admission letter?",
+                "Where do I access the Provisional Offer of Admission letter?",
+                "How can I receive my Provisional Offer of Admission letter?",
+                "What is the online method to obtain the Provisional Offer of Admission letter?",
+                "How do applicants get their Provisional Offer of Admission letter?",
+                "What steps should I follow to print the Provisional Offer of Admission letter?",
+                "Where is the Provisional Offer of Admission letter available?",
+                "Can you explain the process of printing the Provisional Offer of Admission letter?",
+                "How do I access the Provisional Offer of Admission letter on the website?",
+                "What are the instructions to get the Provisional Offer of Admission letter?",
+                "Where can I download my Provisional Offer of Admission letter?",
+                "How do I find the Provisional Offer of Admission letter online?",
+                "What do I need to do to print the Provisional Offer of Admission letter?",
+                "Where do successful applicants obtain their Provisional Offer of Admission letter?",
+                "How can I get my Provisional Offer of Admission letter printed?"
             ],
             "responses": [
                 "Successful applicants are to Print Provisional Offer of Admission letter online."
@@ -181,7 +272,44 @@
             "patterns": [
                 "What should successful applicants do after printing the Provisional Offer of Admission?",
                 "How can applicants submit their Acceptance letter?",
-                "Can you provide information about submitting the Acceptance letter?"
+                "Can you provide information about submitting the Acceptance letter?",
+                "What are the next steps after printing the Provisional Offer of Admission?",
+                "How do I submit my Acceptance letter?",
+                "Where should the Acceptance letter be sent?",
+                "What is the process for submitting the Acceptance letter?",
+                "Can you guide me on how to submit the Acceptance letter?",
+                "How do I fill and send the Acceptance letter?",
+                "Where do I send my completed Acceptance letter?",
+                "What should be done after printing the Acceptance letter?",
+                "How do successful applicants submit their Acceptance letter?",
+                "What are the instructions for submitting the Acceptance letter?",
+                "Where should I mail the Acceptance letter?",
+                "How do I send the Acceptance letter to KNUST?",
+                "What are the steps for submitting the Acceptance letter?",
+                "Where is the Acceptance letter sent?",
+                "How can I send my Acceptance letter to the university?",
+                "What needs to be done with the Acceptance letter after printing?",
+                "What is the mailing address for submitting the Acceptance letter?",
+                "How do I complete and send my Acceptance letter?",
+                "What is the submission process for the Acceptance letter?",
+                "Where do I submit my Acceptance letter after filling it out?",
+                "How can I send the Acceptance letter to KNUST?",
+                "What should be done with the Acceptance letter once printed?",
+                "Where should the filled Acceptance letter be sent?",
+                "How do I send my Acceptance letter to the Deputy Registrar?",
+                "What is the address for sending the Acceptance letter?",
+                "How do I mail my Acceptance letter to KNUST?",
+                "What are the guidelines for submitting the Acceptance letter?",
+                "Where should I send the Acceptance letter after filling it out?",
+                "How do I send my Acceptance letter to Academic Affairs?",
+                "What is the process to send the Acceptance letter to KNUST?",
+                "How do I submit my Acceptance letter after printing it?",
+                "What are the detailed steps for sending the Acceptance letter?",
+                "Where should successful applicants send their Acceptance letter?",
+                "What is the official address for submitting the Acceptance letter?",
+                "How do I complete and submit the Acceptance letter to KNUST?",
+                "What should I do with my Acceptance letter after printing it?",
+                "Where do I mail my completed Acceptance letter?"
             ],
             "responses": [
                 "Download and print Acceptance letter to be filled and sent to the Deputy Registrar (Academic Affairs), Kwame Nkrumah University of Science & Technology, Private Mail Bag, Kumasi, Ghana."
@@ -195,7 +323,44 @@
             "patterns": [
                 "What documents do international students need to submit?",
                 "How can international students submit their original certificates?",
-                "Can you provide information about document submission for international students?"
+                "Can you provide information about document submission for international students?",
+                "What certificates are required for international students?",
+                "How do international students submit their documents?",
+                "Where do international students submit their original certificates?",
+                "What is the process for international students to submit their certificates?",
+                "Can you guide international students on submitting their original certificates?",
+                "How do international students send their original certificates?",
+                "What are the steps for international students to submit their documents?",
+                "Where should international students submit their original certificates?",
+                "What documents must international students provide?",
+                "How do international students submit their WAEC scratch cards?",
+                "What is required from international students for document submission?",
+                "How can international students provide their original certificates?",
+                "What is the submission procedure for international students' documents?",
+                "Where should international students go to submit their certificates?",
+                "What are the document submission requirements for international students?",
+                "How do international students present their original certificates?",
+                "What is the process for international students to submit their original documents?",
+                "Where do international students need to submit their certificates?",
+                "What documents do international students need for submission?",
+                "How do international students submit their certificates to KNUST?",
+                "What are the guidelines for international students to submit their documents?",
+                "Where do international students submit their WAEC scratch cards?",
+                "How should international students submit their original certificates?",
+                "What is the procedure for international students to provide their certificates?",
+                "How can international students deliver their original certificates?",
+                "What original certificates do international students need to submit?",
+                "How do international students submit their certificates and scratch cards?",
+                "What do international students need to submit for their admission?",
+                "Where should international students submit their original documents?",
+                "How can international students send their certificates to KNUST?",
+                "What is required from international students for certificate submission?",
+                "How do international students provide their documents to KNUST?",
+                "What documents do international students need to submit for admission?",
+                "Where should international students take their original certificates?",
+                "What is the document submission process for international students?",
+                "How do international students submit their original certificates and scratch cards?",
+                "Where should international students go to submit their documents?"
             ],
             "responses": [
                 "International students are to submit original certificates as well as scratch card from WAEC to Room 109 at the Main Administration Block."
@@ -205,11 +370,49 @@
 
 
         {
-            "tag": "payment_afuf",
+            "tag": "payment_academic_facility_user_fee",
             "patterns": [
                 "How can students pay the Academic Facility User Fees?",
                 "Where should students pay the AFUF?",
-                "Can you provide information about paying the AFUF?"
+                "Can you provide information about paying the AFUF?",
+                "What is the process for paying the Academic Facility User Fees?",
+                "How do students pay the AFUF?",
+                "Where do I pay the Academic Facility User Fees?",
+                "What are the steps to pay the AFUF?",
+                "How can I pay the Academic Facility User Fees?",
+                "Where should I go to pay the AFUF?",
+                "What is required to pay the Academic Facility User Fees?",
+                "How do I pay the AFUF at KNUST?",
+                "What is the method for paying the Academic Facility User Fees?",
+                "Can you guide me on how to pay the AFUF?",
+                "How do I pay the Academic Facility User Fees at the bank?",
+                "Where do I need to pay the AFUF?",
+                "How can I pay the AFUF to KNUST?",
+                "What is the procedure for paying the Academic Facility User Fees?",
+                "Where should I pay the AFUF for KNUST?",
+                "What are the payment options for the Academic Facility User Fees?",
+                "How do I make the payment for the AFUF?",
+                "Where can I pay the Academic Facility User Fees?",
+                "What do I need to do to pay the AFUF?",
+                "How do I submit my payment for the Academic Facility User Fees?",
+                "Where is the payment made for the AFUF?",
+                "How can I complete the payment for the Academic Facility User Fees?",
+                "What are the instructions for paying the AFUF?",
+                "How do students make payments for the Academic Facility User Fees?",
+                "Where do I deposit the AFUF payment?",
+                "How can I process the payment for the Academic Facility User Fees?",
+                "What are the steps to complete the AFUF payment?",
+                "Where should I deposit the payment for the Academic Facility User Fees?",
+                "How do I make a payment for the AFUF?",
+                "Where can students pay the Academic Facility User Fees?",
+                "What is the bank account for paying the AFUF?",
+                "How do I pay the Academic Facility User Fees to KNUST?",
+                "Where is the payment location for the AFUF?",
+                "What is the payment process for the Academic Facility User Fees?",
+                "How do I handle the payment for the AFUF?",
+                "Where do I need to deposit the Academic Facility User Fees?",
+                "How do I make a bank payment for the AFUF?",
+                "What are the details for paying the Academic Facility User Fees?"
             ],
             "responses": [
                 "Students are to pay Academic Facility User Fees (AFUF) into KNUST Fees Collection ACCOUNT at any branch of Ghana Commercial Bank Ltd, Standard Chartered Bank Ltd, Ecobank Ghana Ltd, HFC Bank, CAL Bank, UBA, Ghana Post Company Limited."
@@ -219,11 +422,49 @@
 
 
         {
-            "tag": "payment_rfuf",
+            "tag": "payment_residential_facility_user_fee",
             "patterns": [
                 "How can students pay the Residential Facility User Fees?",
                 "Where should students pay the RFUF?",
-                "Can you provide information about paying the RFUF?"
+                "Can you provide information about paying the RFUF?",
+                "What is the process for paying the Residential Facility User Fees?",
+                "How do students pay the RFUF?",
+                "Where do I pay the Residential Facility User Fees?",
+                "What are the steps to pay the RFUF?",
+                "How can I pay the Residential Facility User Fees?",
+                "Where should I go to pay the RFUF?",
+                "What is required to pay the Residential Facility User Fees?",
+                "How do I pay the RFUF at KNUST?",
+                "What is the method for paying the Residential Facility User Fees?",
+                "Can you guide me on how to pay the RFUF?",
+                "How do I pay the Residential Facility User Fees at the bank?",
+                "Where do I need to pay the RFUF?",
+                "How can I pay the RFUF to KNUST?",
+                "What is the procedure for paying the Residential Facility User Fees?",
+                "Where should I pay the RFUF for KNUST?",
+                "What are the payment options for the Residential Facility User Fees?",
+                "How do I make the payment for the RFUF?",
+                "Where can I pay the Residential Facility User Fees?",
+                "What do I need to do to pay the RFUF?",
+                "How do I submit my payment for the Residential Facility User Fees?",
+                "Where is the payment made for the RFUF?",
+                "How can I complete the payment for the Residential Facility User Fees?",
+                "What are the instructions for paying the RFUF?",
+                "How do students make payments for the Residential Facility User Fees?",
+                "Where do I deposit the RFUF payment?",
+                "How can I process the payment for the Residential Facility User Fees?",
+                "What are the steps to complete the RFUF payment?",
+                "Where should I deposit the payment for the Residential Facility User Fees?",
+                "How do I make a payment for the RFUF?",
+                "Where can students pay the Residential Facility User Fees?",
+                "What is the bank account for paying the RFUF?",
+                "How do I pay the Residential Facility User Fees to KNUST?",
+                "Where is the payment location for the RFUF?",
+                "What is the payment process for the Residential Facility User Fees?",
+                "How do I handle the payment for the RFUF?",
+                "Where do I need to deposit the Residential Facility User Fees?",
+                "How do I make a bank payment for the RFUF?",
+                "What are the details for paying the Residential Facility User Fees?"
             ],
             "responses": [
                 "Students are to pay Residential Facility User Fees (RFUF) of Halls they have been affiliated to at any Ghana Commercial Bank branch and obtain a receipt."
@@ -237,7 +478,44 @@
             "patterns": [
                 "How can international students book accommodation?",
                 "Where should international students book accommodation?",
-                "Can you provide information about booking accommodation for international students?"
+                "Can you provide information about booking accommodation for international students?",
+                "What is the process for international students to book accommodation?",
+                "How do international students book their accommodation?",
+                "Where do international students book their accommodation?",
+                "What steps should international students take to book accommodation?",
+                "How can international students arrange their accommodation?",
+                "Where should international students go to book accommodation?",
+                "What are the instructions for booking accommodation for international students?",
+                "How do international students secure accommodation?",
+                "What should international students do to book accommodation?",
+                "How can international students reserve their accommodation?",
+                "Where can international students book accommodation?",
+                "How do international students get accommodation?",
+                "What is required for international students to book accommodation?",
+                "What should international students know about booking accommodation?",
+                "How do international students find accommodation at KNUST?",
+                "Where should international students stay at KNUST?",
+                "How can international students get a room at KNUST?",
+                "What is the accommodation booking process for international students?",
+                "How can international students apply for accommodation?",
+                "What is the procedure for international students to book accommodation?",
+                "Where can international students find accommodation options?",
+                "How should international students proceed to book accommodation?",
+                "How do international students contact the accommodation office?",
+                "Where do international students go to secure accommodation?",
+                "What are the guidelines for international students to book accommodation?",
+                "How do international students make accommodation arrangements?",
+                "How do international students confirm their accommodation?",
+                "What is the method for international students to book a room?",
+                "How do international students handle accommodation booking?",
+                "Where can international students inquire about accommodation?",
+                "How do international students arrange for a place to stay?",
+                "What is the process for securing accommodation for international students?",
+                "Where do international students need to book their accommodation?",
+                "How can international students ensure they have accommodation?",
+                "What are the steps for international students to arrange accommodation?",
+                "How do international students reserve their rooms?",
+                "What should international students do to secure a place to stay?"
             ],
             "responses": [
                 "International students assigned to GUSSS HOSTEL as Resident Students are to book for accommodation at least 72 hours before arrival. Students should contact the GUSSS Hostel secretariat via email: <a target=\"_blank\" href=\"mailto:gusss@knust.edu.gh\">gusss@knust.edu.gh</a> for further enquiries."
@@ -251,7 +529,45 @@
             "patterns": [
                 "How can students pay College/Association dues?",
                 "Where should students pay the College/Association dues?",
-                "Can you provide information about paying College/Association dues?"
+                "Can you provide information about paying College/Association dues?",
+                "What is the process for paying College/Association dues?",
+                "How do students pay their College/Association dues?",
+                "Where do I pay the College/Association dues?",
+                "What are the steps to pay College/Association dues?",
+                "How can I pay the College/Association dues?",
+                "Where should I go to pay the College/Association dues?",
+                "What is required to pay College/Association dues?",
+                "How do I pay the College/Association dues at KNUST?",
+                "What is the method for paying College/Association dues?",
+                "Can you guide me on how to pay College/Association dues?",
+                "How do I pay the College/Association dues at the bank?",
+                "Where do I need to pay the College/Association dues?",
+                "How can I pay the College/Association dues to KNUST?",
+                "What is the procedure for paying College/Association dues?",
+                "Where should I pay the College/Association dues for KNUST?",
+                "What are the payment options for College/Association dues?",
+                "How do I make the payment for College/Association dues?",
+                "Where can I pay the College/Association dues?",
+                "What do I need to do to pay College/Association dues?",
+                "How do I submit my payment for College/Association dues?",
+                "Where is the payment made for College/Association dues?",
+                "How can I complete the payment for College/Association dues?",
+                "What are the instructions for paying College/Association dues?",
+                "How do students make payments for College/Association dues?",
+                "Where do I deposit the College/Association dues payment?",
+                "How can I process the payment for College/Association dues?",
+                "What are the steps to complete the College/Association dues payment?",
+                "Where should I deposit the payment for College/Association dues?",
+                "How do I make a payment for College/Association dues?",
+                "Where can students pay the College/Association dues?",
+                "What is the bank account for paying College/Association dues?",
+                "How do I pay the College/Association dues to KNUST?",
+                "Where is the payment location for College/Association dues?",
+                "What is the payment process for College/Association dues?",
+                "How do I handle the payment for College/Association dues?",
+                "Where do I need to deposit the College/Association dues?",
+                "How do I make a bank payment for College/Association dues?",
+                "What are the details for paying College/Association dues?"
             ],
             "responses": [
                 "College/Association dues are to be paid separately at any branch of Ghana Commercial bank or HFC."
@@ -265,38 +581,53 @@
             "patterns": [
                 "What does the University offer during freshmen orientation?",
                 "Can you provide information about freshmen orientation?",
-                "What happens during the orientation for freshmen?"
-            ],
-            "responses": [
-                "The University offers Orientation for freshmen after the admissions processes to inform freshmen about the university community. The Dean of Student’s Office makes two separate presentations at the fresher’s orientation. The first one is on the General services provided to students and the second presentation is on the Guidance and Counselling services available to the students at the Dean of Students Office."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "orientation_areas_covered",
-            "patterns": [
+                "What happens during the orientation for freshmen?",
+                "What activities are included in the freshmen orientation?",
+                "How is the freshmen orientation conducted?",
+                "What should freshmen expect during the orientation?",
+                "What information is provided during the freshmen orientation?",
+                "What does the freshmen orientation cover?",
+                "How long does the freshmen orientation last?",
+                "What are the key highlights of the freshmen orientation?",
+                "Who conducts the freshmen orientation?",
+                "What is the purpose of the freshmen orientation?",
+                "How can freshmen participate in the orientation?",
+                "What topics are discussed during the freshmen orientation?",
+                "What services are introduced during the freshmen orientation?",
+                "What does the Dean of Student's Office present during the orientation?",
+                "How important is it to attend the freshmen orientation?",
+                "What kind of support is offered during the freshmen orientation?",
+                "What can freshmen learn from the orientation?",
+                "How does the university help freshmen during the orientation?",
+                "What is the schedule for the freshmen orientation?",
+                "How is the orientation for freshmen organized?",
+                "What resources are available to freshmen during the orientation?",
+                "What are the goals of the freshmen orientation?",
+                "What kind of sessions are included in the freshmen orientation?",
+                "Who should attend the freshmen orientation?",
+                "What guidance is provided during the freshmen orientation?",
+                "What facilities are introduced during the freshmen orientation?",
+                "What do freshmen need to know about the orientation?",
+                "How does the orientation benefit freshmen?",
+                "What is the role of the Dean of Student's Office in the orientation?",
+                "How can freshmen prepare for the orientation?",
+                "What should freshmen bring to the orientation?",
+                "What is the format of the freshmen orientation?",
+                "What support services are highlighted during the orientation?",
+                "What advice is given during the freshmen orientation?",
+                "What can freshmen expect from the orientation sessions?",
+                "What kind of information is shared during the orientation?",
+                "How does the university assist new students during the orientation?",
+                "What are the main points covered in the freshmen orientation?",
                 "What are some of the areas covered during freshmen orientation?",
                 "Can you list the topics discussed during the orientation?",
-                "What topics are included in the orientation sessions?"
-            ],
-            "responses": [
-                "Some of the areas talked about during the University orientation include The University Chaplaincy, The University Library and Its Resources, The University Hospital and Its Resources, Student Affairs, Security on Campus, University Rules and Regulations vis-a-vis the Laws of Ghana, Fire Prevention on Campus, etc."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "orientation_organizers",
-            "patterns": [
+                "What topics are included in the orientation sessions?",
                 "Who organizes the freshmen orientation?",
                 "Which department is responsible for the orientation sessions?",
                 "Can you provide information about the organizers of the orientation?"
             ],
             "responses": [
-                "Orientations, which have been decentralized, are organized by the colleges of the university."
+                "The University offers Orientation for freshmen after the admissions processes to inform freshmen about the university community. The Dean of Student's Office makes two separate presentations at the fresher's orientation. The first one is on the General services provided to students and the second presentation is on the Guidance and Counselling services available to the students at the Dean of Students Office. Some of the areas talked about during the University orientation include The University Chaplaincy, The University Library and Its Resources, The University Hospital and Its Resources, Student Affairs, Security on Campus, University Rules and Regulations vis-a-vis the Laws of Ghana, Fire Prevention on Campus, etc. Orientations, which have been decentralized, are organized by the colleges of the university."
             ],
             "context_set": ""
         },
@@ -307,24 +638,47 @@
             "patterns": [
                 "What is the purpose of the medical examination for Freshers' at KNUST?",
                 "Can you provide information about the medical examination for Freshers' at KNUST?",
-                "What do Freshers' need to know about the medical examination at KNUST?"
-            ],
-            "responses": [
-                "The University Health Service of the Kwame Nkrumah University of Science and Technology WELCOMES all First Year Students (Freshers’) intending to pursue academic studies in this great university. The University Health Service, in accordance with regulations on admissions of students for academic studies, will be conducting medical examinations for Freshers’ in order to determine their medical fitness to pursue their respective academic programmes."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "medical_examination_period_location",
-            "patterns": [
+                "What do Freshers' need to know about the medical examination at KNUST?",
                 "When and where will the medical examinations take place?",
                 "Can you provide details about the period and location of the medical examinations?",
-                "Where can Freshers' go for their medical examinations and during what time?"
+                "Where can Freshers' go for their medical examinations and during what time?",
+                "How is the medical examination for Freshers' conducted at KNUST?",
+                "What should Freshers' expect during the medical examination at KNUST?",
+                "Why is the medical examination important for Freshers' at KNUST?",
+                "What documents do Freshers' need for the medical examination at KNUST?",
+                "How long does the medical examination for Freshers' take at KNUST?",
+                "What is the process for the medical examination for Freshers' at KNUST?",
+                "Who conducts the medical examination for Freshers' at KNUST?",
+                "What medical tests are performed during the examination for Freshers' at KNUST?",
+                "What should Freshers' bring to their medical examination at KNUST?",
+                "How can Freshers' prepare for the medical examination at KNUST?",
+                "What happens if a Fresher' has a medical condition during the examination at KNUST?",
+                "Where are the medical examination locations for Freshers' at KNUST?",
+                "What is the schedule for the medical examination for Freshers' at KNUST?",
+                "What do Freshers' need to know about the health screening at KNUST?",
+                "How are the results of the medical examination communicated to Freshers' at KNUST?",
+                "What is the procedure if a Fresher' fails the medical examination at KNUST?",
+                "Can you explain the importance of the medical examination for Freshers' at KNUST?",
+                "What health services are available to Freshers' at KNUST?",
+                "What are the next steps after the medical examination for Freshers' at KNUST?",
+                "What should Freshers' do if they miss their medical examination at KNUST?",
+                "What is checked during the medical examination for Freshers' at KNUST?",
+                "What health issues are considered during the medical examination for Freshers' at KNUST?",
+                "How do Freshers' schedule their medical examination at KNUST?",
+                "What are the guidelines for the medical examination for Freshers' at KNUST?",
+                "Where can Freshers' find more information about their medical examination at KNUST?",
+                "What support is available for Freshers' with medical conditions at KNUST?",
+                "How does the medical examination impact a Fresher's admission at KNUST?",
+                "What health advice is given during the medical examination for Freshers' at KNUST?",
+                "Are there any costs associated with the medical examination for Freshers' at KNUST?",
+                "What should Freshers' wear to their medical examination at KNUST?",
+                "What are the contact details for the health services conducting the medical examination at KNUST?",
+                "How do Freshers' receive their medical examination results at KNUST?",
+                "What is the follow-up process after the medical examination for Freshers' at KNUST?",
+                "How important is the medical examination for Freshers' academic success at KNUST?"
             ],
             "responses": [
-                "The medical examinations will be done at the Students’ Clinic (located on campus, opposite the Chancellor’s Hall and the main hospital, KNUST Hospital(located on campus, opposite the Ghana Commercial Bank at Tech Junction)). The purpose of the medical examination is to identify diseases that can affect your academic work and guide the medical staff to offer assistance to enable you pursue your studies."
+                "The University Health Service of the Kwame Nkrumah University of Science and Technology WELCOMES all First Year Students (Freshers') intending to pursue academic studies in this great university. The University Health Service, in accordance with regulations on admissions of students for academic studies, will be conducting medical examinations for Freshers' in order to determine their medical fitness to pursue their respective academic programmes. The medical examinations will be done at the Students' Clinic (located on campus, opposite the Chancellor's Hall and the main hospital, KNUST Hospital(located on campus, opposite the Ghana Commercial Bank at Tech Junction)). The purpose of the medical examination is to identify diseases that can affect your academic work and guide the medical staff to offer assistance to enable you pursue your studies."
             ],
             "context_set": ""
         },
@@ -333,10 +687,48 @@
         {
             "tag": "procedure_medical_examination",
             "patterns": [
-                "What is the procedure for the medical examination?",
-                "Can you explain how Freshers' should go about the medical examination process?",
-                "How should Freshers' proceed with the medical examination?"
-            ],
+                    "What is the procedure for the medical examination?",
+                    "Can you explain how Freshers' should go about the medical examination process?",
+                    "How should Freshers' proceed with the medical examination?",
+                    "What steps do Freshers' need to follow for the medical examination?",
+                    "Can you outline the procedure for the medical examination?",
+                    "What is the step-by-step process for the medical examination?",
+                    "How do Freshers' complete the medical examination process?",
+                    "What are the detailed steps for the medical examination?",
+                    "What should Freshers' do first for the medical examination?",
+                    "What comes next after completing the online medical examination form?",
+                    "How do Freshers' access the medical examination web page?",
+                    "What information is needed for the online medical examination form?",
+                    "How do Freshers' log on to the University Health Service medical examination web page?",
+                    "What should Freshers' remember when completing the medical examination questionnaire?",
+                    "Where do Freshers' go after completing the online medical examination form?",
+                    "What is the role of the Students' Clinic in the medical examination process?",
+                    "What is the importance of the declaration button on the medical examination form?",
+                    "How do Freshers' report to the Students' Clinic for the medical examination?",
+                    "What should Freshers' bring to the Students' Clinic for the medical examination?",
+                    "How do Freshers' know they have completed the medical examination process?",
+                    "Can you provide a checklist for the medical examination procedure?",
+                    "What should Freshers' do if they encounter issues with the medical examination web page?",
+                    "What are the common mistakes to avoid during the medical examination process?",
+                    "How do Freshers' verify their medical examination form submission?",
+                    "What happens after Freshers' submit the online medical examination form?",
+                    "How can Freshers' ensure they follow the correct procedure for the medical examination?",
+                    "What are the key points to remember during the medical examination process?",
+                    "How can Freshers' confirm their medical examination appointment?",
+                    "What should Freshers' expect at the Students' Clinic during the medical examination?",
+                    "What are the main steps in the medical examination procedure?",
+                    "What should Freshers' do if they miss their medical examination appointment?",
+                    "How can Freshers' get help with the medical examination process?",
+                    "What should Freshers' do if they make a mistake on the medical examination form?",
+                    "How important is the online medical examination form for Freshers'?",
+                    "What guidance is available for Freshers' during the medical examination process?",
+                    "How can Freshers' prepare for their visit to the Students' Clinic?",
+                    "What should Freshers' do after completing the medical examination at the clinic?",
+                    "Can you provide an overview of the medical examination procedure?",
+                    "What should Freshers' know about the medical examination process?",
+                    "How do Freshers' complete the declaration part of the medical examination form?",
+                    "What support is available for Freshers' during the medical examination?"
+                ],
             "responses": [
                 " <ol> <li>LOG ONTO the University Health Service MEDICAL EXAMINATION WEB PAGE with your USER NAME and PASSWORD </li> <li>Complete the ON-LINE MEDICAL EXAMINATION FORM (QUESTIONNAIRE). Remember to click the DECLARATION button on completion of questionnaire </li> <li> Report to the STUDENTS' CLINIC for the medical examination </li> </ol>"
             ],
@@ -349,7 +741,44 @@
             "patterns": [
                 "What will be included in the medical examination?",
                 "Can you describe the content of the medical examination?",
-                "What tests will be conducted during the medical examination?"
+                "What tests will be conducted during the medical examination?",
+                "What does the medical examination involve?",
+                "What are the components of the medical examination?",
+                "What will be checked during the medical examination?",
+                "What procedures are part of the medical examination?",
+                "What health parameters will be measured during the medical examination?",
+                "What medical checks are included in the examination?",
+                "What kind of tests are done during the medical examination?",
+                "What specific tests are part of the medical examination?",
+                "What health assessments are made during the medical examination?",
+                "What are the key elements of the medical examination?",
+                "What medical evaluations are performed during the examination?",
+                "What physical checks are included in the medical examination?",
+                "What tests and screenings are part of the medical examination?",
+                "What health indicators are assessed during the medical examination?",
+                "What diagnostic procedures are included in the medical examination?",
+                "What kind of screenings are done during the medical examination?",
+                "What health checks are involved in the medical examination?",
+                "Can you provide details on the tests conducted during the medical examination?",
+                "What are the main tests in the medical examination?",
+                "What health screenings are performed during the medical examination?",
+                "What tests will Freshers' undergo during the medical examination?",
+                "What health measurements are taken during the medical examination?",
+                "What specific health checks are done in the medical examination?",
+                "What will be examined during the medical examination?",
+                "What assessments are included in the medical examination?",
+                "What kind of physical examination is done during the medical examination?",
+                "What medical tests are Freshers' required to undergo?",
+                "What health metrics are evaluated during the medical examination?",
+                "What kind of physical checks are part of the medical examination?",
+                "What health examinations are included in the medical examination?",
+                "What procedures will be done during the medical examination?",
+                "What tests will the medical examination cover?",
+                "What health assessments are included in the medical examination?",
+                "What health tests are performed during the medical examination?",
+                "What will the doctor check during the medical examination?",
+                "What kind of physical assessments are part of the medical examination?",
+                "What medical tests will be conducted during the examination?"
             ],
             "responses": [
                 "During the examination your weight, height, blood pressure, temperature will be checked, a chest x-ray taken and a blood test for sickle cell gene done. No test for HIV will be done. A thorough physical examination will be done, by a medical doctor of the University Health Service, who will then discuss with you the outcome of the examination. Please feel free to ask the doctor any questions that you need answers to."
@@ -361,40 +790,29 @@
         {
             "tag": "matriculation_event",
             "patterns": [
-                "What is matriculation at KNUST?",
-                "Can you explain the process of matriculation at KNUST?",
-                "What does matriculation entail at KNUST?"
+                "What is the purpose of matriculation at KNUST?",
+                "How does the matriculation ceremony work at KNUST?",
+                "When does matriculation take place at KNUST?",
+                "Is matriculation mandatory for all freshmen at KNUST?",
+                "What should I wear for the matriculation ceremony at KNUST?",
+                "Where is the matriculation ceremony held at KNUST?",
+                "Who presides over the matriculation ceremony at KNUST?",
+                "What are the steps involved in matriculation at KNUST?",
+                "Do I need to register for matriculation at KNUST?",
+                "What documents are required for matriculation at KNUST?",
+                "Can I bring guests to the matriculation ceremony at KNUST?",
+                "How long does the matriculation ceremony last at KNUST?",
+                "What should I expect during the matriculation ceremony at KNUST?",
+                "Are there any fees associated with matriculation at KNUST?",
+                "What if I miss the matriculation ceremony at KNUST?",
+                "What activities are part of the matriculation ceremony at KNUST?",
+                "Do I need to complete medical screening before matriculation at KNUST?",
+                "How important is the matriculation ceremony at KNUST?",
+                "What are the benefits of matriculation at KNUST?",
+                "Can I defer my matriculation at KNUST?"
             ],
             "responses": [
-                "Matriculation is the event where a freshman is officially inducted as a student of KNUST. A freshman must fulfill all the requirements and obligations the school sets for him/her to be matriculated. Notable obligations and requirements include compulsory Orientation, Registration, and Medical Screening."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "matriculation_requirements",
-            "patterns": [
-                "What are the requirements for matriculation at KNUST?",
-                "Can you list the obligations for matriculation at KNUST?",
-                "What must a freshman do to be matriculated at KNUST?"
-            ],
-            "responses": [
-                "To be matriculated at KNUST, a freshman must fulfill all the requirements and obligations set by the school. Notable obligations and requirements include compulsory Orientation, Registration, and Medical Screening."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "matriculation_failure",
-            "patterns": [
-                "What happens if a student fails to be matriculated?",
-                "Can you explain the consequences of not being matriculated?",
-                "What happens if a freshman is not matriculated at KNUST?"
-            ],
-            "responses": [
-                "Any student who fails to be matriculated without any valid reason will not be accepted as a student of KNUST."
+                "Matriculation is the event where a freshman is officially inducted as a student of KNUST. A freshman must fulfill all the requirements and obligations the school sets for him/her to be matriculated. Notable obligations and requirements include compulsory Orientation, Registration, and Medical Screening. To be matriculated at KNUST, a freshman must fulfill all the requirements and obligations set by the school. Notable obligations and requirements include compulsory Orientation, Registration, and Medical Screening. Any student who fails to be matriculated without any valid reason will not be accepted as a student of KNUST."
             ],
             "context_set": ""
         },
@@ -403,55 +821,29 @@
         {
             "tag": "student_name_policy",
             "patterns": [
-                "What is the policy regarding student names at KNUST?",
-                "Can you explain the rules for student names at KNUST?",
-                "How does KNUST handle student names?"
+                "What is the official name policy for students at KNUST?",
+                "How does KNUST manage student names on records?",
+                "Can a student request a name change at KNUST?",
+                "What steps are needed for a name change at KNUST?",
+                "What should a female student do to change her name after marriage at KNUST?",
+                "Are name changes allowed at KNUST?",
+                "What documents are needed for a name change after marriage at KNUST?",
+                "Does KNUST allow name changes due to marriage?",
+                "What is the process for updating names at KNUST?",
+                "Can international students change their names at KNUST?",
+                "What happens if my name is misspelled at KNUST?",
+                "Can students update their names after registration at KNUST?",
+                "Is it possible to change the order of my names at KNUST?",
+                "What should I do if I need to change my name for legal reasons at KNUST?",
+                "How does KNUST handle name discrepancies?",
+                "Can I use a preferred name at KNUST?",
+                "What are the consequences of using a different name at KNUST?",
+                "Are there any forms required for name changes at KNUST?",
+                "Does KNUST recognize nicknames or aliases?",
+                "Can I hyphenate my last name at KNUST?"
             ],
             "responses": [
-                "For the purpose of the University, students are known only by the names used in completing their application for admission and are known by those names only in the sequence in which they are written."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "marriage_name_change",
-            "patterns": [
-                "What happens if a female student gets married?",
-                "Can you explain the process for name change after marriage for female students?",
-                "How does marriage affect a female student's name at KNUST?"
-            ],
-            "responses": [
-                "When a female student contracts marriage, she may apply to have her name changed to include the surname acquired by the marriage. The application shall be supported by a marriage certificate or requisite documentary evidence."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "name_change_restrictions",
-            "patterns": [
-                "Can students change their names at KNUST?",
-                "What is the policy on changing names for students at KNUST?",
-                "Are there any restrictions on name changes for students at KNUST?"
-            ],
-            "responses": [
-                "The University shall not entertain change of names of any form. Once a student has been registered with a name, he/she goes through his/her programme with that name."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "campus_living",
-            "patterns": [
-                "What are the facilities like",
-                "What are the accommodation options at KNUST?",
-                "Can you tell me about living on campus at KNUST?",
-                "What are the residential facilities like at KNUST?"
-            ],
-            "responses": [
-                "Living on campus connects you to the full range of opportunities that KNUST has to offer. KNUST boasts of six traditional halls of residence: University, Unity, Africa, Queen Elizabeth II, Independence, and Republic Halls, all of which are mixed-sex halls. Additionally, there are private hostels available around the campus and in Kumasi for students who could not be admitted as resident students due to limited facilities."
+                "For the purpose of the University, students are known only by the names used in completing their application for admission and are known by those names only in the sequence in which they are written. The University shall not entertain change of names of any form. Once a student has been registered with a name, he/she goes through his/her programme with that name. When a female student contracts marriage, she may apply to have her name changed to include the surname acquired by the marriage. The application shall be supported by a marriage certificate or requisite documentary evidence."
             ],
             "context_set": ""
         },
@@ -491,7 +883,44 @@
             "patterns": [
                 "Are there business centers on campus?",
                 "What services do the business centers at KNUST offer?",
-                "Can you tell me about the commercial area at KNUST?"
+                "Can you tell me about the commercial area at KNUST?",
+                "What kind of businesses are on campus?",
+                "Where can I find business centers at KNUST?",
+                "What facilities are available in the commercial area at KNUST?",
+                "Are there any banks on campus?",
+                "What types of shops are available in the commercial area?",
+                "Can I find a post office at KNUST?",
+                "What printing services are available on campus?",
+                "Are there mini-marts on campus?",
+                "What kind of bookshop does KNUST have?",
+                "Where can I find a shuttle station at KNUST?",
+                "Is there a taxi station on campus?",
+                "What commercial services are offered at KNUST?",
+                "Where are the main business hubs on campus?",
+                "Can I get photocopying services at KNUST?",
+                "Are there financial services available on campus?",
+                "Where can I buy books at KNUST?",
+                "What kind of retail services are available in the commercial area?",
+                "Are there convenience stores on campus?",
+                "What kind of banking facilities are available at KNUST?",
+                "Where is the commercial area located at KNUST?",
+                "What business amenities are available to students at KNUST?",
+                "Can I find any grocery stores on campus?",
+                "What transportation services are available in the commercial area?",
+                "Are there any supermarkets at KNUST?",
+                "What kind of business facilities are available at KNUST?",
+                "Are there any courier services on campus?",
+                "Where can I get documents printed at KNUST?",
+                "What kind of commercial shops are available on campus?",
+                "Are there any ATMs in the commercial area at KNUST?",
+                "What kind of essential services are available in the commercial area?",
+                "Can I find stationery shops at KNUST?",
+                "Are there any mobile phone shops on campus?",
+                "What kind of business infrastructure is available at KNUST?",
+                "Can I get my documents laminated at KNUST?",
+                "What are the primary commercial facilities at KNUST?",
+                "Are there any electronics shops in the commercial area?",
+                "What business centers are closest to the academic buildings at KNUST?"
             ],
             "responses": [
                 "KNUST houses numerous business centers, particularly in the commercial area, which is the main business hub of the university. The commercial area features banks, a post office, a well-resourced bookshop, mini-marts, printing and photocopy shops, as well as a shuttle and taxi station."
@@ -505,7 +934,44 @@
             "patterns": [
                 "What ICT facilities are available at KNUST?",
                 "Can you tell me about the ICT infrastructure at KNUST?",
-                "Where can I find ICT centers at KNUST?"
+                "Where can I find ICT centers at KNUST?",
+                "What kind of internet services are available on campus?",
+                "Are there Wi-Fi installations in the halls at KNUST?",
+                "How can I access internet on campus?",
+                "What are the internet hotspots at KNUST?",
+                "Where is the Tech Hub located at KNUST?",
+                "What facilities are available in the Tech Hub?",
+                "Can you tell me about the Vodafone Internet Cafe at KNUST?",
+                "Are there any computer labs on campus?",
+                "What kind of ICT support is available for students?",
+                "Where can I get high-speed internet on campus?",
+                "Are there any dedicated study areas with internet access?",
+                "What kind of IT services are provided at KNUST?",
+                "How do students access Wi-Fi in the halls?",
+                "Are there any specialized software resources available at KNUST?",
+                "What digital resources are available for students?",
+                "Where can I find information about ICT facilities at KNUST?",
+                "Are there any printing and scanning services available at ICT centers?",
+                "How do I connect to the campus Wi-Fi?",
+                "What kind of ICT training is available for students?",
+                "Can I access online libraries through the campus network?",
+                "Where are the main ICT centers located?",
+                "What IT facilities are provided for research purposes?",
+                "How reliable is the internet service at KNUST?",
+                "What are the working hours of the ICT centers?",
+                "Are there any charges for using ICT facilities?",
+                "How do I get technical support for ICT issues?",
+                "Are there any workshops or seminars on ICT at KNUST?",
+                "What are the facilities in the ICT laboratories?",
+                "How do I get access to the Tech Hub?",
+                "Are there any restrictions on internet usage on campus?",
+                "Can I use my personal laptop in the ICT centers?",
+                "What kind of IT infrastructure is available at KNUST?",
+                "Are there any virtual classrooms or e-learning platforms?",
+                "What facilities are available for online learning?",
+                "Are there any cybersecurity measures in place?",
+                "How do I report an issue with the internet service?",
+                "What kind of IT support is available for faculty?"
             ],
             "responses": [
                 "KNUST boasts a network of ICT facilities and installations across campus and its neighboring suburbs. All six halls on campus have Wi-Fi installations for easy internet access. Additionally, there are ICT centers, internet hotspots, and Tech Hub facilities, including a fast-speed Vodafone Internet Cafe, to aid students in their academic work."
@@ -519,24 +985,48 @@
             "patterns": [
                 "How are students represented at KNUST?",
                 "Can you tell me about student associations at KNUST?",
-                "What student representative bodies exist at KNUST?"
+                "What student representative bodies exist at KNUST?",
+                "Who represents the student body at KNUST?",
+                "What is the role of the Students' Representative Council (SRC) at KNUST?",
+                "How can students get involved in student governance at KNUST?",
+                "Are there any departmental associations at KNUST?",
+                "What are the college associations at KNUST?",
+                "How do faculty associations work at KNUST?",
+                "Can you explain the structure of student representation at KNUST?",
+                "What is the purpose of student associations at KNUST?",
+                "How does the SRC advocate for students at KNUST?",
+                "Who can join the Students' Representative Council at KNUST?",
+                "What activities do student associations organize at KNUST?",
+                "How do student associations contribute to university life at KNUST?",
+                "Are there any benefits to joining student associations at KNUST?",
+                "What are the responsibilities of the SRC at KNUST?",
+                "How are student representatives elected at KNUST?",
+                "What initiatives does the SRC undertake at KNUST?",
+                "Can students propose changes through their representatives at KNUST?",
+                "What is the hierarchy of student representation at KNUST?",
+                "How does the SRC communicate with the university administration?",
+                "What are some recent achievements of the SRC at KNUST?",
+                "How can students voice their concerns at KNUST?",
+                "What support does the SRC offer to students at KNUST?",
+                "Are there any clubs or societies affiliated with the SRC at KNUST?",
+                "How does the SRC ensure student interests are represented?",
+                "What is the process for forming a new student association at KNUST?",
+                "Are there any international student associations at KNUST?",
+                "How can students participate in SRC elections at KNUST?",
+                "What events does the SRC organize for students?",
+                "How do department associations support students academically?",
+                "What resources do student associations provide at KNUST?",
+                "How can I contact my student representative at KNUST?",
+                "Are there any leadership opportunities within the SRC at KNUST?",
+                "What is the history of the SRC at KNUST?",
+                "How does the SRC handle student grievances?",
+                "What committees exist within the SRC at KNUST?",
+                "How often do student representatives meet with university officials?",
+                "What are the goals of the SRC for the upcoming academic year?",
+                "Can postgraduate students join the SRC at KNUST?"
             ],
             "responses": [
                 "KNUST students are officially represented at each level of association. The Students' Representative Council (SRC) represents the whole student body, while students also belong to college, faculty, or department associations. This democratic institution ensures that the voices of major stakeholders are expressed and considered together to enhance university administration."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "clubs_and_societies",
-            "patterns": [
-                "What clubs and societies are available at KNUST?",
-                "Can you tell me about student organizations at KNUST?",
-                "Where can I find information about clubs and societies at KNUST?"
-            ],
-            "responses": [
-                "There are numerous clubs and societies on campus, ranging from Old School associations to common interest groups. With over 100 student groups and organizations on campus, students are encouraged to start new clubs to fit their interests, resulting in a continually expanding number of student groups. All student groups are governed and managed by students, providing a diverse range of activities and interests for the KNUST community."
             ],
             "context_set": ""
         },
@@ -547,7 +1037,44 @@
             "patterns": [
                 "What social activities are available for students at KNUST?",
                 "Can you tell me about student social life at KNUST?",
-                "How does KNUST support students' social activities?"
+                "How does KNUST support students' social activities?",
+                "What clubs and societies can I join at KNUST?",
+                "Are there any student events organized at KNUST?",
+                "How can I get involved in extracurricular activities at KNUST?",
+                "What are some popular student hangout spots on campus?",
+                "Does KNUST have any cultural or arts events?",
+                "Are there sports teams or recreational activities at KNUST?",
+                "What is the role of the Junior Common Room Committees at KNUST?",
+                "How does the SRC coordinate social activities at KNUST?",
+                "What kind of social events do the Faculty societies organize?",
+                "Are there any music or dance clubs at KNUST?",
+                "How can I participate in student organizations at KNUST?",
+                "What opportunities are there for networking at KNUST?",
+                "Does KNUST have any festivals or annual events?",
+                "Are there any student-run media or publications at KNUST?",
+                "How can I start a new club or society at KNUST?",
+                "What is student life like outside of academics at KNUST?",
+                "Are there volunteer opportunities for students at KNUST?",
+                "What kind of recreational facilities are available on campus?",
+                "Are there any weekend activities for students at KNUST?",
+                "How can I find out about upcoming events at KNUST?",
+                "What are the benefits of joining student organizations at KNUST?",
+                "How does KNUST promote a balanced student life?",
+                "Are there any international student groups at KNUST?",
+                "What kind of support does KNUST provide for student initiatives?",
+                "Can you tell me about the social scene in the KNUST area?",
+                "How active is the student community at KNUST?",
+                "What kind of leisure activities are available for students at KNUST?",
+                "Are there any mentorship programs at KNUST?",
+                "What social opportunities are there for postgraduate students?",
+                "How can I get involved in the student government at KNUST?",
+                "Are there any student exchange programs at KNUST?",
+                "How do the Junior Common Room Committees enhance student life?",
+                "Are there any debate or public speaking clubs at KNUST?",
+                "What are the most popular student organizations at KNUST?",
+                "How can I balance my social life and academics at KNUST?",
+                "What kind of health and wellness activities are available?",
+                "How can I join the SRC or JCRC at KNUST?"
             ],
             "responses": [
                 "KNUST recognizes the importance of social activities alongside academics. Outside the classroom, students can engage in a variety of activities to enhance their campus experience. The Junior Common Room Committees organize students' social life on campus and serve as liaisons between the student body and Hall authorities. The Students' Representative Council (SRC) coordinates activities across various Junior Common Room Committees. Additionally, Faculty societies offer extracurricular activities for junior members of specific Faculties, ensuring that students have ample opportunities for social engagement and enjoyment."
@@ -559,42 +1086,30 @@
         {
             "tag": "dean_of_students",
             "patterns": [
-                "What is the role of the Dean of Students at KNUST?",
-                "Can you tell me about the Office of the Dean of Students at KNUST?",
-                "Who is responsible for the welfare and discipline of students at KNUST?"
+                "What services does the Dean of Students provide?",
+                "How can I contact the Dean of Students at KNUST?",
+                "Where is the Dean of Students office located on campus?",
+                "What kind of support does the Dean of Students offer?",
+                "Who handles student complaints at KNUST?",
+                "What is the role of the Dean of Students in student discipline?",
+                "How can I get in touch with the Dean of Students office?",
+                "What programs does the Dean of Students organize?",
+                "Who do I talk to about student welfare issues?",
+                "Can the Dean of Students help with academic problems?",
+                "What does the Dean of Students office do?",
+                "How does the Dean of Students support student leadership?",
+                "What is the purpose of the Dean of Students office?",
+                "Who oversees student housing at KNUST?",
+                "What kind of guidance does the Dean of Students provide?",
+                "How does the Dean of Students office assist international students?",
+                "What are the responsibilities of the Dean of Students?",
+                "How can the Dean of Students help with personal issues?",
+                "What role does the Dean of Students play in student affairs?",
+                "Who is responsible for student support services at KNUST?"
             ],
             "responses": [
                 "The Dean of Students at KNUST is responsible for the welfare and discipline of all students, acting in loco parentis. Since its establishment in 1998, the Office of the Dean of Students has provided essential welfare support services to students, fostering both academic and personal success. The office, located in the Commercial Area of campus, aims to assist students in becoming responsible members of the university community through purposeful programs.",
                 "The Office of the Dean of Students at KNUST was formally established in 1997 to provide necessary welfare support services for students during their period of study. Over the years, the office has fulfilled its mission by assisting students in understanding university operations at both social and academic levels, understanding regulations and procedures, and getting their needs met. It has also provided opportunities for students to develop and enhance their leadership skills, involve them in decision-making processes, support advocacy for students, and provide conflict resolution techniques. The office is organized into sections to provide support to the student body of the university community, including Administration, Student Guidance and Counselling, International Student Affairs, Student Representative Council Affairs, Students Housing and Residence Life, Student Conduct and Discipline, Student Support Services, and Financial Services."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "library",
-            "patterns": [
-                "What can you tell me about the KNUST Library?",
-                "Can you provide information about the University Library at KNUST?",
-                "How old is the University Library at KNUST?",
-                "Do you have a library?"
-            ],
-            "responses": [
-                "The KNUST Library has been an integral part of the university since its inception. Established in 1952 with 4,000 volumes from the Teacher Training Department of Achimota College, it has grown significantly over the years. Currently located near the Great Hall, the library boasts a stock of about 214,692 volumes and a journal holding of over 3,850 titles, with a seating capacity of 1,420."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "university_health_services",
-            "patterns": [
-                "What services does the University Health Services provide?",
-                "Can you tell me about the University Hospital at KNUST?",
-                "Where is the University Hospital located?"
-            ],
-            "responses": [
-                "The University Health Services at KNUST oversees the University Hospital, a 24-Hour General Hospital located in the North-eastern part of the campus, along the Kumasi-Accra Highway. The hospital consists of 100 beds and cots, an Out-Patient Department (OPD), four wards, an operation theatre, laboratory, X-Ray, maternity, maternal and child health units, dispensary, medical records unit, dental clinic, and eye clinic."
             ],
             "context_set": ""
         },
@@ -617,40 +1132,29 @@
         {
             "tag": "security_service",
             "patterns": [
-                "Can you provide information about the security service at KNUST?",
-                "What role does the security service play at KNUST?",
-                "How does KNUST ensure campus safety?"
+                "What security measures are in place at KNUST?",
+                "How can I stay safe at KNUST?",
+                "What does the KNUST Security Service do?",
+                "Is there a security office at KNUST?",
+                "Who is responsible for campus security at KNUST?",
+                "How can students report a security issue at KNUST?",
+                "What safety resources are available for students at KNUST?",
+                "What should I do if I feel unsafe on campus?",
+                "How does KNUST handle security threats?",
+                "Are there emergency phones on the KNUST campus?",
+                "What are the emergency procedures at KNUST?",
+                "How can I contact campus security in case of an emergency?",
+                "What are some common safety tips for KNUST students?",
+                "What should I do if I lose my key on campus?",
+                "How can I get help from KNUST Security Service?",
+                "What are the hours of operation for the security office at KNUST?",
+                "How can I find the security office at KNUST?",
+                "What services does the KNUST Security Service offer?",
+                "Can you explain the role of security personnel at KNUST?",
+                "How can I ensure my personal belongings are safe on campus?"
             ],
             "responses": [
-                "KNUST has its own private security service, with personnel stationed at various vantage points across campus day and night to ensure the safety of all members of the University community. The mission of the KNUST Security Service is to maintain a safe and secure campus by providing quality policing. To ensure maximum safety, the University community also has a role to play."
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "security_tips",
-            "patterns": [
-                "What are some security tips for students on campus?",
-                "Can you provide safety advice for students at KNUST?",
-                "How can students ensure their safety on campus?"
-            ],
-            "responses": [
-                "Here are some security tips for students at KNUST: <ul> <li>Remember to lock your door whenever you are leaving your room. </li> <li>Change promptly the lock in your door when your key is missing and report the incident </li> <li>Lock your door when asleep</li> <li>Record the registration number of every commercial vehicle you board during your rounds</li> <li>Never board a taxi with all-male occupants already in. Beware also of taxis with a female passenger and two or more male occupants. </li> <li>As much as possible, patronize the campus shuttle vehicles</li> <li>Always walk in pairs, or in groups and at well-lit areas </li> <li>Avoid using isolated footpaths and shortcuts </li> <li>Avoid the services of errand boys; they may monitor your movements and rob you later or give information to their accomplices </li> <li>Do not entertain hawkers in the Halls; they may be criminals </li> <li>Beware of the type of friends you entertain in your rooms; they may be predators and criminals </li> <li>Beware of travel agents on campus; some are fraudsters </li> <li>Report every unusual occurrence promptly to the security office for immediate assistance. </li> </ul>"
-            ],
-            "context_set": ""
-        },
-
-
-        {
-            "tag": "security_contacts",
-            "patterns": [
-                "What are the important telephone numbers for KNUST Security Service in Kumasi?",
-                "Can you provide the hotline and office numbers for KNUST Security Service?",
-                "How can students contact the KNUST Security Service?"
-            ],
-            "responses": [
-                "Here are the important telephone numbers for KNUST Security Service in Kumasi: <ul> <li>KNUST Security (Hotline): 03220-62999 </li> <li>Police Buffalo: 03220-33545 </li> <li>KNUST Security (Office): 03220-60229 </li> <li>Police Information: 03220-22323 </li> <li>KNUST Police Station: 03220-60051 </li> </ul>"
+                "KNUST has its own private security service, with personnel stationed at various vantage points across campus day and night to ensure the safety of all members of the University community. The mission of the KNUST Security Service is to maintain a safe and secure campus by providing quality policing. To ensure maximum safety, the University community also has a role to play. Here are some security tips for students at KNUST: <ul> <li>Remember to lock your door whenever you are leaving your room. </li> <li>Change promptly the lock in your door when your key is missing and report the incident </li> <li>Lock your door when asleep</li> <li>Record the registration number of every commercial vehicle you board during your rounds</li> <li>Never board a taxi with all-male occupants already in. Beware also of taxis with a female passenger and two or more male occupants. </li> <li>As much as possible, patronize the campus shuttle vehicles</li> <li>Always walk in pairs, or in groups and at well-lit areas </li> <li>Avoid using isolated footpaths and shortcuts </li> <li>Avoid the services of errand boys; they may monitor your movements and rob you later or give information to their accomplices </li> <li>Do not entertain hawkers in the Halls; they may be criminals </li> <li>Beware of the type of friends you entertain in your rooms; they may be predators and criminals </li> <li>Beware of travel agents on campus; some are fraudsters </li> <li>Report every unusual occurrence promptly to the security office for immediate assistance. </li> </ul>Here are the important telephone numbers for KNUST Security Service in Kumasi: <ul> <li>KNUST Security (Hotline): 03220-62999 </li> <li>Police Buffalo: 03220-33545 </li> <li>KNUST Security (Office): 03220-60229 </li> <li>Police Information: 03220-22323 </li> <li>KNUST Police Station: 03220-60051 </li> </ul>"
             ],
             "context_set": ""
         }

@@ -1,6 +1,61 @@
 {
     "intents": [
         {
+            "tag": "cutoff_point",
+            "patterns": [
+                "what is the cutoff point for it",
+                "what is the minimum grade can i come with for",
+                "Which programme can I apply for with aggregate 15?",
+                "Courses I can pursue with a cut off of 11",
+                "Courses I can pursue with a cut off of 12",
+                "Cut off points of all undergraduate programmes in KNUST",
+                "What programmes accept an aggregate of 18?",
+                "Can I apply for any programme with a cutoff of 14?",
+                "What courses are available for a cutoff point of 10?",
+                "What is the cutoff point for engineering programmes?",
+                "What are the minimum cutoff points for science courses?",
+                "Can I get admission with an aggregate of 16?",
+                "Which programmes accept an aggregate of 12?",
+                "What is the required cutoff point for business courses?",
+                "What is the lowest cutoff point for admission?",
+                "What are the cutoff points for arts programmes?",
+                "What programmes can I get into with an aggregate of 13?",
+                "What courses have a cutoff of 15?",
+                "Can I pursue a course with an aggregate of 17?",
+                "What is the cutoff point for medical programmes?",
+                "What are the aggregate requirements for law courses?",
+                "Can I apply for a course with a cutoff point of 19?",
+                "What programmes are available for a cutoff of 20?",
+                "What is the cutoff point for architecture courses?",
+                "What are the cutoff points for social science programmes?",
+                "Can I get into any programme with an aggregate of 9?",
+                "What courses accept an aggregate of 21?",
+                "What is the required cutoff point for computer science?",
+                "What programmes can I pursue with an aggregate of 22?",
+                "What are the minimum cutoff points for engineering courses?",
+                "Can I apply for a course with an aggregate of 11?",
+                "What courses are available for an aggregate of 14?",
+                "What is the cutoff point for pharmacy programmes?",
+                "What are the cutoff points for nursing courses?",
+                "Can I pursue a programme with an aggregate of 16?",
+                "What courses have a cutoff of 18?",
+                "What is the required cutoff point for economics programmes?",
+                "What are the aggregate requirements for education courses?",
+                "What programmes can I get into with an aggregate of 10?",
+                "Can I apply for any programme with a cutoff of 13?",
+                "What is the lowest cutoff point for science courses?",
+                "What are the cutoff points for business programmes?",
+                "What programmes accept an aggregate of 17?",
+                "what is the minimum aggregate i need to study a programme at this college"
+            ],
+            "responses": [
+                "Cutoff points are according to programmes, kindly state the programme you would like to know its cutoff point or aggregate"
+            ],
+            "context_set": ""
+        },
+
+
+        {
             "tag": "agriculture_and_natural_resources_cut_off_aggregate",
             "patterns": [
                 "What are the cut-off aggregates for agriculture and natural resources programmes?",
@@ -79,6 +134,7 @@
             "patterns": [
                 "What are the cut-off aggregates for engineering programmes?",
                 "Can you provide the cut-off aggregates for engineering programmes?",
+                "what are the cut off points in college of engineering",
                 "Cut-off aggregates for engineering programmes?",
                 "What were the cut-off aggregates for engineering programmes in the previous year?",
                 "Previous year's cut-off aggregates for engineering programmes?",

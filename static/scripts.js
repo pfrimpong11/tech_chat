@@ -119,13 +119,17 @@ document.addEventListener("DOMContentLoaded", function() {
         var fileInput = document.getElementById("file");
         var file = fileInput.files[0];
 
+        const errorMessage = document.getElementById('error-message');
+        errorMessage.textContent = ''; // Clear any previous error message
+    
+
         if (firstName.trim() === "" || lastName.trim() === "" || email.trim() === "" || feedbackText.trim() === "") {
-            alert("Please fill in all fields.");
+            errorMessage.innerText = 'Please fill in all fields'; 
             return;
         }
 
         if (!validateEmail(email)) {
-            alert("Please enter a valid email address.");
+            errorMessage.innerText = 'Please enter a valid email'; 
             return;
         }
 
