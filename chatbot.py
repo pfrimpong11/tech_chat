@@ -52,7 +52,7 @@ intent_files = [
     'intents/sciences_requirement.json', 'intents/humanities_social_sciences_requirement.json',
     'intents/health_science_requirement.json', 'intents/engineering_requirement.json',
     'intents/art_and_built_requirement.json', 'intents/agric_and_natural_resource_requirement.json',
-    'intents/freshers_guide.json'
+    'intents/freshers_guide.json', 'intents/shs_programmes.json'
 ]
 
 all_intents = {'intents': []}
@@ -132,7 +132,8 @@ while True:
     
     response = get_response(intents, all_intents)
     # markup_response = markdown.markdown(response) #removing html tags from response
-    final_response = generate_gem_response(message, response)
-    print("Bot:", final_response)
+    # final_response = generate_gem_response(message, response)
+    # print("Bot:", final_response)
+    print("Bot:", response)
     
     log_interaction(message, intents, response)

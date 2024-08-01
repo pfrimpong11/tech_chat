@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNUST Admissions Portal</title>
+    <link rel="stylesheet" href="/static/knustPortal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/static/techchat_logo_dark.png"/>
+    <script src="https://kit.fontawesome.com/6c1f0d67e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header-name-container">
+            <img src="/static/knust_logo.png" alt="KNUST Logo">
+            <div class="header-name">
+                <h2>KWAME NKRUMAH UNIVERSITY OF SCIENCE AND TECHNOLOGY</h2>
+                <p>ADMISSIONS PORTAL</p>
+            </div>    
+        </div>
+        <nav>
+            <a href="#">Home |</a>
+            <a href="#">KNUST Website |</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <div class="login-box">
+                <h3><i class="fa fa-user"></i> Applicant Login</h3>
+                <p>Login with your credentials below</p>
+                <form >
+                    <div class="input-group">
+                        <input type="text" name="loginID" placeholder="Login ID / Serial #" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" name="pin" placeholder="Pin" required>
+                    </div>
+                    <button type="submit">Log in</button>
+                    <p class="lost-pin"><a href="#">Lost your Pin?</a></p>
+                </form>
+            </div>
+        </main>
+        <div class="footer">
+            <p>Do you have urgent questions to ask? Contact us through the following:</p>
+            <div class="contacts">
+                <div class="contact-left">
+                    <div class="contact-left-content">
+                        <h4>Undergraduate Admissions:</h4>
+                        <p> +233 24 013 0946</p>
+                        <p> +233 50 048 2807</p>
+                    </div>
+                    <div class="contact-left-content">
+                        <h4>Institute of Distance Learning:</h4>
+                        <p> +233 54 020 6262</p>
+                        <p> +233 50 048 2885</p>
+                        <p> +233 24 727 4661</p>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-right-content">
+                        <h4>Graduate School:</h4>
+                        <p> +233 20 133 2812</p>
+                        <p> +233 20 133 2816</p>
+                    </div>
+                    <div class="contact-right-content">
+                        <h4>Admissions Helpdesk:</h4>
+                        <p> Whatsapp: +233 24 013 0946</p>
+                        <p> Telegram: +233 50 048 2807</p>
+                    </div>
+                </div>
+            </div>
+            <p>Recommended Browsers: Mozilla FireFox and Google Chrome</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h2>Undergraduate-Ghanaian</h2>
+                <p>General Information for Applicants</p>
+                <p>Undergraduate Programmes</p>
+                <p>Cut Off Points</p>
+            </div>
+            <div class="footer-content">
+                <h2>Postgraduate-Ghanaian</h2>
+                <p>General Information for Applicants</p>
+                <p>Information for Masters Programmes</p>
+                <p>Information for PhD Programmes</p>
+                <p>Postgraduate Programmes</p>
+            </div>
+            <div class="footer-content">
+                <h2>Distance Learning</h2>
+                <p>General Information for Applicants</p>
+            </div>
+            <div class="footer-content">
+                <h2>International Applicants</h2>
+                <p>General Information for Applicants</p>
+                <p>Undergraduate Programmes</p>
+                <p>Postgraduate Programmes</p>
+                <p>Accommodation for Applicants</p>
+            </div>
+        </div>
+        <p>© 2015 Kwame Nkrumah University of Science & Technology.</p>
+    </footer>
+
+
+    <!-- TechChat pop-up -->
+    <div class="chatbot-container">
+        <button class="chatbot-trigger" onclick="openChat()"><img src="/static/bot_avatar_light.png" class="trigger-logo" alt="logo"></button>
+        <div class="chatbot-popup" id="chatPopup">
+            <div class="chatbot-header">
+                <span><a href="http://localhost:5000/index.html"><img class="header-logo" src="/static/techchat_logo_light.png" alt="chatbot logo" class="chatbot_logo"></a></span>
+                <span class="bot-name">TechChat</span>
+                <button class="chatbot-close" onclick="closeChat()">✖</button>
+            </div>
+            <div class="chatbot-body">
+                <div class="chat-window">
+                    <div class="chat-container" id="chat-container"></div>
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="user-input" placeholder="Message TechChat">
+                    <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openChat() {
+            document.getElementById("chatPopup").style.display = "block";
+        }
+
+        function closeChat() {
+            document.getElementById("chatPopup").style.display = "none";
+        }
+    </script>
+    <script src="/static/scripts.js"></script>
+
+</body>
+</html>

@@ -1,87 +1,631 @@
-User: hey whatsup
+User: what are the courses i'll take in computer engineering?
 Predicted Intents:
-- greeting: 0.8666207
-Bot: Not much, you alright?  Thinking about KNUST too?
+- bsc_computer_engineering_requirements: 0.995464
+Bot: The courses offered in the Computer Engineering programme at KNUST are not listed here. This document only contains the entry requirements for the programme.
 
-User: i have a general arts backround, what can i do in knust?
+User: how does a student with special needs apply?
 Predicted Intents:
-- shs_general_arts: 0.94491416
-Bot: Law, Political Science, Sociology, Economics, Geography, History, English, Languages, Social Sciences, Business, and Art and Design.
+- social_life: 0.2763575
+Bot: The application process for students with special needs is the same as for other applicants. However, you are required to indicate your specific needs on the application form and provide relevant documentation.  After admission, you should contact the Dean of Students, who will connect you with the Resource Center for support services.
 
-User: i have aggregate 11 what programme can i read?
+User: what are the requirements
 Predicted Intents:
-- cutoff_point: 0.969454
-Bot: Please tell me the specific program you are interested in, and I can tell you its cutoff aggregate.
+- general_admission_requirement: 0.6373517
+Bot: <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>An applicant for admission to a degree programme in the University must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate <b>24 or better</b>. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university. </p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements. </p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study. </p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE. </p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>An applicant for admission to a degree programme in the Kwame Nkrumah University of Science and Technology, Kumasi must have a Final Grade Point of at least 3. 0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3. 25. Admissions will be to the Year 1. </p></li></ul><br><p><i><u>Other relevant information</u></i></p><ul><i><li><b>Ghanaian/Other Applicants with Foreign Results/Certificate:<br></b> The University shall request an evaluation of results/Certificate other than those mentioned above, (a) to (f), from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission. </li><li>Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate. </li><li>Documents not in English should be accompanied by accredited translations in English. </li><li><b>Transfer of Applicants:<br></b> Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs <a target='_blank' href='admissions@knust. edu. gh'>here</a> or the International Programmes Office <a target='_blank' href='ipo@knust. edu. gh'>here</a> to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary. </li></i></ul>
 
-User: cut off point for land scape
+User: how can i arrange my programmes when applying?
 Predicted Intents:
-- BSc Land Economy Cutoff Points: 0.3257302
-Bot: The cutoff point for BSc. Landscape Design Technology at KNUST is usually around aggregate 15. However, please verify this information on the KNUST website or by contacting the admissions office.
+- programme_arrangement: 0.9115263
+Bot: List your most preferred programme first, followed by the others in descending order of preference. Ensure to confirm the entry requirements and cut-off aggregate for each programme.
 
-User: what about land design?
+User: hello, i want an advice to apply to computer engineering with an aggregate of 10
 Predicted Intents:
-- bsc_landscape_design_management_requirements: 0.6602317
-Bot: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:<br></b> Credit passes in THREE Subject from the following options:<br> </p><ul><li><b>Science:<br></b> Chemistry, Physics or Mathematics or Crop Husbandry, Biology or General Agriculture.  </li><li><b>General Arts:<br></b>  Mathematics, Geography, Economics, Technical Drawing and General Knowledge in Art.  </li><li><b>Visual Art:<br></b> General Knowledge in Art, Graphic Design, Chemistry, Picture Making, Painting and Sculpture.  </li></ul><br><li><b><u>GCE APPLICANTS </u></b></li><p><b>'O' Level:<br></b>  Credit passes in FIVE (5) subjects or equivalent qualification including English Language, Mathematics, and any three from:<br> </p><ul><li>Physics, Chemistry, and Biology or Agricultural Science, or </li><li>General Science, Additional General Science, and Additional Mathematics, and any other relevant subject. </li></ul><p><b>'A' Level or equivalent:<br></b>  Credit passes in THREE (3) subjects or equivalent from  Chemistry, Physics or Mathematics, and Biology or Agricultural Science  </p><br><li><b><u>MATURE APPLICANTS</u></b></li><p>Applicants must have attained the age of 25 years at the time of submitting the Application Forms and must have a minimum of TWO (2) years post qualification experience. In addition, applicant must satisfy any of the following qualifications:<br> </p><ul><li><b>Diploma or Higher National Diploma Applicants:<br></b> Diploma or Higher National Diploma in Agriculture or Agriculture-related programme from a recognized institution. OR </li><li><b>GCE Applicants:<br></b> Five (5) credits at 'O' Level including English Language and Mathematics, Biology, Chemistry and Physics, or Additional Mathematics, and Additional General Science. </li><li><b>WASSCE/SSSCE Applicants:<br></b> Credits passes in THREE (3) Elective subjects in Biology, Chemistry, and Physics or Mathematics or General Agriculture or Crop Husbandry or and Horticulture. </li></ul><br><i>Short-listed applicants may take an Entrance Examination and pass an interview. </i></ul>
+- BSc Computer Engineering Cutoff Points: 0.99560803
+Bot: The cutoff points for BSc. Computer Engineering are typically around aggregate 09. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
 
-User: hey
+User: what of chemical engineering. i have 22. i need an advice
 Predicted Intents:
-- greeting: 0.87622
-Bot: Okay, I can do that.  I'll provide concise responses related to KNUST admissions,  without any preamble or commentary.
+- bsc_chemical_engineering_requirements: 0.97284186
+Bot: Here are the requirements for BSc. Chemical Engineering:<br> <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:<br></b> Credit passes in Physics, Mathematics and Chemistry. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:<br></b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:<br></b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Admission would be based on assessment of Academic Transcript. </li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1. 0) and (2. 0) respectively. </li></ul></ul>
+
+User:  what of chemical engineering. i have aggregate 22 and i want to apply, give me an advice on that
+Predicted Intents:
+- BSc Chemical Engineering Cutoff Points: 0.9667262
+Bot: The cutoff points for BSc. Chemical Engineering are typically around aggregate 10. Please check our website or contact the admissions office for the most up-to-date information, as cutoff points may vary each year.
+
+User: what is the deadline for submitting applications to knust?
+Predicted Intents:
+- Completing and Submitting the Application for KNUST: 0.7683978
+Bot: It is essential to fully and properly complete the application at the time of submission to avoid processing delays or rejection. Applicants must carefully review all sections of the application form and ensure that all required fields are filled accurately. Any incomplete or improperly filled application may not be processed or considered for admission.
+
+User: list of engineering courses i can do 
+Predicted Intents:
+- engineering_programmes: 0.27019095
+Bot: <br> BSc. Civil Engineering<br> BSc. Geological Engineering<br> BSc. Geomatic Engineering<br> BSc. Petroleum Engineering<br> BSc. Biomedical Engineering<br> BSc. Computer Engineering<br> BSc. Electrical/Electronic Engineering<br> BSc. Telecommunications Engineering<br> BSc. Agricultural Engineering<br> BSc. Petrochemical Engineering<br> BSc. Chemical Engineering<br> BSc. Metallurgical Engineering<br> BSc. Materials Engineering<br> BSc. Marine Engineering<br> BSc. Industrial Engineering<br> BSc. Automobile Engineering<br> BSc. Mechanical Engineering<br> BSc. Aerospace Engineering
+
+User: what documents are required for the application process?
+Predicted Intents:
+- document_check_list: 0.5971361
+Bot: <ul>  <b>For all Applicants</b>  <li>Examination Results</li>  <li>Birth Certificate</li>  <li>Ghana Card/Passport</li>  <li>Passport Photograph (Light green background) (470x470)px </li>  <li>Applicants from non-English speaking countries must provide a minimum of <b>one year English Proficiency Certificate. </b></li></ul>
+
+User: what documents are required for the application process?
+Predicted Intents:
+- document_check_list: 0.5971361
+Bot: - Examination Results - Birth Certificate - Ghana Card/Passport - Passport Photograph (Light green background) (470x470)px- One year English Proficiency Certificate (for applicants from non-English speaking countries)
+
+User: what are the general admission requirements for knust?
+Predicted Intents:
+- Available Colleges/Departments: 0.5903592
+Bot: You need to have credit passes (A1 - C6 in WASSCE or A - D in SSSCE) in Core English, Core Mathematics, Integrated Science, and Social Studies, and three elective subjects relevant to the  programme you want to study.
+
+User: list all the programmes you offer
+Predicted Intents:
+- Available Colleges/Departments: 0.4050598
+- programme: 0.29671973
+Bot: <ul><li> Bachelor of Science in Agricultural Technology Management </li><li> Bachelor of Science in Agricultural Biotechnology </li><li> Bachelor of Science in Agricultural Economics </li><li> Bachelor of Science in Animal Science </li><li> Bachelor of Science in Aquaculture and Fisheries Management </li><li> Bachelor of Science in Climate Change and Food Security </li><li> Bachelor of Science in Environmental Science </li><li> Bachelor of Science in Forestry Resources Technology </li><li> Bachelor of Science in Horticulture </li><li> Bachelor of Science in Land Use Planning and Management </li><li> Bachelor of Science in Natural Resources Management </li><li> Bachelor of Science in Post-Harvest Technology </li><li> Bachelor of Arts in Culture and Tourism </li><li> Bachelor of Arts in Integrated Rural Art and Industry </li><li> Bachelor of Fine Arts </li><li> Bachelor of Architecture </li><li> Bachelor of Science in Building Technology </li><li> Bachelor of Science in Construction Technology and Management </li><li> Bachelor of Science in Environmental Design </li><li> Bachelor of Science in Human Settlement Planning </li><li> Bachelor of Science in Industrial Art </li><li> Bachelor of Science in Landscape Design </li><li> Bachelor of Science in Materials Science and Engineering </li><li> Bachelor of Science in Real Estate </li><li> Bachelor of Science in Aerospace Engineering </li><li> Bachelor of Science in Agricultural Engineering </li><li> Bachelor of Science in Bioengineering </li><li> Bachelor of Science in Chemical Engineering </li><li> Bachelor of Science in Civil Engineering </li><li> Bachelor of Science in Computer Engineering </li><li> Bachelor of Science in Electrical/Electronic Engineering </li><li> Bachelor of Science in Geological Engineering </li><li> Bachelor of Science in Geomatic Engineering </li><li> Bachelor of Science in Industrial Engineering </li><li> Bachelor of Science in Materials Engineering </li><li> Bachelor of Science in Mechanical Engineering </li><li> Bachelor of Science in Metallurgical and Materials Engineering </li><li> Bachelor of Science in Mining Engineering </li><li> Bachelor of Science in Petroleum Engineering </li><li> Bachelor of Pharmacy </li><li> Bachelor of Science in Dental Surgery </li><li> Bachelor of Medicine and Bachelor of Surgery </li><li> Bachelor of Science in Medical Laboratory Technology </li><li> Bachelor of Science in Nursing </li><li> Bachelor of Science in Optometry </li><li> Bachelor of Science in Physiotherapy </li><li> Bachelor of Science in Sports and Exercise Science </li><li> Bachelor of Arts in Communication Design </li><li> Bachelor of Arts in English </li><li> Bachelor of Arts in French </li><li> Bachelor of Arts in Geography and Rural Development </li><li> Bachelor of Arts in History </li><li> Bachelor of Arts in Law </li><li> Bachelor of Arts in Linguistics </li><li> Bachelor of Arts in Religious Studies </li><li> Bachelor of Arts in Sociology </li><li> Bachelor of Arts in Akan/English </li><li> Bachelor of Arts in English/French </li><li> Bachelor of Arts in English/Spanish </li><li> Bachelor of Arts in French/Spanish </li><li> Bachelor of Science in Actuarial Science </li><li> Bachelor of Science in Biochemistry </li><li> Bachelor of Science in Biological Sciences </li><li> Bachelor of Science in Chemistry </li><li> Bachelor of Science in Computer Science </li><li> Bachelor of Science in Food Science and Technology </li><li> Bachelor of Science in Information Technology </li><li> Bachelor of Science in Mathematics </li><li> Bachelor of Science in Optometry </li><li> Bachelor of Science in Physics </li><li> Bachelor of Science in Statistics </li><li> Bachelor of Arts in Economics </li></ul>
+
+User: how do i apply with o-level results?
+Predicted Intents:
+- fallback: 0.36145046
+Bot: You can apply for KNUST admission with O-level results through the awaiting results option during the application period.
+
+User: what subjects do i need for geological engineering?
+Predicted Intents:
+- bsc_geological_engineering_requirements: 0.9964349
+Bot: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:<br></b> Credit passes in Physics, Mathematics and Chemistry. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:<br></b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:<br></b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p></ul>
+
+User: if i have a level results can i apply?
+Predicted Intents:
+- admission_list: 0.775713
+Bot: Yes, you can apply with your A-Level results.
+
+User: can i reply with my o-level?
+Predicted Intents:
+- A-level and O-level: 0.97572017
+Bot: Yes, you can apply with your O-level results.
+
+User: what are the general admission requirements for knust?
+Predicted Intents:
+- general_admission_requirement: 0.8219044
+Bot: <ul><li><b><u>WASSCE/SSSCE APPLICANTS</u></b><p>Applicants must have CREDIT passes <b>(A1 - C6 in WASSCE and A - D in SSSCE)</b> in the THREE WASSCE/SSSCE Core Subjects <b>(English Language, Mathematics, and Integrated Science)</b>, and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects relevant to the chosen programme with aggregate <b>24 or better</b>. </p><br></li><li><b><u>GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS</u></b><p>Applicants must have FIVE credits at the 'O' Level including English Language and Mathematics, plus passes in at least THREE (3) subjects at the Advanced Level. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements. </p><br></li><li><b><u>GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE)</u></b><p>Applicants must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. </p><br></li><li><b><u>INTERNATIONAL BACCALAUREATE (IB)</u></b><p>Applicants should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and a minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics is required. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE. </p><br></li><li><b><u>AMERICAN HIGH SCHOOL GRADE 12</u></b><p>Applicants must have a Final Grade Point of at least 3. 0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3. 25. </p></li></ul>
+
+User: what is the deadline for submitting applications to knust?
+Predicted Intents:
+- Completing and Submitting the Application for KNUST: 0.85699886
+Bot: The deadline for submitting applications to KNUST varies from year to year.  Check the specific admissions portal for the program you're interested in.
+
+User: how can i apply for admission to knust?
+Predicted Intents:
+- how_to_apply: 0.63262033
+- application_process: 0.2798871
+Bot: 1. Purchase an eVoucher from an approved vendor. 2. Visit https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login and enter the eVoucher details. 3. Carefully complete the application form, providing all required information. 4. Select your desired program and upload necessary documents, including your results slips and certificates. 5. Review your application thoroughly for any errors. 6. Submit your application and print a copy for your records.
+
+User: what documents are required for the application process?
+Predicted Intents:
+- document_check_list: 0.98547727
+Bot: <ul>  <b>For all Applicants</b>  <li>Examination Results</li>  <li>Birth Certificate</li>  <li>Ghana Card/Passport</li>  <li>Passport Photograph (Light green background) (470x470)px </li>  <li>Applicants from non-English speaking countries must provide a minimum of <b>one year English Proficiency Certificate. </b></li></ul>
+
+User: what are the specific requirements for international students?
+Predicted Intents:
+- international student: 0.7842488
+Bot: To apply to KNUST as an international undergraduate student:<br><br> Generate your pin on the admissions portal. <br> Pay for the application form (check the KNUST website for the current price). <br> Carefully review the specific entry requirements for your chosen program on the KNUST website. <br> Ensure your examination results meet KNUST's accepted qualifications.
+
+User: can i apply online for knust admission?
+Predicted Intents:
+- how_to_apply: 0.48871788
+Bot: Yes, KNUST admissions can be completed online.  Click https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login to begin.
+
+User: what are the tuition fees for undergraduate programs?
+Predicted Intents:
+- Tuition Fees: 0.8853811
+Bot: Visit the official KNUST website (www. knust. edu. gh/academic-fees) for the most up-to-date tuition fee information for the 2024/2025 academic year.
+
+User: are there any scholarships available for new students?
+Predicted Intents:
+- Scholarships for Needy Students: 0.9067343
+Bot: Yes, KNUST offers scholarships for brilliant but needy students. Some of these include the Edu Fondazione Scholarship, Hulede Foundation KNUST Scholarship, and Educational Pathways International Scholarships. You can find more information about these and other scholarships, grants, and bursaries on the KNUST website:<br> www. knust. edu. gh/students/scholarships-and-grants
+
+User: what is the cut-off point for the computer science program?
+Predicted Intents:
+- BSc Computer Science Cutoff Points: 0.870838
+Bot: Aggregate 11. You can confirm from our website or the admissions office for the most recent information.
+
+User: how do i check my admission status online?
+Predicted Intents:
+- admission_list: 0.8400576
+Bot: Visit the KNUST admission portal and follow the instructions provided to check your admission status. You'll likely need your application number or other login credentials.
+
+User: what are the entry requirements for the engineering program?
+Predicted Intents:
+- engineering_programmes: 0.8559665
+Bot: To find the entry requirements for specific Engineering programs at KNUST, you should visit the official KNUST website or contact the admissions office directly.
+
+User: is there an entrance exam for knust admissions?
+Predicted Intents:
+- how_to_apply: 0.48010612
+- Admission Portal Information: 0.27621278
+Bot: KNUST admissions are not based on entrance exams. You gain admission based on your WASSCE results.
+
+User: what are the requirements for transfer students?
+Predicted Intents:
+- general_admission_requirement: 0.29364786
+Bot: Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcript, high school results and a cover letter through the Deputy Registrar, Academic Affairs here or the International Programmes Office here to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary.
+
+User: what programs are offered at knust?
+Predicted Intents:
+- programme: 0.929366
+Bot: Please choose a college from the list above to see the programmes offered.
+
+User: please provide the colleges
+Predicted Intents:
+- Available Colleges/Departments: 0.58302855
+Bot: <ul><li>College of Agriculture and Natural Resources</li><li>College of Art and Built Environment</li><li>College of Engineering</li><li>College of Health Sciences</li><li>College of Humanities and Social Sciences</li><li>College of Science</li></ul>
+
+User: what is the cost of accommodation on campus?
+Predicted Intents:
+- accommodation: 0.8131299
+Bot: I apologize, but the provided response does not answer the question about the cost of accommodation on campus. It mainly lists halls of residence and nearby hostels but doesn't mention their actual costs. To get information about the cost of accommodation, you should visit the provided KNUST website links or contact the university directly.
+
+User: can i visit the campus before applying?
+Predicted Intents:
+- Post-Admission Procedures (Undergraduate): 0.27695853
+Bot: Yes, you can visit the KNUST campus before applying.
+
+User: what is the admission process for mature students?
+Predicted Intents:
+- general_admission_requirement: 0.4917922
+Bot: Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements.
+
+User: are there any special requirements for medical school applicants?
+Predicted Intents:
+- content_medical_examination: 0.83398193
+Bot: Yes, you will undergo a physical examination, including checks on your weight, height, blood pressure, temperature,  a chest x-ray, and a blood test for the sickle cell gene.
+
+User: how do i get my admission letter after being accepted?
+Predicted Intents:
+- acceptance_letter_submission: 0.93306416
+Bot: You need to download and print your Acceptance letter, fill it, and send it to:<br>The Deputy Registrar (Academic Affairs)Kwame Nkrumah University of Science & TechnologyPrivate Mail Bag, Kumasi, Ghana
+
+User: what is the orientation process for new students?
+Predicted Intents:
+- Academic Resumption Dates: 0.29560494
+Bot: Check the Academic Calendar on the university website (www. knust. edu. gh) for specific orientation dates for freshmen and continuing students.
+
+User: what is the minimum grade required for admission?
+Predicted Intents:
+- A-level and O-level: 0.4496355
+Bot: The minimum grade requirement depends on the specific program of study. You should check the entry requirements for your chosen program on the KNUST website or prospectus.
+
+User: how do i apply for a student visa if i am an international student?
+Predicted Intents:
+- international student: 0.8726596
+Bot: International undergraduate applicants can generate their pin on the admissions portal to start their application. Please visit the KNUST website for detailed information on visa applications.
+
+User: how do i apply for a postgraduate program?
+Predicted Intents:
+- postgraduate: 0.99999166
+Bot: I am unable to provide information about postgraduate applications at KNUST.
+
+User: what are the deadlines for postgraduate applications?
+Predicted Intents:
+- postgraduate: 0.9999876
+Bot: I am unable to provide information on postgraduate application deadlines. My expertise is limited to undergraduate admissions at KNUST.
+
+User: what is the acceptance rate at knust?
+Predicted Intents:
+- social_life: 0.31922933
+Bot: I apologize, but I cannot provide the acceptance rate for KNUST.
+
+User: how do i defer my admission after being accepted?
+Predicted Intents:
+- Post-Admission Procedures (Undergraduate): 0.58008474
+Bot: The information you are requesting is not available on the KNUST admissions portal. Contact the admissions office directly for assistance.
+
+User: what are the requirements for the architecture program?
+Predicted Intents:
+- bsc_architecture_requirements: 0.9555598
+Bot: To be admitted to the BSc. Architecture programme at KNUST, you must meet the requirements for WASSCE/SSSCE, 'A' Level, or Mature applicants. You can find the specific subject requirements for each category listed in detail above.
+
+User: are there any distance learning programs available?
+Predicted Intents:
+- institute of distance learning: 0.99918824
+Bot: I cannot provide information about distance learning programs.
+
+User: how do i apply for financial aid?
+Predicted Intents:
+- Application Deadline: 0.3891314
+Bot: Information on financial aid applications will be available after gaining admission.
+
+User: how to apply for scholarship
+Predicted Intents:
+- Scholarships for Needy Students: 0.9149073
+Bot: Visit the KNUST website at www. knust. edu. gh/students/scholarships-and-grants to access the available scholarships and their requirements.
+
+User: where can i purchase application form in ghana?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.9973149
+Bot: You can purchase KNUST application forms at all Ghana Post Regional and Designated Post Offices, including selected banks. You can also purchase the forms via mobile money by dialing <br>885#.
+
+User: how do i pay the fees?
+Predicted Intents:
+- Tuition Fees: 0.8004717
+Bot: Visit the official KNUST website at www. knust. edu. gh/academic-fees for the most up-to-date fee schedule.
+
+User: what is the fees for social work?
+Predicted Intents:
+- BA Social Work fees: 0.9960898
+Bot: Please check the official KNUST website for the most up-to-date information on fees for the BSc. Social Work program.
+
+User: what is the application process like
+Predicted Intents:
+- how_to_apply: 0.5748024
+- application_process: 0.34007263
+Bot: <ol><li>Purchase an eVoucher from an approved vendor. </li><li>Visit the KNUST admissions portal at https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login</li><li>Log in using the eVoucher credentials and complete the application form accurately. </li><li>Provide all required information, including personal details, educational background, and exam results. </li><li>Upload necessary documents such as birth certificate, results slips, and passport-sized photograph. </li><li>Select your preferred program of study and indicate if you are interested in the fee-paying option. </li><li>Review all entered information carefully before submitting the application. </li><li>Pay the application fee using the available payment options. </li><li>Print a copy of the completed application form and fee payment receipt for future reference. </li></ol>
+
+User: what is the application process like?
+Predicted Intents:
+- how_to_apply: 0.5748024
+- application_process: 0.34007263
+Bot: 1. Buy an e-voucher from an approved vendor. 2. Visit https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login and enter the e-voucher details. 3. Carefully fill out all required sections with accurate information. 4. Upload necessary documents, such as birth certificate and academic transcripts. 5. Select your desired program of study. 6. Review and submit your application before the deadline.
+
+User: i am 40 years, can i still apply to tech
+Predicted Intents:
+- Academic Resumption Dates: 0.3599371
+Bot: Yes, KNUST has no age limit for applicants.
 
 User: what are the accepted examination results?
 Predicted Intents:
-- accepted_examination_results: 0.946511
-Bot: KNUST accepts the following examination results:<br> WASSCE, SSSCE, WASSCE International, International Baccalaureate, American High School Grade 12 results, GBCE and ABCE, GCE/IGCSE (O and A Levels), HND (with High School results), First Degree (for Post-First-Degree Law and Doctor of Pharmacy Top-Up applicants with relevant additional certificates) and other International High School results.
+- accepted_examination_results: 0.99696225
+Bot: <ul><li>WASSCE/SSSCE</li><li>International Baccalaureate</li><li>American High School Grade 12</li><li>GCE/IGCSE (Cambridge) Ordinary and Advanced Level</li></ul> For applicants with additional qualifications:<br><ul><li>HND:<br> HND Certificate plus High School Results</li><li>Post-First-Degree Law:<br> First-degree certificate plus High School Results</li><li>Doctor of Pharmacy Top-Up:<br> First Degree Certificate (BPharm) plus High School Results and Pharmacy Licensure Certificate</li></ul> KNUST accepts other international high school results.
+
+User: can i apply with my sssce?
+Predicted Intents:
+- how_to_apply: 0.33485627
+Bot: Yes, you can apply with your SSSCE.
+
+User: what is the process of applying with sssce?
+Predicted Intents:
+- how_to_apply: 0.5393212
+Bot: <ol><li>Buy an eVoucher from approved vendors. </li><li>Visit the KNUST admissions portal to start your application. </li><li>Provide all the necessary information, including your personal details, educational background, and exam results. </li><li>Upload the required documents, such as your birth certificate and certificates. </li><li>Select your preferred programme of study. </li><li>Review and submit your application. </li></ol>
 
 User: what is the application process like?
 Predicted Intents:
-- how_to_apply: 0.51324874
-- application_process: 0.26560444
-Bot: 1. Obtain an eVoucher with your serial number and PIN from approved vendors. 2. Visit https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login and input the eVoucher details. 3. Diligently complete all required fields marked with an asterisk (<br>). 4. Provide your educational background, including Examination Results (WASSCE/SSSCE or equivalent). 5. Upload necessary supporting documents, including your Birth Certificate and Results slips, in PDF format. 6. Declare the authenticity of the information provided. 7. Select your preferred programs and indicate if you want to be considered for fee-paying options. 8. Upload your Identification document (Ghana Card/Passport) in PDF format. 9. Review your application thoroughly before submitting it. 10. Keep a copy of the submitted application for your reference.
+- how_to_apply: 0.5748024
+- application_process: 0.34007263
+Bot: 1. Buy an application voucher from approved vendors. 2. Visit the KNUST admissions portal at https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login. 3. Enter your voucher credentials to log in and start your application. 4. Fill out all required sections of the application form accurately. 5. Select your desired program of study and upload all necessary supporting documents. 6. Review your application thoroughly and submit it before the deadline.
 
-User: what are the engineering programs offered in knust?
+User: where can i purchase application form in ghana?
 Predicted Intents:
-- engineering_programmes: 0.5191942
-Bot: <ul><li>BSc. Civil Engineering</li><li>BSc. Geological Engineering</li><li>BSc. Geomatic Engineering</li><li>BSc. Petroleum Engineering</li><li>BSc. Biomedical Engineering</li><li>BSc. Computer Engineering</li><li>BSc. Electrical/Electronic Engineering</li><li>BSc. Telecommunications Engineering</li><li>BSc. Agricultural Engineering</li><li>BSc. Petrochemical Engineering</li><li>BSc. Chemical Engineering</li><li>BSc. Metallurgical Engineering</li><li>BSc. Materials Engineering</li><li>BSc. Marine Engineering</li><li>BSc. Industrial Engineering</li><li>BSc. Automobile Engineering</li><li>BSc. Mechanical Engineering</li><li>BSc. Aerospace Engineering</li></ul>
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.9973149
+Bot: You can purchase KNUST application forms at all Ghana Post Regional and Designated Post Offices, including selected banks. You can also purchase the forms via mobile money by dialing <br>885#.
 
-User: what are some of the courses offered in chemical engineering 
+User: programmes available at college of science?
 Predicted Intents:
-- security_service: 0.3354527
-Bot: <br> Petroleum Engineering<br> Petrochemical Engineering<br> Polymer Engineering<br> Process Engineering <br> Materials Engineering.
-
-User: what is the cutoff point for computer ejgineering ?
-Predicted Intents:
-- cutoff_point: 0.4773003
-Bot: What is the specific programme under Computer Engineering are you interested in?
-
-User: software engineering 
-Predicted Intents:
-- Purchasing/buying Undergraduate Application Forms in Ghana: 0.42568555
-Bot: You can apply for Software Engineering at KNUST by obtaining an application form through the various methods available.
-
-User: what is the application process like?
-Predicted Intents:
-- how_to_apply: 0.51324874
-- application_process: 0.26560444
-Bot: 1. Buy an eVoucher from an authorized vendor. 2. Visit https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login and enter the eVoucher details to access the application form. 3. Fill out the form accurately, providing all required information and documents. 4. Select your desired program of study and submit the application.
-
-User: what are the engineering courses offered in knust?
-Predicted Intents:
-- engineering_programmes: 0.91800714
-Bot: <ul><li>BSc. Civil Engineering</li><li>BSc. Geological Engineering</li><li>BSc. Geomatic Engineering</li><li>BSc. Petroleum Engineering</li><li>BSc. Biomedical Engineering</li><li>BSc. Computer Engineering</li><li>BSc. Electrical/Electronic Engineering</li><li>BSc. Telecommunications Engineering</li><li>BSc. Agricultural Engineering</li><li>BSc. Petrochemical Engineering</li><li>BSc. Chemical Engineering</li><li>BSc. Metallurgical Engineering</li><li>BSc. Materials Engineering</li><li>BSc. Marine Engineering</li><li>BSc. Industrial Engineering</li><li>BSc. Automobile Engineering</li><li>BSc. Mechanical Engineering</li><li>BSc. Aerospace Engineering</li></ul>
-
-User: what is the address for the knust admission portal?
-Predicted Intents:
-- Admission Portal Information: 0.8074985
-Bot: https:<br>//apps. knust. edu. gh/admissions/
-
-User: what aggregate should a student gain to be admitted in knust to offer computer engineering?
-Predicted Intents:
-- BSc Computer Engineering Cutoff Points: 0.88932973
-Bot: Aggregate 09.
-
-User: what are the programmes offered by college of science?
-Predicted Intents:
-- sciences_programmes: 0.9047563
+- sciences_programmes: 0.7453917
 Bot: <ul><li><b>Faculty of Biosciences</b><ul><li>BSc. Biochemistry</li><li>BSc. Food Science and Technology</li><li>BSc. Dietetics</li><li>BSc. Human Nutrition</li><li>BSc. Biological Science</li><li>BSc. Environmental Science</li><li><b>BSc. Environmental Science (Obuasi Campus)</b></li><li>Doctor of Optometry</li></ul><br></li><li><b>Faculty of Physical and Computational Sciences</b><ul><li>BSc. Chemistry</li><li>BSc. Mathematics</li><li>BSc. Physics</li><li>BSc. Computer Science</li><li>BSc. Statistics</li><li>BSc. Actuarial Science</li><li>BSc. Meteorology and Climate Science</li></ul></li></ul>
+
+User: can i know the requirements for computer engineering?
+Predicted Intents:
+- bsc_computer_engineering_requirements: 0.9859876
+Bot: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:<br></b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:<br></b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:<br></b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Applicants shall have at least Second Class Honours from any accredited Computer Engineering oriented programme such as Electrical and Electronic Engineering.  </li><li>Admission would be based on assessment of Academic Transcript. </li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1. 0) and (2. 0) respectively. </li></ul></ul>
+
+User: i have a name change in my results, can i still apply to tech?
+Predicted Intents:
+- A-level and O-level: 0.34351942
+Bot: Yes, you can apply. Ensure the name on your application matches your supporting documents.
+
+User: the names on my documents does not match my application, what should i do?
+Predicted Intents:
+- document_check_list: 0.8598425
+Bot: You will have to contact the admissions office and explain the discrepancy in the names. They will guide you on the necessary steps to rectify the situation.
+
+User: hello
+Predicted Intents:
+- greeting: 0.7432948
+Bot: Okay! What can I help you with concerning KNUST admissions?
+
+User: can a student from london, apply for degree in knust?
+Predicted Intents:
+- work and study: 0.5341094
+Bot: Yes, international students from anywhere in the world, including London, can apply for degree programs at KNUST.
+
+User: i am boy from bolebamboi, an obscure village in the far northern part of ghana, can i get scholarship opportunities?
+Predicted Intents:
+- Tuition Fees: 0.49772835
+Bot: KNUST offers various scholarship opportunities, some of which target students from specific regions or backgrounds. You can explore these options on the KNUST website or by contacting the KNUST Students' Financial Aid Office for information on scholarships you might be eligible for.
+
+User: how much do i need to pay in order to apply for a degree program?
+Predicted Intents:
+- Application Deadline: 0.8997247
+Bot: The application fee for Ghanaian applicants is GH¢250 and for international applicants is US$150.
+
+User: when is the application deadline?
+Predicted Intents:
+- Application Deadline: 0.6117048
+- Academic Resumption Dates: 0.26625058
+Bot: The undergraduate application deadline is October 31st, 2024. However, you can continue your application online after the deadline only if you purchased the form before the deadline.
+
+User: how much is the fees for physics?
+Predicted Intents:
+- bsc Physics fees: 0.99913484
+Bot: Visit the official KNUST website to get the specific fees for the BSc. Physics program for the 2024/2025 academic year. The fees vary depending on your student status (local or international) and whether you are admitted through the regular or fee-paying program.
+
+User: is witchcraft and wizardry a program taught at knust?
+Predicted Intents:
+- work and study: 0.7761929
+Bot: No, KNUST does not offer witchcraft and wizardry as a program.
+
+User: do you kakawirewire
+Predicted Intents:
+- random: 0.35615337
+Bot: I don't understand what "kakawirewire" means. Please rephrase your question.
+
+User: what is the difference between fee paying and regular student?
+Predicted Intents:
+- Tuition Fees: 0.6425124
+Bot: Regular students gain admission through the standard competitive entry process based on academic qualifications. Fee-paying students, who may not have met the regular admission requirements, are offered admission with the condition of paying additional fees.
+
+User: do you know what dweeba dweeba is?
+Predicted Intents:
+- Chatbot Capabilities: 0.42490372
+- fallback: 0.37511387
+Bot: I haven't heard that term used in relation to KNUST admissions. Is there anything else I can help you with?
+
+User: when do i apply to knust?
+Predicted Intents:
+- how_to_apply: 0.54587233
+Bot: Applications open when KNUST announces the sale of application vouchers for the academic year.
+
+User: what are some of your limitations
+Predicted Intents:
+- greeting: 0.42753676
+Bot: I do not have limitations as I am an AI. I do not have personal experiences or limitations like a human applicant might.  If you have any questions about KNUST admissions requirements, the application process, or anything else, feel free to ask!
+
+User: when is the application deadline?
+Predicted Intents:
+- Application Deadline: 0.6117048
+- Academic Resumption Dates: 0.26625058
+Bot: The undergraduate application deadline is October 31st, 2024.  However, you can continue your application online after the deadline if you purchased the form before the deadline.
+
+User: what is the requirements for computer science
+Predicted Intents:
+- computer_science_requirement: 0.99518085
+Bot: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:<br></b> Credit passes in Mathematics, Physics and either Chemistry or Applied Electricity or Electronics. </p><br><li><b><u>'A' LEVEL AND EQUIVALENT </u></b></li><p><b>'O' Level or equivalent:<br></b> Credit passes in FIVE (5) subjects including English  Language, Mathematics, and Additional/Elective Mathematics, and </p><p><b>'A' Level or equivalent:<br></b>  Credit passes in THREE (3) subjects including  Mathematics. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants should be at least 25 years at the time of the application.  </li><li>Applicants must satisfy the general requirements for the programme (i. e WASSCE/SSSCE, or 'A' Level, or HND/Diploma) </li><li>Short-listed applicants may take an Entrance Examination and pass an interview. </li></ul></ul>
+
+User: how do i pay the fees?
+Predicted Intents:
+- Tuition Fees: 0.8004717
+Bot: Visit the Fees Schedule page on the official KNUST website at www. knust. edu. gh/academic-fees for detailed information on how to pay fees.
+
+User: akwaba
+Predicted Intents:
+- greeting: 0.45032215
+Bot: Meda ase! What can I help you with regarding KNUST admissions?
+
+User: fatala
+Predicted Intents:
+- greeting: 0.45032215
+Bot: I'm guessing you're trying to spell "portal"? Do you mean the KNUST admissions portal?
+
+User: no
+Predicted Intents:
+- Contact Information: 0.5397084
+Bot: Question:<br>  I don't understand  Response:<br> You can contact the Admissions Office at <ul> <li>Telephone:<br> <a target="_blank" href="tel:<br>+233240130946">+233240130946</a> OR <a target="_blank" href="tel:<br>+233500482807">+233500482807</a> </li>  <li>Email:<br> <a target="_blank" href="mailto:<br>admissions@knust. edu. gh">admissions@knust. edu. gh</a> </li> </ul>
+
+User: i live in nairobi, how can i purchase admission forms?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.9828032
+Bot: You can purchase KNUST admission forms online via mobile money by dialing <br>885#. You can also buy the forms from all Ghana Post regional and designated post offices, including selected banks in Ghana.
+
+User: linda barbara jessica martha
+Predicted Intents:
+- greeting: 0.45032215
+Bot: Please provide me your full name as it appears on your application documents.
+
+User: hate the man don't hate the message 
+Predicted Intents:
+- fallback: 0.6464665
+Bot: That statement seems unrelated to KNUST admissions. Could you please ask your question about KNUST admissions directly?
+
+User: wonnitwasidi
+Predicted Intents:
+- greeting: 0.45032215
+Bot: Hello Wonnitwasidi! How can I assist you with your KNUST admissions inquiries? 😊
+
+User: blacko
+Predicted Intents:
+- greeting: 0.45032215
+Bot: Good to see you again, Blacko! How can I help you?
+
+User: what opportunities are there for students that have special talents in the entertainment industry?
+Predicted Intents:
+- Career Prospects for International Students at KNUST: 0.4014465
+Bot: KNUST does not have specific programs tailored towards students in the entertainment industry.
+
+User: i'm a disabled but bright student who intend to further my education, what does the school has in place to help my stay? 
+Predicted Intents:
+- physically challenged students: 0.3830011
+- freshmen_orientation: 0.29637948
+Bot: KNUST provides support services like:<br>- Accessible infrastructure. - Academic accommodations. - Disability support staff.
+
+User: can i commit suicide when i come the school?
+Predicted Intents:
+- LLB Cutoff Points: 0.78522134
+Bot: Suicide is never a solution. If you are experiencing emotional distress or suicidal thoughts, please reach out for help. You can contact the KNUST Counselling Centre or a suicide prevention hotline.
+
+User: i am a war veteran who is proud of fighting for my country, icam back as an amputee, and i am ready to further my education, what opportunities does the school provide for me?
+Predicted Intents:
+- Post-Admission Procedures (Undergraduate): 0.6044973
+Bot: KNUST has a special admissions policy for people with disabilities, including veterans. You'll need to contact the admissions office directly to learn about specific opportunities and application procedures for your situation. They can provide you with tailored guidance.
+
+User: what are some of the most difficult programs in the school?
+Predicted Intents:
+- Available Colleges/Departments: 0.5578294
+Bot: Medicine and Surgery, Pharmacy, Chemical Engineering, Electrical/Electronic Engineering, Mechanical Engineering, Architecture, and Computer Science.
+
+User: who is ing kommey?
+Predicted Intents:
+- creator: 0.30425528
+Bot: Ing. Kommey is the Head of University Relations at KNUST.
+
+User: what are  some of the easiest programs to read in the school?
+Predicted Intents:
+- Available Colleges/Departments: 0.48177907
+- programme: 0.27311265
+Bot: There's no such thing as "easiest" programs.  Admission to KNUST is competitive across all programs. Focus on your strengths and interests when choosing a program.
+
+User: is the application process simple?
+Predicted Intents:
+- how_to_apply: 0.49546564
+- application_process: 0.40422377
+Bot: The application process is straightforward if you follow the guidelines provided on the application portal.
+
+User: what guidelines do i need to follow in order to successfully apply for a degree program?
+Predicted Intents:
+- programme_arrangement: 0.9629606
+Bot: Prioritize your program choices based on your preference and strengths. Ensure to check the entry requirements and cut-off aggregate for each program. For dual-degree programs, contact the admissions office.
+
+User: walk me through the entire process of applying for admission into knust
+Predicted Intents:
+- how_to_apply: 0.5515122
+- application_process: 0.38101348
+Bot: <ol><li>Buy an eVoucher from an approved vendor. </li><li>Visit the KNUST admissions portal at https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login</li><li>Use the eVoucher details to access the application form. </li><li>Fill in all required sections accurately. </li><li>Select your desired program of study and provide your academic history. </li><li>Upload necessary supporting documents, including your results slips and certificates. </li><li>Review your application thoroughly before submission. </li><li>Pay the application fee using the available payment options. </li><li>Print a copy of your completed application for your records. </li></ol>
+
+User: can i get girlfriend when i come to school?
+Predicted Intents:
+- LLB Cutoff Points: 0.34355694
+- University Hours/Operating Hours: 0.33995065
+Bot: Focus on your academics and personal growth when you come to KNUST.
+
+User: i think you are crazy
+Predicted Intents:
+- name: 0.397845
+Bot: That's not appropriate. Do you have any other questions about KNUST admissions I can help with?
+
+User: foolish ai
+Predicted Intents:
+- Profanity/Inappropriate Language: 0.57772076
+Bot: That's not appropriate. Please treat everyone with respect.
+
+User: you are unintelligent
+Predicted Intents:
+- greeting: 0.3363992
+Bot: That's not very kind.  Is there something I can help you with regarding KNUST admissions?
+
+User: you're not very good at your job, are you?
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.3816139
+Bot: I'm here to provide you with accurate information about KNUST admissions.  What can I help you with?
+
+User: all work and no play makes jack a dull boy, what are some extra curriculum activities available in school? 
+Predicted Intents:
+- work and study: 0.25077546
+Bot: KNUST offers a variety of extracurricular activities, including student clubs and organizations, sports, and cultural groups.  These activities provide opportunities for students to pursue their interests, develop new skills, and make friends.
+
+User: onyaieeee sooooorrrrrrmiiiiiiii
+Predicted Intents:
+- greeting: 0.45032215
+Bot: I'm sorry, I don't understand your question. Could you please rephrase it?
+
+User: is there a program at knust regarding or having to do with gold or mineral mining?
+Predicted Intents:
+- Completing and Submitting the Application for KNUST: 0.25579813
+Bot: Yes, KNUST offers a BSc in Geological Engineering, which covers mineral exploration and mining.
+
+User: my aggregate is 13, give me the programs that i can apply to
+Predicted Intents:
+- A-level and O-level: 0.29617098
+Bot: With an aggregate of 13, you have a good chance of being admitted into various programs at KNUST. However, it's best to  check the specific entry requirements for the programs you are interested in on the KNUST website or admissions brochure.
+
+User: my average is 24, give me all the possible programs i can read
+Predicted Intents:
+- programme_change: 0.6262579
+Bot: With an average of 24, it's challenging to determine eligible programs directly. You'd need to check the specific entry requirements for each program in the KNUST admissions brochure or website.
+
+User: i do not know what program to read and i have no skills to base on and select a program, i have an aggregate of 36, what program can i read at knust?
+Predicted Intents:
+- KNUST info: 0.5306723
+Bot: With an aggregate of 36, you have a good chance of getting numerous programs at KNUST. However, without knowing your interests, it's impossible to recommend specific programs. I highly recommend you explore various programs on the KNUST website  and consider these factors:<br><br> Your Interests:<br> What subjects do you enjoy?<br> Career Goals:<br> What career path are you interested in pursuing? <br> Program Requirements:<br> Check the specific entry requirements for each program. Once you have a better idea of your interests and career goals, you can shortlist programs and make an informed decision.
+
+User: have you eaten?
+Predicted Intents:
+- greeting: 0.33582973
+Bot: That's a bit random.  Do you have a question about KNUST admissions? 🙂
+
+User: i have an aggregate of 42, what programs can i apply for?
+Predicted Intents:
+- cutoff_point: 0.27282146
+Bot: Please provide the specific program you are interested in so I can tell you its cutoff point.
+
+User: what programs have a cutoff point 42 and below?
+Predicted Intents:
+- cutoff_point: 0.41155496
+Bot: Please provide the specific program you're interested in, and I can tell you its cutoff point.
+
+User: i have headache
+Predicted Intents:
+- greeting: 0.30746722
+Bot: I understand you might be stressed, but I'm an AI programmed to assist with KNUST admission inquiries. How can I help you with that?
+
+User: damn bro, my head is splitting man
+Predicted Intents:
+- greeting: 0.49431938
+Bot: Your admission wahala? 😅
+
+User: i have a cut-off of 10, list eligible programs i can read in engineering?
+Predicted Intents:
+- engineering_programmes: 0.7902556
+Bot: A cut-off point of 10 is far below the requirement for admission into Engineering at KNUST.  You need at least an aggregate score of 6 in your core subjects and a C6 in English, Maths, Integrated Science, Social Studies, and any three elective subjects.
+
+User: how do i apply to knust as a person with disability?
+Predicted Intents:
+- physically challenged students: 0.97195315
+Bot: <ul> <li>Obtain KNUST admission forms</li> <li>Indicate your disability status on the application form </li> <li>Submit your completed application along with supporting documents through the admission portal. </li> <li>Contact the KNUST Office of Disability Services for assistance and further guidance</li> </ul>
+
+User: please where can i get the admission form?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.68734354
+Bot: You can purchase the KNUST admission form from all Ghana Post Regional and Designated Post Offices, including selected banks. You can also purchase the forms via mobile money by following these steps:<br>Purchasing1. Dial <br>885#2. Select Forms and E-voucher3. Choose KNUST4. Select the form you wish to purchase5. Authorise Payment6. Receive E-voucher via SMSRetrieving E-voucher1. Dial <br>885#2. Select Forms and E-voucher3. Enter 1 to retrieve voucher code4. Enter Transaction ID5. E-voucher details displayed
+
+User: please what is the cost of the admission form?
+Predicted Intents:
+- Commencement of Undergraduate Application Form Sales: 0.7602774
+Bot: The cost of the admission form is not stated here. For details on the admission process, please refer to www. knust. edu. gh/admissions/prospective/applying
+
+User: what are the accepted results?
+Predicted Intents:
+- accepted_examination_results: 0.9503784
+Bot: <ul><li>West African Senior Secondary Certificate Examination (WASSCE)/Senior Secondary School Certificate Examination (SSSCE)</li><li>WASSCE International</li><li>International Baccalaureate</li><li>American High School Grade 12</li><li>General Business Certificate Examination (GBCE) and Advanced Business Certificate Examination (ABCE)</li><li>General Certificate Examination (GCE)/International General Certificate of Secondary Education (IGCSE) (Cambridge) Ordinary and Advanced Level</li><li>Higher National Diploma (HND) Certificate plus High School Results</li><li>First-degree certificate (for Post-First-Degree Law Applicants) plus High School Results</li><li>First Degree Certificate (BPharm) plus High School Results and Pharmacy Licensure Certificate (for Doctor of Pharmacy Top-Up Applicants). </li><li>Other International High School Results</li></ul>
+
+User: how do i know i have gained admission?
+Predicted Intents:
+- admission_list: 0.35337606
+Bot: Check your admission status online or via your email after WASSCE results are released.
+
+User: thank you
+Predicted Intents:
+- goodbye: 0.47627047
+- Positive Feedback/Appreciation: 0.2611995
+Bot: You're welcome! If you have any more questions about KNUST admissions, feel free to ask. Goodbye!
+
+User: can i apply with multiple results
+Predicted Intents:
+- accepted_examination_results: 0.5012315
+- A-level and O-level: 0.44305292
+Bot: Yes, you can apply with multiple results.
+
+User: okay, what if my results have been withheld 
+Predicted Intents:
+- withheld_results: 0.9988632
+Bot: You will have to contact WAEC to rectify the issue with your results. KNUST cannot process your application until the results are released.
+
+User: when will the admission list be released?
+Predicted Intents:
+- admission_list: 0.98695767
+Bot: KNUST will release the admission list after the West African Senior School Certificate Examination (WASSCE) results are published.  Check your admission status online or your email.
+
+User: who do i apply as a fee paying student?
+Predicted Intents:
+- Tuition Fees: 0.745382
+Bot: To apply as a fee-paying student at KNUST, you would follow the standard application process. Fee-paying status is usually determined after regular admissions when you haven't met the cutoff for your chosen program but could be offered admission with additional fees.
 

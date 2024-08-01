@@ -21,7 +21,7 @@
                 <a target="_blank" href="https://www.knust.edu.gh/"><p class="school_name">KNUST</p></a>
             </div>
             <div class="header-content">
-                <h4 id="welcome-message">TECHCHAT: THINK ADMISSION, THINK TECHCHAT</h4>
+                <h4 id="welcome-message">TECHCHAT: YOUR ADMISSION ASSISTANT</h4>
             </div>
             <nav>
                 <a target="_blank" href="pages/aggregate.html"><i class="fa-solid fa-calculator"></i></a>
@@ -40,7 +40,8 @@
                         </div>
                         <div class="chatbot_title_text">
                             <h2>TechChat</h2>
-                            <p>Talk to TechChat about anything admission.</p>
+                            <!-- <p>Talk to TechChat about anything admission.</p> -->
+                            <p style="font-style: italic; font-size: 12px; font-weight: 600;">Keep questions simple and straightforward.</p>
                         </div>
                     </div>
                     <div class="header-icons">
@@ -54,7 +55,7 @@
                 </div>
                 <div class="chat-input-container">
                     <input type="text" id="user-input" placeholder="Message TechChat">
-                    <button><i class="fa-solid fa-microphone"></i></button>
+                    <button class="microphone-button"><i id="microphone-icon" class="fa-solid fa-microphone-alt-slash microphone-icon"></i></button>
                     <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
                 </div>
                 <span class="disclaimer">Verify Answers from the University's Website, TechChat may display inaccurate information</span>
@@ -112,6 +113,26 @@
             </aside>
         </div>
     </main>
+
+    <!-- The Modal -->
+    <div id="trashModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Are you sure you want to clear the chat? This action cannot be undone.</p>
+            <button id="confirmClearChat">Yes</button>
+            <button id="cancelClearChat">No</button>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="copyModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Response copied to clipboard!</p>
+            <button id="closeModalButton">OK</button>
+        </div>
+    </div>
+
     <script src="/static/scripts.js"></script>
 </body>
 </html>

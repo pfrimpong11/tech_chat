@@ -70,9 +70,9 @@ def startup():
 def index():
     return render_template('index.html')
 
-@app.route('/chatbotPop')
-def chatbotPop():
-    return render_template('pages/chatbotPop.html')
+@app.route('/knustPortal')
+def knustPortal():
+    return render_template('pages/knustPortal.html')
 
 @app.route('/pages/feedback.html')
 def feedback():
@@ -177,5 +177,5 @@ def get_feedback_file_route(feedback_id):
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True)
-    # app.run(host='0.0.0.0', port=5000)
+    # app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)

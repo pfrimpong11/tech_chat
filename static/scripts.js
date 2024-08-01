@@ -20,6 +20,12 @@ document.addEventListener('DOMContentLoaded', function () {
     var trashIcon = document.querySelector('.fa-trash-alt');
     var shareIcon = document.querySelector('.fa-share-alt');
 
+    // Get the modal trash modal and buttons
+    var modal = document.getElementById("trashModal");
+    var span = document.getElementsByClassName("close")[0];
+    var confirmBtn = document.getElementById("confirmClearChat");
+    var cancelBtn = document.getElementById("cancelClearChat");
+
 
     shareIcon.addEventListener('click', function () {
         var chatContent = document.getElementById('chat-container').textContent.trim();
@@ -41,19 +47,33 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    // clear chat
-    trashIcon.addEventListener('click', function () {
-        var confirmation = confirm("Are you sure you want to clear the chat? This action cannot be undone.");
-        if (confirmation) {
-            clearChat();
-        }
-    });
+    // When the user clicks the trash icon, open the modal 
+    trashIcon.onclick = function() {
+        modal.style.display = "flex";
+    }
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    cancelBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+    confirmBtn.onclick = function() {
+        clearChat();
+        modal.style.display = "none";
+    }
+
     // Function to clear the chat
     function clearChat() {
         var chatContainer = document.getElementById('chat-container');
         chatContainer.innerHTML = '';
     }
 
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 
      // Dark mode toggle
     darkModeToggle.addEventListener("click", function() {
@@ -351,13 +371,34 @@ function updateBotAvatars() {
     });
 }
 
+
+// Get the modal copy modal
+var modal = document.getElementById("copyModal");
+var span = document.getElementsByClassName("close")[0];
+var closeModalButton = document.getElementById("closeModalButton");
+
+
+// Function to copy text to clipboard
 function copyTextToClipboard(text) {
     var tempElement = removeHTMLTags(text);
-    console.log(tempElement)
+    console.log(tempElement);
+    navigator.clipboard.writeText(tempElement).then(function() {
+        // Show the modal
+        modal.style.display = "flex";
+    });
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+closeModalButton.onclick = function() {
+    modal.style.display = "none";
+}
 
-    navigator.clipboard.writeText(tempElement);
-
-    alert('Response copied to clipboard!');
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
 
 function removeHTMLTags(htmlString) {
@@ -500,30 +541,41 @@ function writeAnimateMessage(element, message) {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    var microphoneButton = document.querySelector('.fa-microphone');
+    var microphoneButton = document.querySelector('.microphone-button');
+    var microphoneIcon = document.getElementById('microphone-icon');
     var userInputField = document.getElementById('user-input');
+    var recognition;
 
     microphoneButton.addEventListener('click', function () {
         // Check if SpeechRecognition API is supported by the browser
         if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
-            var recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            if (!recognition) {
+                recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+                
+                recognition.onresult = function(event) {
+                    var transcript = event.results[0][0].transcript;
+                    userInputField.value += transcript;
+                };
 
-            recognition.start();
+                recognition.onerror = function(event) {
+                    console.error('Speech recognition error:', event.error);
+                };
 
-            recognition.onresult = function(event) {
-                var transcript = event.results[0][0].transcript;
+                recognition.onend = function() {
+                    console.log('Speech recognition ended');
+                    microphoneIcon.className = 'fa-solid fa-microphone-alt-slash microphone-icon'; // Change back to the static microphone icon
+                };
+            }
 
-                // Update the user input field with the transcript
-                userInputField.value += transcript;
-            };
-
-            recognition.onerror = function(event) {
-                console.error('Speech recognition error:', event.error);
-            };
-
-            recognition.onend = function() {
-                console.log('Speech recognition ended');
-            };
+            if (recognition.started) {
+                recognition.stop();
+                microphoneIcon.className = 'fa-solid fa-microphone-alt-slash microphone-icon'; // Change back to the static microphone icon
+                recognition.started = false;
+            } else {
+                recognition.start();
+                microphoneIcon.className = 'fa-solid fa-microphone microphone-icon'; // Change to a different icon or use the GIF method
+                recognition.started = true;
+            }
         } else {
             alert('Speech recognition is not supported in your browser.');
         }

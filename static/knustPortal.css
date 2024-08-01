@@ -1,0 +1,452 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+
+.header-name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-name-container img {
+    width: 40px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.header-name h2{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.header-name p {
+    font-weight: 600;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    background-color: white;
+    width: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.login-box {
+    width: 400px;
+    padding: 20px 0;
+}
+
+.login-box h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #0000ff;
+}
+
+.login-box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.login-box .input-group {
+    margin-bottom: 15px;
+}
+
+.login-box .input-group input {
+    width: calc(100% - 60px);
+    padding: 10px 30px;
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #003060;
+}
+
+.login-box .lost-pin {
+    margin-top: 10px;
+}
+
+.login-box .lost-pin a {
+    color: #004080;
+    text-decoration: none;
+}
+
+.login-box .lost-pin a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #0000ff;
+}
+
+.footer .contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer .contacts .contact-left , .contact-right {
+    width: 45%;
+}
+
+.contact-left-content, .contact-right-content {
+    margin-bottom: 10px;
+}
+
+.contact-left-content h4, .contact-right-content h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact-left-content p, .contact-right-content p {
+    margin: 0;
+    font-size: 16px;
+    color: #0000ff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact-left-content p:hover, .contact-right-content p:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 50px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-content {
+    text-align: left;
+}
+
+.footer-content h2 {
+    color: rgb(104, 6, 6);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.footer-content p{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-content p:hover, .footer-content h2:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+/* TechChat Pop-up */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chatbot-trigger {
+    background-color: #b8d9f3;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.trigger-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.chatbot-popup {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #8a8a8a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.chatbot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #b8d9f3;
+    color: #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.bot-name {
+    font-size: 20px;
+}
+
+.chatbot-body {
+    padding: 10px;
+    height: calc(100% - 40px);
+}
+
+.chatbot-close {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.chat-window {
+    flex: 1;
+    overflow-y: auto;
+    overflow: hidden;
+}
+
+.chat-container {
+    overflow-y: scroll;
+    height: 250px;
+    border-radius: 10px;
+    min-height: calc(90vh - 30vh);
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d6e8f5;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #807e7e;
+}
+
+.chat-input-container {
+    display: flex;
+    border-top: 1px solid #fff;
+}
+
+.chat-input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #bdc7cf;
+    border-radius: 5px;
+    background: #b8d9f3;
+    font-size: 17px;
+    color: #000;
+}
+
+.chat-input-container button {
+    background-color: #b8d9f3;
+    color: #000;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.chat-input-container button i {
+    font-size: 15px;
+}
+
+
+
+/* User message and Bot message */
+.message {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.fa-user, .bot-avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #b3b3b3;
+}
+
+.bot-avatar {
+    padding-top: 15px;
+}
+
+.user-message {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    line-height: 1.3;
+    border-radius: 10px;
+    color: var(--text-color);
+}
+
+.bot-message {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 10px;
+    color: var(--text-color);
+}
+
+
+
+/* feedback icons */
+.fa-regular {
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.feedback-buttons{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+/* Tooltip for feedback icons */
+.feedback-buttons button[title] {
+    position: relative;
+    cursor: pointer;
+}
+
+.feedback-buttons button[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    background-color: var(--feedback-icon);
+    color: var(--text-color);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+
+
+/* loader animation */
+.loader {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 40px;
+    aspect-ratio: 2.5;
+    --_g: no-repeat radial-gradient(farthest-side,var(--input-color) 90%,#0000);
+    background:var(--_g), var(--_g), var(--_g), var(--_g);
+    background-size: 20% 50%;
+    animation: l43 1s infinite linear; 
+}
+@keyframes l43 {
+    0%     {background-position: calc(0*100%/3) 50% ,calc(1*100%/3) 50% ,calc(2*100%/3) 50% ,calc(3*100%/3) 50% }
+    16.67% {background-position: calc(0*100%/3) 0   ,calc(1*100%/3) 50% ,calc(2*100%/3) 50% ,calc(3*100%/3) 50% }
+    33.33% {background-position: calc(0*100%/3) 100%,calc(1*100%/3) 0   ,calc(2*100%/3) 50% ,calc(3*100%/3) 50% }
+    50%    {background-position: calc(0*100%/3) 50% ,calc(1*100%/3) 100%,calc(2*100%/3) 0   ,calc(3*100%/3) 50% }
+    66.67% {background-position: calc(0*100%/3) 50% ,calc(1*100%/3) 50% ,calc(2*100%/3) 100%,calc(3*100%/3) 0   }
+    83.33% {background-position: calc(0*100%/3) 50% ,calc(1*100%/3) 50% ,calc(2*100%/3) 50% ,calc(3*100%/3) 100%}
+    100%   {background-position: calc(0*100%/3) 50% ,calc(1*100%/3) 50% ,calc(2*100%/3) 50% ,calc(3*100%/3) 50% }
+}
+
+
+@media (max-width: 768px) {
+    .trigger-logo {
+    width: 40px;
+    height: 40px;
+    }
+
+    .chatbot-popup {
+        width: 80%;
+        height: 65%;
+    }
+
+    .chat-container {
+    overflow-y: scroll;
+    height: 65%;
+    border-radius: 10px;
+    min-height: calc(90vh - 40vh);
+    }
+
+}

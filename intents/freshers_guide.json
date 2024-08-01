@@ -415,7 +415,7 @@
                 "What are the details for paying the Academic Facility User Fees?"
             ],
             "responses": [
-                "Students are to pay Academic Facility User Fees (AFUF) into KNUST Fees Collection ACCOUNT at any branch of Ghana Commercial Bank Ltd, Standard Chartered Bank Ltd, Ecobank Ghana Ltd, HFC Bank, CAL Bank, UBA, Ghana Post Company Limited."
+                "Students are to pay Academic Facility User Fees (AFUF) into KNUST Fees Collection ACCOUNT at any branch of Ghana Commercial Bank Ltd, Standard Chartered Bank Ltd, Ecobank Ghana Ltd, HFC Bank, CAL Bank, UBA, Ghana Post Company Limited. Academic fees must be payed before residential fees and must be done so in separate accounts"
             ],
             "context_set": ""
         },
@@ -467,7 +467,7 @@
                 "What are the details for paying the Residential Facility User Fees?"
             ],
             "responses": [
-                "Students are to pay Residential Facility User Fees (RFUF) of Halls they have been affiliated to at any Ghana Commercial Bank branch and obtain a receipt."
+                "Students are to pay Residential Facility User Fees (RFUF) of Halls they have been affiliated to at any Ghana Commercial Bank branch and obtain a receipt. Academic fees must be payed before residential fees and must be done so in separate accounts"
             ],
             "context_set": ""
         },
@@ -624,7 +624,8 @@
                 "What topics are included in the orientation sessions?",
                 "Who organizes the freshmen orientation?",
                 "Which department is responsible for the orientation sessions?",
-                "Can you provide information about the organizers of the orientation?"
+                "Can you provide information about the organizers of the orientation?",
+                "what is the orientation process for new students"
             ],
             "responses": [
                 "The University offers Orientation for freshmen after the admissions processes to inform freshmen about the university community. The Dean of Student's Office makes two separate presentations at the fresher's orientation. The first one is on the General services provided to students and the second presentation is on the Guidance and Counselling services available to the students at the Dean of Students Office. Some of the areas talked about during the University orientation include The University Chaplaincy, The University Library and Its Resources, The University Hospital and Its Resources, Student Affairs, Security on Campus, University Rules and Regulations vis-a-vis the Laws of Ghana, Fire Prevention on Campus, etc. Orientations, which have been decentralized, are organized by the colleges of the university."
