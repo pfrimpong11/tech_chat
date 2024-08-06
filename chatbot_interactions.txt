@@ -629,3 +629,113 @@ Predicted Intents:
 - Tuition Fees: 0.745382
 Bot: To apply as a fee-paying student at KNUST, you would follow the standard application process. Fee-paying status is usually determined after regular admissions when you haven't met the cutoff for your chosen program but could be offered admission with additional fees.
 
+User: what is the cut off aggregate for general nursing?
+Predicted Intents:
+- BSc Nursing Cutoff Points: 0.999944
+Bot: Aggregate 08.
+
+User: when is the deadline?
+Predicted Intents:
+- Application Deadline: 0.48424113
+Bot: The undergraduate application deadline is October 31, 2024.
+
+User: what is the application fee?
+Predicted Intents:
+- Tuition Fees: 0.58804584
+Bot: Visit the official KNUST website at www. knust. edu. gh/academic-fees for the most up-to-date information on application fees for the 2024/2025 academic year.
+
+User: what is the deadline
+Predicted Intents:
+- Application Deadline: 0.3591966
+Bot: The undergraduate application deadline is October 31, 2024.  However, you can continue your application online after the deadline only if you purchased the form before the deadline.
+
+User: what is the application fee?
+Predicted Intents:
+- Application Deadline: 0.32556748
+Bot: The information about the application fee is not provided in the context.
+
+User: what is the cost of application?
+Predicted Intents:
+- Application Deadline: 0.39505914
+Bot: The cost of the application form is not available in the information provided.
+
+User: what is the application deadline?
+Predicted Intents:
+- Application Deadline: 0.8874782
+Bot: The undergraduate application deadline is October 31st, 2024. However, you can continue your application online after the deadline if you purchased the form before the deadline.
+
+User: cost of application
+Predicted Intents:
+- Application Deadline: 0.6217363
+Bot: The cost of a KNUST undergraduate application form is not available.
+
+User: good afternoon
+Predicted Intents:
+- greeting: 0.7610065
+Bot: Good afternoon to you too! How can I help you?
+
+User: what is the cost of application?
+Predicted Intents:
+- Application Deadline: 0.4862496
+Bot: GHc 250 for Ghanaian students.
+
+User: when is the deadline?
+Predicted Intents:
+- Application Deadline: 0.4676526
+Bot: The deadline for undergraduate applications is October 31, 2024.
+
+User: who is this?
+Predicted Intents:
+- fallback: 0.4410111
+Bot: This question cannot be answered as it is not related to KNUST admissions.
+
+User: what is your name?
+Predicted Intents:
+- name: 0.9934136
+Bot: TechChat
+
+User: what are the requirements for computer engineering?
+Predicted Intents:
+- bsc_computer_engineering_requirements: 0.99548364
+Bot: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:<br></b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:<br></b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:<br></b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Applicants shall have at least Second Class Honours from any accredited Computer Engineering oriented programme such as Electrical and Electronic Engineering.  </li><li>Admission would be based on assessment of Academic Transcript. </li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1. 0) and (2. 0) respectively. </li></ul></ul>
+
+User: what is the cut-off point for computer engineering?
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.9995402
+Bot: Aggregate 09. You can check our website or contact the admissions office for the most up-to-date information.
+
+User: hey good afternoon?
+Predicted Intents:
+- greeting: 0.87887305
+Bot: Good afternoon to you too! What can I do for you?
+
+User: what is the requirement for computer engineering?
+Predicted Intents:
+- bsc_computer_engineering_requirements: 0.9961737
+Bot: <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science. </p><p><b>Elective Subjects:<br></b> Credit passes in Physics, Mathematics and Chemistry. </p><ul><li>Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry.  </li></ul><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:<br></b> Credit passes in FIVE (5) subjects including English Language and Mathematics, and </p><p><b>'A' Level or equivalent:<br></b>  Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>Applicants must be 25 years at the time of s the application. </li><li>EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR </li><li>Credit passes in THREE (3) WASSCE/SSSCE Core Subjects- English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry.  </li></ul><br><li><b><u>HND APPLICANTS </u></b></li><ul><li>Applicants shall have at least Second Class Honours from any accredited Computer Engineering oriented programme such as Electrical and Electronic Engineering.  </li><li>Admission would be based on assessment of Academic Transcript. </li><li>Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1. 0) and (2. 0) respectively. </li></ul></ul>
+
+User: who are you?
+Predicted Intents:
+- creator: 0.6774394
+Bot: I am TechChat, developed by Frimpong Prince and Akinie Samuel Aterh, Computer Engineering students of KNUST.
+
+User: i'm eating fufu
+Predicted Intents:
+- goodbye: 0.34432036
+Bot: That's nice, but this platform primarily provides information about KNUST admissions. Do you have any questions about that?
+
+User: how sexy am i?
+Predicted Intents:
+- fallback: 0.42876574
+Bot: That's not relevant to KNUST admissions. Do you have any questions about the application process, courses offered, or life at KNUST?
+
+User: when is the deadline for tech admissions
+Predicted Intents:
+- Application Deadline: 0.6669626
+Bot: October 31, 2024.
+
+User: what are the different cutoff points
+Predicted Intents:
+- goodbye: 0.5254
+Bot: KNUST does not use a fixed cutoff point system. Admission is based on a competitive selection process that considers WASSCE results, program requirements, and the number of available slots.
+

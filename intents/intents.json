@@ -548,7 +548,7 @@
         "How often do fees need to be paid during the academic year?"
       ],
       "responses": [
-        "The fees for the 2024/2025 academic year at KNUST vary. The specific amount can differ based on factors such as whether you are a local or international student, and whether you are enrolled as a regular or fee-paying students. All freshmen students are requested to visit the official KNUST website for the most up-to-date information on fees.<br> Here are some general guidelines for the fee structure:<br> <ul> <li>Regular programmes typically have lower fees compared to fee-paying.</li> <li>Fee-paying options are available for students who do not meet the regular admission criteria but are willing to pay extra fees for admission.</li> </ul>  <br><br>Fees must be payed after offer of admission. Fees should be payed before booking for a traditional hall. Fees must be payed in full. Also visit the Fees Schedule page for fees updates. visit www.knust.edu.gh/academic-fees <br> Information on how to pay for the fees can be found in the fee schedule on the official KNUST website."
+        "The fees for the 2024/2025 academic year at KNUST vary. The specific amount can differ based on factors such as whether you are a local or international student, and whether you are enrolled as a regular or fee-paying students. All freshmen students are requested to visit the official KNUST website for the most up-to-date information on fees.<br> Here are some general guidelines for the fee structure:<br> <ul> <li>Regular programmes typically have lower fees compared to fee-paying.</li> <li>Fee-paying options are available for students who do not meet the regular admission criteria but are willing to pay extra fees for admission.</li> </ul>  <br><br>Fees must be payed after offer of admission. Fees should be payed before booking for a traditional hall. Fees must be payed in full. Also visit the Fees Schedule page for fees updates. visit www.knust.edu.gh/academic-fees <br> Information on how to pay for the fees can be found in the fee schedule on the official KNUST website. <br> Fees for application is GHc 250"
       ],
       "context_set": ""
     },
@@ -1151,7 +1151,7 @@
         "what is the deadline for submitting applications to knust?"
       ],
       "responses": [
-        "Undergraduate application deadline is October 31, 2024, but you can continue your application online after the deadline, but only if you purchased the form before the deadline."
+        "Undergraduate application deadline is October 31, 2024, but you can continue your application online after the deadline, but only if you purchased the form before the deadline. Remember cost of application is GHc 250 for ghanaian students."
       ],
       "context_set": ""
     },
@@ -1873,6 +1873,7 @@
         "where can i buy the forms",
         "where can i buy the admission forms?",
         "which banks can i buy the forms?",
+        "What is the application fee?",
         "How can I purchase an undergraduate application form for KNUST?",
         "What are the options for buying undergraduate application forms in Ghana?",
         "Are there any online methods to buy undergraduate application forms for KNUST?",
