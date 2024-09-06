@@ -5,6 +5,7 @@ from spellchecker import SpellChecker
 import numpy as np
 import random
 import json
+import requests
 
 lemmatizer = WordNetLemmatizer()
 spell = SpellChecker()
@@ -37,3 +38,11 @@ def bag_of_words(sentence, words):
             if word == w:
                 bag[i] = 1
     return np.array(bag)
+
+def check_internet():
+    try:
+        # Ping Google's DNS server
+        response = requests.get("http://www.google.com", timeout=5)
+        return True
+    except (requests.ConnectionError, requests.Timeout):
+        return False

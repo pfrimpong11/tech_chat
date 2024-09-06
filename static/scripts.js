@@ -213,45 +213,53 @@ function sendUserFeedback(firstName, lastName, email, feedback, base64File, file
 
 
 function sendMessage() {
-    console.log("message sent by button");
-    var userInput = document.getElementById("user-input").value;
-    if (userInput.trim() === "") return;
+    //check if user is connected to the internet
+    if (isConnected()) {
+        console.log("Connected to the internet. Processing input");
+        console.log("message sent by button");
+        var userInput = document.getElementById("user-input").value;
+        if (userInput.trim() === "") return;
 
-    addUserMessage(userInput);
-    document.getElementById("user-input").value = "";
+        addUserMessage(userInput);
+        document.getElementById("user-input").value = "";
 
-    // Create and append loader element to chat container
-    var loader = document.createElement("div");
-    loader.className = "loader";
-    document.getElementById("chat-container").appendChild(loader);
+        // Create and append loader element to chat container
+        var loader = document.createElement("div");
+        loader.className = "loader";
+        document.getElementById("chat-container").appendChild(loader);
 
 
-    // delay for 1s before displaying the response
-    setTimeout(function() {
-        // Make request to backend with user input
-        fetch("/get_response", {
-            method: "POST",
-            body: JSON.stringify({ message: userInput }),
-            headers: {
-                "Content-Type": "application/json",
-            },
-        })
-        .then(response => response.json())
-        .then(data => {
-            // Remove loader element when response is received
-            loader.remove();
+        // delay for 1s before displaying the response
+        setTimeout(function() {
+            // Make request to backend with user input
+            fetch("/get_response", {
+                method: "POST",
+                body: JSON.stringify({ message: userInput }),
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Remove loader element when response is received
+                loader.remove();
 
-            if (data.response !== "I'm sorry, I don't understand that.") {
-                addBotMessage(data.response);
-            } else {
-                // Save user input to file if the bot doesn't understand
-                saveUserInputToFile(userInput);
-                // Prompt for feedback
-                addBotMessage("I don't have an answer for that. Kindly rephrase your question for a better response. Was this helpful?");
-            }
-        })
-        .catch(error => console.error("Error:", error));
-    }, 1000);
+                if (data.response !== "I'm sorry, I don't understand that.") {
+                    addBotMessage(data.response);
+                } else {
+                    // Save user input to file if the bot doesn't understand
+                    saveUserInputToFile(userInput);
+                    // Prompt for feedback
+                    addBotMessage("I don't have an answer for that. Kindly rephrase your question for a better response. Was this helpful?");
+                }
+            })
+            .catch(error => console.error("Error:", error));
+        }, 1000);
+
+    } else {
+        // alert("You are not connected to the internet. Please check your connection.");
+        addMessageForNoInternet("You are not connected to the internet. Please check your connection.");
+    }
 }
 
 
@@ -356,6 +364,31 @@ function addBotMessage(message) {
     // writeAnimateMessage(messageDiv, removeHTMLTags(message));
 }
 
+
+// bot message to display no internet connection
+function addMessageForNoInternet(message) {
+    var chatContainer = document.getElementById("chat-container");
+    var botMessage = document.createElement("div");
+    botMessage.className = "message bot-message";
+    var botAvatar = document.createElement("img");
+    updateBotAvatar(botAvatar);
+    botAvatar.alt = "Bot Avatar";
+    botAvatar.className = "bot-avatar";
+    botMessage.appendChild(botAvatar);
+
+    // Create a new div for the bot's message
+    var messageDiv = document.createElement("div");
+    messageDiv.className = "message-content";
+    // Set innerHTML to the message directly
+    messageDiv.innerHTML = message;
+    botMessage.appendChild(messageDiv);
+
+    // Append the message div to the chat container
+    chatContainer.appendChild(botMessage);
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+}
+
+
 function updateBotAvatar(botAvatar) {
     if (document.body.classList.contains("dark-mode")) {
         botAvatar.src = "/static/bot_avatar_dark.png";
@@ -454,6 +487,21 @@ function stopSpeaking() {
 }
 
 
+
+// Function to check internet connectivity
+function isConnected() {
+  // check if the browser thinks it's online
+    if (!navigator.onLine) {
+    return false;
+    }
+
+  // ping an actual server to verify connectivity
+    return new Promise((resolve) => {
+    fetch("https://www.google.com", { method: "HEAD" })
+        .then(() => resolve(true))
+        .catch(() => resolve(false));
+    });
+}
 
 
 function sendFeedback(isHelpful) {
@@ -581,9 +629,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    userInputField.addEventListener('keypress', function(event) {
-        if (event.key === 'Enter') {
-            sendMessage();
-        }
-    });
+    // userInputField.addEventListener('keypress', function(event) {
+    //     if (event.key === 'Enter') {
+    //         sendMessage();
+    //     }
+    // });
 });

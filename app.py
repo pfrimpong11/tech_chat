@@ -12,7 +12,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 import base64
 
-from modules.utils import correct_spelling
+from modules.utils import correct_spelling, check_internet
 from modules.response_generator import generate_bot_response
 from modules.db_operations import save_user_input, record_icon_feedback, record_feedback_with_user_details, get_feedback_file
 from modules.email_sender import send_email
@@ -108,8 +108,17 @@ def calculate_aggregate():
 def get_response():
     user_message = request.json["message"].lower()
     corrected_message = correct_spelling(user_message)
-    bot_response = generate_bot_response(user_message, model, words, classes, all_intents)
-    return jsonify({"response": bot_response})
+    if check_internet():
+        # Proceed with input processing
+        print("User connected to the internet")
+        bot_response = generate_bot_response(user_message, model, words, classes, all_intents)
+        return jsonify({"response": bot_response})
+    else:
+        # Handle no connection scenario
+        print("No internet connection. Please check your connection.")
+        bot_response = "Please check your internet connection."
+        return jsonify({"response": bot_response})
+
 
 @app.route("/save_user_input", methods=["POST"])
 def save_user_input_route():

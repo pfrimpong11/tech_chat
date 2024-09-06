@@ -739,3 +739,29 @@ Predicted Intents:
 - goodbye: 0.5254
 Bot: KNUST does not use a fixed cutoff point system. Admission is based on a competitive selection process that considers WASSCE results, program requirements, and the number of available slots.
 
+User: whatsup
+Predicted Intents:
+- greeting: 0.6012338
+Bot: Hey! 😊  Anything I can help you with regarding KNUST admissions?
+
+User: what is the application process like?
+Predicted Intents:
+- how_to_apply: 0.5245805
+- application_process: 0.39020002
+Bot: The KNUST online application process involves accessing the application portal, providing personal and academic information, uploading supporting documents, selecting a program of study, and submitting the application.
+
+User: hello
+Predicted Intents:
+- greeting: 0.59765553
+Bot: Hi there! What can I do for you regarding KNUST admissions?
+
+User: hey
+Predicted Intents:
+- greeting: 0.7698161
+Bot: Howdy! What can I do for you?
+
+User: what is your name
+Predicted Intents:
+- name: 0.9934136
+Bot: TechChat
+
