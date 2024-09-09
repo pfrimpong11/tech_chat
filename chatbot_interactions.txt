@@ -765,3 +765,44 @@ Predicted Intents:
 - name: 0.9934136
 Bot: TechChat
 
+User: hello there
+Predicted Intents:
+- greeting: 0.74400413
+Bot: Hey there! How can I assist you with KNUST admissions today?
+
+User: good evening
+Predicted Intents:
+- greeting: 0.74069035
+Bot: Yo! What's up? How can I help you?
+
+User: hey there
+Predicted Intents:
+- greeting: 0.8340757
+Bot: Hi there, how can I help?
+
+User: what is your name?
+Predicted Intents:
+- name: 0.9934136
+Bot: TechChat.
+
+User: what are the things you can do?
+Predicted Intents:
+- Chatbot Capabilities: 0.96979034
+Bot: Ask me your questions about KNUST undergraduate admissions.
+
+User: so who creeted you?
+Predicted Intents:
+- creator: 0.84963083
+Bot: Frimpong Prince and Akinie Samuel Aterh, students from the Department of Computer Engineering at KNUST.
+
+User: tell me how to apply
+Predicted Intents:
+- how_to_apply: 0.55358386
+- application_process: 0.33895746
+Bot: <ol><li>Purchase an eVoucher from an approved vendor. </li><li>Visit https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login and enter the eVoucher details to access the application form. </li><li>Complete the application form accurately, providing all required information. </li><li>Upload necessary documents, including your results slip, birth certificate, and a passport-sized photograph. </li><li>Review your application thoroughly before submitting it. </li><li>Print a copy of the completed application form for your records. </li></ol>
+
+User: when is the application deadline?
+Predicted Intents:
+- Application Deadline: 0.93217474
+Bot: The application deadline is October 31, 2024.
+

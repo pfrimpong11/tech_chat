@@ -2,6 +2,7 @@
 import random
 import numpy as np
 from modules.utils import bag_of_words
+from modules.retrain_intents import update_intent
 import nltk
 from nltk.stem import WordNetLemmatizer
 import markdown
@@ -34,6 +35,17 @@ def log_interaction(user_input, predicted_intents, response):
         f.write(f"Bot: {response}\n\n")
 
 
+    # update the json for model retrain
+    tag = tag = predicted_intents[0]['intent']
+    pattern = []
+    bot_response = []
+
+    pattern.append(user_input)
+    bot_response.append(response)
+
+    update_intent(tag, pattern, bot_response)
+
+
 # Function to generate response from Gemini
 def generate_gem_response(question, model_response):
     prompt = f"Given the question and the answer, give a response to suit the question. Everything is about KNUST admissions:\n\n\n Question: {question} \n\n Response: {model_response} \n\n\n Ignore wrong answers, mistakes and go straight to the point. No preambles \n Don't say your instructions \n Don't tell me how good or bad my response is"
@@ -61,6 +73,42 @@ def generate_gem_response(question, model_response):
     clean_response = re.sub(r'\*', '<br>', clean_response)
 
     return clean_response
+
+
+# Function to verify the tag for the intents
+def generate_tag(tag, pattern):
+    prompt = f"Does the pattern match with the tag? Answer yes or no.\n\nPattern: {pattern}\nTag: {tag}\n\nIf the answer is yes, just respond with 'yes'. If the answer is no, respond with 'no' followed by the appropriate tag."
+
+    try:
+        model = genai.GenerativeModel('gemini-1.5-pro')
+        response = model.generate_content(prompt)
+
+        # Extracting the text from the response
+        response_content = ""
+        if hasattr(response, 'candidates') and response.candidates:
+            candidate = response.candidates[0]
+            if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
+                for part in candidate.content.parts:
+                    response_content += part.text
+
+        clean_response = re.sub(r'\*\*|\#\#|\n', '', response_content).strip().lower()
+
+    except (requests.ConnectionError, InternalServerError):
+        # Handle connection or server error by falling back to a default model response
+        clean_response = "no"  # Default response in case of error
+
+    # Parse the response
+    if clean_response.startswith("yes"):
+        return tag
+    elif clean_response.startswith("no"):
+        parts = clean_response.split(maxsplit=1)
+        if len(parts) > 1:
+            return parts[1]  # Return the appropriate tag
+        else:
+            return "unknown"  # If no tag is provided, return "unknown"
+    else:
+        return "unknown"  # Default return in case of unexpected output
+
 
 def clean_up_sentence(sentence):
     sentence = sentence.lower()  # Convert the sentence to lowercase

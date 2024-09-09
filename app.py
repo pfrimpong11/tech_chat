@@ -45,7 +45,7 @@ intent_files = [
     'intents/sciences_requirement.json', 'intents/humanities_social_sciences_requirement.json',
     'intents/health_science_requirement.json', 'intents/engineering_requirement.json',
     'intents/art_and_built_requirement.json', 'intents/agric_and_natural_resource_requirement.json',
-    'intents/freshers_guide.json', 'intents/shs_programmes.json'
+    'intents/freshers_guide.json', 'intents/shs_programmes.json', 'intents/bot_interaction.json'
 ]
 
 all_intents = {'intents': []}
@@ -108,7 +108,7 @@ def calculate_aggregate():
 def get_response():
     user_message = request.json["message"].lower()
     corrected_message = correct_spelling(user_message)
-    if check_internet():
+    if check_internet(): # function to check internet connection
         # Proceed with input processing
         print("User connected to the internet")
         bot_response = generate_bot_response(user_message, model, words, classes, all_intents)
