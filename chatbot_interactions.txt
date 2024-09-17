@@ -806,3 +806,8 @@ Predicted Intents:
 - Application Deadline: 0.93217474
 Bot: The application deadline is October 31, 2024.
 
+User: hey there
+Predicted Intents:
+- greeting: 0.8340757
+Bot: Okay, what's up about KNUST admissions?
+
