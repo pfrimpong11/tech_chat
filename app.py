@@ -25,7 +25,6 @@ app = Flask(__name__)
 
 # Connect to MongoDB Atlas using the environment variable
 MONGO_URI = os.getenv("MONGO_URI")
-print(MONGO_URI)
 client = pymongo.MongoClient(MONGO_URI)
 db = client.TechChat
 fs = gridfs.GridFS(db)
