@@ -11,5 +11,4 @@ dnspython
 python-dotenv
 scikit-learn
 pyspellchecker
-indexer
 gunicorn
