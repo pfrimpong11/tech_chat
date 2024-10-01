@@ -11,3 +11,4 @@ dnspython
 python-dotenv
 scikit-learn
 spellchecker
+gunicorn
