@@ -11,6 +11,7 @@ from bson import ObjectId
 from datetime import datetime
 from dotenv import load_dotenv
 import base64
+import nltk
 
 from modules.utils import correct_spelling, check_internet
 from modules.response_generator import generate_bot_response
