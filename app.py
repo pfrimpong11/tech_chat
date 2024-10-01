@@ -24,16 +24,10 @@ load_dotenv()
 app = Flask(__name__)
 
 # Connect to MongoDB Atlas using the environment variable
-# MONGO_URI = os.getenv("MONGO_URI")
-# client = pymongo.MongoClient(MONGO_URI)
-# db = client["mydatabase"]
-# feedback_collection = db["feedback"]
-# user_input_collection = db["user_inputs"]
-# icon_feedback_collection = db["icon_feedback"]
-
-# connect to localhost mongodb
-client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["mydatabase"]
+MONGO_URI = os.getenv("MONGO_URI")
+print(MONGO_URI)
+client = pymongo.MongoClient(MONGO_URI)
+db = client.TechChat
 fs = gridfs.GridFS(db)
 feedback_collection = db["feedback"]
 user_input_collection = db["user_inputs"]

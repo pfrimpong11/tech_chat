@@ -3,11 +3,15 @@
         {
             "tag": "greeting",
             "patterns": [
-                "hey there"
+                "hello",
+                "hey there",
+                "good evening"
             ],
             "responses": [
+                "Hi there, how can I help?",
                 "Okay, what's up about KNUST admissions?",
-                "Hi there, how can I help?"
+                "Good evening to you too! What can I help you with concerning KNUST admissions? \ud83d\ude0a",
+                "Okay, what can I help you with regarding KNUST admissions?"
             ]
         },
         {
@@ -31,10 +35,12 @@
         {
             "tag": "how_to_apply",
             "patterns": [
-                "tell me how to apply"
+                "tell me how to apply",
+                "what is the application process like?"
             ],
             "responses": [
-                "<ol><li>Purchase an eVoucher from an approved vendor. </li><li>Visit https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login and enter the eVoucher details to access the application form. </li><li>Complete the application form accurately, providing all required information. </li><li>Upload necessary documents, including your results slip, birth certificate, and a passport-sized photograph. </li><li>Review your application thoroughly before submitting it. </li><li>Print a copy of the completed application form for your records. </li></ol>"
+                "<ol><li>Purchase an eVoucher from an approved vendor. </li><li>Visit https:<br>//apps. knust. edu. gh/admissions/apply/Account/Login and enter the eVoucher details to access the application form. </li><li>Complete the application form accurately, providing all required information. </li><li>Upload necessary documents, including your results slip, birth certificate, and a passport-sized photograph. </li><li>Review your application thoroughly before submitting it. </li><li>Print a copy of the completed application form for your records. </li></ol>",
+                "To apply to KNUST, you need to:<br>1. Buy an eVoucher from an approved vendor. 2. Visit the KNUST admissions portal and log in with the eVoucher details. 3. Fill out all the required sections accurately, including your personal information, educational background, and exam results. 4. Upload the necessary documents, such as your birth certificate and certificates. 5. Select your preferred program of study and stream (regular or fee-paying). 6. Review all the information provided and submit your application."
             ]
         },
         {
@@ -44,6 +50,102 @@
             ],
             "responses": [
                 "The application deadline is October 31, 2024."
+            ]
+        },
+        {
+            "tag": "Purchasing/buying Undergraduate Application Forms in Ghana",
+            "patterns": [
+                "which type of form should i buy for undergraduate distance programe?"
+            ],
+            "responses": [
+                "<ul><li>Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks</li><li>Application forms can also be purchased via mobile:<br></li><br><ol><u>6 Easy Steps</u><li>Dial . <br>885#</li><li>Select Forms and E-voucher</li><li>Choose KNUST</li><li>Select the form you wish to purchase</li><li>Authorise Payment</li><li>Receive E-voucher via SMS</li></ol><br><ol><u>To Retrieve E-voucher</u><li>Dial <br>885#</li><li>Select Forms and E-voucher</li><li>Enter 1 to retrieve voucher code</li><li>Enter Transaction ID</li><li>E-voucher details displayed</li></ol></ul><br> The price is something around for Ghanaian undergraduate regular GHc 250. Please confirm the current price from the official KNUST website. No refund after purchase."
+            ]
+        },
+        {
+            "tag": "institute of distance learning",
+            "patterns": [
+                "which undergraduate programmes allow distance?"
+            ],
+            "responses": [
+                "As of the time being, I can only answer questions regarding undergraduate admissions."
+            ]
+        },
+        {
+            "tag": "multiple_results",
+            "patterns": [
+                "what are the requirements for political science?"
+            ],
+            "responses": [
+                "You can find the specific entry requirements for Political Science at KNUST on the university's official website or prospectus."
+            ]
+        },
+        {
+            "tag": "political_studies_requirement",
+            "patterns": [
+                "i mean requirements for political studies"
+            ],
+            "responses": [
+                "<ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:<br></b> History or Government and any one from Economics, Geography, French, Ghanaian Language, Literature in English, Religious Studies and any other General Arts Elective and a Pass in Social Studies.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:<br></b> Credit passes in FIVE (5) subjects including English Language and Mathematics </p><p><b>'A' Level or equivalent:<br></b> Credit passes including History and/or Government and any One (1) or Two (2) from Economics, Geography, French, Religious Studies and Ghanaian Language.  Applicants must also have a pass in General Paper. </p><br><li><b><u>Mature applicants </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul></ul>"
+            ]
+        },
+        {
+            "tag": "shs_general_arts",
+            "patterns": [
+                "what are the requirements for supply chain and procurement?"
+            ],
+            "responses": [
+                "To find the specific requirements for Supply Chain and Procurement at KNUST, you should check the university's official website or prospectus."
+            ]
+        },
+        {
+            "tag": "bsc_business_admin_requirements_logistics_supply_chain_mgmt_business_info_tech",
+            "patterns": [
+                "requirements for logistics and supply chain management"
+            ],
+            "responses": [
+                "<ul><li> WASSCE/SSSCE:<br> Credit passes in English, Mathematics, Integrated Science, and three (3) electives from Business, General Arts, or General Science. <li> 'A' Level:<br> Five (5) 'O' Level credits (including English and Mathematics) and three (3) 'A' Level credits in General Arts, Business, and General Science. <li> Mature Applicants (25+ years):<br>  Meet WASSCE/SSSCE or 'A' Level requirements with credits in Business, General Arts, and General Science. Pass an entrance exam and interview. <li> GBCE/ABCE:<br>  Six (6) GBCE credits (including English and Business Mathematics) OR three (3) ABCE credits in compulsory and optional subjects. <li> ACCA/ICA/ACIB/CIM:<br> Three (3) WASSCE/SSSCE core and three (3) elective credits OR five (5) 'O' Level credits (including English and Mathematics). Admitted to year one. <li> HND (Second Class Lower Division or higher):<br> Three (3) WASSCE/SSSCE core and three (3) elective credits OR five (5) 'O' Level credits (including English and Mathematics). Placement in Year Two or Three after an entrance exam/interview. </ul>"
+            ]
+        },
+        {
+            "tag": "sociology_requirements",
+            "patterns": [
+                "what are the requirements for sociology?"
+            ],
+            "responses": [
+                "Here are the requirements for BA. Sociology <ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science </p><p><b>Elective Subjects:<br></b> Credit passes in THREE (3) from History, Geography, Literature in English, French, Ghanaian Language, Government, Business Management, Elective Mathematics, Economics and other General Arts Elective and Science Electives.  </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:<br></b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:<br></b> Credit passes in THREE (3) subjects from Government, Religious Studies, History, Economics, and Literature in English, French, Ghanaian Language and Elective Mathematics. They must also have a pass in General Paper. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant must be at least 25 years at the time of the application.  </li><li>An applicant must also satisfy the requirements for WASSCE/SSSCE OR 'A' Level. </li></ul><br><li><b><u>DIPLOMA APPLICANTS </u></b></li><ul><li>Diploma in Social Work/Social Administration and any other relevant Diploma from an accredited university or Institution. </li><li>An applicant must pass a written examination and interview. Such candidates would be admitted into the second year of the Programme. </li></ul></ul>"
+            ]
+        },
+        {
+            "tag": "bsc_hospitality_tourism_management_requirements",
+            "patterns": [
+                "what are the requirements for hospitality management?"
+            ],
+            "responses": [
+                "<ul><li><b><u>WASSCE/SSSCE APPLICANTS </u></b></li><p><b>Core Subjects:<br></b> Credit passes in English Language, Mathematics, and Integrated Science.  </p><p><b>Elective Subjects:<br></b> Credit passes in THREE (3) subjects from any of the following groups:<br> Business, General Arts, General Science, and Vocational/Home Economics. </p><br><li><b><u>'A' LEVEL APPLICANTS </u></b></li><p><b>'O' Level:<br></b> Credit passes in FIVE (5) subjects including English Language and Mathematics. </p><p><b>'A' Level or equivalent:<br></b>  Credit passes in THREE (3) subjects in General Arts, Business, and General Science. </p><br><li><b><u>MATURE APPLICANTS </u></b></li><ul><li>An applicant should be at least 25 years at the time of submitting the application. </li><li>An applicant must satisfy the requirement for either 'A' Level or WASSCE/SSSCE with credit passes in THREE (3) Elective Subjects in Business, General Arts, General Science, and Vocational/Home Economics.  </li><li>Short-listed Applicants shall take an entrance examination and pass an interview.  </li></ul><br><li><b><u>OTHER APPLICANTS  </u></b></li><ul><li>General Business Certificate (GBCE) and/or Advanced Business Certificate (ABCE):<br>  </li><ul><li>Credit passes in at least SIX (6) subjects including English Language and Business Mathematics at the GBCE, or  </li><li>Credit passes in the THREE (3) relevant Compulsory Subjects and THREE (3) Optional Subjects at the ABCE.  </li><li>Applicants need both GBCE and ABCE to qualify. </li></ul><br><li>ACCA, ICA, ACIB or CIM:<br> </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core Subjects and THREE Electives OR, </li><li>FIVE (5) credit passes at the 'O' Level including English Language and Mathematics. Applicants in this category are admitted into year one. </li></ul><br><li>HND with Second Class (Lower Division) and above:<br> </li><ul><li>Credit passes at WASSCE/SSSCE in THREE (3) Core subjects and THREE (3) Electives OR, </li><li>FIVE (5) credit passes at 'O' level including English language and mathematics. These applicants would be placed in either Year Two (2) or Year Three (3) after passing an entrance examination/interview. </li></ul></ul></ul>"
+            ]
+        },
+        {
+            "tag": "shs_general_science",
+            "patterns": [
+                "social sciences programmes",
+                "college of social sciences programmes"
+            ],
+            "responses": [
+                "The College of Social Sciences at KNUST offers programmes such as Sociology, Geography, Economics, Political Science, and Psychology.",
+                "KNUST offers various Social Sciences programs such as Economics, Sociology, Geography, History, Political Studies, and Psychology. You can find specific requirements for each program in the KNUST admissions brochure."
+            ]
+        },
+        {
+            "tag": "humanities_and_social_sciences_programmes",
+            "patterns": [
+                "provide all programmes under college of humanities and social sciences including business school",
+                "humanities and social sciences programmes",
+                "provide all programmes under college of humanities and social sciences"
+            ],
+            "responses": [
+                "<ul><li><b>Faculty Of Law</b><ul><li>Bachelor of Laws (LLB)</li></ul><br></li><li><b>Faculty of Social Science</b><ul><li>BA. Economics</li><li>BA. English</li><li>BA. Geography and Rural Development</li><li>BA. History</li><li>BA. Political Studies</li><li>BA. Akan Language and Culture</li><li>BA. French and Francophone Studies</li><li>BA. Linguistics</li><li>BA. Media and Communication Studies</li><li>BA. Religious Studies</li><li>BA. Sociology</li><li>BA. Social Work</li></ul></li></ul>",
+                "<ul>  <li>    <b>Faculty Of Law</b>    <ul>      <li>Bachelor of Laws (LLB)</li>      <li>LLB (Degree Holders Only) (Fee-Paying)</li>    </ul>  </li>  <br/>  <li>    <b>Faculty of Social Science</b>    <ul>      <li>BA. Economics</li>      <li>BA. English</li>      <li>BA. Geography and Rural Development</li>      <li>BA. History</li>      <li>BA. Political Studies</li>      <li>BA. Akan Language and Culture</li>      <li>BA. French and Francophone Studies</li>      <li>BA. Linguistics</li>      <li>BA. Media and Communication Studies</li>      <li>BA. Religious Studies</li>      <li>BA. Sociology</li>      <li>BA. Social Work</li>    </ul>  </li></ul>",
+                "<ul><li><b>Faculty Of Law</b><ul><li>Bachelor of Laws (LLB)</li><li>LLB (Degree Holders Only) (Fee-Paying)</li></ul><br></li><li><b>Faculty of Social Science</b><ul><li>BA. Economics</li><li>BA. English</li><li>BA. Geography and Rural Development</li><li>BA. History</li><li>BA. Political Studies</li><li>BA. Akan Language and Culture</li><li>BA. French and Francophone Studies</li><li>BA. Linguistics</li><li>BA. Media and Communication Studies</li><li>BA. Religious Studies</li><li>BA. Sociology</li><li>BA. Social Work</li></ul><br></li><li><b>KNUST School of Business</b><ul><li>BSc. Business Administration (Human Resource Management /Management)</li><li>BSc. Business Administration (Marketing/International Business)</li><li>BSc. Business Administration (Accounting / Banking and Finance)</li><li>BSc. Business Administration (Logistics and Supply Chain Management/Business Information Technology)</li><li>BSc. Hospitality and Tourism Management</li></ul></li></ul>"
             ]
         }
     ]
