@@ -13,8 +13,8 @@ from tensorflow.keras.layers import Input, Dense, Dropout
 from tensorflow.keras.optimizers import SGD
 from sklearn.model_selection import train_test_split
 
-nltk.download('punkt')
-nltk.download('wordnet')
+# nltk.download('punkt')
+# nltk.download('wordnet')
 
 lemmatizer = WordNetLemmatizer()
 

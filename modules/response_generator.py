@@ -14,6 +14,11 @@ import requests
 from google.api_core.exceptions import InternalServerError
 
 
+nltk.download('punkt')
+nltk.download('wordnet')
+
+
+
 load_dotenv()
 
 # Set your Gemini API key
