@@ -7,6 +7,10 @@ import random
 import json
 import requests
 
+nltk.download('punkt')
+nltk.download('wordnet')
+
+
 lemmatizer = WordNetLemmatizer()
 spell = SpellChecker()
 

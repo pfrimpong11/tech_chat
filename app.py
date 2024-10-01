@@ -18,6 +18,11 @@ from modules.db_operations import save_user_input, record_icon_feedback, record_
 from modules.email_sender import send_email
 from modules.calculations import calculate_total_aggregate
 
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
 # Load environment variables from .env file
 load_dotenv()
 
