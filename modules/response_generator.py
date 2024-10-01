@@ -14,7 +14,7 @@ import requests
 from google.api_core.exceptions import InternalServerError
 
 
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 
 

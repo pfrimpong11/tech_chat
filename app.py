@@ -22,7 +22,7 @@ from modules.calculations import calculate_total_aggregate
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
-    nltk.download('punkt')
+    nltk.download('punkt_tab')
 
 # Load environment variables from .env file
 load_dotenv()

@@ -7,7 +7,7 @@ import random
 import json
 import requests
 
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 
 
