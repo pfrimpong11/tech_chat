@@ -52,9 +52,23 @@ def log_interaction(user_input, predicted_intents, response):
 
 
 # Function to generate response from Gemini
-def generate_gem_response(question, model_response):
-    prompt = f"Given the question and the answer, give a response to suit the question. Everything is about KNUST admissions:\n\n\n Question: {question} \n\n Response: {model_response} \n\n\n Ignore wrong answers, mistakes and go straight to the point. No preambles \n Don't say your instructions \n Don't tell me how good or bad my response is"
+def generate_gem_response(question, predicted_intent, model_response):
+    prompt = f"""
+    Hey! Act as a highly professional admissions counselor or admissions advisor at Kwame Nkrumah University of Science and Technology.
+    Your name will be TechChat.
+    First if all I will try and predict the user's questions and provide a response to it. 
+    Your job is to analyse the the question, the predicted intent and response. Whether the response suits the question. 
+    If the response suits the question, write it well for the user, if not, provide the most suitable response.
 
+    No preambles i.e telling them how their provided response sounds. Provide only the suitable response for the applicant.
+
+    Everything is about KNUST admission.
+    
+    Question: {question}
+    Predicted Intent: {predicted_intent}
+    Response: {model_response}
+    """
+    
     try:
         model = genai.GenerativeModel('gemini-1.5-pro')
         response = model.generate_content(prompt)
@@ -67,52 +81,56 @@ def generate_gem_response(question, model_response):
                 for part in candidate.content.parts:
                     response_content += part.text
 
-        clean_response = re.sub(r'\*\*|\#\#|\n', '', response_content).strip()
+        # Clean and format the response content
+        clean_response = format_response(response_content)
     except (requests.ConnectionError, InternalServerError):
-        # If there's a connection error or internal server error, fall back to the model response
+        # Fall back to the model response in case of an error
         clean_response = model_response
-
-    # Insert a space after every period for better readability
-    clean_response = re.sub(r'\.(?=[^\s])', '. ', clean_response)
-    clean_response = re.sub(r':', ':<br>', clean_response)
-    clean_response = re.sub(r'\*', '<br>', clean_response)
 
     return clean_response
 
 
-# Function to verify the tag for the intents
-def generate_tag(tag, pattern):
-    prompt = f"Does the pattern match with the tag? Answer yes or no.\n\nPattern: {pattern}\nTag: {tag}\n\nIf the answer is yes, just respond with 'yes'. If the answer is no, respond with 'no' followed by the appropriate tag."
+def format_response(response_content):
+    if '|' in response_content:  # Checking for table structure
+        response_content = format_table(response_content)
+    
+    response_content = re.sub(r'\n', ' <br>', response_content)
+    
+    # Format URLs and email addresses properly (basic regex for example purposes)
+    response_content = re.sub(r'([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)', r'<a href="mailto:\1">\1</a>', response_content)  # Email links
+    response_content = re.sub(r'(https?://[^\s]+)', r'<a href="\1">\1</a>', response_content)  # URL links
+    
+    # Remove any unwanted markdown symbols (**, ##)
+    clean_response = re.sub(r'\*\*|\#\#|\_', '', response_content).strip()
 
-    try:
-        model = genai.GenerativeModel('gemini-1.5-pro')
-        response = model.generate_content(prompt)
+    return clean_response
 
-        # Extracting the text from the response
-        response_content = ""
-        if hasattr(response, 'candidates') and response.candidates:
-            candidate = response.candidates[0]
-            if hasattr(candidate, 'content') and hasattr(candidate.content, 'parts'):
-                for part in candidate.content.parts:
-                    response_content += part.text
 
-        clean_response = re.sub(r'\*\*|\#\#|\n', '', response_content).strip().lower()
+def format_table(response_content):
+    # Split the content into rows
+    rows = response_content.split('\n')
+    
+    # Start building the HTML table
+    table_html = '<table border="1" cellpadding="5" cellspacing="0">'
+    
+    for row in rows:
+        if '|' in row:  # Only format rows that appear to have table columns
+            # Split the row by '|' to get individual cells
+            cells = row.split('|')
+            # Clean up whitespace from each cell
+            cells = [cell.strip() for cell in cells if cell.strip()]
+            
+            if cells:
+                table_html += '<tr>'
+                for cell in cells:
+                    table_html += f'<td>{cell}</td>'
+                table_html += '</tr>'
+    
+    table_html += '</table>'
+    
+    return table_html
 
-    except (requests.ConnectionError, InternalServerError):
-        # Handle connection or server error by falling back to a default model response
-        clean_response = "no"  # Default response in case of error
 
-    # Parse the response
-    if clean_response.startswith("yes"):
-        return tag
-    elif clean_response.startswith("no"):
-        parts = clean_response.split(maxsplit=1)
-        if len(parts) > 1:
-            return parts[1]  # Return the appropriate tag
-        else:
-            return "unknown"  # If no tag is provided, return "unknown"
-    else:
-        return "unknown"  # Default return in case of unexpected output
 
 
 def clean_up_sentence(sentence):
@@ -157,8 +175,7 @@ def generate_bot_response(user_message, model, words, classes, all_intents):
     for intent in intents:
         print(f"- {intent['intent']}: {intent['probability']}")
         intent_response = get_response_from_intent(intents, all_intents)
-        # markup_response = markdown.markdown(intent_response) #removing html tags from response
-        final_response = generate_gem_response(user_message, intent_response) #call function to generate final response
+        final_response = generate_gem_response(user_message, intents[0], intent_response) #call function to generate final response
         log_interaction(user_message, intents, final_response) #log user interaction
         return final_response
     return "I'm sorry, I don't understand that."

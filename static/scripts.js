@@ -229,36 +229,57 @@ function sendMessage() {
         document.getElementById("chat-container").appendChild(loader);
 
 
-        // delay for 1s before displaying the response
-        setTimeout(function() {
-            // Make request to backend with user input
-            fetch("/get_response", {
-                method: "POST",
-                body: JSON.stringify({ message: userInput }),
-                headers: {
-                    "Content-Type": "application/json",
-                },
-            })
-            .then(response => response.json())
-            .then(data => {
+        // Delay for 1s before displaying the response
+        setTimeout(async function() {
+            try {
+                // Make request to backend with user input
+                const response = await fetch("/get_response", {
+                    method: "POST",
+                    body: JSON.stringify({ message: userInput }),
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                });
+
+                // Check if response is okay (status code 200-299)
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+
+                const data = await response.json();
+
                 // Remove loader element when response is received
                 loader.remove();
 
-                if (data.response !== "I'm sorry, I don't understand that.") {
-                    addBotMessage(data.response);
-                } else {
+                if (data.response == "I'm sorry, I don't understand that.") {
                     // Save user input to file if the bot doesn't understand
                     saveUserInputToFile(userInput);
                     // Prompt for feedback
                     addBotMessage("I don't have an answer for that. Kindly rephrase your question for a better response. Was this helpful?");
+                } 
+                else if (data.response == "Please check your internet connection."){
+                    addMessageForError("An unexpected error has occurred. Please try again later. If the issue persists, kindly reach out to our support team for assistance.");
                 }
-            })
-            .catch(error => console.error("Error:", error));
+                else {
+                    // display response from bot
+                    addBotMessage(data.response);
+                }
+
+            } catch (error) {
+                // Handle any errors, including network issues
+                console.error("Error:", error);
+
+                // Remove loader element in case of error
+                loader.remove();
+
+                // Add error message to chat
+                addMessageForError("An unexpected error has occurred. Please try again later. If the issue persists, kindly reach out to our support team for assistance.");
+            }
         }, 1000);
 
     } else {
         // alert("You are not connected to the internet. Please check your connection.");
-        addMessageForNoInternet("You are not connected to the internet. Please check your connection.");
+        addMessageForError("You are not connected to the internet. Please check your connection.");
     }
 }
 
@@ -297,8 +318,16 @@ function addUserMessage(message) {
 
 function addBotMessage(message) {
     var chatContainer = document.getElementById("chat-container");
+
+    // Remove the error message if present before adding a new bot message
+    var existingError = document.getElementById("error-message");
+    if (existingError) {
+        chatContainer.removeChild(existingError);
+    }
+
     var botMessage = document.createElement("div");
     botMessage.className = "message bot-message";
+    
     var botAvatar = document.createElement("img");
     updateBotAvatar(botAvatar);
     botAvatar.alt = "Bot Avatar";
@@ -316,7 +345,6 @@ function addBotMessage(message) {
     chatContainer.appendChild(botMessage);
     chatContainer.scrollTop = chatContainer.scrollHeight;
 
-    
     // Add feedback buttons for every bot response
     var feedbackButtons = document.createElement("div");
     feedbackButtons.className = "feedback-buttons";
@@ -342,17 +370,17 @@ function addBotMessage(message) {
         helpfulButton.remove();
     };
     var copyButton = document.createElement('span');
-        copyButton.innerHTML = '<i class="fa-regular fa-copy"></i>';
-        copyButton.setAttribute('title', 'Copy response');
-        copyButton.onclick = function () {
-            copyTextToClipboard(message);
+    copyButton.innerHTML = '<i class="fa-regular fa-copy"></i>';
+    copyButton.setAttribute('title', 'Copy response');
+    copyButton.onclick = function () {
+        copyTextToClipboard(message);
     };
     var speakButton = document.createElement('span');
-        speakButton.innerHTML = '<i class="fa-regular fa-solid fa-volume-low"></i>';
-        speakButton.setAttribute('title', 'Speak response');
-        speakButton.onclick = function () {
-            toggleSpeech(message);
-        };
+    speakButton.innerHTML = '<i class="fa-regular fa-solid fa-volume-low"></i>';
+    speakButton.setAttribute('title', 'Speak response');
+    speakButton.onclick = function () {
+        toggleSpeech(message);
+    };
     feedbackButtons.appendChild(helpfulButton);
     feedbackButtons.appendChild(notHelpfulButton);
     feedbackButtons.appendChild(copyButton);
@@ -361,29 +389,37 @@ function addBotMessage(message) {
 
     // animation effect for bot message
     animateMessage(messageDiv);
-    // writeAnimateMessage(messageDiv, removeHTMLTags(message));
 }
 
 
-// bot message to display no internet connection
-function addMessageForNoInternet(message) {
+// bot message to display no internet connection or other errors
+function addMessageForError(message) {
     var chatContainer = document.getElementById("chat-container");
+
+    // Check if there's already an error message, remove it if found
+    var existingError = document.getElementById("error-message");
+    if (existingError) {
+        chatContainer.removeChild(existingError);
+    }
+
     var botMessage = document.createElement("div");
     botMessage.className = "message bot-message";
+    botMessage.id = "error-message"; // Give the error message a specific id for easy identification
+
     var botAvatar = document.createElement("img");
     updateBotAvatar(botAvatar);
     botAvatar.alt = "Bot Avatar";
     botAvatar.className = "bot-avatar";
     botMessage.appendChild(botAvatar);
 
-    // Create a new div for the bot's message
+    // Create a new div for the error message
     var messageDiv = document.createElement("div");
     messageDiv.className = "message-content";
-    // Set innerHTML to the message directly
+    messageDiv.style.color = "red"; // Set the color of the error message to red
     messageDiv.innerHTML = message;
     botMessage.appendChild(messageDiv);
 
-    // Append the message div to the chat container
+    // Append the error message to the chat container
     chatContainer.appendChild(botMessage);
     chatContainer.scrollTop = chatContainer.scrollHeight;
 }

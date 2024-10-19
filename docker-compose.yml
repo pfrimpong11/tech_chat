@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  techchat:
+    build: .
+    container_name: chatbot_container
+    ports:
+      - "5000:5000"  # Map container port 5000 to host port 5000
+    env_file:
+      - .env  # Automatically load environment variables from the .env file
+    volumes:
+      - .:/app  # Mount current directory to /app inside container
+    restart: always
