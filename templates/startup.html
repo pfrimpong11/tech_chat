@@ -10,197 +10,279 @@
     <title>Tech Chat</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="/static/techchat_logo_dark.png"/>
-</head>
-<body>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
+
+<style>
+        :root {
+            --primary: #2563eb;
+            --primary-foreground: #ffffff;
+            --background: #f3f4f6;
+            --card: #ffffff;
+            --card-foreground: #1f2937;
+            --muted: #e5e7eb;
+            --muted-foreground: #6b7280;
+        }
+
+        * {
             margin: 0;
             padding: 0;
-            background-color: #fff;
+            box-sizing: border-box;
         }
 
-        header {
-            padding: 5px 20px;
-            background: #fff;
-            border-bottom: 1px solid #d1e6f8;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            border: 1px solid #ddd;
-        }
-
-        header img {
-            height: 50px;
-        }
-
-        .get-started {
-            padding-top: 15px;
-        }
-
-        header a {
-            background: #090263;
-            font-size: 15px;
-            padding: 15px;
-        }
-
-        header a:hover {
-            background: #F0F6FB;
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.5;
+            color: var(--card-foreground);
+            background-color: var(--background);
         }
 
         .container {
-            height: 100vh;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background-color: var(--card);
+            border-bottom: 1px solid var(--muted);
+            padding: 1rem 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-container img {
+            height: 40px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary);
+            color: var(--primary-foreground);
+            text-decoration: none;
+            border-radius: 0.25rem;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+
+        main {
+            padding: 2rem 0;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, var(--primary), #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-image {
+            max-width: 100%;
+            border-radius: 0.5rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            background-color: var(--card);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        }
+
+        .card-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            color: var(--muted-foreground);
+            margin-bottom: 1rem;
+        }
+
+        .newsletter {
+            background-color: var(--muted);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .newsletter h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 0.5rem;
+            max-width: 400px;
+        }
+
+        .newsletter-form input {
+            flex-grow: 1;
+            padding: 0.5rem;
+            border: 1px solid var(--muted-foreground);
+            border-radius: 0.25rem;
+        }
+
+        footer {
+            background-color: var(--card);
+            border-top: 1px solid var(--muted);
+            padding: 1.5rem 0;
+        }
+
+        .footer-content {
             display: flex;
             flex-direction: column;
-            overflow-y: scroll;
-            scrollbar-width: none;
-        }
-
-        section {
-            display: flex;
-            flex-direction: row;
-            /* align-items: center; */
             justify-content: space-between;
-            padding: 2rem;
-            margin-top: 50px;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-bottom: 25px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+            align-items: center;
         }
 
-        .text-box {
-            text-align: left;
-            width: 50%;
-        }
-
-        .text-box h2 {
-            font-size: 40px;
-            color: #090263;
-            margin-bottom: 40px;
-        }
-
-        .text-box p {
-            margin-bottom: 80px;
-            font-size: 20px;
-            line-height: 30px;
-            text-align: justify;
-        }
-
-        a {
-            padding: 1rem 2rem;
-            background-color: #090263;
-            color: #fff;
-            border: none;
-            border-radius: 50px;
-            font-size: 1rem;
-            cursor: pointer;
+        .footer-links a {
+            color: var(--muted-foreground);
             text-decoration: none;
+            margin-left: 1rem;
         }
 
-        a:hover {
-            background-color: #fff;
-            color: #090263;
-            border: 1.5px solid #090263;
-        }
-
-        .chatbot-box img {
-            max-width: 550px;
+        .footer-links a:hover {
+            color: var(--primary);
         }
 
         @media (max-width: 768px) {
-            section {
-            display: flex;
-            flex-direction: column;
-            align-items:flex-start;
-        }
+            .hero {
+                grid-template-columns: 1fr;
+            }
 
-        .text-box {
-            width: 100%;
-            text-align: center;
-            margin-top: 20px;
-        }
+            .hero-image {
+                order: -1;
+            }
 
-        .text-box h2 {
-            font-size: 20px;
-        }
-
-        .text-box p {
-            margin-bottom: 70px;
-            font-size: 15px;
-        }
-
-        header a {
-            padding: 0.8rem 1rem;
-            background-color: #090263;
-            color: #fff;
-            border: none;
-            border-radius: 50px;
-            font-size: 1rem;
-            cursor: pointer;
-            text-decoration: none;
-        }
-
-        .chatbot-box img {
-            display: none;
-        }
+            .newsletter-form {
+                flex-direction: column;
+            }
         }
     </style>
-
-    <div class="container">
-        <header>
-            <div>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo-container">
                 <img src="/static/knust_logo.png" alt="KNUST Logo">
-                <img src="/static/techchat_logo_light.png" alt="Chat Icon">
+                <img src="/static/techchat_logo_light.png" alt="TechChat Logo">
             </div>
-            <div class="get-started">
-                <a href="/index.html">Get Started</a>
+            <a href="/register" class="button">Get Started</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>TechChat</h1>
+                <p>Welcome to TechChat, your personal assistant for KNUST undergraduate admissions. Get instant answers about the application process, requirements, scholarships, and campus life.</p>
+                <a href="/index" class="button">Chat Now</a>
             </div>
-        </header>
-        <section>
-            <div class="text-box">
-                <h2>TechChat</h2>
-                <p>Welcome to TechChat, your personal assistant for KNUST undergraduate admissions. Whether you want to know about the application process, admission requirements, scholarship opportunities, or campus life, TechChat provides instant answers. Begin your journey to becoming a KNUST student today.</p>
-                <a href="/index.html">Chat Now</a>
-            </div>
-            <div class="chatbot-box">
-                <img src="/static/chatbot.gif" alt="Robot">
-            </div>
+            <img src="/static/chatbot.gif" alt="Chatbot" class="hero-image">
         </section>
 
-        <section>
-            <div class="chatbot-box">
-                <img src="/static/prospective-student.jpg" alt="animated students">
-            </div>
-            <div class="text-box">
+        <section class="features">
+            <div class="card">
+                <svg class="card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
                 <h2>TechChat Community</h2>
-                <p>Join our community of prospective KNUST students! Connect with others who are on the same journey, share experiences, and get valuable tips. Click below to join our student network.</p>
-                <a href="https://techchat-community.onrender.com">Connect Now</a>
+                <p><i>Connect with other KNUST prospects</i></p>
+                <p>Join our community to share experiences and get valuable tips from peers on the same journey.</p>
+                <a href="https://techchat-community.onrender.com" class="button">Connect Now</a>
             </div>
-        </section>
-
-        <section>
-            <div class="text-box">
+            <div class="card">
+                <svg class="card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
                 <h2>Aggregate Calculator</h2>
-                <p>Wondering how your grades stack up for KNUST admission? Use our aggregate calculator to estimate your admission score. This tool helps you understand your chances and plan accordingly.</p>
-                <a href="/pages/aggregate.html">Calculate Now</a>
+                <p><i>Estimate your admission score</i></p>
+                <p>Use our tool to calculate your aggregate score and understand your chances for KNUST admission.</p>
+                <a href="/aggregate" class="button">Calculate Now</a>
             </div>
-            <div class="chatbot-box">
-                <img src="/static/calculator.jpg" alt="calculator">
+            <div class="card">
+                <svg class="card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                </svg>
+                <h2>Feedback and Support</h2>
+                <p><i>Help us improve TechChat</i></p>
+                <p>Share your suggestions or ask questions that TechChat couldn't answer to help us enhance our service.</p>
+                <a href="/feedback" class="button">Send Feedback</a>
             </div>
         </section>
 
-        <section>
-            <div class="chatbot-box">
-                <img src="/static/feedback.jpg" alt="Robot">
-            </div>
-            <div class="text-box">
-                <h2>Feedback and Support</h2>
-                <p>Your feedback is important to us! If you have specific questions that TechChat couldn't answer or suggestions for improving our service, please let us know. Click below to send your feedback or ask a question.</p>
-                <a href="/pages/feedback.html">Connect Now</a>
-            </div>
-        </section>
-    </div>
+        <!-- <section class="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest updates on KNUST admissions and TechChat features.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="button">Subscribe</button>
+            </form>
+        </section> -->
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> TechChat. All rights reserved.</p>
+            <!-- <nav class="footer-links">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+            </nav> -->
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('input[type="email"]').value;
+            alert(`Thank you for subscribing with ${email}! You'll receive our updates soon.`);
+            this.reset();
+        });
+    </script>
 </body>
 </html>

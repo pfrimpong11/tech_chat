@@ -1,5 +1,6 @@
 # app.py
-from flask import Flask, render_template, request, jsonify, Response
+from flask import Flask, render_template, request, jsonify, Response, redirect, url_for, flash, session
+from werkzeug.security import generate_password_hash, check_password_hash
 import json
 import pickle
 from tensorflow.keras.models import load_model
@@ -12,11 +13,14 @@ from datetime import datetime
 from dotenv import load_dotenv
 import base64
 import nltk
+import datetime
+from datetime import timedelta
+from flask_session import Session
 
 from modules.utils import correct_spelling, check_internet
 from modules.response_generator import generate_bot_response
 from modules.db_operations import save_user_input, record_icon_feedback, record_feedback_with_user_details, get_feedback_file
-from modules.email_sender import send_email
+from modules.email_sender import send_email, forgot_password_email
 from modules.calculations import calculate_total_aggregate
 
 try:
@@ -28,6 +32,14 @@ except LookupError:
 load_dotenv()
 
 app = Flask(__name__)
+
+app.config['SESSION_TYPE'] = 'filesystem'  # You can also use 'redis' or 'sqlalchemy' for DB-based sessions
+app.config['SESSION_PERMANENT'] = False  # Sessions will last until the browser closes
+app.config['SESSION_USE_SIGNER'] = True  # Encrypt session cookies
+app.config['SECRET_KEY'] = os.getenv("SECRET_KEY")  # Required for signing the session
+app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(hours=2)
+
+Session(app)
 
 # Connect to MongoDB Atlas using the environment variable
 MONGO_URI = os.getenv("MONGO_URI")
@@ -64,19 +76,30 @@ model = load_model('chatbot_functional_model.h5')
 def startup():
     return render_template("startup.html")
 
-@app.route('/index.html')
+@app.route('/index')
 def index():
     return render_template('index.html')
+
+@app.route('/chat')
+def indexChat():
+    if 'user_id' not in session:
+        flash('Please log in.', 'danger')
+        return redirect(url_for('login'))
+    return render_template('index-login.html')
+
+@app.route('/chat-history')
+def chatHistory():
+    return render_template('pages/chat-history.html')
 
 @app.route('/knustPortal')
 def knustPortal():
     return render_template('pages/knustPortal.html')
 
-@app.route('/pages/feedback.html')
+@app.route('/feedback')
 def feedback():
     return render_template('pages/feedback.html')
 
-@app.route('/pages/aggregate.html')
+@app.route('/aggregate')
 def aggregate():
     return render_template('pages/aggregate.html')
 
@@ -88,9 +111,150 @@ def programme_options():
 def calculateAggregate():
     return app.send_static_file('calculateAggregate.json')
 
-@app.route('/pages/emailSent.html')
+@app.route('/emailSent')
 def emailSent():
     return render_template('pages/emailSent.html')
+
+# Registration route
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        data = request.get_json()
+        name = data.get('name')
+        email = data.get('email')
+        password = data.get('password')
+        
+        # Check if the email is already registered
+        existing_user = db.users.find_one({'email': email})
+        
+        if existing_user:
+            return jsonify({
+                'status': 'error',
+                'message': 'Email is already registered'
+            }), 409
+
+        if len(password) < 8:
+            return jsonify({
+                'status': 'error',
+                'message': 'Password must be at least 8 characters long'
+            }), 401
+        
+        hashed_password = generate_password_hash(password)
+        
+        # Save new user to the database
+        db.users.insert_one({
+            'name': name,
+            'email': email,
+            'password': hashed_password
+        })
+        
+        return jsonify({
+                'status': 'success',
+                'message': 'Registration successful!'
+            }), 200
+    
+    return render_template('pages/register.html')
+
+# login route
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        data = request.get_json()
+        email = data.get('email')
+        password = data.get('password')
+        
+        # Find the user in the database
+        user = db.users.find_one({'email': email})
+        
+        if user and check_password_hash(user['password'], password):
+            # Store user_id and email in session
+            session['user_id'] = str(user['_id'])  # Convert ObjectId to string for session
+            session['user_email'] = user['email']
+            
+            # Return the user_id to the frontend
+            return jsonify({
+                'status': 'success',
+                'user_id': str(user['_id']),
+                'message': 'Logged in successfully!'
+            }), 200
+        else:
+            return jsonify({
+                'status': 'error',
+                'message': 'Invalid email or password'
+            }), 401
+
+    return render_template('pages/login.html')
+
+
+# Logout route
+@app.route('/logout')
+def logout():
+    session.pop('user_id', None)
+    session.pop('user_email', None)
+    flash('You have been logged out.', 'success')
+    return redirect(url_for('startup'))
+
+# Forgot password route
+@app.route('/forgot-password', methods=['GET', 'POST'])
+def forgot_password():
+    if request.method == 'POST':
+        email = request.form['email']
+        
+        # Check if user exists
+        user = db.users.find_one({'email': email})
+        if user:
+            # Generate a token
+            token = str(ObjectId())
+            db.password_resets.insert_one({'email': email, 'token': token})
+            
+            # Create password reset URL
+            reset_url = url_for('reset_password', token=token, _external=True)
+            
+            # Send the password reset email
+            forgot_password_email(email, reset_url)
+            
+            return jsonify({'status': 'success', 'message': 'Password reset link sent to your email'})
+        else:
+            return jsonify({'status': 'error', 'message': 'Email not found!'})
+    
+    return render_template('pages/forgot_password.html')
+
+# Reset password route
+@app.route('/reset-password/<token>', methods=['GET', 'POST'])
+def reset_password(token):
+    # Check if token exists in the database
+    reset_record = db.password_resets.find_one({'token': token})
+    
+    if not reset_record:
+        return jsonify({'status': 'error', 'message': 'Invalid or expired token'})
+
+
+    if request.method == 'POST':
+        new_password = request.form['password']
+        # confirm_password = request.form['confirm_password']
+
+        if len(new_password) < 8 :
+            return jsonify({'status': 'error', 'message': 'Password must be at least 8 characters long'})
+        
+        # if new_password != confirm_password:
+        #     return jsonify({'status': 'error', 'message': 'Passwords do not match'})
+        
+        # Hash the new password
+        hashed_password = generate_password_hash(new_password)
+
+        # Update the user's password in the database
+        db.users.update_one(
+            {'email': reset_record['email']},
+            {'$set': {'password': hashed_password}}
+        )
+        
+        # Remove the password reset token after successful reset
+        db.password_resets.delete_one({'token': token})
+        
+        return jsonify({'status': 'success', 'message': 'Password has been reset successfully'})
+    
+    return render_template('pages/reset_password.html', token=token)
+
 
 @app.route('/calculate-aggregate', methods=['POST'])
 def calculate_aggregate():
@@ -182,6 +346,133 @@ def get_feedback_file_route(feedback_id):
     except Exception as e:
         print("Exception:", str(e))
         return jsonify({"error": str(e)}), 500
+
+
+
+@app.route('/start-chat', methods=['POST'])
+def start_chat():
+    # Debug: Check if session data exists
+    print(f"Session data: {session}")
+
+    data = request.json
+    user_id = session.get('user_id')  # Assuming the user is logged in
+
+    if not user_id:
+        return jsonify({'error': 'User not authenticated'}), 401
+
+    # Create a new chat session with the first user message as the session name
+    message = data['message'] # Use the first message as the session name
+    session_name = correct_spelling(message)
+    chat_session = {
+        'user_id': ObjectId(user_id),
+        'session_name': session_name,
+        'messages': [{
+            'message': data['message'],
+            'sender': 'user',
+            'timestamp': datetime.datetime.now(datetime.UTC)
+        }],
+        'created_at': datetime.datetime.now(datetime.UTC)
+    }
+
+    # Insert the new chat session into the database
+    session_id = db.chat_sessions.insert_one(chat_session).inserted_id
+
+    return jsonify({'status': 'Chat session started', 'session_id': str(session_id)}), 200
+
+
+
+@app.route('/add-message/<session_id>', methods=['POST'])
+def add_message(session_id):
+    data = request.json
+    user_id = session.get('user_id')  # Ensure user is logged in
+
+    if not user_id:
+        return jsonify({'error': 'User not authenticated'}), 401
+
+    # Add message to the existing session
+    new_message = {
+        'message': data['message'],
+        'sender': data['sender'],  # 'user' or 'bot'
+        'timestamp': datetime.datetime.utcnow()
+    }
+
+    db.chat_sessions.update_one(
+        {'_id': ObjectId(session_id), 'user_id': ObjectId(user_id)},
+        {'$push': {'messages': new_message}}
+    )
+
+    return jsonify({'status': 'Message added to chat session'}), 200
+
+
+# route to fetch all the chat history
+@app.route('/get-chat-sessions', methods=['GET'])
+def get_chat_sessions():
+    user_id = request.args.get('user_id')  # Get user_id from query parameters
+
+    if not user_id:
+        return jsonify({'error': 'User not authenticated'}), 401
+
+    # Retrieve all chat sessions for the user
+    sessions = list(db.chat_sessions.find({'user_id': ObjectId(user_id)}).sort('created_at', -1))
+
+    session_list = []
+    for session in sessions:
+        session_list.append({
+            'session_id': str(session['_id']),
+            'session_name': session['session_name'],
+            'created_at': session['created_at'].strftime('%Y-%m-%d %H:%M:%S')
+        })
+
+    return jsonify({'chat_sessions': session_list}), 200
+
+
+# route to get messages from a chat session
+@app.route('/get-session-messages/<session_id>', methods=['POST'])
+def get_session_messages(session_id):
+    data = request.json
+    user_id = data.get('user_id')
+
+    if not user_id:
+        return jsonify({'error': 'User not authenticated'}), 401
+
+    # Retrieve the messages for the selected session
+    session = db.chat_sessions.find_one({'_id': ObjectId(session_id), 'user_id': ObjectId(user_id)})
+
+    if not session:
+        return jsonify({'error': 'Chat session not found'}), 404
+
+    messages = session['messages']
+    message_list = []
+    for message in messages:
+        message_list.append({
+            'message': message['message'],
+            'sender': message['sender'],
+            'timestamp': message['timestamp'].strftime('%Y-%m-%d %H:%M:%S')
+        })
+
+    return jsonify({'messages': message_list}), 200
+
+
+# Route to delete chat history
+@app.route('/delete-chat-session/<session_id>', methods=['DELETE'])
+def delete_chat_session(session_id):
+    user_id = request.args.get('user_id')  # Get user_id from query parameters
+
+    if not user_id:
+        return jsonify({'error': 'User not authenticated'}), 401
+
+    # Check if the session belongs to the user
+    chat_session = db.chat_sessions.find_one({'_id': ObjectId(session_id), 'user_id': ObjectId(user_id)})
+
+    if not chat_session:
+        return jsonify({'error': 'Chat session not found or not authorized'}), 404
+
+    # Delete the session
+    db.chat_sessions.delete_one({'_id': ObjectId(session_id), 'user_id': ObjectId(user_id)})
+
+    return jsonify({'status': 'Chat session deleted successfully'}), 200
+
+
 
 if __name__ == "__main__":
     # app.run(debug=True)

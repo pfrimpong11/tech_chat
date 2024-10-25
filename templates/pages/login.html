@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechChat - Your Admission Enquiry Assistant for KNUST.">
+    <meta name="keywords" content="KNUST, admission, enquiry, chatbot">
+    <meta name="author" content="Frimpong & Akinie">
+    <title>Login - TechChat</title>
+    <script src="https://kit.fontawesome.com/6c1f0d67e3.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="/static/techchat_logo_dark.png"/>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+        }
+
+        .logo-container {
+            margin: 20px 0 30px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #4A90E2;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            background: #4A90E2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn:hover {
+            background: #357ABD;
+        }
+
+        .submit-btn.loading {
+            color: transparent;
+        }
+
+        .submit-btn.loading::after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 50%;
+            left: 50%;
+            margin: -10px 0 0 -10px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .links-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .register-link, .forgot-password-link {
+            color: #666;
+            margin: 10px 0;
+        }
+
+        .register-link a, .forgot-password-link {
+            color: #4A90E2;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .register-link a:hover, .forgot-password-link:hover {
+            text-decoration: underline;
+        }
+
+        .forgot-password-link {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        #error-message {
+            color: #e74c3c;
+            font-size: 14px;
+            margin-top: 5px;
+            min-height: 20px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            .logo {
+                width: 100px;
+                height: 100px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="/static/techchat_logo_light.png" alt="TechChat Logo" class="logo">
+            <h2>Welcome Back</h2>
+        </div>
+
+        <form id="login-form">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            </div>
+
+            <div id="error-message"></div>
+            
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+        
+        <div class="links-container">
+            <p class="register-link">Don't have an account? <a href="/register">Register</a></p>
+            <a href="/forgot-password" class="forgot-password-link">Forgot Password?</a>
+        </div>
+    </div>
+    
+
+    <script>
+        const loginForm = document.getElementById('login-form');
+        const submitBtn = loginForm.querySelector('.submit-btn');
+        
+        loginForm.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const errorMessage = document.getElementById('error-message');
+
+            if (email.trim() === "" || password.trim() === "") {
+                return;
+            }
+            
+            errorMessage.textContent = '';
+            submitBtn.classList.add('loading');
+            
+            try {
+                const response = await fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ email, password })
+                });
+
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    localStorage.setItem('user_id', result.user_id);
+                    window.location.href = '/chat';
+                } else {
+                    errorMessage.textContent = result.message;
+                }
+            } catch (error) {
+                errorMessage.textContent = 'An error occurred. Please try again.';
+            } finally {
+                submitBtn.classList.remove('loading');
+            }
+        });
+    </script>
+</body>
+</html>

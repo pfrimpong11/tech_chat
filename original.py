@@ -82,12 +82,12 @@ model = load_model('chatbot_model.h5')
 def index():
     return render_template("index.html")
 
-@app.route('/pages/feedback.html')
+@app.route('/feedback')
 def feedback():
     return render_template('pages/feedback.html')
 
 
-@app.route('/pages/aggregate.html')
+@app.route('/aggregate')
 def aggregate():
     return render_template('pages/aggregate.html')
 

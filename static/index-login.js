@@ -1,15 +1,155 @@
+// Function to get query params from URL
+function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+}
+
+// Fetch messages for the selected session
+function fetchSessionMessages(sessionId) {
+    fetch(`/get-session-messages/${sessionId}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            user_id: localStorage.getItem('user_id'),
+        })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                alert(data.error);
+            } else {
+                displayMessages(data.messages);
+            }
+        })
+        .catch(error => console.error('Error:', error));
+}
+
+// Display chat history messages in the chat container
+function displayMessages(messages) {
+    const chatContainer = document.getElementById('chat-container');
+    chatContainer.innerHTML = '';  // Clear previous messages
+
+    messages.forEach(message => {
+        if (message.sender == 'user'){
+            addUserMessage(message.message);
+        }
+        else if (message.sender == 'TechChat' ) {
+            addBotMessage(message.message);
+        }
+    });
+}
+
+// On page load, fetch the messages for the given session
+window.onload = function() {
+    const sessionId = getQueryParam('session_id');
+    localStorage.setItem('currentSessionId', sessionId);
+    if (sessionId) {
+        fetchSessionMessages(sessionId);
+    } else {
+        // alert('No session selected');
+        showModal();
+    }
+};
+
+
+
+function showModal() {
+    clearChat()
+
+    // Hide chat elements
+    document.querySelector('.chat-input-container').style.display = 'none';
+    
+    // Display the modal
+    document.getElementById('modal').style.display = 'block';
+    
+    // Focus on the first message input
+    var firstMessage = document.getElementById('modal-user-input');
+    firstMessage.focus();
+
+    // Function to handle the first user message submission
+    function handleFirstUserMessage() {
+        var firstUserInput = firstMessage.value.trim(); // Fetch the trimmed input value
+        console.log(firstUserInput);
+        if (firstUserInput === "") return; // Check if the input is empty
+
+        // Handle the first user message
+        startNewChat(firstUserInput); // Save first message in the database
+
+        // Clear all input fields
+        firstMessage.value = ""; // Clear modal input
+        document.getElementById("user-input").value = ""; // Clear chat input
+
+        // Hide the modal and restore the chat interface
+        hideModal();
+    }
+
+    // Keypress event for "Enter" key
+    firstMessage.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            handleFirstUserMessage(); // Call the function on Enter key
+        }
+    });
+
+    // Click event for the button
+    var sendButton = document.querySelector(".send-first-message");
+    sendButton.onclick = function() {
+        handleFirstUserMessage(); // Call the function on button click
+    };
+}
+
+
+
+function hideModal() {
+    // Restore chat elements
+    document.querySelector('.chat-input-container').style.display = 'flex';
+    
+    // Hide the modal
+    document.getElementById('modal').style.display = 'none';
+}
+
+
+
+// Event listener for new chat icon
+document.getElementById('new-chat-icon').addEventListener('click', () => {
+    document.getElementById("modal-user-input").value = "";
+    showModal();
+});
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var inputField = document.getElementById("user-input");
+    var sendButton = document.querySelector(".send-button"); // Assuming you've given the button a class
 
     inputField.focus();
 
+    // Function to handle sending the message
+    function sendMessageHandler() {
+        var userInput = inputField.value.trim();
+        if (userInput === "") return; // Don't proceed if input is empty
+
+        addUserMessage(userInput); // Add user message to the chat interface
+        continueChat(userInput, 'user'); // Save user message in the database
+        sendMessage(userInput); // Send message to backend for response
+
+        inputField.value = ""; // Clear the input field
+    }
+
+    // Keypress event for "Enter" key
     inputField.addEventListener("keypress", function(event) {
         if (event.key === "Enter") {
-            sendMessage();
-            console.log("message sent by enter");
+            sendMessageHandler();
         }
     });
+
+    // Onclick event for the button
+    sendButton.addEventListener("click", function() {
+        sendMessageHandler();
+    });
 });
+
 
 document.addEventListener('DOMContentLoaded', function () {
     var menuIcon = document.getElementById('menu-icon');
@@ -62,12 +202,6 @@ document.addEventListener('DOMContentLoaded', function () {
         modal.style.display = "none";
     }
 
-    // Function to clear the chat
-    function clearChat() {
-        var chatContainer = document.getElementById('chat-container');
-        chatContainer.innerHTML = '';
-    }
-
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
@@ -113,8 +247,13 @@ document.addEventListener('DOMContentLoaded', function () {
             var userInput = item.textContent.trim();
             if (userInput !== "") {
                 var userInputField = document.getElementById("user-input");
+                var newChatUserInputField = document.getElementById("modal-user-input");
+
                 userInputField.value = userInput;
+                newChatUserInputField.value = userInput
+                
                 userInputField.focus();
+                newChatUserInputField.focus();
                 // Close the side panel on smaller screens
                 if (window.innerWidth <= 768) {
                     sidebar.classList.remove('open');
@@ -125,13 +264,19 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+// Function to clear the chat
+function clearChat() {
+    var chatContainer = document.getElementById('chat-container');
+    chatContainer.innerHTML = '';
+}
+
+
 
 document.addEventListener("DOMContentLoaded", function() {
     var sendFeedbackBtn = document.getElementById("send-feedback-btn");
     sendFeedbackBtn.addEventListener("click", function(event) {
         event.preventDefault(); 
 
-        console.log("Clicked feedback button");
         var firstName = document.getElementById("first-name").value;
         var lastName = document.getElementById("last-name").value;
         var email = document.getElementById("email").value;
@@ -212,22 +357,58 @@ function sendUserFeedback(firstName, lastName, email, feedback, base64File, file
 }
 
 
-function sendMessage() {
+// Function to start a new chat session
+function startNewChat(firstMessage = '') {
+    clearChat()
+
+    fetch('/start-chat', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ message: firstMessage })
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Store session ID in localStorage
+        localStorage.setItem('currentSessionId', data.session_id);
+        document.getElementById('chat-container').innerHTML = ''; // Clear the chat container
+        if (firstMessage) {
+            addUserMessage(firstMessage); // Add first message to chat
+            sendMessage(firstMessage); // send the first first message to the backend for a response
+        }
+    })
+    .catch((error) => {
+        console.error('Error starting chat session:', error);
+    });
+}
+
+function continueChat(message, sender) {
+    const storedSessionId = localStorage.getItem('currentSessionId');
+    // Send message to backend
+    fetch(`/add-message/${storedSessionId}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ message, sender })
+    })
+    .then(response => response.json())
+    .catch((error) => {
+        console.error('Error sending message:', error);
+    });
+}
+
+
+function sendMessage(userMessage) {
     //check if user is connected to the internet
     if (isConnected()) {
         console.log("Connected to the internet. Processing input");
-        console.log("message sent by button");
-        var userInput = document.getElementById("user-input").value;
-        if (userInput.trim() === "") return;
-
-        addUserMessage(userInput);
-        document.getElementById("user-input").value = "";
 
         // Create and append loader element to chat container
         var loader = document.createElement("div");
         loader.className = "loader";
         document.getElementById("chat-container").appendChild(loader);
-
 
         // Delay for 1s before displaying the response
         setTimeout(async function() {
@@ -235,7 +416,7 @@ function sendMessage() {
                 // Make request to backend with user input
                 const response = await fetch("/get_response", {
                     method: "POST",
-                    body: JSON.stringify({ message: userInput }),
+                    body: JSON.stringify({ message: userMessage }),
                     headers: {
                         "Content-Type": "application/json",
                     },
@@ -263,6 +444,7 @@ function sendMessage() {
                 else {
                     // display response from bot
                     addBotMessage(data.response);
+                    continueChat(data.response, 'TechChat');
                 }
 
             } catch (error) {
@@ -450,7 +632,6 @@ var closeModalButton = document.getElementById("closeModalButton");
 // Function to copy text to clipboard
 function copyTextToClipboard(text) {
     var tempElement = removeHTMLTags(text);
-    console.log(tempElement);
     navigator.clipboard.writeText(tempElement).then(function() {
         // Show the modal
         modal.style.display = "flex";
@@ -665,9 +846,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // userInputField.addEventListener('keypress', function(event) {
-    //     if (event.key === 'Enter') {
-    //         sendMessage();
-    //     }
-    // });
 });

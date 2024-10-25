@@ -91,6 +91,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 5px 0 5px 20px;
+    overflow: hidden;
 }
 
 .logo_box {
@@ -159,6 +160,7 @@ header nav a {
     text-decoration: none;
     color: var(--header-nav-a);
     font-weight: 500;
+    position: relative;
 }
 
 header nav a:hover {
@@ -229,6 +231,31 @@ main {
 .header-icons i {
     margin-left: 10px;
     cursor: pointer;
+    position: relative;
+}
+
+/* Tooltip styles */
+i::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%; /* Above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    font-size: 9px;
+    visibility: hidden;
+}
+
+i:hover::after {
+    opacity: 1;
+    visibility: visible;
 }
 
 .chat-window {
@@ -246,7 +273,7 @@ main {
 
 /* Scroll bar */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -262,13 +289,13 @@ main {
     background: #464545;
 }
 
-.chat-input-container {
+.chat-input-container, .first-input-container {
     display: flex;
     border-top: 1px solid var(--header-border);
     padding: 10px;
 }
 
-.chat-input-container input {
+.chat-input-container input, .first-input-container input {
     flex: 1;
     padding: 10px;
     border: 1px solid var(--header-border);
@@ -282,7 +309,7 @@ input:focus {
     outline: none;
 }
 
-.chat-input-container button {
+.chat-input-container button, .first-input-container button {
     background-color: var(--background-color);
     color: var(--text-color);
     border: none;
@@ -292,8 +319,9 @@ input:focus {
     cursor: pointer;
 }
 
-.chat-input-container button i {
+.chat-input-container button i, .first-input-container button i {
     font-size: 18px;
+    position: relative;
 }
 
 .disclaimer{
@@ -322,7 +350,8 @@ aside {
     margin-bottom: 30px;
     margin-top: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .prospective-students-button {
@@ -653,3 +682,16 @@ aside {
     }
 }
 
+
+
+/* modal for starting new chat */
+.new-chat-modal {
+    display: none;
+    position: relative;
+    top: 75%;
+    background-color: var(--chatbot-background);
+    z-index: 1000;
+}
+.hidden {
+    display: none;
+}

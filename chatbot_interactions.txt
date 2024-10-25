@@ -1248,3 +1248,135 @@ Predicted Intents:
 - Academic Resumption Dates: 0.84281063
 Bot: The academic calendar is available on the university's website. Please visit www.knust.edu.gh, navigate to the 'Academics' section, and click on 'Academic Calendar' for the reporting dates for fresh and continuing students.  <br>
 
+User: hello
+Predicted Intents:
+- greeting: 0.59765553
+Bot: Hi, how can I help you with KNUST admissions?  <br>
+
+User: hi
+Predicted Intents:
+- greeting: 0.7298112
+Bot: Hi there! How can I help you with admissions to KNUST?  <br>
+
+User: when do we come to school?
+Predicted Intents:
+- Academic Resumption Dates: 0.84281063
+Bot: Kindly visit the university's website at www.knust.edu.gh, navigate to the 'Academics' section, and click on 'Academic Calendar' to find the resumption dates for both freshmen and continuing students.  <br>
+
+User: thank you
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.456326
+Bot: You're welcome! Is there anything else I can help you with regarding admissions to KNUST? 😊  <br>
+
+User: hello
+Predicted Intents:
+- greeting: 0.59765553
+Bot: Hello! How can I help you?  <br>
+
+User: when do we come to school?
+Predicted Intents:
+- Academic Resumption Dates: 0.84281063
+Bot: The academic calendar is available on the university's website. Please visit www.knust.edu.gh, click on Academics, and then on Academic Calendar for the  resumption dates for freshmen and continuing students.  <br>
+
+User: hello
+Predicted Intents:
+- greeting: 0.59765553
+Bot: Hello! Welcome to KNUST. How can I help you?  <br>
+
+User: when do we come to school?
+Predicted Intents:
+- Academic Resumption Dates: 0.84281063
+Bot: The academic calendar is available on the university's website.  You can find it by visiting www.knust.edu.gh, clicking on Academics, and then on Academic Calendar.  <br>
+
+User: hello
+Predicted Intents:
+- greeting: 0.59765553
+Bot: Hi there, how can I help?  <br>
+
+User: when do we come to school?
+Predicted Intents:
+- Academic Resumption Dates: 0.84281063
+Bot: The academic calendar for the academic year is available on the university website. Kindly visit www.knust.edu.gh/ , click on Academics, and then on the Academic Calendar to access the reporting dates for freshers and continuing students.  <br>
+
+User: what do i do when i get to know i have been admitted (undergraduate)?
+Predicted Intents:
+- Post-Admission Procedures (Undergraduate): 0.52929693
+Bot: Congratulations on gaining admission to KNUST! To officially accept your offer and commence your academic journey, kindly follow these steps: <br> <br>1. Visit the KNUST admissions portal at [<a href="https://apps.knust.edu.gh/admissions/](https://apps.knust.edu.gh/admissions/).">https://apps.knust.edu.gh/admissions/](https://apps.knust.edu.gh/admissions/).</a> <br>2. Log in using your application serial number and PIN. <br>3. Check your admission status and print your admission letter.  <br>4. Print your acceptance form and obtain your fee schedule from [www.knust.edu.gh/academic-fees](www.knust.edu.gh/academic-fees). <br>5. Settle your academic fees promptly. <br>6. Secure your accommodation via [<a href="https://accommodation.knust.edu.gh/](https://accommodation.knust.edu.gh/).">https://accommodation.knust.edu.gh/](https://accommodation.knust.edu.gh/).</a>  <br>7. Access the student portal or download the AIM app (available on Apple App Store and Google Play Store). <br>8. Proceed to register your courses for the semester through the "Course Registration" section on the portal. <br>9. If you require further assistance, visit the UITS Support Center located in the basement of the Casely-Hayford Building.  <br>
+
+User: what are the accepted examination results?
+Predicted Intents:
+- accepted_examination_results: 0.99477214
+Bot: Examination results accepted for application to KNUST include: <br> <br>* West African Senior Secondary Certificate Examination (WASSCE)/Senior Secondary School Certificate Examination (SSSCE) <br>* WASSCE International <br>* International Baccalaureate <br>* American High School Grade 12 <br>* General Business Certificate Examination (GBCE) and Advanced Business Certificate Examination (ABCE) <br>* General Certificate Examination (GCE)/International General Certificate of Secondary Education (IGCSE) (Cambridge) Ordinary and Advanced Level <br>* Higher National Diploma (HND) Applicants: HND Certificate plus High School Results <br>* Post-First-Degree Law Applicants: First-degree certificate plus High School Results <br>* Doctor of Pharmacy Top-Up Applicants: First Degree Certificate (BPharm) plus High School Results and Pharmacy Licensure Certificate. <br>* Other International High School Results  <br>
+
+User: do you have scholarship opportunities for students?
+Predicted Intents:
+- Scholarships for Needy Students: 0.9286825
+Bot: KNUST offers various scholarship opportunities for brilliant but needy students to enable them to pursue university education. Some of these include the Edu Fondazione Scholarship, Hulede Foundation KNUST Scholarship, and Educational Pathways International Scholarships.  <br> <br>In addition to these, there are other grants and bursaries available to support students financially. You can also explore external scholarship opportunities.  <br> <br>I advise you to carefully review the requirements for each scholarship as they vary. For detailed information on available scholarships for KNUST students, please visit www.knust.edu.gh/students/scholarships-and-grants.  <br>
+
+User: where can i purchase application form in ghana?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.9951056
+Bot: Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks. <br> <br>You can also purchase application forms via mobile money by: <br> <br>Dialing *885# <br> <br>1. Select Forms and E-voucher <br>2. Choose KNUST <br>3. Select the form you wish to purchase <br>4. Authorize Payment <br>5. Receive E-voucher via SMS  <br> <br>To retrieve your E-voucher: <br> <br>1. Dial *885# <br>2. Select Forms and E-voucher <br>3. Enter 1 to retrieve voucher code <br>4. Enter Transaction ID <br>5. E-voucher details will be displayed. <br> <br>For the most up-to-date information on application fees, please visit the official KNUST website. Please note that there are no refunds after purchase.  <br>
+
+User: where are foreign students accommodated on campus?
+Predicted Intents:
+- Accommodation for Foreign/international Students on Campus: 0.584766
+- international student: 0.28264493
+Bot: International students have a dedicated block at the university's main hostel,  Republic Hall. You can find other off-campus accommodation options within the university environs.  <br>
+
+User: what are the programmes available at college of engineering
+Predicted Intents:
+- engineering_programmes: 0.97114414
+Bot: The College of Engineering at KNUST offers a variety of programmes under three faculties: <br> <br>Faculty of Civil and Geo-Engineering <br>* BSc. Civil Engineering <br>* BSc. Civil Engineering (Obuasi Campus) <br>* BSc. Geological Engineering <br>* BSc. Geological Engineering (Obuasi Campus) <br>* BSc. Geomatic Engineering <br>* BSc. Geomatic Engineering (Obuasi Campus) <br>* BSc. Petroleum Engineering <br> <br>Faculty of Electrical and Computer Engineering <br>* BSc. Biomedical Engineering <br>* BSc. Computer Engineering <br>* BSc. Electrical/Electronic Engineering <br>* BSc. Electrical/Electronic Engineering (Obuasi Campus) <br>* BSc. Telecommunications Engineering <br> <br>Faculty of Mechanical and Chemical Engineering <br>* BSc. Agricultural Engineering <br>* BSc. Petrochemical Engineering <br>* BSc. Chemical Engineering <br>* BSc. Metallurgical Engineering <br>* BSc. Metallurgical Engineering (Obuasi Campus) <br>* BSc. Materials Engineering <br>* BSc. Materials Engineering (Obuasi Campus) <br>* BSc. Marine Engineering <br>* BSc. Industrial Engineering <br>* BSc. Automobile Engineering <br>* BSc. Mechanical Engineering <br>* BSc. Mechanical Engineering (Obuasi Campus) <br>* BSc. Aerospace Engineering <br>
+
+User: obuasi campus cut off points
+Predicted Intents:
+- obuasi_campus_cut_off_aggregate: 0.9285904
+Bot: The cut-off aggregate for KNUST Obuasi Campus is not predetermined. It may vary from year to year based on the pass rate and the available space/resources for each program. However, you can use the cut-off aggregates from the previous academic year as a guide: <br> <br>Faculty of Engineering Sciences: <br> <br>* BSc. Civil Engineering: 14 <br>* BSc. Electrical/Electronic Engineering: 13 <br>* BSc. Geological Engineering: 16 <br>* BSc. Geomatic (Geodetic) Engineering: 17 <br>* BSc. Materials Engineering: 18 <br>* BSc. Mechanical Engineering: 14 <br>* BSc. Metallurgical Engineering: 19 <br> <br>Faculty of Allied Health Sciences: <br> <br>* BSc. Medical Laboratory Sciences: 10 <br>* BSc. Midwifery: 12 <br>* BSc. Nursing: 11 <br> <br>College of Humanities and Social Sciences: <br> <br>* BBA (HRM/Management): 16 <br>* BBA (Marketing/International Business): 17 <br>* BBA (Accounting/Banking and Finance): 13 <br>* BBA (Logistics & Supply Chain Management/Business Information Technology): 15 <br> <br>Faculty of Science: <br> <br>* BSc. Environmental Sciences: 18 <br> <br>Remember that these are just a guide, and the actual cut-off points may be higher or lower. I encourage you to apply to your desired program even if your aggregate is slightly below the previous year's cut-off.  <br>
+
+User: when do we start the sale of undergraduate application forms for each successive academic year?
+Predicted Intents:
+- Commencement of Undergraduate Application Form Sales: 0.99847
+Bot: The sale of undergraduate application forms typically commences between February and May each year. However, I highly recommend you confirm the exact dates on the official KNUST admissions portal closer to the time. You can find this information at www.knust.edu.gh/admissions.  <br>
+
+User: what is the application process like?
+Predicted Intents:
+- how_to_apply: 0.5245805
+- application_process: 0.39020002
+Bot: To apply to KNUST, prospective students need to purchase an eVoucher and then follow these steps: <br> <br>1. Visit the KNUST online admissions portal at <a href="https://apps.knust.edu.gh/admissions/apply/Account/Login">https://apps.knust.edu.gh/admissions/apply/Account/Login</a>  <br>2. Enter the eVoucher credentials to access the application form. <br>3. Carefully complete all sections of the application, ensuring all required fields marked with an asterisk are filled.  <br>4. Save your progress as you go. You can exit and return to the application later if needed. <br>5. Provide your educational background, including details of your previous schools and certificates. If your specific institution is not listed, you can choose the "Private" option. <br>6. Enter your examination results accurately. If your examination type isn't listed, select "Certification/Diploma/Degree." For the sitting, select "May/June (School)" if your exam wasn't WASSCE/SSSCE. Choose the correct year and input your Index Number (Candidate Number or Examination ID). <br>7. Select the subjects you took and input the corresponding grades. If you're awaiting results, choose the "Awaiting" option. For other certificates, input the grade/class accordingly. You can add multiple results or certificates as needed. <br>8. Upload all required documents in PDF format. These typically include your birth certificate and results slips or certificates. <br>9. Carefully read and agree to the applicant declaration. <br>10. Select your program choices, indicating your preferred stream (e.g., Regular). You can also indicate if you'd like to be considered for fee-paying options. <br>11. Upload a copy of your identification document (Ghana Card or Passport) in PDF format. <br>12. Review all information thoroughly before proceeding. <br>13. Agree to the final declaration confirming the accuracy of your application. <br>14. Submit your application and keep a copy for your reference.  <br> <br>Important Notes: <br> <br>*  Do not leave your application inactive for more than 5 minutes, as this will log you out. <br>* You can edit your application multiple times until the deadline. <br>* Review the specific entry requirements for your desired program to ensure you meet the criteria.  <br>* Applicants with international high school qualifications may need to have their certificates evaluated by the Ghana Tertiary Commission (GTEC) or an equivalent international credential evaluation agency.  <br>* Opting for the fee-paying option applies to the entire duration of your program of study.  <br>  <br>If you have further questions or require clarification, feel free to contact the KNUST admissions office for assistance.  <br>
+
+User: what is the address for the knust admission portal?
+Predicted Intents:
+- Admission Portal Information: 0.9545912
+Bot: You can access the KNUST admission portal via <a href="https://apps.knust.edu.gh/admissions/">https://apps.knust.edu.gh/admissions/</a>  <br>
+
+User: how are you doing?
+Predicted Intents:
+- Chatbot Capabilities: 0.31218567
+Bot: You can ask me questions regarding KNUST undergraduate admissions, and I will try to answer them.  <br>
+
+User: what is the cost of application forms for foreign students?
+Predicted Intents:
+- Application Form Fees for Foreign Students: 0.99554956
+Bot: Application forms for foreign students cost $150 (USD) for undergraduate programs and $170 (USD) for postgraduate programs. You can purchase the e-voucher from Ecobank, Ghana.  <br>
+
+User: what is the address for the knust admission portal?
+Predicted Intents:
+- Admission Portal Information: 0.9545912
+Bot: You can access the KNUST admission portal at <a href="https://apps.knust.edu.gh/admissions/.">https://apps.knust.edu.gh/admissions/.</a>  <br>
+
+User: where can i purchase application form in ghana?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.9951056
+Bot: Application forms can be purchased from all Ghana Post Regional and Designated Post Offices, including selected banks. <br> <br>You can also purchase forms via mobile money by:  <br> <br>1. Dialing *885# <br>2. Selecting "Forms and E-voucher" <br>3. Choosing "KNUST" <br>4. Selecting the specific form  <br>5. Authorizing the payment <br>6. Receiving your E-voucher via SMS <br> <br>To retrieve your E-voucher: <br> <br>1. Dial *885# <br>2. Select "Forms and E-voucher" <br>3. Enter "1" to retrieve the voucher code <br>4. Enter your Transaction ID <br>5. Your E-voucher details will be displayed.  <br> <br>For the most up-to-date pricing information, please visit the official KNUST website. Please note that there are no refunds after purchase.  <br>
+
+User: what is the general admission requirement?
+Predicted Intents:
+- general_admission_requirement: 0.98617226
+Bot: Below are the general entry requirements for candidates with WASSCE / SSSCE, GCE / IGCSE 'A' & 'O' LEVELS, ABCE / GBCE, MATURE and equivalent qualifications: <br> <br>*   WASSCE/SSSCE APPLICANTS <br>    An applicant for admission to a degree programme at KNUST must have CREDIT passes (A1 - C6 in WASSCE and A - D in SSSCE) in the THREE WASSCE/SSSCE Core Subjects (English Language, Mathematics, and Integrated Science), and CREDIT passes in THREE WASSCE/SSSCE Elective Subjects or its equivalent relevant to the chosen programme with aggregate 24 or better. It is worth noting that the THREE Core Subjects are prerequisite for all programmes of study at our university. <br> <br>*   GCE/IGCSE (CAMBRIDGE) 'A' & 'O' LEVELS/MATURE APPLICANTS <br>    Holders of GCE/IGCSE must have FIVE credits at the 'O' Level including English Language and Mathematics (or its approved equivalent), plus passes in at least THREE (3) subjects at the Advanced Level/Three Credits in the case of mature applicants. In addition, the applicant must fulfil the appropriate Faculty or Departmental requirements. <br> <br>*   GENERAL BUSINESS CERTIFICATE EXAMINATION (GBCE)/ ADVANCED BUSINESS CERTIFICATE EXAMINATION (ABCE) <br>    ABCE and GBCE are both needed to qualify an applicant for a programme. Holders of GBCE must have passes in THREE Compulsory Subjects including English Language and passes in THREE Elective Subjects including Business Mathematics. Holders of ABCE must have passes in THREE Compulsory Subjects plus THREE (3) Optional Subjects relevant to the programme of study. <br> <br>*   INTERNATIONAL BACCALAUREATE (IB) <br>    Holders of International Baccalaureate (IB) should have a minimum of grade 4 at the Higher Level (HL) in Three (3) Subjects relevant to the programme of choice and a minimum of grade 5 in Chemistry for Health and Allied Sciences. For Engineering, at least grade 5 at the Higher level (HL) in Mathematics. In addition, one must have a minimum of grade 4 in English Language and Mathematics at the Standard Level (SL) and at least grade C in a Science subject at the IGCSE. <br> <br>*   AMERICAN HIGH SCHOOL GRADE 12 <br>    An applicant for admission to a degree programme at KNUST must have a Final Grade Point of at least 3.0. For admission to the University School of Medicine and Dentistry, an applicant must have a Final Grade Point of at least 3.25. Admissions will be to Year 1. <br> <br>Other relevant information <br> <br>*   Ghanaian/Other Applicants with Foreign Results/Certificate: KNUST shall request an evaluation of results/Certificate other than those mentioned above from the Ghana Tertiary Commission (GTEC) and/or other International Credential Evaluation Agency to facilitate the determination of the suitability of the applicant for admission. <br>*   Applicants from French Speaking Countries must provide a minimum of one-year English Proficiency Certificate. <br>*   Documents not in English should be accompanied by accredited translations in English. <br>*   Transfer of Applicants: Applicants from other universities (local and international) who are seeking admission to continue their programme are required to submit official transcripts, high school results and a cover letter through the Deputy Registrar, Academic Affairs [here](<a href="mailto:admissions@knust.edu.gh">admissions@knust.edu.gh</a>) or the International Programmes Office [here](<a href="mailto:ipo@knust.edu.gh">ipo@knust.edu.gh</a>) to the Head of Department. Proof of English proficiency and English translation of the transcript must be added, where necessary. <br>
+
+User: what is your name?
+Predicted Intents:
+- name: 0.9934136
+Bot: I'm TechChat.  <br>
+

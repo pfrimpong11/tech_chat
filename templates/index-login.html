@@ -24,6 +24,7 @@
                 <h4 id="welcome-message">TECHCHAT: YOUR ADMISSION ASSISTANT</h4>
             </div>
             <nav>
+                <a href="/logout"><i class="fa fa-sign-out" aria-hidden="true" data-tooltip="Logout"></i></a>
                 <a target="_blank" href="pages/aggregate.html"><i class="fa-solid fa-calculator" data-tooltip="Aggregate Calculator"></i></a>
                 <a target="_blank" href="pages/feedback.html" id="comment-icon"><i class="fa-solid fa-comments" data-tooltip="Feedback"></i></a>
                 <i class="fas fa-bars menu-icon" id="menu-icon"></i>
@@ -45,25 +46,37 @@
                         </div>
                     </div>
                     <div class="header-icons">
+                        <i class="fa fa-plus" aria-hidden="true" data-tooltip="New Chat" id="new-chat-icon"></i>
                         <i class="fas fa-trash-alt" data-tooltip="Delete"></i>
                         <i class="fas fa-share-alt" data-tooltip="Share"></i>
                         <i class="fa-solid fa-circle-half-stroke" data-tooltip="Contrast"></i>
                     </div>
                 </div>
+                
                 <div class="chat-window">
+
+                    <!-- Modal Structure To Start New Chat -->
+                    <div id="modal" class="new-chat-modal hidden">
+                        <div class="first-input-container">
+                            <input type="text" id="modal-user-input" placeholder="Start Messaging TechChat">
+                            <button class="microphone-button"><i id="microphone-icon" class="fa-solid fa-microphone-alt-slash microphone-icon" data-tooltip="Speak"></i></button>
+                            <button class="send-first-message"><i class="fas fa-paper-plane" data-tooltip="Send"></i></button>
+                        </div>
+                    </div>
+
                     <div class="chat-container" id="chat-container"></div>
                 </div>
                 <div class="chat-input-container">
                     <input type="text" id="user-input" placeholder="Message TechChat">
                     <button class="microphone-button"><i id="microphone-icon" class="fa-solid fa-microphone-alt-slash microphone-icon" data-tooltip="Speak"></i></button>
-                    <button onclick="sendMessage()"><i class="fas fa-paper-plane" data-tooltip="Send"></i></button>
+                    <button class="send-button"><i class="fas fa-paper-plane" data-tooltip="Send"></i></button>
                 </div>
                 <span class="disclaimer">Verify Answers from the University's Website, TechChat can make mistake.</span>
             </div>
             <aside id="sidebar">
                 <div class="sidebar">
                     <div class="prospective-students-section">
-                        <button class="prospective-students-button"><a href="/login">Sign In</a></button>
+                        <button class="prospective-students-button"><a href="/chat-history">Chat History</a></button>
                         <button class="prospective-students-button"><a href="https://techchat-community.onrender.com">TechChat Community</a></button>
                     </div>
                     <div class="faq-section">
@@ -134,6 +147,6 @@
         </div>
     </div>
 
-    <script src="/static/scripts.js"></script>
+    <script src="/static/index-login.js"></script>
 </body>
 </html>

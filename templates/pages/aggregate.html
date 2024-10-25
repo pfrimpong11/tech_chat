@@ -2,32 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/6c1f0d67e3.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechChat - Your Admission Enquiry Assistant for KNUST.">
+    <meta name="keywords" content="KNUST, admission, enquiry, chatbot">
+    <meta name="author" content="Frimpong & Akinie">
+    <title>Aggregate Calculator - TechChat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="/static/techchat_logo_dark.png"/>
-    <title>Aggregate Calculator</title>
-</head>
-<body>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fff;
+        :root {
+            --primary: #5c7c89;
+            --primary-dark: #377791;
+            --background: #f3f4f6;
+            --card: #ffffff;
+            --card-border: #e5e7eb;
+            --text: #1f2937;
+            --text-light: #6b7280;
+            --success: #10b981;
+            --error: #ef4444;
         }
 
-        .header-container {
-            background-color: #fff;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.5;
+            color: var(--text);
+            background-color: var(--background);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background-color: var(--card);
+            border-bottom: 1px solid var(--card-border);
+            padding: 1rem 0;
+        }
+
+        .header-content {
             display: flex;
-            flex-direction: row;
             justify-content: space-between;
-            padding: 10px 30px;
-            border-bottom: 1px solid #ddd;
+            align-items: center;
         }
 
         .logo-container {
-            display: inline-flex;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
         }
 
         .logo {
@@ -36,256 +66,192 @@
         }
 
         .logo-name {
-            padding-top: 10px;
-            padding-left: 20px;
-            font-size: 20px;
+            font-size: 1.25rem;
             font-weight: 600;
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        h2 {
-            text-align: center;
-            color: #fff;
-        }
-
-        select {
-            width: 350px;
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            max-height: 200px;
-            overflow-y: auto;
+            color: var(--text);
         }
 
         main {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            padding: 20px 100px;
-            margin-top: 10px;
+            padding: 2rem 0;
         }
 
-        section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            width: 60%;
+        h1, h2 {
+            color: var(--text);
+            margin-bottom: 1rem;
         }
 
-        .main-container {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
         }
 
-        .elective-container,
-        .core-container {
-            width: 48%;
+        .form-section {
+            background-color: var(--card);
+            border: 1px solid var(--card-border);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
         }
 
-        .elective-form, .core-form {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 2px #454158;
+        .form-group {
+            margin-bottom: 1rem;
         }
 
-        .elective-form label, .core-form label {
+        label {
             display: block;
-            margin-bottom: 7px;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
         }
 
-        .elective-form input, .core-form input[type="number"] {
-            width: calc(100% - 22px);
-            padding: 10px;
-            margin-bottom: 40px;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            box-sizing: border-box;
-            background-color: #F0F6FB;
+        select, input[type="number"] {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid var(--card-border);
+            border-radius: 0.25rem;
+            background-color: var(--background);
         }
 
-        .result-button-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 30px;
-        }
-
-        .result-container {
-            padding: 10px 30px 10px 10px;
-            border: 1px solid #5c7c89;
-            border-radius: 3px;
-            text-align: center;
-            font-weight: bold;
-            font-style: italic;
-            color: #fff;
+        select {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 0.5rem center;
+            background-size: 1.5em 1.5em;
+            padding-right: 2.5rem;
         }
 
         button {
-            padding: 10px 20px;
-            background-color: #5c7c89;
-            color: #fff;
+            background-color: var(--primary);
+            color: white;
             border: none;
-            border-radius: 3px;
+            border-radius: 0.25rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
             cursor: pointer;
-            margin-right: 10px;
+            transition: background-color 0.2s;
         }
 
         button:hover {
-            background-color: #377791;
+            background-color: var(--primary-dark);
         }
 
-        .aggregate {
-            color: #000;
+        .result-container {
+            margin-top: 2rem;
+            text-align: center;
         }
 
-        #result {
-            color: #000;
+        .result {
+            font-size: 1.5rem;
+            font-weight: 600;
         }
 
-        #cut-off {
-            padding-left: 5px;
+        .cut-off {
+            margin-top: 0.5rem;
+            font-style: italic;
         }
 
-        /* Scroll bar */
-        ::-webkit-scrollbar {
-            width: 4px;
+        .success {
+            color: var(--success);
         }
 
-        ::-webkit-scrollbar-track {
-            background: #fff;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #F0F6FB;
-            border-radius: 5px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: #bdd4ee;
+        .error {
+            color: var(--error);
         }
 
         @media (max-width: 768px) {
-            select {
-                width: 200px;
-                padding: 10px;
-                font-size: 14px;
-            }
-
-            main {
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding: 0;
-            }
-
-            .main-container {
-                margin-top: 30px;
-            }
-
-            section {
-                width: 100%;
-            }
-
-            .elective-container,
-            .core-container {
-                margin: 0 10px;
-            }
-
-            .elective-form input, .core-form input[type="number"] {
-                margin-bottom: 10px;
-            }
-
-            h2 {
-                font-size: 20px;
+            .form-grid {
+                grid-template-columns: 1fr;
             }
         }
-
     </style>
-
+</head>
+<body>
     <header>
-        <div class="header-container">
+        <div class="container header-content">
             <div class="logo-container">
-                <span><a href="http://localhost:5000/index.html"><img src="/static/bot-logo.png" class="logo" alt="TechChat logo"></a></span>
+                <a href="/index"><img src="/static/bot-logo.png" class="logo" alt="TechChat logo"></a>
                 <span class="logo-name">Aggregate Calculator</span>
             </div>
         </div>
     </header>
 
-    <form id="aggregateForm">
-        <main>
-            <div>
-                <h2>Select Programme</h2>
-                <select id="programme" onchange="updateLabels()">
-                    <!-- values will be imported here -->
-                </select>
+    <main class="container">
+        <h1>KNUST Aggregate Calculator</h1>
+        <form id="aggregateForm">
+            <div class="form-grid">
+                <div class="form-section">
+                    <h2>Programme Selection</h2>
+                    <div class="form-group">
+                        <label for="programme">Select Programme:</label>
+                        <select id="programme" onchange="updateLabels()">
+                            <option value="">Select a programme</option>
+                            <!-- Programme options will be dynamically inserted here -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Elective Subjects</h2>
+                    <div class="form-group">
+                        <label for="elective1" id="labelElective1">Elective 1:</label>
+                        <input type="number" id="elective1" min="1" max="6" step="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="elective2" id="labelElective2">Elective 2:</label>
+                        <input type="number" id="elective2" min="1" max="6" step="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="elective3" id="labelElective3">Elective 3:</label>
+                        <input type="number" id="elective3" min="1" max="6" step="1">
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Core Subjects</h2>
+                    <div class="form-group">
+                        <label for="core1" id="labelCore1">Core 1:</label>
+                        <input type="number" id="core1" min="1" max="6" step="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="core2" id="labelCore2">Core 2:</label>
+                        <input type="number" id="core2" min="1" max="6" step="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="core3" id="labelCore3">Core 3:</label>
+                        <input type="number" id="core3" min="1" max="6" step="1">
+                    </div>
+                </div>
             </div>
 
-            <section>
-                <div class="main-container">
-                    <div class="elective-container">
-                        <h2>Elective Subjects</h2>
-                        <div class="elective-form">
-                            <label for="elective1" id="labelElective1">Elective 1:</label>
-                            <input type="number" id="elective1" name="elective1" min="1" max="6" step="1"><br>
-                            
-                            <label for="elective2" id="labelElective2">Elective 2:</label>
-                            <input type="number" id="elective2" name="elective2" min="1" max="6" step="1"><br>
-                            
-                            <label for="elective3" id="labelElective3">Elective 3:</label>
-                            <input type="number" id="elective3" name="elective3" min="1" max="6" step="1"><br>
-                        </div>
-                    </div>
-
-                    <div class="core-container">
-                        <h2>Core Subjects</h2>
-                        <div class="core-form">
-                            <label for="core1" id="labelCore1">Core 1:</label>
-                            <input type="number" id="core1" name="core1" min="1" max="6" step="1"><br>
-                            
-                            <label for="core2" id="labelCore2">Core 2:</label>
-                            <input type="number" id="core2" name="core2" min="1" max="6" step="1"><br>
-                            
-                            <label for="core3" id="labelCore3">Core 3:</label>
-                            <input type="number" id="core3" name="core3" min="1" max="6" step="1"><br>
-                        </div>
-                    </div>
+            <div class="result-container">
+                <button type="button" onclick="calculateAggregate()">Calculate Aggregate</button>
+                <div class="result">
+                    <span>Total Aggregate: </span>
+                    <span id="result"></span>
                 </div>
-
-                <div class="result-button-container">
-                    <button type="button" onclick="calculateAggregate()">Calculate Aggregate</button>
-                    <div class="result-container">
-                        <span class="aggregate">Total Aggregate: </span>
-                        <span id="result"></span>
-                    </div>
-                    <div id="cut-off"></div>
-                </div>
-            </section>
-        </main>
-    </form>
+                <div id="cut-off" class="cut-off"></div>
+            </div>
+        </form>
+    </main>
 
     <script>
-        // Fetch and insert programme options
+        let programmeRequirements = {};
+        let cut_off = "";
+
+        // Fetch programme options
         fetch('/programmeOptions')
             .then(response => response.text())
             .then(data => {
-                document.getElementById('programme').innerHTML = data;
+                document.getElementById('programme').innerHTML += data;
             })
             .catch(error => {
                 console.error('Error fetching programme options:', error);
             });
 
-        let programmeRequirements = {};
-
+        // Fetch programme requirements
         fetch('/calculateAggregate')
             .then(response => response.json())
             .then(data => {
@@ -295,7 +261,6 @@
                 console.error('Error fetching programme requirements:', error);
             });
 
-        let cut_off = "";
         function updateLabels() {
             const programme = document.getElementById('programme').value;
             if (programme) {
@@ -303,71 +268,54 @@
                 const coreSubjects = programmeRequirements[programme].core_subjects;
                 cut_off = programmeRequirements[programme].cut_off[0];
 
-                document.getElementById('labelElective1').innerText = electiveSubjects[0] + ":";
-                document.getElementById('labelElective2').innerText = electiveSubjects[1] + ":";
-                document.getElementById('labelElective3').innerText = electiveSubjects[2] + ":";
+                ['Elective1', 'Elective2', 'Elective3'].forEach((id, index) => {
+                    document.getElementById(`label${id}`).innerText = electiveSubjects[index] + ":";
+                });
 
-                document.getElementById('labelCore1').innerText = coreSubjects[0] + ":";
-                document.getElementById('labelCore2').innerText = coreSubjects[1] + ":";
-                document.getElementById('labelCore3').innerText = coreSubjects[2] + ":";
+                ['Core1', 'Core2', 'Core3'].forEach((id, index) => {
+                    document.getElementById(`label${id}`).innerText = coreSubjects[index] + ":";
+                });
             } else {
-                document.getElementById('labelElective1').innerText = "Elective 1:";
-                document.getElementById('labelElective2').innerText = "Elective 2:";
-                document.getElementById('labelElective3').innerText = "Elective 3:";
-
-                document.getElementById('labelCore1').innerText = "Core 1:";
-                document.getElementById('labelCore2').innerText = "Core 2:";
-                document.getElementById('labelCore3').innerText = "Core 3:";
+                ['Elective1', 'Elective2', 'Elective3', 'Core1', 'Core2', 'Core3'].forEach(id => {
+                    document.getElementById(`label${id}`).innerText = id.replace(/(\d)/, ' $1') + ":";
+                });
             }
-            // Clear input fields
-            document.getElementById('elective1').value = '';
-            document.getElementById('elective2').value = '';
-            document.getElementById('elective3').value = '';
-            document.getElementById('core1').value = '';
-            document.getElementById('core2').value = '';
-            document.getElementById('core3').value = '';
+
+            // Clear input fields and results
+            document.querySelectorAll('input[type="number"]').forEach(input => input.value = '');
             document.getElementById('result').innerText = '';
             document.getElementById('cut-off').innerText = '';
         }
 
         function validateAndConvertGrade(grade) {
-            if (grade >= 4 && grade <= 6) {
-                return 4;
-            }
-            return grade;
+            return grade >= 4 && grade <= 6 ? 4 : grade;
         }
 
         function calculateAggregate() {
-            const programmeNoValue = document.getElementById('programme');
-            const programme = programmeNoValue.value;
-            const programmeText = programmeNoValue.options[programmeNoValue.selectedIndex].text;
+            const programmeSelect = document.getElementById('programme');
+            const programme = programmeSelect.value;
+            const programmeText = programmeSelect.options[programmeSelect.selectedIndex].text;
+
             if (!programme) {
-                document.getElementById('result').innerHTML = `<span style="color:red;">Please select a programme.</span>`;
+                document.getElementById('result').innerHTML = '<span class="error">Please select a programme.</span>';
                 return;
             }
 
-            const elective1 = validateAndConvertGrade(parseInt(document.getElementById('elective1').value) || 0);
-            const elective2 = validateAndConvertGrade(parseInt(document.getElementById('elective2').value) || 0);
-            const elective3 = validateAndConvertGrade(parseInt(document.getElementById('elective3').value) || 0);
-            const core1 = validateAndConvertGrade(parseInt(document.getElementById('core1').value) || 0);
-            const core2 = validateAndConvertGrade(parseInt(document.getElementById('core2').value) || 0);
-            const core3 = validateAndConvertGrade(parseInt(document.getElementById('core3').value) || 0);
+            const grades = ['elective1', 'elective2', 'elective3', 'core1', 'core2', 'core3']
+                .map(id => validateAndConvertGrade(parseInt(document.getElementById(id).value) || 0));
 
-            if ([elective1, elective2, elective3, core1, core2, core3].some(grade => grade < 1 || grade > 6)) {
-                document.getElementById('result').innerHTML = `<span style="color: red;">All grades must be between A1 and C6.</span>`;
+            if (grades.some(grade => grade < 1 || grade > 6)) {
+                document.getElementById('result').innerHTML = '<span class="error">All grades must be between A1 and C6.</span>';
                 return;
             }
 
-            const electives = [elective1, elective2, elective3];
-            const cores = [core1, core2, core3];
+            const totalAggregate = grades.reduce((a, b) => a + b, 0);
+            document.getElementById('result').innerText = totalAggregate;
 
-            let totalAggregate = electives.reduce((a, b) => a + b, 0) + cores.reduce((a, b) => a + b, 0);
-            document.getElementById('result').innerText = `${totalAggregate}`;
-            if (totalAggregate <= cut_off){
-                document.getElementById('cut-off').innerHTML = `<i style="color: green;">The cutoff for ${programmeText} is around aggregate ${cut_off}.</i>`
-            }else{
-                document.getElementById('cut-off').innerHTML = `<i style="color: red;">The cutoff for ${programmeText} is around aggregate ${cut_off}.</i>`
-            }
+            const cutOffMessage = totalAggregate <= cut_off
+                ? `<span class="success">The cutoff for ${programmeText} is around aggregate ${cut_off}.</span>`
+                : `<span class="error">The cutoff for ${programmeText} is around aggregate ${cut_off}.</span>`;
+            document.getElementById('cut-off').innerHTML = cutOffMessage;
         }
     </script>
 </body>
