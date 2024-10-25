@@ -437,6 +437,7 @@ function sendMessage(userMessage) {
                     saveUserInputToFile(userInput);
                     // Prompt for feedback
                     addBotMessage("I don't have an answer for that. Kindly rephrase your question for a better response. Was this helpful?");
+                    continueChat("I don't have an answer for that. Kindly rephrase your question for a better response. Was this helpful?", 'TechChat');
                 } 
                 else if (data.response == "Please check your internet connection."){
                     addMessageForError("An unexpected error has occurred. Please try again later. If the issue persists, kindly reach out to our support team for assistance.");

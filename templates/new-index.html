@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechChat - Your KNUST Admission Assistant</title>
+    <meta name="description" content="TechChat - Your Admission Enquiry Assistant for KNUST.">
+    <meta name="keywords" content="KNUST, admission, enquiry, chatbot">
+    <meta name="author" content="Frimpong & Akinie">
+    <link rel="shortcut icon" type="image/png" href="/static/techchat_logo_dark.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c1f0d67e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/new-index-login.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">
+                    <img src="/static/techchat_logo_light.png" alt="TechChat Logo" id="logo-img">
+                    <span>TechChat</span>
+                </a>
+                <nav>
+                    <a href="/aggregate" class="nav-link">Calculator</a>
+                    <a href="https://techchat-community.onrender.com" class="nav-link">Community</a>
+                    <a href="/login" class="nav-link">Login</a>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1 class="chat-title">KNUST Admission Assistant</h1>
+                <div class="chat-actions">
+                    <button id="clear-chat" aria-label="Clear chat">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="chat-messages" class="chat-messages"></div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Message TechChat...">
+                <button id="send-message">Send</button>
+            </div>
+        </div>
+
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-tabs">
+                <div class="sidebar-tab active" data-tab="faq">FAQs</div>
+                <div class="sidebar-tab" data-tab="history">History</div>
+                <div class="sidebar-tab" data-tab="feedback">Feedback</div>
+            </div>
+            <div id="faq-content" class="sidebar-content active">
+                <h2>Frequently Asked Questions</h2>
+                <ul class="faq-list">
+                    <li class="faq-item">What is the application process?</li>
+                    <li class="faq-item">What are the admission requirements?</li>
+                    <li class="faq-item">How much does the application form cost?</li>
+                    <li class="faq-item">What programs are available?</li>
+                    <li class="faq-item">When is the application deadline?</li>
+                    <li class="faq-item">Are there scholarship opportunities?</li>
+                    <li class="faq-item">What is the minimum aggregate score required?</li>
+                    <li class="faq-item">How can I check my admission status?</li>
+                    <li class="faq-item">What documents are required for application?</li>
+                    <li class="faq-item">Is there on-campus accommodation available?</li>
+                </ul>
+            </div>
+            <div id="history-content" class="sidebar-content">
+                <h2>Chat History</h2>
+
+                <div class="card">
+                    <div class="card-header">
+                        <p class="card-description">Sign in to view your chat history</p>
+                    </div>
+                    <button onclick="window.location.href='/login'" class="history-login-button">Sign in</button>
+                </div>
+
+            </div>
+            <div id="feedback-content" class="sidebar-content">
+                <h2>Feedback</h2>
+                <p>We value your feedback! Please let us know how we can improve TechChat.</p>
+                <form action="/submit-request" method="post" enctype="multipart/form-data">
+                    <label for="first-name">First Name <span class="required">REQUIRED</span></label>
+                    <input type="text" id="first-name" name="first-name" />
+
+                    <label for="last-name">Last Name <span class="required">REQUIRED</span></label>
+                    <input type="text" id="last-name" name="last-name" />
+            
+                    <label for="email">Email <span class="required">REQUIRED</span></label>
+                    <input type="email" id="email" name="email" />
+            
+                    <label for="feedback-text">What's your feedback-text, comment, or issue?<span class="required">REQUIRED</span></label>
+                    <textarea id="feedback-text" name="feedback-text" rows="5"></textarea>
+                    
+                    <div id="feedback-error-message" style=" color: red; font-size: 13px; background-color: #fff; border: none;"></div>
+                    <button type="submit" id="send-feedback-btn" class="feedback-submit-btn">Submit</button>
+                </form>
+            </div>
+        </aside>
+    </main>
+
+    <button id="sidebar-toggle" aria-label="Toggle sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="modal-overlay" class="modal-overlay" style="display: none">
+        <div class="modal">
+            <h3 id="modal-title" class="modal-title"></h3>
+            <p id="modal-content" class="modal-content"></p>
+            <div id="modal-actions" class="modal-actions"></div>
+        </div>
+    </div>
+
+
+    <script src="/static/new-index.js"></script>
+</body>
+</html>

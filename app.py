@@ -78,14 +78,14 @@ def startup():
 
 @app.route('/index')
 def index():
-    return render_template('index.html')
+    return render_template('new-index.html')
 
 @app.route('/chat')
 def indexChat():
     if 'user_id' not in session:
         flash('Please log in.', 'danger')
         return redirect(url_for('login'))
-    return render_template('index-login.html')
+    return render_template('new-index-login.html')
 
 @app.route('/chat-history')
 def chatHistory():

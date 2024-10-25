@@ -99,6 +99,7 @@ def format_response(response_content):
     # Format URLs and email addresses properly (basic regex for example purposes)
     response_content = re.sub(r'([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)', r'<a href="mailto:\1">\1</a>', response_content)  # Email links
     response_content = re.sub(r'(https?://[^\s]+)', r'<a href="\1">\1</a>', response_content)  # URL links
+    response_content = re.sub(r'\b(www\.[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}[^\s]*)', r'<a href="http://\1">\1</a>', response_content) #url starting www
     
     # Remove any unwanted markdown symbols (**, ##)
     clean_response = re.sub(r'\*\*|\#\#|\_', '', response_content).strip()

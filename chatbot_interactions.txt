@@ -1385,3 +1385,86 @@ Predicted Intents:
 - Admission Portal Information: 0.9545912
 Bot: You can access the KNUST admission portal via <a href="https://apps.knust.edu.gh/admissions/">https://apps.knust.edu.gh/admissions/</a>  <br>
 
+User: how can i check my admission status?
+Predicted Intents:
+- Undergraduate Admission Status: 0.6095276
+- admission_list: 0.25280952
+Bot: To check your undergraduate admission status, kindly follow these steps: <br> <br>1. Visit the KNUST admissions portal: <a href="https://apps.knust.edu.gh/admissions">https://apps.knust.edu.gh/admissions</a>  <br>2. Click on "Login". <br>3. Enter your application serial number and PIN. <br>4. Click on "Log in". <br>5. Click on "Check Status".  <br>
+
+User: what documents are required for application?
+Predicted Intents:
+- document_check_list: 0.97428495
+Bot: For Ghanaian applicants, you need the following documents: <br> <br>* WASSCE Results <br>* SSSCE/GBCE Results (where applicable) <br>* Birth Certificate <br>* Ghana Card  <br> <br>For International Applicants, you need: <br> <br>*  International examination results slips <br>* Transcripts for International Applicants (where available) <br>* Birth Certificate or Passport <br>* Passport Photograph (Light green background) (470x470)px  <br>* Applicants from non-English speaking countries must provide a minimum of a one-year English Proficiency Certificate.  <br>
+
+User: how much does the application form cost?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.7800738
+Bot: The cost of a KNUST undergraduate application form for Ghanaian applicants is GH₵250. However, I advise you to confirm the current price from the official KNUST website.  <br> <br>You can purchase the forms at all Ghana Post regional and designated post offices, including selected banks.  <br> <br>You can also purchase the forms via mobile money by following these steps: <br> <br>Purchasing an eVoucher <br> <br>1. Dial *885# <br>2. Select Forms and E-voucher <br>3. Choose KNUST <br>4. Select the form you wish to purchase <br>5. Authorise Payment <br>6. Receive E-voucher via SMS <br> <br>Retrieving your eVoucher <br> <br>1. Dial *885# <br>2. Select Forms and E-voucher <br>3. Enter 1 to retrieve voucher code <br>4. Enter Transaction ID <br>5. E-voucher details displayed <br> <br>Please note that there is no refund after purchase.  <br>
+
+User: how much does the application form cost?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.7800738
+Bot: The cost of a KNUST Undergraduate application form for Ghanaian applicants is GH¢250. You can purchase the e-voucher using the following steps: <br> <br>Via Mobile Money: <br> <br>1. Dial *885# <br>2. Select Forms and E-voucher <br>3. Choose KNUST <br>4. Select the form you wish to purchase <br>5. Authorise Payment <br>6. Receive E-voucher via SMS <br> <br>To Retrieve E-voucher: <br> <br>1. Dial *885# <br>2. Select Forms and E-voucher <br>3. Enter 1 to retrieve voucher code <br>4. Enter Transaction ID <br>5. E-voucher details displayed <br> <br>You can also buy the forms from all Ghana Post Regional and Designated Post Offices, including selected banks.  <br> <br>Please note that there is no refund after purchase.  <br>
+
+User: is there on-campus accommodation available?
+Predicted Intents:
+- accommodation: 0.9740434
+Bot: KNUST provides six halls of residence for students: Queen Elizabeth II Hall, Unity Hall, Independence Hall, Republic Hall, University Hall, and Africa Hall. These halls accommodate both male and female students.  <br> <br>While on-campus accommodation is available, keep in mind that availability is limited. You can find more information about on-campus housing and a list of recommended off-campus hostels on the KNUST website: <br> <br>* [www.knust.edu.gh/students/housing](www.knust.edu.gh/students/housing)  <br>* [www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year](www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year)  <br> <br>For accommodation fees, refer to the KNUST fee schedule for traditional hall prices. For hostel prices, it's best to visit their websites or contact them directly.  <br>
+
+User: is there on-campus accommodation available?
+Predicted Intents:
+- accommodation: 0.9740434
+Bot: KNUST provides on-campus accommodation in its six halls of residence: Queen Elizabeth II Hall, Unity Hall, Independence Hall, Republic Hall, University Hall, and Africa Hall. These halls accommodate both male and female students.  <br> <br>While we strive to provide accommodation for as many students as possible, spaces are limited.  You can also explore the numerous private hostels located near the campus.   <br> <br>For a list of recommended hostels and information about accommodation fees, please visit: <br> <br>* [<a href="http://www.knust.edu.gh/students/housing](www.knust.edu.gh/students/housing)">www.knust.edu.gh/students/housing](www.knust.edu.gh/students/housing)</a>  <br>* [<a href="http://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year](www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year)">www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year](www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year)</a>  <br>
+
+User: what is the minimum aggregate score required?
+Predicted Intents:
+- cutoff_point: 0.62529576
+Bot: Kindly state the programme you would like to know its cut-off point or aggregate.  <br>
+
+User: are there scholarship opportunities?
+Predicted Intents:
+- Scholarships for Needy Students: 0.93905234
+Bot: There are a number of scholarship opportunities available for brilliant but needy students to enable them pursue University Education at KNUST. These include the  Edu Fondazione Scholarship, Hulede Foundation KNUST Scholarship, and Educational Pathways International Scholarships.  <br> <br>In addition to these, there are also other grants and bursaries that students can benefit from. You may also be eligible for external scholarships. I advise you to read the requirements for each scholarship carefully, as they vary.  <br> <br>You can access a list of available scholarships for KNUST students on the university website: <a href="http://www.knust.edu.gh/students/scholarships-and-grants">www.knust.edu.gh/students/scholarships-and-grants</a>  <br>
+
+User: what is the application process?
+Predicted Intents:
+- how_to_apply: 0.4861783
+- application_process: 0.4563848
+Bot: To apply to KNUST, you'll need to purchase an e-voucher from an approved bank, then follow these steps: <br> <br>1. Access the Application Portal: Visit the KNUST admissions portal at [<a href="https://apps.knust.edu.gh/admissions/apply/Account/Login](https://apps.knust.edu.gh/admissions/apply/Account/Login)">https://apps.knust.edu.gh/admissions/apply/Account/Login](https://apps.knust.edu.gh/admissions/apply/Account/Login)</a> and enter the e-voucher credentials. <br>2. Complete the Application Form: Fill out all mandatory sections, marked with an asterisk (*). Save your progress if needed. <br>3. Provide Educational Background: Select your institution or choose "Private" if it's not listed. Enter your WASSCE/SSSCE results or equivalent.  <br>4. Attach Supporting Documents: Upload scanned copies of your birth certificate and results slips/certificates in PDF format.  <br>5. Applicant Declaration: Carefully read and agree to the declaration statement.  <br>6. Programme Choices: Select your preferred programs, indicating if you want to be considered for the fee-paying option. <br>7. Identification Document: Upload a PDF copy of your Ghana Card or Passport. <br>8. Review and Submit: Double-check all information for accuracy, agree to the final declaration, and submit your application. Keep a copy for your records. <br> <br>Important Notes: <br> <br>* Don't stay inactive on the application portal for more than 5 minutes to avoid automatic logout. <br>* Review program requirements carefully, ensuring you meet the subject prerequisites.  <br>* Applicants with international high school qualifications might need a credential evaluation from GTEC or another agency.  <br>* Choosing the fee-paying option applies to the entire program duration.  <br>
+
+User: what programs are available?
+Predicted Intents:
+- Available Colleges/Departments: 0.7715314
+Bot: We offer a variety of programs under six colleges: <br> <br>* College of Agriculture and Natural Resources <br>* College of Art and Built Environment <br>* College of Engineering <br>* College of Health Sciences <br>* College of Humanities and Social Sciences <br>* College of Science  <br> <br>To see a full list of our programs, please visit our website [website link here].  <br>
+
+User: how can i check my admission status?
+Predicted Intents:
+- Undergraduate Admission Status: 0.6095276
+- admission_list: 0.25280952
+Bot: To check your undergraduate admission status, kindly follow these steps: <br> <br>1. Visit the KNUST admissions portal: <a href="https://apps.knust.edu.gh/admissions">https://apps.knust.edu.gh/admissions</a>  <br>2. Click on "Login." <br>3. Enter your application serial number and PIN, then click "Log in." <br>4. Click on "Check Status" to view your admission status.  <br>
+
+User: what is the minimum aggregate score required?
+Predicted Intents:
+- cutoff_point: 0.62529576
+Bot: Kindly state the programme you would like to know the minimum aggregate score for.  <br>
+
+User: computer engineering
+Predicted Intents:
+- bsc_computer_engineering_requirements: 0.98494405
+Bot: Here are the requirements for BSc. Computer Engineering:  <br> <br>*   WASSCE/SSSCE APPLICANTS <br>    *   Core Subjects: Credit passes in English Language, Mathematics, and Integrated Science. <br>    *   Elective Subjects: Credit passes in Physics, Mathematics, and Chemistry.  <br>        *   Electricity/Applied Electricity or Electronics, or Information Communication Technology (ICT) is acceptable in place of Chemistry. <br>*   'A' LEVEL APPLICANTS <br>    *   'O' Level: Credit passes in FIVE (5) subjects including English Language and Mathematics, and  <br>    *   'A' Level or equivalent: Either credit passes in Pure Mathematics, Applied Mathematics, and Physics with an 'O' Level credit in Chemistry, OR Mathematics, Physics and Chemistry. <br>*   MATURE APPLICANTS <br>    *   Applicants must be 25 years at the time of the application. <br>    *   EITHER credit passes in Five (5) subjects at the 'O' Level including English Language, Mathematics, Physics and Chemistry, OR  <br>    *   Credit passes in THREE (3) WASSCE/SSSCE Core Subjects - English Language, Mathematics and Integrated Science, and credit passes in Mathematics, Physics and Chemistry. <br>*   HND APPLICANTS <br>    *   Applicants shall have at least Second Class Honours from any accredited Computer Engineering oriented programme such as Electrical and Electronic Engineering.   <br>    *   Admission would be based on the assessment of Academic Transcripts. <br>    *   Applicants must satisfy the requirements for either WASSCE/SSSCE or 'A' Level as in (1.0) and (2.0) respectively.  <br>
+
+User: computer engineering cut off point
+Predicted Intents:
+- BSc Computer Engineering Cutoff Points: 0.9999902
+Bot: The cutoff aggregate for BSc. Computer Engineering can vary from year to year. To get the most up-to-date information, please check the KNUST website or contact the admissions office directly.  <br>
+
+User: cut for mathematics
+Predicted Intents:
+- mathematics_requirement: 0.89017814
+Bot: The cut-off point for Mathematics varies each year and depends on factors like the number of applicants and available slots. To have a competitive advantage, aim for at least a C6 in your core subjects (including English, Mathematics, and Integrated Science) and your elective subjects (Mathematics, Physics, and Chemistry or Biology) for WASSCE. For 'A' Level applicants, target at least a C in your 'O' Level  (including English and Mathematics) and your 'A' Level subjects (Mathematics, Physics, and Chemistry or Biology). <br>
+
+User: is there on-campus accommodation available?
+Predicted Intents:
+- accommodation: 0.9740434
+Bot: Yes, KNUST provides on-campus accommodation in its six halls of residence: Queen Elizabeth II Hall, Unity Hall, Independence Hall, Republic Hall, University Hall, and Africa Hall. All halls accommodate both male and female students.  <br> <br>While we strive to provide accommodation for as many students as possible, spaces are limited.  You can also explore the numerous private hostels available around the university campus. For a list of recommended hostels and information on accommodation fees, please visit: <br> <br>*  [<a href="http://www.knust.edu.gh/students/housing](www.knust.edu.gh/students/housing)">www.knust.edu.gh/students/housing](www.knust.edu.gh/students/housing)</a>  <br>* [<a href="http://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year](www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year)">www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year](www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year)</a>  <br>
+
