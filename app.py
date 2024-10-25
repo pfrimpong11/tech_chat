@@ -369,9 +369,9 @@ def start_chat():
         'messages': [{
             'message': data['message'],
             'sender': 'user',
-            'timestamp': datetime.datetime.now(datetime.UTC)
+            'timestamp': datetime.datetime.now(datetime.timezone.utc)
         }],
-        'created_at': datetime.datetime.now(datetime.UTC)
+        'created_at': datetime.datetime.now(datetime.timezone.utc)
     }
 
     # Insert the new chat session into the database

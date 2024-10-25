@@ -196,10 +196,10 @@
                 "what is the address for the knust admission portal?"
             ],
             "responses": [
-                "You can access the KNUST admission portal through this link: <a href=\"https://apps.knust.edu.gh/admissions/\">https://apps.knust.edu.gh/admissions/</a> <br>",
+                "You can access the KNUST admission portal at <a href=\"https://apps.knust.edu.gh/admissions/.\">https://apps.knust.edu.gh/admissions/.</a>  <br>",
                 "You can access the KNUST admission portal at https:<br>//apps. knust. edu. gh/admissions/.",
                 "You can access the KNUST admission portal via <a href=\"https://apps.knust.edu.gh/admissions/\">https://apps.knust.edu.gh/admissions/</a>  <br>",
-                "You can access the KNUST admission portal at <a href=\"https://apps.knust.edu.gh/admissions/.\">https://apps.knust.edu.gh/admissions/.</a>  <br>"
+                "You can access the KNUST admission portal through this link: <a href=\"https://apps.knust.edu.gh/admissions/\">https://apps.knust.edu.gh/admissions/</a> <br>"
             ]
         },
         {

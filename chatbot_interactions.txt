@@ -1380,3 +1380,8 @@ Predicted Intents:
 - name: 0.9934136
 Bot: I'm TechChat.  <br>
 
+User: what is the address for the knust admission portal?
+Predicted Intents:
+- Admission Portal Information: 0.9545912
+Bot: You can access the KNUST admission portal via <a href="https://apps.knust.edu.gh/admissions/">https://apps.knust.edu.gh/admissions/</a>  <br>
+
