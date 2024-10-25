@@ -351,9 +351,6 @@ def get_feedback_file_route(feedback_id):
 
 @app.route('/start-chat', methods=['POST'])
 def start_chat():
-    # Debug: Check if session data exists
-    print(f"Session data: {session}")
-
     data = request.json
     user_id = session.get('user_id')  # Assuming the user is logged in
 

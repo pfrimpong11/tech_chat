@@ -1468,3 +1468,49 @@ Predicted Intents:
 - accommodation: 0.9740434
 Bot: Yes, KNUST provides on-campus accommodation in its six halls of residence: Queen Elizabeth II Hall, Unity Hall, Independence Hall, Republic Hall, University Hall, and Africa Hall. All halls accommodate both male and female students.  <br> <br>While we strive to provide accommodation for as many students as possible, spaces are limited.  You can also explore the numerous private hostels available around the university campus. For a list of recommended hostels and information on accommodation fees, please visit: <br> <br>*  [<a href="http://www.knust.edu.gh/students/housing](www.knust.edu.gh/students/housing)">www.knust.edu.gh/students/housing](www.knust.edu.gh/students/housing)</a>  <br>* [<a href="http://www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year](www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year)">www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year](www.knust.edu.gh/index.php/students/recommended-hostels-20202021-academic-year)</a>  <br>
 
+User: do you know the engineering programmes available?
+Predicted Intents:
+- engineering_programmes: 0.99795425
+Bot: The College of Engineering offers the following programmes:  <br> <br>Faculty of Civil and Geo-Engineering <br> <br>*   BSc. Civil Engineering <br>*   BSc. Civil Engineering (Obuasi Campus) <br>*   BSc. Geological Engineering <br>*   BSc. Geological Engineering (Obuasi Campus) <br>*   BSc. Geomatic Engineering <br>*   BSc. Geomatic Engineering (Obuasi Campus) <br>*   BSc. Petroleum Engineering <br> <br>Faculty of Electrical and Computer Engineering <br> <br>*   BSc. Biomedical Engineering <br>*   BSc. Computer Engineering <br>*   BSc. Electrical/Electronic Engineering <br>*   BSc. Electrical/Electronic Engineering (Obuasi Campus) <br>*   BSc. Telecommunications Engineering <br> <br>Faculty of Mechanical and Chemical Engineering <br> <br>*   BSc. Agricultural Engineering <br>*   BSc. Petrochemical Engineering <br>*   BSc. Chemical Engineering <br>*   BSc. Metallurgical Engineering <br>*   BSc. Metallurgical Engineering (Obuasi Campus) <br>*   BSc. Materials Engineering <br>*   BSc. Materials Engineering (Obuasi Campus) <br>*   BSc. Marine Engineering <br>*   BSc. Industrial Engineering <br>*   BSc. Automobile Engineering <br>*   BSc. Mechanical Engineering <br>*   BSc. Mechanical Engineering (Obuasi Campus) <br>*   BSc. Aerospace Engineering  <br>
+
+User: do you know the engineering programmes available?
+Predicted Intents:
+- engineering_programmes: 0.99795425
+Bot: The College of Engineering offers a variety of programmes under its Faculties: <br> <br>Faculty of Civil and Geo-Engineering <br> <br>* BSc. Civil Engineering <br>* BSc. Civil Engineering (Obuasi Campus) <br>* BSc. Geological Engineering <br>* BSc. Geological Engineering (Obuasi Campus) <br>* BSc. Geomatic Engineering <br>* BSc. Geomatic Engineering (Obuasi Campus) <br>* BSc. Petroleum Engineering <br> <br>Faculty of Electrical and Computer Engineering <br> <br>* BSc. Biomedical Engineering <br>* BSc. Computer Engineering <br>* BSc. Electrical/Electronic Engineering <br>* BSc. Electrical/Electronic Engineering (Obuasi Campus) <br>* BSc. Telecommunications Engineering <br> <br>Faculty of Mechanical and Chemical Engineering <br> <br>* BSc. Agricultural Engineering <br>* BSc. Petrochemical Engineering <br>* BSc. Chemical Engineering <br>* BSc. Metallurgical Engineering <br>* BSc. Metallurgical Engineering (Obuasi Campus) <br>* BSc. Materials Engineering <br>* BSc. Materials Engineering (Obuasi Campus) <br>* BSc. Marine Engineering <br>* BSc. Industrial Engineering <br>* BSc. Automobile Engineering <br>* BSc. Mechanical Engineering <br>* BSc. Mechanical Engineering (Obuasi Campus) <br>* BSc. Aerospace Engineering  <br>
+
+User: if i studies social studies in school can i read any of the engineering programmes?
+Predicted Intents:
+- engineering_programmes: 0.9954562
+Bot: No, you cannot pursue an Engineering program at KNUST having studied Social Studies in High School. Engineering programs at KNUST require applicants to have a strong background in Science, specifically with elective courses in Physics, Chemistry, and Mathematics. I advise you explore other programs that align with your Social Studies background.  <br>
+
+User: when is the application deadline?
+Predicted Intents:
+- Application Deadline: 0.93217474
+Bot: The deadline for submitting your undergraduate application is October 31, 2024. Please note that while you can continue an application online after the deadline, this is only possible if you purchased the application form before the deadline.  The cost of the application form is GHc 250 for Ghanaian students.  <br>
+
+User: how much does the application form cost?
+Predicted Intents:
+- Purchasing/buying Undergraduate Application Forms in Ghana: 0.7800738
+Bot: The cost of a KNUST undergraduate application form is GH₵220 for Ghanaian applicants and US$150 for international applicants.  <br> <br>You can purchase the e-voucher using the following steps: <br> <br>Mobile Money Purchase: <br> <br>1. Dial *885# <br>2. Select Forms and E-voucher <br>3. Choose KNUST <br>4. Select the form you wish to purchase <br>5. Authorize Payment <br>6. Receive E-voucher via SMS <br> <br>E-voucher Retrieval: <br> <br>1. Dial *885# <br>2. Select Forms and E-voucher <br>3. Enter 1 to retrieve voucher code <br>4. Enter Transaction ID <br>5. E-voucher details displayed <br> <br>You can also purchase the forms from all Ghana Post Regional and Designated Post Offices, including selected banks.  <br> <br>Please note that no refunds will be issued after purchase.  <br>
+
+User: i like you a lot
+Predicted Intents:
+- Positive Feedback/Appreciation: 0.35240233
+- random: 0.29290223
+Bot: Thank you for your kind words. Is there anything else I can help you with regarding admissions at KNUST? 😊  <br>
+
+User: what is your name?
+Predicted Intents:
+- name: 0.9934136
+Bot: You can call me TechChat.  <br>
+
+User: who made you?
+Predicted Intents:
+- creator: 0.9636057
+Bot: I am TechChat, a virtual assistant designed to help you with your admissions inquiries.   <br>
+
+User: do you want to know my name?
+Predicted Intents:
+- name: 0.5845614
+Bot: I'm TechChat, an admissions advisor here to help you with your questions about KNUST. Do you have a name I can call you?  <br>
+

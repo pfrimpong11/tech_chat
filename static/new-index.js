@@ -12,6 +12,10 @@ const sidebar = document.getElementById('sidebar');
 const sidebarToggle = document.getElementById('sidebar-toggle');
 var loader = document.createElement("div");
 loader.className = "loader";
+const modalOverlay = document.getElementById("modal-overlay");
+const modalTitle = document.getElementById("modal-title");
+const modalContent = document.getElementById("modal-content");
+const modalActions = document.getElementById("modal-actions");
 
 
 
@@ -128,10 +132,48 @@ userInput.addEventListener('keypress', (e) => {
 
 
 clearChatButton.addEventListener('click', () => {
-    if (confirm('Are you sure you want to clear the chat?')) {
-        chatMessages.innerHTML = '';
-    }
+    showAlertModal(
+        "Clear Chat Confirmation",
+        "Are you sure you want to clear the chat?",
+        [
+        { text: "Cancel", onClick: hideAlertModal, class: "button" },
+        {
+            text: "Clear",
+            onClick: () => {
+                chatMessages.innerHTML = '';
+                hideAlertModal();
+            },
+            class: "button button-destructive",
+        },
+        ]
+    );
 });
+
+function showAlertModal(title, content, actions = []) {
+    modalTitle.textContent = title;
+    modalContent.textContent = content;
+    modalActions.innerHTML = "";
+    actions.forEach((action) => {
+        const button = document.createElement("button");
+        button.textContent = action.text;
+        button.className = action.class || "button";
+        button.onclick = action.onClick;
+        modalActions.appendChild(button);
+    });
+    if (actions.length === 0) {
+        const closeButton = document.createElement("button");
+        closeButton.textContent = "Close";
+        closeButton.className = "button button-primary";
+        closeButton.onclick = hideAlertModal;
+        modalActions.appendChild(closeButton);
+    }
+    modalOverlay.style.display = "flex";
+}
+
+function hideAlertModal() {
+modalOverlay.style.display = "none";
+}
+
 
 themeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
@@ -149,6 +191,7 @@ themeToggle.addEventListener('click', () => {
 faqItems.forEach(item => {
     item.addEventListener('click', () => {
         userInput.value = item.textContent;
+        sidebar.classList.remove('open');
         userInput.focus();
     });
 });
@@ -274,7 +317,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-            sendUserFeedback(firstName, lastName, email, feedbackText, null, null);
+        sendUserFeedback(firstName, lastName, email, feedbackText, null, null);
 
         document.getElementById("first-name").value = "";
         document.getElementById("last-name").value = "";
@@ -311,15 +354,16 @@ function sendUserFeedback(firstName, lastName, email, feedback, base64File, file
     .then(response => {
         if (response.ok) {
             console.log("Feedback recorded successfully.");
-            alert('Thank you for your feedback!');
+            sidebar.classList.remove('open');   //close side bar if open
+            showAlertModal("Feedback Received", "Thank you for your feedback!");
         } else {
             console.error("Failed to record feedback.");
-            alert("Failed to record feedback. Please try again later.");
+            showAlertModal("Error", "Failed to record feedback. Please try again later.");
         }
     })
     .catch(error => {
         console.error("Error:", error);
-        alert("Error occurred. Please try again later.");
+        showAlertModal("Error", "Error occurred. Please try again later.");
     });
 }
 

@@ -94,6 +94,7 @@ function sendMessage(message) {
                         // display response from bot
                         addMessage(data.response);
                         continueChat(data.response, 'TechChat');
+                        fetchChatSessions(); // fetch the chat sessions
                     }
 
                 } catch (error) {
@@ -140,13 +141,26 @@ newChatButton.addEventListener('click', () => {
     console.log("new chat button clicked");
     chatMessages.innerHTML = '';
     showModal();
+    firstMessageUserInput.value = '';
     firstMessageUserInput.focus();
 });
 
 clearChatButton.addEventListener('click', () => {
-    if (confirm('Are you sure you want to clear the chat?')) {
-        chatMessages.innerHTML = '';
-    }
+    showAlertModal(
+        "Clear Chat Confirmation",
+        "Are you sure you want to clear the chat?",
+        [
+        { text: "Cancel", onClick: hideAlertModal, class: "button" },
+        {
+            text: "Clear",
+            onClick: () => {
+                chatMessages.innerHTML = '';
+                hideAlertModal();
+            },
+            class: "button button-destructive",
+        },
+        ]
+    );
 });
 
 themeToggle.addEventListener('click', () => {
@@ -166,6 +180,7 @@ faqItems.forEach(item => {
     item.addEventListener('click', () => {
         userInput.value = item.textContent;
         firstMessageUserInput.value = item.textContent;
+        sidebar.classList.remove('open');
         userInput.focus();
         firstMessageUserInput.focus();
     });
@@ -304,7 +319,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-            sendUserFeedback(firstName, lastName, email, feedbackText, null, null);
+        sendUserFeedback(firstName, lastName, email, feedbackText, null, null);
 
         document.getElementById("first-name").value = "";
         document.getElementById("last-name").value = "";
@@ -341,15 +356,16 @@ function sendUserFeedback(firstName, lastName, email, feedback, base64File, file
     .then(response => {
         if (response.ok) {
             console.log("Feedback recorded successfully.");
-            alert('Thank you for your feedback!');
+            sidebar.classList.remove('open');   //close side bar if open
+            showAlertModal("Feedback Received", "Thank you for your feedback!");
         } else {
             console.error("Failed to record feedback.");
-            alert("Failed to record feedback. Please try again later.");
+            showAlertModal("Error", "Failed to record feedback. Please try again later.");
         }
     })
     .catch(error => {
         console.error("Error:", error);
-        alert("Error occurred. Please try again later.");
+        showAlertModal("Error", "Error occurred. Please try again later.");
     });
 }
 
@@ -399,56 +415,59 @@ async function fetchChatSessions() {
 }
 
 function renderChatSessions() {
-const filteredSessions = chatSessions.filter((session) =>
-    session.session_name
-    .toLowerCase()
-    .includes(searchInput.value.toLowerCase())
-);
+    const filteredSessions = chatSessions.filter((session) =>
+        session.session_name
+        .toLowerCase()
+        .includes(searchInput.value.toLowerCase())
+    );
 
-sessionsContainer.innerHTML = "";
+    sessionsContainer.innerHTML = "";
 
-if (filteredSessions.length === 0) {
-    sessionsContainer.innerHTML =
-    '<p class="no-sessions">No chat history found.</p>';
-} else {
-    filteredSessions.forEach((session) => {
-    const sessionCard = document.createElement("div");
-    sessionCard.className = "card";
-    sessionCard.innerHTML = `
-                <div class="card-header">
-                    <h3 class="card-title">${session.session_name}</h3>
-                    <p class="card-description">
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                            <line x1="16" y1="2" x2="16" y2="6"></line>
-                            <line x1="8" y1="2" x2="8" y2="6"></line>
-                            <line x1="3" y1="10" x2="21" y2="10"></line>
-                        </svg>
-                        ${new Date(Date.parse(session.created_at)).toLocaleDateString()}
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="12 6 12 12 16 14"></polyline>
-                        </svg>
-                        ${new Date(Date.parse(session.created_at)).toLocaleTimeString()}
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <button class="button button-primary" onclick="openChatSession('${
-                        session.session_id
-                    }')">Open Session</button>
-                    <button class="button button-destructive" onclick="confirmDeleteSession('${
-                        session.session_id
-                    }')">Delete</button>
-                </div>
-            `;
-    sessionsContainer.appendChild(sessionCard);
-    });
-}
+    if (filteredSessions.length === 0) {
+        sessionsContainer.innerHTML =
+        '<p class="no-sessions">No chat history found.</p>';
+    } else {
+        filteredSessions.forEach((session) => {
+        const sessionCard = document.createElement("div");
+        sessionCard.className = "card";
+        sessionCard.innerHTML = `
+                    <div class="card-header">
+                        <h3 class="card-title">${session.session_name}</h3>
+                        <p class="card-description">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            ${new Date(Date.parse(session.created_at)).toLocaleDateString()}
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            ${new Date(Date.parse(session.created_at)).toLocaleTimeString()}
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="button button-primary" onclick="openChatSession('${
+                            session.session_id
+                        }')">Open Session</button>
+                        <button class="button button-destructive" onclick="confirmDeleteSession('${
+                            session.session_id
+                        }')">Delete</button>
+                    </div>
+                `;
+        sessionsContainer.appendChild(sessionCard);
+        });
+    }
 }
 
 function openChatSession(sessionId) {
+    hideModal();
+    userInput.value = '';
+    userInput.focus();
     localStorage.setItem('currentSessionId', sessionId);
-    location.reload();
+    fetchSessionMessages(sessionId);
 }
 
 function confirmDeleteSession(sessionId) {
@@ -459,7 +478,10 @@ function confirmDeleteSession(sessionId) {
         { text: "Cancel", onClick: hideAlertModal, class: "button" },
         {
             text: "Delete",
-            onClick: () => deleteSession(sessionId),
+            onClick: () => {
+                deleteSession(sessionId);
+                hideAlertModal();
+            },
             class: "button button-destructive",
         },
         ]
@@ -484,7 +506,7 @@ async function deleteSession(sessionId) {
             (session) => session.session_id !== sessionId
         );
         renderChatSessions();
-        location.reload();
+        fetchSessionMessages(sessionId);
         }
     } catch (error) {
         console.error("Error:", error);
@@ -630,7 +652,7 @@ function isConnected() {
 
 
 function showModal() {
-    console.log("show modal enable");
+    chatMessages.innerHTML = '';
     addMessage("Hello! How can I assist you with KNUST admissions today?");
     
     // Hide chat elements
