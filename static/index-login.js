@@ -806,12 +806,15 @@ function writeAnimateMessage(element, message) {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    var microphoneButton = document.querySelector('.microphone-button');
-    var microphoneIcon = document.getElementById('microphone-icon');
+    var chatMicrophoneButton = document.getElementById('chat-microphone-button');
+    var modalMicrophoneButton = document.getElementById('modal-microphone-button');
+    var chatMicrophoneIcon = chatMicrophoneButton.querySelector('.chat-microphone-icon');
+    var modalMicrophoneIcon = modalMicrophoneButton.querySelector('.modal-microphone-icon');
     var userInputField = document.getElementById('user-input');
+    var newChatInputField = document.getElementById('modal-user-input');
     var recognition;
 
-    microphoneButton.addEventListener('click', function () {
+    function handleMicrophoneButtonClick(inputField, microphoneIcon) {
         // Check if SpeechRecognition API is supported by the browser
         if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
             if (!recognition) {
@@ -819,7 +822,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 
                 recognition.onresult = function(event) {
                     var transcript = event.results[0][0].transcript;
-                    userInputField.value += transcript;
+                    inputField.value += transcript;
+                    inputField.focus();
                 };
 
                 recognition.onerror = function(event) {
@@ -844,6 +848,15 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             alert('Speech recognition is not supported in your browser.');
         }
+    }
+
+    // Attach event listener to chat microphone button
+    chatMicrophoneButton.addEventListener('click', function () {
+        handleMicrophoneButtonClick(userInputField, chatMicrophoneIcon);
     });
 
+    // Attach event listener to modal microphone button
+    modalMicrophoneButton.addEventListener('click', function () {
+        handleMicrophoneButtonClick(newChatInputField, modalMicrophoneIcon);
+    });
 });
