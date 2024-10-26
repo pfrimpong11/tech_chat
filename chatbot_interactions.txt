@@ -1514,3 +1514,19 @@ Predicted Intents:
 - name: 0.5845614
 Bot: I'm TechChat, an admissions advisor here to help you with your questions about KNUST. Do you have a name I can call you?  <br>
 
+User: hey whatsup
+Predicted Intents:
+- greeting: 0.84542084
+Bot: Hi there, how can I help?  <br>
+
+User: i was kidding
+Predicted Intents:
+- goodbye: 0.39297253
+- greeting: 0.30679452
+Bot: No problem! Feel free to return if you require additional assistance. Goodbye!
+
+User: i hope you are going to help me get admission?
+Predicted Intents:
+- fallback: 0.38333228
+Bot: As TechChat, an admissions advisor at KNUST, I am here to provide you with accurate information about our admission process. How may I assist you today?  <br>
+

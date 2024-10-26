@@ -468,6 +468,7 @@ function openChatSession(sessionId) {
     userInput.focus();
     localStorage.setItem('currentSessionId', sessionId);
     fetchSessionMessages(sessionId);
+    sidebar.classList.remove('open');   //close the side bar if opened
 }
 
 function confirmDeleteSession(sessionId) {
@@ -598,7 +599,6 @@ window.onload = function() {
     fetchChatSessions();
 
     const sessionId = localStorage.getItem('currentSessionId');
-    console.log("session id", localStorage.getItem('currentSessionId'));
     if (sessionId) {
         fetchSessionMessages(sessionId);
         userInput.focus();

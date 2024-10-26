@@ -3,25 +3,26 @@
         {
             "tag": "greeting",
             "patterns": [
-                "good evening",
+                "hi",
+                "hey hoaw are you doingi",
+                "hey whatsup",
+                "hello",
                 "hey there",
                 "good",
-                "hello",
-                "hey hoaw are you doingi",
-                "hi"
+                "good evening"
             ],
             "responses": [
+                "I'm doing well, thanks for asking! What can I do for you?",
+                "Hi there, how can I help?",
+                "How can I help you? <br>",
+                "Hello! Welcome to KNUST. How can I help you?  <br>",
+                "Hi there! How can I help you with admissions to KNUST?  <br>",
+                "Hi there, how can I help?  <br>",
+                "Okay, what can I help you with regarding KNUST admissions?",
                 "Hello! How can I help you?  <br>",
                 "Good evening to you too! What can I help you with concerning KNUST admissions? \ud83d\ude0a",
-                "Okay, what can I help you with regarding KNUST admissions?",
-                "Hi there! How can I help you with admissions to KNUST?  <br>",
-                "How can I help you? <br>",
-                "Hi there, how can I help?  <br>",
-                "I'm doing well, thanks for asking! What can I do for you?",
-                "Okay, what's up about KNUST admissions?",
                 "Hi, how can I help you with KNUST admissions?  <br>",
-                "Hi there, how can I help?",
-                "Hello! Welcome to KNUST. How can I help you?  <br>"
+                "Okay, what's up about KNUST admissions?"
             ]
         },
         {
@@ -338,12 +339,14 @@
         {
             "tag": "fallback",
             "patterns": [
+                "can you list anything i can come along to school?",
                 "i am eating fufu",
-                "can you list anything i can come along to school?"
+                "i hope you are going to help me get admission?"
             ],
             "responses": [
+                "Items allowed in the halls of residence vary depending on your hall and room type. However, generally, students are permitted to bring personal belongings like clothes, toiletries, bedding, and study materials. It's best to check with your assigned hall for a specific list of permitted and restricted items. <br>",
                 "I'm sorry, I couldn't understand that. Could you please rephrase or ask a different question? <br>",
-                "Items allowed in the halls of residence vary depending on your hall and room type. However, generally, students are permitted to bring personal belongings like clothes, toiletries, bedding, and study materials. It's best to check with your assigned hall for a specific list of permitted and restricted items. <br>"
+                "As TechChat, an admissions advisor at KNUST, I am here to provide you with accurate information about our admission process. How may I assist you today?  <br>"
             ]
         },
         {
@@ -481,6 +484,15 @@
             ],
             "responses": [
                 "The cut-off point for Mathematics varies each year and depends on factors like the number of applicants and available slots. To have a competitive advantage, aim for at least a C6 in your core subjects (including English, Mathematics, and Integrated Science) and your elective subjects (Mathematics, Physics, and Chemistry or Biology) for WASSCE. For 'A' Level applicants, target at least a C in your 'O' Level  (including English and Mathematics) and your 'A' Level subjects (Mathematics, Physics, and Chemistry or Biology). <br>"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "i was kidding"
+            ],
+            "responses": [
+                "No problem! Feel free to return if you require additional assistance. Goodbye!"
             ]
         }
     ]

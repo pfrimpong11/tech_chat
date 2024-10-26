@@ -274,6 +274,16 @@ def get_response():
         # Proceed with input processing
         print("User connected to the internet")
         bot_response = generate_bot_response(user_message, model, words, classes, all_intents)
+
+        chat_data = {
+            'messages': [{
+                'user': user_message,
+                'TechChat': bot_response,
+            }],
+            'timestamp': datetime.datetime.now(datetime.timezone.utc)
+        }
+        db.chats.insert_one(chat_data)   # save chat in database
+
         return jsonify({"response": bot_response})
     else:
         # Handle no connection scenario
