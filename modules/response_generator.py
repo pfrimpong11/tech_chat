@@ -70,7 +70,7 @@ def generate_gem_response(question, predicted_intent, model_response):
     """
     
     try:
-        model = genai.GenerativeModel('gemini-1.5-pro')
+        model = genai.GenerativeModel('gemini-2.0-flash')
         response = model.generate_content(prompt)
 
         # Extracting the text from the response
